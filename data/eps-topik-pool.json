@@ -1,0 +1,6368 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "reference-2614",
+      "sourceId": "2614",
+      "number": 1,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/c6cbb8b8958ee252.jpg"
+      ],
+      "choices": [
+        {
+          "text": "손대다",
+          "images": []
+        },
+        {
+          "text": "떠들다",
+          "images": []
+        },
+        {
+          "text": "뛰어다니다",
+          "images": []
+        },
+        {
+          "text": "자리를 차지하다",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-3102",
+      "sourceId": "3102",
+      "number": 2,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/9f29cb6b1557bf97.jpg"
+      ],
+      "choices": [
+        {
+          "text": "피로연을 하다",
+          "images": []
+        },
+        {
+          "text": "사진 촬영을 하다",
+          "images": []
+        },
+        {
+          "text": "하객",
+          "images": []
+        },
+        {
+          "text": "폐백을 드리다",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-245",
+      "sourceId": "245",
+      "number": 3,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/5af409e96179c4aa.jpg"
+      ],
+      "choices": [
+        {
+          "text": "여기는 꽃을 파는 가게입니다.",
+          "images": []
+        },
+        {
+          "text": "여기는 과일을 파는 가게입니다.",
+          "images": []
+        },
+        {
+          "text": "여기는 생선을 파는 가게입니다.",
+          "images": []
+        },
+        {
+          "text": "여기는 그릇을 파는 가게입니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2337",
+      "sourceId": "2337",
+      "number": 4,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/b474190b418fc363.jpg"
+      ],
+      "choices": [
+        {
+          "text": "바다",
+          "images": []
+        },
+        {
+          "text": "동굴",
+          "images": []
+        },
+        {
+          "text": "강",
+          "images": []
+        },
+        {
+          "text": "섬",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-514",
+      "sourceId": "514",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "컨베이어를 검사하거나 수리할 때는 스위치에 “________” 이라는 표지판을 붙여서,다른 사람이 컨베이어를 작동시키지 않도록 해야 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "점검 중",
+          "images": []
+        },
+        {
+          "text": "외출 중",
+          "images": []
+        },
+        {
+          "text": "식사 중",
+          "images": []
+        },
+        {
+          "text": "통화 중",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2480",
+      "sourceId": "2480",
+      "number": 6,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "택시를 타는 것보다 지하철이나 버스를 이용하는 것이 돈이 덜 ________. 택시는 편하지\n만 좀 비쌉니다. 그래서 저는 지하철이나 버스를 자주 이용합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "듭니다",
+          "images": []
+        },
+        {
+          "text": "탑니다",
+          "images": []
+        },
+        {
+          "text": "걸립니다",
+          "images": []
+        },
+        {
+          "text": "보입니다",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2902",
+      "sourceId": "2902",
+      "number": 7,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "제 방에 침대하고 책상이 필요합니다. 그래서 내일 ________에 가서 침대하고 책상을 사려고 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "서점",
+          "images": []
+        },
+        {
+          "text": "음식점",
+          "images": []
+        },
+        {
+          "text": "가구점",
+          "images": []
+        },
+        {
+          "text": "편의점",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2383",
+      "sourceId": "2383",
+      "number": 8,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 지하철을 타고 회사에 다닙니다. 그런데 출퇴근 시간에는 지하철에 사람이 너무 많\n아서 지하철을 타기가 ______.",
+      "images": [],
+      "choices": [
+        {
+          "text": "빠릅니다",
+          "images": []
+        },
+        {
+          "text": "쉽습니다",
+          "images": []
+        },
+        {
+          "text": "힘듭니다",
+          "images": []
+        },
+        {
+          "text": "편합니다",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-844",
+      "sourceId": "844",
+      "number": 9,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다 이 표지가 나타내는 뜻은 무 . 엇입니까?",
+      "images": [
+        "media/eps-topik/2ce781cd67430aca.jpg"
+      ],
+      "choices": [
+        {
+          "text": "이것은 깨지기 쉬운 물건입니다.",
+          "images": []
+        },
+        {
+          "text": "이것은 외국에서 수입한 물건입니다.",
+          "images": []
+        },
+        {
+          "text": "이것은 검사에서 합격한 품질이 좋은 물건입니다.",
+          "images": []
+        },
+        {
+          "text": "이것은 백화점에서만 살 수 있는 비싼 물건입니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-852",
+      "sourceId": "852",
+      "number": 10,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 표의 내용과 맞지 않는 것을 고르십시오.",
+      "images": [
+        "media/eps-topik/f8224b871938a296.jpg"
+      ],
+      "choices": [
+        {
+          "text": "압둘 씨는 일반석 표를 샀습니다.",
+          "images": []
+        },
+        {
+          "text": "압둘 씨는 표를 한 장 예매했습니다.",
+          "images": []
+        },
+        {
+          "text": "압둘 씨는 비행기로 대구까지 갑니다.",
+          "images": []
+        },
+        {
+          "text": "압둘 씨는 3월 26일에 서울에서 출발합니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-868",
+      "sourceId": "868",
+      "number": 11,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 중 아래 글의 내용에서 나오지 않은 것은 무엇입니까?\n작업장에서는 안전을 위하여 보호구를 착용해야 합니다.보호구에는 머리를 보호하기 위한 안전모,발을 보호하기 위한 안전화,눈을 보호하기 위한 보안경 등이 있습\n니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/ca23b9a7782e4913.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/0b76feda24bae5a7.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e0870717f8ef16f5.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/53b85662c88523d8.jpg"
+          ]
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-778",
+      "sourceId": "778",
+      "number": 12,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "소주를 두 병 마셨습니다 얼마를 내야 합니까 . ?",
+      "images": [
+        "media/eps-topik/73ab3118ada9f2b1.jpg"
+      ],
+      "choices": [
+        {
+          "text": "5,000원",
+          "images": []
+        },
+        {
+          "text": "6,000원",
+          "images": []
+        },
+        {
+          "text": "7,000원",
+          "images": []
+        },
+        {
+          "text": "8,000원",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2992",
+      "sourceId": "2992",
+      "number": 13,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가: 어서 오세요. 뭘 드릴까요?\n나: 오렌지 있어요?\n가: 네, 이건 천 원이고 저건 천오백 원이에요.\n나: 그럼, ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "모두 얼마예요?",
+          "images": []
+        },
+        {
+          "text": "몇 개 드릴까요?",
+          "images": []
+        },
+        {
+          "text": "이거 다섯 개 주세요.",
+          "images": []
+        },
+        {
+          "text": "사과 다섯 개 주세요.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-543",
+      "sourceId": "543",
+      "number": 14,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가：여보세요. 거기 한국은행이지요?\n나：아닙니다. ______________. 여기는 우체국입니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "잘 안 들립니다",
+          "images": []
+        },
+        {
+          "text": "잘못 거셨습니다",
+          "images": []
+        },
+        {
+          "text": "여기 그런 사람 없습니다",
+          "images": []
+        },
+        {
+          "text": "나중에 다시 전화하십시오",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-927",
+      "sourceId": "927",
+      "number": 15,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.\n학교에 갈 때 집 앞에 하얀 강아지가 한 마리 있는 것을 보았습니다. 그런데 학교가\n끝나고 집에 왔을 때도 그 강아지가 우리 집 앞에 있었습니다. 아마 길을 잃어버린\n것 같았습니다. 나는 그 강아지를 집으로 데리고 들어와서 깨끗이 목욕을 시키고\n먹을 것을 주었습니다. 그리고 종이에“강아지를 잃어버린 분은 연락하십시오.”라고\n써서 우리 집 대문 앞에 붙였습니다. 그러나 한 달이 지나도 주인이 나타나지 않았\n습니다. 그래서우리가족은그강아지를 키우기로했습니다. 나는아주기뻤습니다.\n학교가 끝나고 집에 가면 강아지는 꼬리를 흔들며 나를 반갑게 맞이해 줍니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "강아지는 언제나 학교 문 앞에서 나를 기다립니다.",
+          "images": []
+        },
+        {
+          "text": "잃어버린 강아지를 한 달 만에 찾아서 기뻤습니다.",
+          "images": []
+        },
+        {
+          "text": "우리 가족은 길 잃은 강아지를 키우기로 했습니다.",
+          "images": []
+        },
+        {
+          "text": "하얀 강아지가 예뻐서 시장에서 한 마리 샀습니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-988",
+      "sourceId": "988",
+      "number": 16,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 글의 내용과 다른 것을 고르십시오.\n저는 인천에 있는 공장에서 일합니다. 우리 공장에서는 약병과 술병 그리고 음료수\n병 같은 여러 가지 유리병을 만듭니다. 제 친구도 저와 같은 공장에서 일하는데, 이\n번 달에 우리는근무 시간이 서로달라서 만날 수가없었습니다. 저는 아침7시부터\n오후 3시까지 일하고, 제 친구는 오후 3시부터 밤 10시까지 일했습니다. 일하는 시\n간이 다르니까, 만나서 같이 이야기를 하거나 놀 시간이 별로 없었습니다. 다음 달\n에는 근무 시간이 같았으면 좋겠습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "이 사람은 유리병을 만드는 공장에서 일합니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람의 친구는 다른 직장에서 일하고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람은 이번 달에 7:00 - 15:00 까지 일했습니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람은 이번 달에 친구와 근무 시간이 달랐습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-661",
+      "sourceId": "661",
+      "number": 17,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "자동차가 고장이 나서 고쳐야 합니다 어떤 표지를 찾아야 합니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/07ad802d276b5473.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/0a150fd5268779c3.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/5a569f359b6fd032.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/3d4c3bf1fdd44102.jpg"
+          ]
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-689",
+      "sourceId": "689",
+      "number": 18,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음 내용에 맞는 표지를 고르십시오.\n여기에는 물이 닿으면 안 됩니다. 물기가 없게 하십시오.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/c39b38ed08b24a0f.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/76c70964cdaf1881.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/f63d32bd0229c468.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/9b5f9023baca9517.jpg"
+          ]
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2804",
+      "sourceId": "2804",
+      "number": 20,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "공작기계의 구비조건으로 거리가 먼 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "높은 정밀도를 가질 것",
+          "images": []
+        },
+        {
+          "text": "가공능력이 클 것",
+          "images": []
+        },
+        {
+          "text": "고장이 적고 효율이 좋을 것",
+          "images": []
+        },
+        {
+          "text": "가격이 비싸고 운전비용이 저렴할 것",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2850",
+      "sourceId": "2850",
+      "number": 20,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "기계 제도에 사용하는 선은 여러 종류가 있다. 이들 선은 사용처에 따른 명칭, 선의 모양에따른 명칭이 각기 다르다. 다음 선의 종류중 선의 종류에 따른 분류에 속하지 않는 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "가는 실선",
+          "images": []
+        },
+        {
+          "text": "파선",
+          "images": []
+        },
+        {
+          "text": "1점쇄선",
+          "images": []
+        },
+        {
+          "text": "절단선",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-1363",
+      "sourceId": "1363",
+      "number": 21,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아예",
+          "images": []
+        },
+        {
+          "text": "외야",
+          "images": []
+        },
+        {
+          "text": "야외",
+          "images": []
+        },
+        {
+          "text": "예의",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/165c02ca0bfecc0b.mp3",
+      "audioSeconds": 1.152
+    },
+    {
+      "id": "reference-1430",
+      "sourceId": "1430",
+      "number": 22,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "같이 갔어요.",
+          "images": []
+        },
+        {
+          "text": "꽃이 없어요.",
+          "images": []
+        },
+        {
+          "text": "가치가 없어요.",
+          "images": []
+        },
+        {
+          "text": "기차가 왔어요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/3619c9582e079f64.mp3",
+      "audioSeconds": 2.16
+    },
+    {
+      "id": "reference-1445",
+      "sourceId": "1445",
+      "number": 23,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "대사관에 가겠어요.",
+          "images": []
+        },
+        {
+          "text": "도서관에 가겠어요.",
+          "images": []
+        },
+        {
+          "text": "게시판에 크게 써요.",
+          "images": []
+        },
+        {
+          "text": "다섯 시에 켜겠어요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/ae99f14e6d493c90.mp3",
+      "audioSeconds": 3.168
+    },
+    {
+      "id": "reference-1131",
+      "sourceId": "1131",
+      "number": 24,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "빵이 작아요.",
+          "images": []
+        },
+        {
+          "text": "방이 작아요.",
+          "images": []
+        },
+        {
+          "text": "방에 적어요.",
+          "images": []
+        },
+        {
+          "text": "상이 작아요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/bff098fc464963c6.mp3",
+      "audioSeconds": 2.808
+    },
+    {
+      "id": "reference-1685",
+      "sourceId": "1685",
+      "number": 25,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "여기는 어디입니까?",
+      "images": [
+        "media/eps-topik/7347b4acac9e76a4.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/053b1efd4f5e953b.mp3",
+      "audioSeconds": 22.248
+    },
+    {
+      "id": "reference-1213",
+      "sourceId": "1213",
+      "number": 26,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/faaaf9a7ca93950d.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/416c89bb98dd869a.mp3",
+      "audioSeconds": 22.872
+    },
+    {
+      "id": "reference-1764",
+      "sourceId": "1764",
+      "number": 27,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "이것의 맛은 어떻습니까?",
+      "images": [
+        "media/eps-topik/ea6daa8f67f4aae7.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/85493dfd684f5db5.mp3",
+      "audioSeconds": 15.168
+    },
+    {
+      "id": "reference-1263",
+      "sourceId": "1263",
+      "number": 28,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/a89b0e9dede6632a.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/f8d2114b5d924faf.mp3",
+      "audioSeconds": 19.656
+    },
+    {
+      "id": "reference-1254",
+      "sourceId": "1254",
+      "number": 29,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/a3b38f23db7a13a9.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/9ffd4267d559666c.mp3",
+      "audioSeconds": 22.776
+    },
+    {
+      "id": "reference-2011",
+      "sourceId": "2011",
+      "number": 30,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 카드는 안 돼요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 현금으로 낼게요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 5,000원에 팔아요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 전화카드는 안 팔아요 , .",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/4bc090fec3dd94f4.mp3",
+      "audioSeconds": 28.704
+    },
+    {
+      "id": "reference-2017",
+      "sourceId": "2017",
+      "number": 30,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 그냥 주세요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 설탕이 없어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 커피로 주세요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 한 잔만 마실 거예요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/0448b6ebb67c9f25.mp3",
+      "audioSeconds": 26.928
+    },
+    {
+      "id": "reference-2026",
+      "sourceId": "2026",
+      "number": 32,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 길이 복잡해요.",
+          "images": []
+        },
+        {
+          "text": "네, 운전할 수 없어요.",
+          "images": []
+        },
+        {
+          "text": "네, 운전할 줄 알아요.",
+          "images": []
+        },
+        {
+          "text": "네, 버스 번호를 알아요",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/8b4707b710c7251b.mp3",
+      "audioSeconds": 23.952
+    },
+    {
+      "id": "reference-2016",
+      "sourceId": "2016",
+      "number": 33,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 전화하고 있어요.",
+          "images": []
+        },
+        {
+          "text": "네, 새 걸 사고 싶어요.",
+          "images": []
+        },
+        {
+          "text": "네, 그게 제 휴대폰이에요.",
+          "images": []
+        },
+        {
+          "text": "네, 휴대폰이 세 대 있어요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/e10d9df86c18a4a1.mp3",
+      "audioSeconds": 27.888
+    },
+    {
+      "id": "reference-1623",
+      "sourceId": "1623",
+      "number": 34,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "오른쪽으로 갑시다.",
+          "images": []
+        },
+        {
+          "text": "지금 우체국에 갑니다.",
+          "images": []
+        },
+        {
+          "text": "왼쪽에 차가 있습니다.",
+          "images": []
+        },
+        {
+          "text": "저기가 동대문 시장입니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/4ee932b714461765.mp3",
+      "audioSeconds": 22.656
+    },
+    {
+      "id": "reference-1576",
+      "sourceId": "1576",
+      "number": 35,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "저것은 제 가방이에요.",
+          "images": []
+        },
+        {
+          "text": "저기가 우리 회사예요.",
+          "images": []
+        },
+        {
+          "text": "저는 태국에서 왔어요.",
+          "images": []
+        },
+        {
+          "text": "저는 음악 듣는 것을 좋아해요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/44089d7bdd59ad1f.mp3",
+      "audioSeconds": 28.248
+    },
+    {
+      "id": "reference-1663",
+      "sourceId": "1663",
+      "number": 36,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/689e35d9e668513e.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/3dca2d4e66b72e8d.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/2a65e6e0f6e6b074.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/7208836a0f06095a.png"
+          ]
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/64e44f647a763433.mp3",
+      "audioSeconds": 9.96
+    },
+    {
+      "id": "reference-1655",
+      "sourceId": "1655",
+      "number": 37,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/bf6c3e95761c42a0.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/cb1d9159f2c5e80f.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e996dab5345a90f5.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/5356ff77a4e41cd2.png"
+          ]
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/27a82ed1b44e5a25.mp3",
+      "audioSeconds": 9.072
+    },
+    {
+      "id": "reference-1870",
+      "sourceId": "1870",
+      "number": 38,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "두 사람이 대화하고 있는 곳은 어디입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "남자의 집",
+          "images": []
+        },
+        {
+          "text": "여자의 집",
+          "images": []
+        },
+        {
+          "text": "가구 공장",
+          "images": []
+        },
+        {
+          "text": "부동산 중개소",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/385b242a3236b33a.mp3",
+      "audioSeconds": 22.2
+    },
+    {
+      "id": "reference-1999",
+      "sourceId": "1999",
+      "number": 39,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "다음 중 남자가 꼭 지켜야 할 일이 아닌 것은 무엇입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "귀마개 하기",
+          "images": []
+        },
+        {
+          "text": "마스크 쓰기",
+          "images": []
+        },
+        {
+          "text": "비누로 손 씻기",
+          "images": []
+        },
+        {
+          "text": "깨끗하게 청소하기",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/d2c187f850141055.mp3",
+      "audioSeconds": 49.896
+    },
+    {
+      "id": "reference-1979",
+      "sourceId": "1979",
+      "number": 40,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 얼마를 내야 합니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "2,000원",
+          "images": []
+        },
+        {
+          "text": "4,000원",
+          "images": []
+        },
+        {
+          "text": "7,000원",
+          "images": []
+        },
+        {
+          "text": "9,000원",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/ab8b452d2285f8e8.mp3",
+      "audioSeconds": 25.176
+    },
+    {
+      "id": "reference-2641",
+      "sourceId": "2641",
+      "number": 1,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/572246b077377ae4.jpg"
+      ],
+      "choices": [
+        {
+          "text": "연세 (나이)",
+          "images": []
+        },
+        {
+          "text": "잡수시다/드시다 (먹다)",
+          "images": []
+        },
+        {
+          "text": "돌아가시다 (죽다)",
+          "images": []
+        },
+        {
+          "text": "성함 (이름)",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2772",
+      "sourceId": "2772",
+      "number": 2,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/ac116fd1e31c9cf7.jpg"
+      ],
+      "choices": [
+        {
+          "text": "상담을 받다",
+          "images": []
+        },
+        {
+          "text": "교육을 신청하다",
+          "images": []
+        },
+        {
+          "text": "교육을 받다",
+          "images": []
+        },
+        {
+          "text": "예약하다",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-228",
+      "sourceId": "228",
+      "number": 3,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/808d038be2046576.jpg"
+      ],
+      "choices": [
+        {
+          "text": "사람들이 바다에서 배를 타고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "사람들이 길에서 달리기를 하고 있습\n니다.",
+          "images": []
+        },
+        {
+          "text": "사람들이 공원에서 그림을 그리고 있\n습니다.",
+          "images": []
+        },
+        {
+          "text": "사람들이 강변에서 자전거를 타고 있\n습니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2733",
+      "sourceId": "2733",
+      "number": 4,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/0adb454e8b4c961a.jpg"
+      ],
+      "choices": [
+        {
+          "text": "비밀번호",
+          "images": []
+        },
+        {
+          "text": "서명",
+          "images": []
+        },
+        {
+          "text": "인터넷뱅킹",
+          "images": []
+        },
+        {
+          "text": "체크카드",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2917",
+      "sourceId": "2917",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 인터넷 검색하고 인터넷 채팅을 자주 해요. 그리고 인터넷 쇼핑도 많이 해요. 인터넷 쇼핑은 ________. 그래서 저는 주로 인터넷에서 옷을 많이 사요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "싸고 편리해요",
+          "images": []
+        },
+        {
+          "text": "어렵고 복잡해요",
+          "images": []
+        },
+        {
+          "text": "시간하고 돈이 필요해요",
+          "images": []
+        },
+        {
+          "text": "아이디하고 비밀번호가 있어요",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-520",
+      "sourceId": "520",
+      "number": 6,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "돼지를 키우는 곳을 ________ (이)라고 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "양계장",
+          "images": []
+        },
+        {
+          "text": "외양간",
+          "images": []
+        },
+        {
+          "text": "작업장",
+          "images": []
+        },
+        {
+          "text": "돼지우리",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2899",
+      "sourceId": "2899",
+      "number": 8,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "이번 휴가에는 ________을/를 하려고 합니다. 제주도에 가서 구경도 하고 맛있는 음식도 먹 을 것입니다",
+      "images": [],
+      "choices": [
+        {
+          "text": "운동",
+          "images": []
+        },
+        {
+          "text": "여행",
+          "images": []
+        },
+        {
+          "text": "쇼핑",
+          "images": []
+        },
+        {
+          "text": "요리",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2931",
+      "sourceId": "2931",
+      "number": 8,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "지하철이나 극장, 은행, 우체국 등에서는 조용히 해야 합니다. 공공장소에서는 ________ 안 됩니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "떠들면",
+          "images": []
+        },
+        {
+          "text": "떠들면서",
+          "images": []
+        },
+        {
+          "text": "물어보면",
+          "images": []
+        },
+        {
+          "text": "물어보면서",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-892",
+      "sourceId": "892",
+      "number": 9,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음은 불이 났을 때 소화기를 사용하는 방법입니다 다음 중 . ㉯의 설명과 관계있는 그 림은 무엇입니까?\n㉮ 화재 시 소화기를 들고 불이 난 곳으로 간다.\n㉯ 안전핀을 힘껏 뽑는다.\n㉰ 손잡이를 세게 잡는다.\n㉱ 불이 난 곳을 향해 골고루 뿌린다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/5061116506737ad4.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/7f5ab4c3f3f57c76.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/f1ef14c52136a69c.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/a4b9975517c54076.jpg"
+          ]
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-767",
+      "sourceId": "767",
+      "number": 10,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 광고는 무엇을 나타내고 있습니까?",
+      "images": [
+        "media/eps-topik/efc16abc2623da76.jpg"
+      ],
+      "choices": [
+        {
+          "text": "쓰레기를 재활용합시다.",
+          "images": []
+        },
+        {
+          "text": "일회용품을 쓰지 맙시다.",
+          "images": []
+        },
+        {
+          "text": "작업장에서 떠들지 맙시다.",
+          "images": []
+        },
+        {
+          "text": "야구장에 쓰레기를 버리지 맙시다",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-765",
+      "sourceId": "765",
+      "number": 11,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 안내문의 내용과 다른 것은 무엇입니까?",
+      "images": [
+        "media/eps-topik/cd9f75633e2c3004.jpg"
+      ],
+      "choices": [
+        {
+          "text": "일주일에 6일 일합니다.",
+          "images": []
+        },
+        {
+          "text": "하루에 11시간 일합니다.",
+          "images": []
+        },
+        {
+          "text": "남자 직원을 두 명 구합니다.",
+          "images": []
+        },
+        {
+          "text": "한 시간에 사천오백 원을 받습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-756",
+      "sourceId": "756",
+      "number": 12,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음은 서울의 한 주간 날씨입니다. 잘못 설명한 것은 무엇입니까?",
+      "images": [
+        "media/eps-topik/39ae1525acabc3f8.jpg"
+      ],
+      "choices": [
+        {
+          "text": "화요일 낮에는 맑겠습니다.",
+          "images": []
+        },
+        {
+          "text": "수요일에는 비나 눈이 오겠습니다.",
+          "images": []
+        },
+        {
+          "text": "토요일 오후에는 비가 오겠습니다.",
+          "images": []
+        },
+        {
+          "text": "금요일에는 오후부터 눈이 오겠습니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-342",
+      "sourceId": "342",
+      "number": 13,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가：내일 시간 있어요? 내일 좀 만나고 싶은데요.\n나：죄송해요. 내일은 제가 _________이/가있어요. 고향친구들을 만나기로 했어요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "약속",
+          "images": []
+        },
+        {
+          "text": "고향",
+          "images": []
+        },
+        {
+          "text": "회의",
+          "images": []
+        },
+        {
+          "text": "전화",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-3005",
+      "sourceId": "3005",
+      "number": 14,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가: 수루 씨는 여기까지 어떻게 왔어요?\n나: 저는 회사가 가까워서 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "안 왔어요",
+          "images": []
+        },
+        {
+          "text": "걸어왔어요",
+          "images": []
+        },
+        {
+          "text": "비행기를 탔어요",
+          "images": []
+        },
+        {
+          "text": "버스가 빠를 거예요",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-972",
+      "sourceId": "972",
+      "number": 15,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "다음 중 베트남 음식이 아닌 것은 무엇입니까?\n베트남에는 쌀이 많이 납니다. 그래서 쌀을 이용한음식이 많습니다. 그중에서볶음\n밥이나 쌀로 만든 쌀국수가 유명하지요. 쌀국수는 베트남 말로 ‘포’라고 부르는데,\n베트남 사람들뿐 아니라 한국 사람들도 좋아하는 음식입니다. 그리고 얇은 종이처\n럼 생긴 것에 여러 가지 야채와 고기를 넣어 한국의 김밥처럼 말아 먹는 음식이 있\n는데, 이 얇은 종이처럼 생긴 것도 쌀로 만듭니다. 한국에서는 이 음식을‘월남쌈’이\n라고 부릅니다. 베트남 음식은 한국 사람들의 입맛에도 맞아서 베트남 음식을 좋아\n하는 한국 사람들이 점점 많아지고 있습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "김밥",
+          "images": []
+        },
+        {
+          "text": "볶음밥",
+          "images": []
+        },
+        {
+          "text": "쌀국수",
+          "images": []
+        },
+        {
+          "text": "월남쌈",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-907",
+      "sourceId": "907",
+      "number": 16,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 사람은 한국 음식 중에서 무엇을 제일 좋아합니까?\n저는 한국 음식을 좋아합니다. 그래서 한국 식당에 자주 갑니다. 한국 식당에서 불\n고기, 김치찌개, 된장찌개, 순두부찌개, 비빔밥을 팝니다. 저는 그 중에서 불고기를\n제일 좋아하지만 비싸기 때문에 자주 먹을 수 없습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "불고기",
+          "images": []
+        },
+        {
+          "text": "비빔밥",
+          "images": []
+        },
+        {
+          "text": "김치찌개",
+          "images": []
+        },
+        {
+          "text": "된장찌개",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-582",
+      "sourceId": "582",
+      "number": 17,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음과 같은 표지판은 어떤 곳에서 볼 수 있습니까?",
+      "images": [
+        "media/eps-topik/48bd20c39cd71231.jpg"
+      ],
+      "choices": [
+        {
+          "text": "모자를 파는 곳",
+          "images": []
+        },
+        {
+          "text": "공사를 하는 곳",
+          "images": []
+        },
+        {
+          "text": "차를 세우는 곳",
+          "images": []
+        },
+        {
+          "text": "물건을 만드는 곳",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-668",
+      "sourceId": "668",
+      "number": 18,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음 중 \"정지하십시오. (멈추십시오.)\" 를 뜻하는 표지판은 어느 것입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/0e210f4b30b0324f.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/1b8d6459f928dba7.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/406d60502462b23a.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/9a12eec05c09adf9.jpg"
+          ]
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2842",
+      "sourceId": "2842",
+      "number": 19,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "다음의 기계가공 방법 중 선반 작업시 안전사항으로 틀린 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "기계 위에 공구나 재료를 올려놓지 않는다.",
+          "images": []
+        },
+        {
+          "text": "이송을 걸은 채로 기계를 정지시키지 않는다.",
+          "images": []
+        },
+        {
+          "text": "빠른 생산을 위해 기계 타력 회전을 손이나 공구로 멈추게 한다.",
+          "images": []
+        },
+        {
+          "text": "가공물 절삭공구의 장착은 확실하게 한다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-1365",
+      "sourceId": "1365",
+      "number": 21,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아예",
+          "images": []
+        },
+        {
+          "text": "외야",
+          "images": []
+        },
+        {
+          "text": "야외",
+          "images": []
+        },
+        {
+          "text": "예의",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/54471f629ea22932.mp3",
+      "audioSeconds": 1.128
+    },
+    {
+      "id": "reference-1464",
+      "sourceId": "1464",
+      "number": 24,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "박이 없어요.",
+          "images": []
+        },
+        {
+          "text": "방이 없어요.",
+          "images": []
+        },
+        {
+          "text": "밭이 없어요.",
+          "images": []
+        },
+        {
+          "text": "밥이 없어요.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/062e0ca54f9d8e12.mp3",
+      "audioSeconds": 2.304
+    },
+    {
+      "id": "reference-1368",
+      "sourceId": "1368",
+      "number": 23,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "구두",
+          "images": []
+        },
+        {
+          "text": "누나",
+          "images": []
+        },
+        {
+          "text": "가구",
+          "images": []
+        },
+        {
+          "text": "누구",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/ee7d350ce84c316b.mp3",
+      "audioSeconds": 1.056
+    },
+    {
+      "id": "reference-1414",
+      "sourceId": "1414",
+      "number": 24,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "가게",
+          "images": []
+        },
+        {
+          "text": "고기",
+          "images": []
+        },
+        {
+          "text": "거기",
+          "images": []
+        },
+        {
+          "text": "기계",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/7f3c794658bc1544.mp3",
+      "audioSeconds": 1.152
+    },
+    {
+      "id": "reference-1718",
+      "sourceId": "1718",
+      "number": 25,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "몇 월 며칠입니까?",
+      "images": [
+        "media/eps-topik/c5cf9635618954e4.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/fd7c3a904b54b33c.mp3",
+      "audioSeconds": 23.184
+    },
+    {
+      "id": "reference-1768",
+      "sourceId": "1768",
+      "number": 26,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "이것들의 맛은 어떻습니까?",
+      "images": [
+        "media/eps-topik/595c53373c23db14.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/077359104206a96d.mp3",
+      "audioSeconds": 14.4
+    },
+    {
+      "id": "reference-1268",
+      "sourceId": "1268",
+      "number": 27,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/a53be5d312387374.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/4696f2b97da1e5ea.mp3",
+      "audioSeconds": 21.96
+    },
+    {
+      "id": "reference-1137",
+      "sourceId": "1137",
+      "number": 28,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/b245ebce2435e016.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/0d8216f3115a4fc5.mp3",
+      "audioSeconds": 29.784
+    },
+    {
+      "id": "reference-1680",
+      "sourceId": "1680",
+      "number": 29,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "여기는 어디입니까?",
+      "images": [
+        "media/eps-topik/e72140c2924c7b7d.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/8ebdd1dd118870a3.mp3",
+      "audioSeconds": 19.416
+    },
+    {
+      "id": "reference-1561",
+      "sourceId": "1561",
+      "number": 30,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 목요일이에요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 오후 3시예요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 오늘은 못 가요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 수요일에 만나요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/dddf58354c2f555a.mp3",
+      "audioSeconds": 24.744
+    },
+    {
+      "id": "reference-1549",
+      "sourceId": "1549",
+      "number": 31,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 달라요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 몰라요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 지금 없어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 할 줄 몰라요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/24292092b3582916.mp3",
+      "audioSeconds": 22.176
+    },
+    {
+      "id": "reference-3126",
+      "sourceId": "3126",
+      "number": 33,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 사과가 있어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 사과가 많아요.",
+          "images": []
+        },
+        {
+          "text": "네, 사과예요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 사과가 없어요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/c93ec04388ef3a4a.mp3",
+      "audioSeconds": 15.22938775510204
+    },
+    {
+      "id": "reference-2219",
+      "sourceId": "2219",
+      "number": 33,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 저는 외국에서 왔어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 저는 운동을 싫어해요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 저는 음식을 만들지 않아요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 저는 돼지고기를 먹지 않아요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/63ebed39ad66d951.mp3",
+      "audioSeconds": 38.232
+    },
+    {
+      "id": "reference-1231",
+      "sourceId": "1231",
+      "number": 34,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "구두를 사세요.",
+          "images": []
+        },
+        {
+          "text": "친구를 기다려요.",
+          "images": []
+        },
+        {
+          "text": "한국말을 가르쳐요.",
+          "images": []
+        },
+        {
+          "text": "여기에서 만나겠어요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/6b62e42c0d84ff0f.mp3",
+      "audioSeconds": 21.408
+    },
+    {
+      "id": "reference-1911",
+      "sourceId": "1911",
+      "number": 35,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "날마다 운동을 해요.",
+          "images": []
+        },
+        {
+          "text": "내일 친구를 만나요.",
+          "images": []
+        },
+        {
+          "text": "오전 9시부터 일해요.",
+          "images": []
+        },
+        {
+          "text": "오후 늦게 집에 가요.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/be1c4a592d821076.mp3",
+      "audioSeconds": 24.888
+    },
+    {
+      "id": "reference-1644",
+      "sourceId": "1644",
+      "number": 37,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/fc9f56b4ccb35ecc.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/29a6db05c53cfd26.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/b054bd1128d4f90d.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/a5f1d4065a697a8c.png"
+          ]
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/78c4a7f738e7d272.mp3",
+      "audioSeconds": 11.976
+    },
+    {
+      "id": "reference-1544",
+      "sourceId": "1544",
+      "number": 37,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/bdb8ab8eb87c6477.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/2a9134b08e9c5a4a.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e4f455a4c29dcb4a.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/097d0f7ad5c62615.png"
+          ]
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/9f445e6d9bcf53f7.mp3",
+      "audioSeconds": 18.408
+    },
+    {
+      "id": "reference-1880",
+      "sourceId": "1880",
+      "number": 38,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 어떻게 하겠습니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "휴게실에 가서 쉬겠습니다.",
+          "images": []
+        },
+        {
+          "text": "약국에 가서 약을 사겠습니다.",
+          "images": []
+        },
+        {
+          "text": "병원에 가서 의사를 만나겠습니다.",
+          "images": []
+        },
+        {
+          "text": "미용실에 가서 머리를 깎겠습니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/c22ccf82f41b762e.mp3",
+      "audioSeconds": 24.12
+    },
+    {
+      "id": "reference-1925",
+      "sourceId": "1925",
+      "number": 39,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 지금 어떻게 하겠습니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "약을 먹겠습니다.",
+          "images": []
+        },
+        {
+          "text": "병원에 가겠습니다.",
+          "images": []
+        },
+        {
+          "text": "물로 눈을 씻겠습니다.",
+          "images": []
+        },
+        {
+          "text": "비누로 눈을 씻겠습니다.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/3873f8c64ca8f02b.mp3",
+      "audioSeconds": 25.704
+    },
+    {
+      "id": "reference-1988",
+      "sourceId": "1988",
+      "number": 40,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "경기도 안산시 원곡동에 대한 설명으로 맞지 않는 것은 무엇입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "물가가 아주 비쌉니다.",
+          "images": []
+        },
+        {
+          "text": "외국 식당이 많습니다.",
+          "images": []
+        },
+        {
+          "text": "일요일에 은행 문을 엽니다.",
+          "images": []
+        },
+        {
+          "text": "외국인이 많이 살고 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/ff0a01b74909751f.mp3",
+      "audioSeconds": 71.88
+    },
+    {
+      "id": "reference-2236",
+      "sourceId": "2236",
+      "number": 1,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/eef34702c351e054.jpg"
+      ],
+      "choices": [
+        {
+          "text": "안",
+          "images": []
+        },
+        {
+          "text": "뒤",
+          "images": []
+        },
+        {
+          "text": "밖",
+          "images": []
+        },
+        {
+          "text": "아래",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-215",
+      "sourceId": "215",
+      "number": 2,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/d0b7cc3f0e0a8570.jpg"
+      ],
+      "choices": [
+        {
+          "text": "밥 한 병과 계란이 있습니다.",
+          "images": []
+        },
+        {
+          "text": "밥 한 마리와 계란이 있습니다.",
+          "images": []
+        },
+        {
+          "text": "밥 한 켤레와 계란이 있습니다.",
+          "images": []
+        },
+        {
+          "text": "밥 한 공기와 계란이 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2513",
+      "sourceId": "2513",
+      "number": 3,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/05f1fe6c550ca0a0.jpg"
+      ],
+      "choices": [
+        {
+          "text": "전화",
+          "images": []
+        },
+        {
+          "text": "휴대전화(휴대폰)",
+          "images": []
+        },
+        {
+          "text": "스마트폰",
+          "images": []
+        },
+        {
+          "text": "인터넷 전화",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-271",
+      "sourceId": "271",
+      "number": 4,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/e65bb1000958001f.jpg"
+      ],
+      "choices": [
+        {
+          "text": "구두를 신고 계단을 올라가고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "물걸레를 사용하여 탁자를 닦고 있습\n니다.",
+          "images": []
+        },
+        {
+          "text": "걸레를 탈수기에 넣어서 물을 짜고 있\n습니다.",
+          "images": []
+        },
+        {
+          "text": "구두약을 발라서 구두를 깨끗이 닦고\n있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2923",
+      "sourceId": "2923",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "하루 종일 일한 후에는 몸에서 땀 냄새가 많이 납니다. 그러니까 퇴근하고 집에 돌아오면 꼭 샤워를 하고 옷을 깨끗하게 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "빨 줄 압니다",
+          "images": []
+        },
+        {
+          "text": "널 줄 압니다",
+          "images": []
+        },
+        {
+          "text": "빨아야 됩니다",
+          "images": []
+        },
+        {
+          "text": "널어야 됩니다",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2431",
+      "sourceId": "2431",
+      "number": 6,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저와 친구는 생활 습관이 ________. 저는 아침 일찍 일어나고 일찍 잡니다. 친구\n는 밤늦게까지 공부하고 아침에 늦게 일어납니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "다릅니다",
+          "images": []
+        },
+        {
+          "text": "비슷합니다",
+          "images": []
+        },
+        {
+          "text": "게으릅니다",
+          "images": []
+        },
+        {
+          "text": "부지런합니다",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2440",
+      "sourceId": "2440",
+      "number": 7,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "꼭 알고 싶은 전화번호가 있으면 114로 전화하십시오. 상담원에게 그곳의 위\n치와 가게 이름을 이야기하면 전화번호를 친절하게 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "구해야 합니다",
+          "images": []
+        },
+        {
+          "text": "구해 줍니다",
+          "images": []
+        },
+        {
+          "text": "알려야 합니다",
+          "images": []
+        },
+        {
+          "text": "알려 줍니다",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-366",
+      "sourceId": "366",
+      "number": 8,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "회사 사람들은 월요일부터 금요일까지 일하고, ________에는 쉽니다",
+      "images": [],
+      "choices": [
+        {
+          "text": "주말",
+          "images": []
+        },
+        {
+          "text": "월말",
+          "images": []
+        },
+        {
+          "text": "연말",
+          "images": []
+        },
+        {
+          "text": "기말",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-738",
+      "sourceId": "738",
+      "number": 9,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이 식당에서 가장 비싼 음식은 무엇입니까?\n<차림표>\n라면        3,000원\n칼국수    4,000원\n비빔밥    5,000원\n순두부    4,500원",
+      "images": [],
+      "choices": [
+        {
+          "text": "라면",
+          "images": []
+        },
+        {
+          "text": "칼국수",
+          "images": []
+        },
+        {
+          "text": "비빔밥",
+          "images": []
+        },
+        {
+          "text": "순두부",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-830",
+      "sourceId": "830",
+      "number": 10,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "직장인들이 어떻게 스트레스를 푸는지 조사했습니다 책을 읽으면서 스트레스를 푸는 . 사람은 얼마나 됩니까?",
+      "images": [
+        "media/eps-topik/b54cda7aa9a40c01.jpg"
+      ],
+      "choices": [
+        {
+          "text": "8%",
+          "images": []
+        },
+        {
+          "text": "15%",
+          "images": []
+        },
+        {
+          "text": "19%",
+          "images": []
+        },
+        {
+          "text": "23%",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-763",
+      "sourceId": "763",
+      "number": 11,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이번 달에 안전 교육을 받을 직원은 어디로 가야 합니까?",
+      "images": [
+        "media/eps-topik/42be1fe866696ed6.jpg"
+      ],
+      "choices": [
+        {
+          "text": "1층 컴퓨터실",
+          "images": []
+        },
+        {
+          "text": "4층 소강당",
+          "images": []
+        },
+        {
+          "text": "홍보부 사무실",
+          "images": []
+        },
+        {
+          "text": "회사 정문 앞",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-748",
+      "sourceId": "748",
+      "number": 12,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 안내판의 설명으로 맞지 않는 것을 고르십시오.",
+      "images": [
+        "media/eps-topik/3655288f9ac16f2b.jpg"
+      ],
+      "choices": [
+        {
+          "text": "직원들의 안전을 위해 교육합니다.",
+          "images": []
+        },
+        {
+          "text": "두 시간 동안 교육을 할 예정입니다.",
+          "images": []
+        },
+        {
+          "text": "교육을 할 곳은 복지관 205호입니다.",
+          "images": []
+        },
+        {
+          "text": "토요일 오후 6시부터 교육을 시작합니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2444",
+      "sourceId": "2444",
+      "number": 13,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가: 우리 같이 작업장을 청소할까요?\n나: 좋아요. 제가 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "작업장을 쓸게요",
+          "images": []
+        },
+        {
+          "text": "작업장이 넓어요",
+          "images": []
+        },
+        {
+          "text": "작업장에 없어요",
+          "images": []
+        },
+        {
+          "text": "작업장을 안 볼게요",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2387",
+      "sourceId": "2387",
+      "number": 14,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가: 가족이 어디에 살아요?\n나: 아버지 _________ 어머니는 필리핀에 살아요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "가",
+          "images": []
+        },
+        {
+          "text": "에",
+          "images": []
+        },
+        {
+          "text": "에서",
+          "images": []
+        },
+        {
+          "text": "하고",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-1035",
+      "sourceId": "1035",
+      "number": 15,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 글의 내용과 다른 것을 고르십시오.\n지난 주말에 친구와 함께 기차를 타고 춘천에 갔습니다. 아침 10시에 출발해서 낮\n12시에도착했습니다. 춘천에서 유명한‘닭갈비’와 ‘막국수’를점심으로먹고 호수를\n구경했습니다. 맑고 넓은 호수를 보니까 내 마음도 시원해지는 것 같았습니다. 그\n후에 우리는 드라마 때문에 유명해진 남이섬을 구경하러 갔습니다. 넓은 잔디밭이\n있고, 나무가 많아 섬은 아주 아름다웠습니다. 우리는 산책도 하고 자전거도 탔습니다.\n즐거운 하루였습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "춘천에서 호수를 구경했습니다.",
+          "images": []
+        },
+        {
+          "text": "남이섬에서 드라마를 봤습니다.",
+          "images": []
+        },
+        {
+          "text": "춘천까지 가는 데 두 시간 걸렸습니다.",
+          "images": []
+        },
+        {
+          "text": "점심으로 닭갈비와 막국수를 먹었습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-948",
+      "sourceId": "948",
+      "number": 16,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 사람이 말하려고 하는 것은 무엇입니까?\n사람의 몸은자동차와 같습니다. 기름이없으면 자동차가 갈 수없는 것처럼 사람도\n음식을 먹지 않으면 움직일 수 없습니다. 특히 아침 식사는 하루 중에서 가장 중요\n한 식사입니다. 아침 식사를 하지않는 것은기름도 넣지않고 자동차를운전하려고\n하는 것과 같습니다. 아침을 잘 먹어야 그날 하루를 활기차게 보낼 수 있습니다. 그\n리고 아침을 먹지 않으면 점심을 너무 많이 먹게 되어 건강에도 좋지 않습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "날마다 운동을 합시다.",
+          "images": []
+        },
+        {
+          "text": "아침 식사를 꼭 합시다.",
+          "images": []
+        },
+        {
+          "text": "아침에 일찍 일어납시다.",
+          "images": []
+        },
+        {
+          "text": "교통 규칙을 잘 지킵시다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-667",
+      "sourceId": "667",
+      "number": 17,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음 중 \"천천히 가십시오\" 를 뜻하는 표지판은 어느 것입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/814eea6cf4ccae5b.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/43e740884413411b.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e5a7d34195b21d45.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/489967b9d60e6ffc.jpg"
+          ]
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-717",
+      "sourceId": "717",
+      "number": 18,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "여자 화장실은 어디에 있습니까?",
+      "images": [
+        "media/eps-topik/a6f2ce631f9f6f6b.jpg"
+      ],
+      "choices": [
+        {
+          "text": "왼쪽으로 180m 가면 있습니다.",
+          "images": []
+        },
+        {
+          "text": "왼쪽으로 240m 가면 있습니다.",
+          "images": []
+        },
+        {
+          "text": "오른쪽으로 180m 가면 있습니다.",
+          "images": []
+        },
+        {
+          "text": "오른쪽으로 240m  가면 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2802",
+      "sourceId": "2802",
+      "number": 19,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "다음 중 절삭가공에 해당되지 않는 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "선반 작업",
+          "images": []
+        },
+        {
+          "text": "밀링 작업",
+          "images": []
+        },
+        {
+          "text": "프레스 작업",
+          "images": []
+        },
+        {
+          "text": "드릴링 작업",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2807",
+      "sourceId": "2807",
+      "number": 20,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "가공 시 칩을 발생시키지 않는 공작기계는?",
+      "images": [],
+      "choices": [
+        {
+          "text": "연삭기",
+          "images": []
+        },
+        {
+          "text": "호닝머신",
+          "images": []
+        },
+        {
+          "text": "밀링머신",
+          "images": []
+        },
+        {
+          "text": "프레스기",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-1459",
+      "sourceId": "1459",
+      "number": 21,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "받아 주세요.",
+          "images": []
+        },
+        {
+          "text": "바꿔 주세요.",
+          "images": []
+        },
+        {
+          "text": "비켜 주세요.",
+          "images": []
+        },
+        {
+          "text": "빌려 주세요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/9b49cf3697c11507.mp3",
+      "audioSeconds": 2.064
+    },
+    {
+      "id": "reference-1245",
+      "sourceId": "1245",
+      "number": 22,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "이유",
+          "images": []
+        },
+        {
+          "text": "야외",
+          "images": []
+        },
+        {
+          "text": "예외",
+          "images": []
+        },
+        {
+          "text": "이의",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/55461eff62e722b3.mp3",
+      "audioSeconds": 1.32
+    },
+    {
+      "id": "reference-1361",
+      "sourceId": "1361",
+      "number": 23,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "의외",
+          "images": []
+        },
+        {
+          "text": "예의",
+          "images": []
+        },
+        {
+          "text": "이의",
+          "images": []
+        },
+        {
+          "text": "여우",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/e740700d8ea04342.mp3",
+      "audioSeconds": 1.368
+    },
+    {
+      "id": "reference-1293",
+      "sourceId": "1293",
+      "number": 25,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/83c669110a44a99b.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/d4f2609ebf7d4e1a.mp3",
+      "audioSeconds": 19.488
+    },
+    {
+      "id": "reference-1114",
+      "sourceId": "1114",
+      "number": 26,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/f3d0e680299cf0c0.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/2e87ea79f1688de8.mp3",
+      "audioSeconds": 29.831836734693876
+    },
+    {
+      "id": "reference-1333",
+      "sourceId": "1333",
+      "number": 28,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/7615fd38a7e92628.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/68b653128fc29a3e.mp3",
+      "audioSeconds": 19.176
+    },
+    {
+      "id": "reference-1309",
+      "sourceId": "1309",
+      "number": 28,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/708d92f0e15045d9.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/f2684ce130728ea3.mp3",
+      "audioSeconds": 16.944
+    },
+    {
+      "id": "reference-1737",
+      "sourceId": "1737",
+      "number": 29,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "날씨가 어떻습니까?",
+      "images": [
+        "media/eps-topik/8c66af369e4a166d.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/9bc35193be454d93.mp3",
+      "audioSeconds": 18.984
+    },
+    {
+      "id": "reference-1620",
+      "sourceId": "1620",
+      "number": 32,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 주말에는 쉬어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 지하철로 다녀요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 버스를 타고 가요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 일이 늦게 끝나요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/92cddff5c6a7861a.mp3",
+      "audioSeconds": 28.056
+    },
+    {
+      "id": "reference-2032",
+      "sourceId": "2032",
+      "number": 33,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 작업장에 없습니다.",
+          "images": []
+        },
+        {
+          "text": "아니요, 아직 작업 중입니다.",
+          "images": []
+        },
+        {
+          "text": "아니요, 벌써 다 끝났습니다.",
+          "images": []
+        },
+        {
+          "text": "아니요, 작업복을 입지 않습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/4d137c54dbd47583.mp3",
+      "audioSeconds": 26.784
+    },
+    {
+      "id": "reference-1560",
+      "sourceId": "1560",
+      "number": 34,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "31살입니다.",
+          "images": []
+        },
+        {
+          "text": "10월 24일입니다.",
+          "images": []
+        },
+        {
+          "text": "제 여동생이에요.",
+          "images": []
+        },
+        {
+          "text": "이영수라고 합니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/961990f24d033f84.mp3",
+      "audioSeconds": 25.752
+    },
+    {
+      "id": "reference-1573",
+      "sourceId": "1573",
+      "number": 35,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "다른 친구하고 약속을 했어요.",
+          "images": []
+        },
+        {
+          "text": "가구 만드는 일을 배우고 싶어요.",
+          "images": []
+        },
+        {
+          "text": "이번 토요일에 졸업식을 할 거예요.",
+          "images": []
+        },
+        {
+          "text": "학교에서 아이들을 가르치고 있어요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/66a08250ebbd91c4.mp3",
+      "audioSeconds": 29.448
+    },
+    {
+      "id": "reference-1485",
+      "sourceId": "1485",
+      "number": 36,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/bd0f55250dd77ce1.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/4c5b159c37bcc945.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e9293942c5ee3cba.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/00bd4b0cfc97f8c9.png"
+          ]
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/fbfa1dc5dba85577.mp3",
+      "audioSeconds": 9.432
+    },
+    {
+      "id": "reference-1488",
+      "sourceId": "1488",
+      "number": 37,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/8d14a3d50e43768c.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/7b4cb2868b4b6520.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/66d4ab4401aaa9e3.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/0d4c9456a31c621f.png"
+          ]
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/1eb074150997bcf3.mp3",
+      "audioSeconds": 4.104
+    },
+    {
+      "id": "reference-1855",
+      "sourceId": "1855",
+      "number": 38,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 무엇을 타겠습니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "택시",
+          "images": []
+        },
+        {
+          "text": "버스",
+          "images": []
+        },
+        {
+          "text": "기차",
+          "images": []
+        },
+        {
+          "text": "지하철",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/9bfc8b391ed5319d.mp3",
+      "audioSeconds": 38.4
+    },
+    {
+      "id": "reference-1877",
+      "sourceId": "1877",
+      "number": 39,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 언제 약을 먹어야 합니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "아침에 일어나서",
+          "images": []
+        },
+        {
+          "text": "점심을 먹기 전에",
+          "images": []
+        },
+        {
+          "text": "밤에 잠자기 전에",
+          "images": []
+        },
+        {
+          "text": "식사가 끝난 후에",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/d500a568ac2d4bc9.mp3",
+      "audioSeconds": 11.52
+    },
+    {
+      "id": "reference-1873",
+      "sourceId": "1873",
+      "number": 40,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 오늘 오후에 어디에 가겠습니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "부동산",
+          "images": []
+        },
+        {
+          "text": "가구점",
+          "images": []
+        },
+        {
+          "text": "이삿짐센터",
+          "images": []
+        },
+        {
+          "text": "전자제품 가게",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/c94850ca5f96c81d.mp3",
+      "audioSeconds": 26.16
+    },
+    {
+      "id": "reference-195",
+      "sourceId": "195",
+      "number": 1,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/538667e7a08b9b2d.jpg"
+      ],
+      "choices": [
+        {
+          "text": "십만 원짜리 수표입니다.",
+          "images": []
+        },
+        {
+          "text": "백만 원짜리 수표입니다.",
+          "images": []
+        },
+        {
+          "text": "천만 원짜리 수표입니다.",
+          "images": []
+        },
+        {
+          "text": "일억 원짜리 수표입니다.",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-116",
+      "sourceId": "116",
+      "number": 2,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/725cab47ae406298.jpg"
+      ],
+      "choices": [
+        {
+          "text": "학생증",
+          "images": []
+        },
+        {
+          "text": "사원증",
+          "images": []
+        },
+        {
+          "text": "운전면허증",
+          "images": []
+        },
+        {
+          "text": "건강보험증",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2368",
+      "sourceId": "2368",
+      "number": 3,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/7679bcdca7353c49.jpg"
+      ],
+      "choices": [
+        {
+          "text": "표를 사다",
+          "images": []
+        },
+        {
+          "text": "축제를 구경하다",
+          "images": []
+        },
+        {
+          "text": "여행을 준비하다",
+          "images": []
+        },
+        {
+          "text": "숙소를 예약하다",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2699",
+      "sourceId": "2699",
+      "number": 4,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/a9168518ec3fcaa9.jpg"
+      ],
+      "choices": [
+        {
+          "text": "토하다",
+          "images": []
+        },
+        {
+          "text": "감기에 걸리다",
+          "images": []
+        },
+        {
+          "text": "콧물이 나다",
+          "images": []
+        },
+        {
+          "text": "다리가 부러지다",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-541",
+      "sourceId": "541",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가축이나 농작물에 병이 생기기 전에 ________ 것이 중요합니다. 병이 생긴 후에치료하는 것보다 미리미리 막는 것이 훨씬 더 경제적이기 때문입니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "금지하는",
+          "images": []
+        },
+        {
+          "text": "예방하는",
+          "images": []
+        },
+        {
+          "text": "치료하는",
+          "images": []
+        },
+        {
+          "text": "수술하는",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-535",
+      "sourceId": "535",
+      "number": 6,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "근로자들은 1년에 한 번씩 정기적으로 몸의 건강 상태를 검사하는 ________을/를 받아야 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "적성 검사",
+          "images": []
+        },
+        {
+          "text": "지능 검사",
+          "images": []
+        },
+        {
+          "text": "안전 검사",
+          "images": []
+        },
+        {
+          "text": "건강 검진",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-392",
+      "sourceId": "392",
+      "number": 7,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "일을 다 끝낸 후에는 반드시 불을 ________ 나가세요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "끄고",
+          "images": []
+        },
+        {
+          "text": "닫고",
+          "images": []
+        },
+        {
+          "text": "쉬고",
+          "images": []
+        },
+        {
+          "text": "하고",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-821",
+      "sourceId": "821",
+      "number": 9,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이 건물에 없는 것은 무엇입니까?",
+      "images": [
+        "media/eps-topik/ffc074e971fce7ce.jpg"
+      ],
+      "choices": [
+        {
+          "text": "옷을 파는 곳",
+          "images": []
+        },
+        {
+          "text": "약을 파는 곳",
+          "images": []
+        },
+        {
+          "text": "술을 마시는 곳",
+          "images": []
+        },
+        {
+          "text": "머리를 자르는 곳",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-795",
+      "sourceId": "795",
+      "number": 10,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "소포를 보내러 우체국에 가려고 합니다 어떻게 가야 합니까 . ?",
+      "images": [
+        "media/eps-topik/7bc138fe22ed29bd.jpg"
+      ],
+      "choices": [
+        {
+          "text": "앞으로 똑바로 갑니다.",
+          "images": []
+        },
+        {
+          "text": "여기에서 오른쪽으로 갑니다.",
+          "images": []
+        },
+        {
+          "text": "300m 가서 왼쪽으로 갑니다",
+          "images": []
+        },
+        {
+          "text": "300m 가서 오른쪽으로 갑니다",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-898",
+      "sourceId": "898",
+      "number": 11,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 글과 관계가 있는 그림은 무엇입니까?\n안전사고에는 여러 가지가 있습니다. 지게차와 같은 운반 기계를 많이 사용하는 우\n리 작업장에서는 운반 기계와 고정물 사이에 끼어 다치는 일이 생길 수 있습니다.\n그러므로 항상 주의해야 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/bb7acf1504fe1989.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/d33f07b8e23a28ed.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/fef6f2893d67c1b7.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/39fb8decea7e5acb.jpg"
+          ]
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-871",
+      "sourceId": "871",
+      "number": 12,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음 글과 관계가 있는 표지판은 무엇입니까?\n이곳은 고압 전기가 흐르는 곳입니다. 전기에 감전될 위험이 있으니 조심하십시오.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/d5664982f249d4d8.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/c34368140b0e1a83.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/e0d40bdc2ba639cc.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/1fa432c49e6e4ae5.jpg"
+          ]
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-2378",
+      "sourceId": "2378",
+      "number": 13,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가: ________?\n나: 기숙사예요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "저기가 어디예요",
+          "images": []
+        },
+        {
+          "text": "이름이 뭐예요",
+          "images": []
+        },
+        {
+          "text": "어디가 기숙사예요",
+          "images": []
+        },
+        {
+          "text": "어느 나라 사람이에요",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-395",
+      "sourceId": "395",
+      "number": 14,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가：민수 씨는 한 달에 가스비가 얼마나 ________?\n나：저는 보통 만 원쯤 내요. 집에서 거의 요리를 안 하거든요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "간",
+          "images": []
+        },
+        {
+          "text": "한",
+          "images": []
+        },
+        {
+          "text": "난",
+          "images": []
+        },
+        {
+          "text": "된",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-976",
+      "sourceId": "976",
+      "number": 15,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 글의 내용과 다른 것은 무엇입니까?\n무지개를 본 적이있습니까? 비가 그치\n고 나면 태양의 반대편에 보입니다. 반\n원 모양의 예쁜 띠가 나타나지요. 그 색\n은보통 빨강, 주황, 노랑, 초록, 파랑,\n남색, 보라의 7가지 색으로 부릅니다.\n그래서 일곱 색깔 무지개라고 하지요.\n사람들은 무지개를 아주 좋아합니다.",
+      "images": [
+        "media/eps-topik/7f74b00e428da9a4.jpg"
+      ],
+      "choices": [
+        {
+          "text": "무지개는 반원 모양입니다.",
+          "images": []
+        },
+        {
+          "text": "무지개는 아홉 가지 색입니다.",
+          "images": []
+        },
+        {
+          "text": "사람들은 무지개를 좋아합니다.",
+          "images": []
+        },
+        {
+          "text": "무지개는 비가 온 후에 나타납니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-958",
+      "sourceId": "958",
+      "number": 16,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "한국에서 반찬으로 사용하고 있는 것이 아닌 것은 무엇입니까？\n한국 사람들은 식사로 밥과 반찬을 먹습니다. 밥은 쌀로 만듭니다. 반찬은 여러 가\n지가 있습니다. 고기나 생선으로 만든 반찬도 있고, 채소로 만든 반찬도 있습니다.\n방글라데시 사람들도 밥을 먹습니다. 방글라데시에서는 밥을 ‘밧’이라고 하고, 반찬\n을 ‘똘까리’라고 합니다. 한국 사람들이 잘 알고 있는‘카레’도 ‘똘까리’ 중의 하나입니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "우유",
+          "images": []
+        },
+        {
+          "text": "고기",
+          "images": []
+        },
+        {
+          "text": "생선",
+          "images": []
+        },
+        {
+          "text": "채소",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-653",
+      "sourceId": "653",
+      "number": 17,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음 내용에 맞는 표지를 고르십시오.\n비상시 이 전화기를 사용하십시오.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/ea9da05dfef8d93b.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/f3608a01a9a8401d.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/c99fb9dc49475ede.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/da25b059c1ac310c.jpg"
+          ]
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-606",
+      "sourceId": "606",
+      "number": 18,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "이 표지는 무슨 뜻입니까?",
+      "images": [
+        "media/eps-topik/94b171fb5114e857.jpg"
+      ],
+      "choices": [
+        {
+          "text": "비가 오니까 천천히 운전하십시오.",
+          "images": []
+        },
+        {
+          "text": "바닥이 미끄러우니까 조심하십시오.",
+          "images": []
+        },
+        {
+          "text": "기계가 뜨거우니까 손대지 마십시오.",
+          "images": []
+        },
+        {
+          "text": "전기가 흐르고 있으니까 조심하십시오.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2808",
+      "sourceId": "2808",
+      "number": 19,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "절삭온도에 관한 설명 중 틀린 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "가공물의 경도가 높을수록 높아진다.",
+          "images": []
+        },
+        {
+          "text": "온도가 높아지면 공구수명이 단축된다.",
+          "images": []
+        },
+        {
+          "text": "공구와 공작물의 마찰이 적을수록 높아진다.",
+          "images": []
+        },
+        {
+          "text": "온도가 상승하면 열팽창으로 인해 치수변화가 발생된다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2816",
+      "sourceId": "2816",
+      "number": 20,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "다음 중 절삭온도 측정방법에 대해 잘못 설명한 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "칩의 색깔에 의한 측정",
+          "images": []
+        },
+        {
+          "text": "절삭유의 온도에 의한 측정",
+          "images": []
+        },
+        {
+          "text": "칼로리메터에 의한 측정",
+          "images": []
+        },
+        {
+          "text": "열전대에 의한 측정",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-1465",
+      "sourceId": "1465",
+      "number": 21,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "박이 없어요.",
+          "images": []
+        },
+        {
+          "text": "방이 없어요.",
+          "images": []
+        },
+        {
+          "text": "밭이 없어요.",
+          "images": []
+        },
+        {
+          "text": "밥이 없어요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/0588358215c038a5.mp3",
+      "audioSeconds": 2.16
+    },
+    {
+      "id": "reference-1243",
+      "sourceId": "1243",
+      "number": 22,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "이유",
+          "images": []
+        },
+        {
+          "text": "야외",
+          "images": []
+        },
+        {
+          "text": "예외",
+          "images": []
+        },
+        {
+          "text": "이의",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/90c5ecb6b4773e45.mp3",
+      "audioSeconds": 1.128
+    },
+    {
+      "id": "reference-1452",
+      "sourceId": "1452",
+      "number": 23,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "목이 부었어요.",
+          "images": []
+        },
+        {
+          "text": "몸이 부었어요.",
+          "images": []
+        },
+        {
+          "text": "모기 잡았어요.",
+          "images": []
+        },
+        {
+          "text": "발이 추웠어요.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/ae06970e392feed8.mp3",
+      "audioSeconds": 2.304
+    },
+    {
+      "id": "reference-1421",
+      "sourceId": "1421",
+      "number": 24,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아기",
+          "images": []
+        },
+        {
+          "text": "여기",
+          "images": []
+        },
+        {
+          "text": "누구",
+          "images": []
+        },
+        {
+          "text": "야구",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/150076fe4b588691.mp3",
+      "audioSeconds": 1.2
+    },
+    {
+      "id": "reference-1334",
+      "sourceId": "1334",
+      "number": 25,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/9efdf0b8513e8f8b.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/f04431a66ca7529c.mp3",
+      "audioSeconds": 20.088
+    },
+    {
+      "id": "reference-1708",
+      "sourceId": "1708",
+      "number": 26,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "몇 월 며칠입니까?",
+      "images": [
+        "media/eps-topik/50bbb638a5f415de.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/b03ad78f15eecb1b.mp3",
+      "audioSeconds": 24.576
+    },
+    {
+      "id": "reference-1259",
+      "sourceId": "1259",
+      "number": 27,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/d5007e9d57768982.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/1ce04572cafa6b55.mp3",
+      "audioSeconds": 23.352
+    },
+    {
+      "id": "reference-1158",
+      "sourceId": "1158",
+      "number": 29,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/efa5740fcd6d2f3f.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/615da5dd177cb510.mp3",
+      "audioSeconds": 33.22775510204082
+    },
+    {
+      "id": "reference-1595",
+      "sourceId": "1595",
+      "number": 30,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 여기 있어요.",
+          "images": []
+        },
+        {
+          "text": "네, 빌려 주세요.",
+          "images": []
+        },
+        {
+          "text": "네, 볼펜을 주세요.",
+          "images": []
+        },
+        {
+          "text": "네, 볼펜을 샀어요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/abe041623c5d78cd.mp3",
+      "audioSeconds": 23.184
+    },
+    {
+      "id": "reference-2015",
+      "sourceId": "2015",
+      "number": 31,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 크기가 다 달라요.",
+          "images": []
+        },
+        {
+          "text": "네, 그게 제일 큰 거예요.",
+          "images": []
+        },
+        {
+          "text": "네, 더 작은 것도 있어요.",
+          "images": []
+        },
+        {
+          "text": "네, 봉투 안에 안 들어가요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/587152e625991a59.mp3",
+      "audioSeconds": 28.68
+    },
+    {
+      "id": "reference-3128",
+      "sourceId": "3128",
+      "number": 32,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 의자가 있어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 의자가 많아요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 의자예요.",
+          "images": []
+        },
+        {
+          "text": "네, 의자가 없어요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/6ce170b5be6c9772.mp3",
+      "audioSeconds": 15.699591836734694
+    },
+    {
+      "id": "reference-2044",
+      "sourceId": "2044",
+      "number": 33,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 퇴근하세요.",
+          "images": []
+        },
+        {
+          "text": "네, 들어와도 돼요.",
+          "images": []
+        },
+        {
+          "text": "네, 피곤하지 않아요.",
+          "images": []
+        },
+        {
+          "text": "네, 비가 오면 안 갈 거예요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/e1745ba428e54d92.mp3",
+      "audioSeconds": 22.992
+    },
+    {
+      "id": "reference-1918",
+      "sourceId": "1918",
+      "number": 34,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "회사 근처에 있습니다.",
+          "images": []
+        },
+        {
+          "text": "우리 집은 아주 큽니다.",
+          "images": []
+        },
+        {
+          "text": "부모님하고 같이 삽니다.",
+          "images": []
+        },
+        {
+          "text": "기숙사에서 살고 싶습니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/9b1568ec7e6eb9cf.mp3",
+      "audioSeconds": 28.848
+    },
+    {
+      "id": "reference-2217",
+      "sourceId": "2217",
+      "number": 35,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "피곤해서 쉴 거예요.",
+          "images": []
+        },
+        {
+          "text": "몸이 아파서 못 왔어요.",
+          "images": []
+        },
+        {
+          "text": "집에서 8시에 나왔어요.",
+          "images": []
+        },
+        {
+          "text": "회사에서 할 일이 많았어요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/e52cfa0b0f255e3c.mp3",
+      "audioSeconds": 25.632
+    },
+    {
+      "id": "reference-1476",
+      "sourceId": "1476",
+      "number": 36,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/5972db2c7d5346e8.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/52b700d63dd30885.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/3e05d9dca1262be2.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/36af8f181522563b.png"
+          ]
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/3c9d1aeeff606dcd.mp3",
+      "audioSeconds": 2.088
+    },
+    {
+      "id": "reference-1505",
+      "sourceId": "1505",
+      "number": 37,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/4bdef0ff5aa83bc8.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/b2ed8d3f7a3242bb.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/272b98f64adf522f.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/d706c810ad9ea2ff.png"
+          ]
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/67d09a9d26ec3376.mp3",
+      "audioSeconds": 4.872
+    },
+    {
+      "id": "reference-1777",
+      "sourceId": "1777",
+      "number": 38,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자가 여자에게 선물한 것은 무엇입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/4088bc6b04d4014a.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/608abd87acbb8a03.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/596df8ccc70ab673.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/6f491041809fbd87.png"
+          ]
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/2da75cf2f03cd7e9.mp3",
+      "audioSeconds": 20.808
+    },
+    {
+      "id": "reference-1198",
+      "sourceId": "1198",
+      "number": 39,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "남자는 왜 은행에 갑니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "돈을 저금하려고",
+          "images": []
+        },
+        {
+          "text": "친구를 만나려고",
+          "images": []
+        },
+        {
+          "text": "고향에 돈을 보내려고",
+          "images": []
+        },
+        {
+          "text": "통장을 다시 만들려고",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/d892bea657893ffb.mp3",
+      "audioSeconds": 53.04
+    },
+    {
+      "id": "reference-1804",
+      "sourceId": "1804",
+      "number": 40,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "두 사람은 주말에 어디에 가겠습니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "산",
+          "images": []
+        },
+        {
+          "text": "식당",
+          "images": []
+        },
+        {
+          "text": "시장",
+          "images": []
+        },
+        {
+          "text": "극장",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/a43030aa151495fd.mp3",
+      "audioSeconds": 14.016
+    },
+    {
+      "id": "reference-279",
+      "sourceId": "279",
+      "number": 1,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/0b08f783015e912c.jpg"
+      ],
+      "choices": [
+        {
+          "text": "먼지나 쓰레기를 쓸어 내는 빗자루입\n니다.",
+          "images": []
+        },
+        {
+          "text": "전선이나 철사를 자를 때 쓰는 니퍼입\n니다.",
+          "images": []
+        },
+        {
+          "text": "못을 박거나 못을 뺄 때 쓰는 장도리입\n니다.",
+          "images": []
+        },
+        {
+          "text": "나무나 종이에 구멍을 낼 때 쓰는 송곳\n입니다.",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-211",
+      "sourceId": "211",
+      "number": 2,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/924fdabb07549edb.jpg"
+      ],
+      "choices": [
+        {
+          "text": "천 원짜리 지폐가 한 대 있습니다.",
+          "images": []
+        },
+        {
+          "text": "천 원짜리 지폐가 한 명 있습니다.",
+          "images": []
+        },
+        {
+          "text": "천 원짜리 지폐가 한 권 있습니다.",
+          "images": []
+        },
+        {
+          "text": "천 원짜리 지폐가 한 장 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2768",
+      "sourceId": "2768",
+      "number": 3,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/03daaa0e6fb06569.jpg"
+      ],
+      "choices": [
+        {
+          "text": "영양 교육",
+          "images": []
+        },
+        {
+          "text": "금융 교육",
+          "images": []
+        },
+        {
+          "text": "양방 진료",
+          "images": []
+        },
+        {
+          "text": "한방 진료",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-233",
+      "sourceId": "233",
+      "number": 4,
+      "section": "reading",
+      "group": "41",
+      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/3a951a38fcd708db.jpg"
+      ],
+      "choices": [
+        {
+          "text": "아이가 슬퍼서 울고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "아이가 피곤해서 잠을 자고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "아이가 기분이 좋아서 웃고 있습니다.",
+          "images": []
+        },
+        {
+          "text": "아이가 화가 나서 소리를 지르고 있습\n니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2885",
+      "sourceId": "2885",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "스트레스를 받거나 잠을 잘 못 자면 두통이 생길 수 있습니다. 그래서 쌓인 스트레스는 꼭 ________ 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "받고",
+          "images": []
+        },
+        {
+          "text": "풀고",
+          "images": []
+        },
+        {
+          "text": "받아야",
+          "images": []
+        },
+        {
+          "text": "풀어야",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-2428",
+      "sourceId": "2428",
+      "number": 6,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 이번 휴가 때 제주도에 갈 거예요. 그래서 어제 비행기 표를 ________. 오늘 숙소도\n예약했어요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "샀어요",
+          "images": []
+        },
+        {
+          "text": "풀었어요",
+          "images": []
+        },
+        {
+          "text": "출발했어요",
+          "images": []
+        },
+        {
+          "text": "참여했어요",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-2954",
+      "sourceId": "2954",
+      "number": 7,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 음악 듣는 것을 좋아합니다. 운동을 할 때는 신나고 ________ 음악을 듣고 자기 전 에는 조용한 음악을 즐겨 듣습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "슬픈",
+          "images": []
+        },
+        {
+          "text": "빠른",
+          "images": []
+        },
+        {
+          "text": "피곤한",
+          "images": []
+        },
+        {
+          "text": "우울한",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-529",
+      "sourceId": "529",
+      "number": 8,
+      "section": "reading",
+      "group": "42",
+      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "농작물에 해로운 벌레, 병균 등을 없애기 위해서 주는 약품을________(이)라고 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "사료",
+          "images": []
+        },
+        {
+          "text": "치약",
+          "images": []
+        },
+        {
+          "text": "거름",
+          "images": []
+        },
+        {
+          "text": "농약",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-764",
+      "sourceId": "764",
+      "number": 9,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "다음은 구인 광고입니다 광고의 내용과 맞지 . 않는 것을 고르십시오",
+      "images": [
+        "media/eps-topik/8a34757c033233e4.jpg"
+      ],
+      "choices": [
+        {
+          "text": "20대 남자를 한 명 구하고 있습니다",
+          "images": []
+        },
+        {
+          "text": "일하는 시간과 월급은 아직 알 수 없습니다.",
+          "images": []
+        },
+        {
+          "text": "용접 기술이 없는 사람도 일할 수 있습니다.",
+          "images": []
+        },
+        {
+          "text": "회사 이름은 <승진금속> 이고, 시흥시에 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-780",
+      "sourceId": "780",
+      "number": 10,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이 메모를 쓴 사람은 누구입니까?",
+      "images": [
+        "media/eps-topik/0a6aba56e3a89f35.jpg"
+      ],
+      "choices": [
+        {
+          "text": "김지수",
+          "images": []
+        },
+        {
+          "text": "이영수",
+          "images": []
+        },
+        {
+          "text": "김민수",
+          "images": []
+        },
+        {
+          "text": "모릅니다",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-759",
+      "sourceId": "759",
+      "number": 11,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이 광고의 내용으로 알 수 없는 것을 고르십시오.",
+      "images": [
+        "media/eps-topik/27f7b994c89e84f0.jpg"
+      ],
+      "choices": [
+        {
+          "text": "서울대학교에서 가깝습니다.",
+          "images": []
+        },
+        {
+          "text": "한 달에 40만 원을 내야 합니다.",
+          "images": []
+        },
+        {
+          "text": "점심은 하숙집에서 주지 않습니다.",
+          "images": []
+        },
+        {
+          "text": "방을 다른 사람과 함께 사용합니다.",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-866",
+      "sourceId": "866",
+      "number": 12,
+      "section": "reading",
+      "group": "51",
+      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "prompt": "이 작업장에서 필요한 보호구는 무엇입니까?\n제가 일하는 작업장은 기계 소리 때문에 아주 시끄럽습니다. 소음이 심한 곳에서\n오래 일하면 귀가 나빠집니다. 그래서 여기에서 일할 때는 반드시 귀덮개를 착용하\n여 귀를 보호해야 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/18c410d0031afae6.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/405e94ce49fc74b3.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/6b28aa9c9820365a.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/aff81a58e9075e80.jpg"
+          ]
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-542",
+      "sourceId": "542",
+      "number": 13,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가：_______________________\n나：인도네시아에서 왔어요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "이름이 뭐예요?",
+          "images": []
+        },
+        {
+          "text": "어느 나라에서 오셨어요?",
+          "images": []
+        },
+        {
+          "text": "인도네시아에 가 봤어요?",
+          "images": []
+        },
+        {
+          "text": "인도네시아가 어디에 있어요?",
+          "images": []
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "reference-356",
+      "sourceId": "356",
+      "number": 14,
+      "section": "reading",
+      "group": "52",
+      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "가：이 집은 보증금 300만 원에 __________이/가 40만원입니다.\n나：한 달에 40만원이요? 너무 비싸요. 다른 방은 없어요?",
+      "images": [],
+      "choices": [
+        {
+          "text": "월세",
+          "images": []
+        },
+        {
+          "text": "전세",
+          "images": []
+        },
+        {
+          "text": "요금",
+          "images": []
+        },
+        {
+          "text": "차비",
+          "images": []
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "reference-1073",
+      "sourceId": "1073",
+      "number": 15,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "이 글의 내용과 다른 것은 무엇입니까?\n한국 사람들은 국물이 있는 음식을 좋아하는 것 같습니다. 밥을먹을때 항상‘국’이\n나 ‘찌개’를 같이 먹습니다. ‘국’은 물을 많이 넣고 끓인 음식입니다. ‘찌개’는 물을\n조금 넣고 된장이나 고추장, 소금, 간장 등을 넣어 끓인 음식입니다. 그래서 보통\n‘찌개’는 ‘국’보다 더㉠________. 한국 사람들이 많이 먹는‘찌개’로는‘된장찌개, 김\n치찌개’ 등이 있고, 국으로는 ‘미역국, 콩나물국’ 등이 있습니다. 추운 겨울에 이런\n뜨거운 국물이 있는 음식을 먹으면 몸이 따뜻해집니다. 한국 사람들은 보통 식사\n때 이러한 찌개나 국과 함께, 밥, 그리고 여러 가지 반찬을 먹습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "국이나 찌개는 보통 뜨겁게 먹습니다.",
+          "images": []
+        },
+        {
+          "text": "국은 찌개보다 국물이 많은 음식입니다.",
+          "images": []
+        },
+        {
+          "text": "한국 사람들은 빵과 우유를 주로 먹습니다.",
+          "images": []
+        },
+        {
+          "text": "한국 사람들은 국물이 있는 음식을 좋아합니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-952",
+      "sourceId": "952",
+      "number": 16,
+      "section": "reading",
+      "group": "53",
+      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "prompt": "한국에서 가장 더운 때는 언제입니까?\n캄보디아에서는 5월부터 10월까지 비가 많이 옵니다. 한국에도 비가 많이 오는 장\n마철이 있습니다. 그러나 한국의장마철은6월중순부터7월중순까지한 달정도입니다.\n한국에서는 장마가 끝난 후 한 달 동안이 가장 덥습니다. 캄보디아에서는 일\n년 중 4월이 가장 덥습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "4월",
+          "images": []
+        },
+        {
+          "text": "6월～ 7월",
+          "images": []
+        },
+        {
+          "text": "7월～ 8월",
+          "images": []
+        },
+        {
+          "text": "5월 ～10월",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-699",
+      "sourceId": "699",
+      "number": 17,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "다음 내용에 맞는 표지를 고르십시오.\n일을 하는 동안 담배를 피우면 안 됩니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/c6f0b2d4edebbc36.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/ee4aa193225169a1.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/a54f81d0d97a9c98.jpg"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/79a6381dd3687216.jpg"
+          ]
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-620",
+      "sourceId": "620",
+      "number": 18,
+      "section": "reading",
+      "group": "54",
+      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "이 표지는 무슨 뜻입니까?",
+      "images": [
+        "media/eps-topik/8fc622424d1f0477.jpg"
+      ],
+      "choices": [
+        {
+          "text": "빨리 운전하면 안 됩니다.",
+          "images": []
+        },
+        {
+          "text": "사람이 탑승하면 안 됩니다.",
+          "images": []
+        },
+        {
+          "text": "차가 지나다니면 안 됩니다.",
+          "images": []
+        },
+        {
+          "text": "기계의 전원을 켜면 안 됩니다.",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2815",
+      "sourceId": "2815",
+      "number": 19,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "물과 원액을 혼합하여 사용하며 점성이 낮고 냉각효과가 우수하여 고속절삭 및 연삭가공액으로 많이 사용되는 절삭유는?",
+      "images": [],
+      "choices": [
+        {
+          "text": "광유",
+          "images": []
+        },
+        {
+          "text": "유화유",
+          "images": []
+        },
+        {
+          "text": "수용성 절삭유",
+          "images": []
+        },
+        {
+          "text": "지방질유",
+          "images": []
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "reference-2830",
+      "sourceId": "2830",
+      "number": 20,
+      "section": "reading",
+      "group": "55",
+      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "prompt": "선반에서 테이퍼를 가공하는 방법이 아닌 것은?",
+      "images": [],
+      "choices": [
+        {
+          "text": "복식 공구대를 경사시키는 방법",
+          "images": []
+        },
+        {
+          "text": "심압대를 편위시키는 방법",
+          "images": []
+        },
+        {
+          "text": "테이퍼 절삭장치를 이용하는 방법",
+          "images": []
+        },
+        {
+          "text": "왕복대를 회전시키는 방법",
+          "images": []
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "reference-1442",
+      "sourceId": "1442",
+      "number": 21,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "대사관에 가겠어요.",
+          "images": []
+        },
+        {
+          "text": "도서관에 가겠어요.",
+          "images": []
+        },
+        {
+          "text": "게시판에 크게 써요.",
+          "images": []
+        },
+        {
+          "text": "다섯 시에 켜겠어요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/2484676f6fbd8703.mp3",
+      "audioSeconds": 2.808
+    },
+    {
+      "id": "reference-1234",
+      "sourceId": "1234",
+      "number": 22,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "이유",
+          "images": []
+        },
+        {
+          "text": "오이",
+          "images": []
+        },
+        {
+          "text": "아이",
+          "images": []
+        },
+        {
+          "text": "우유",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/09c1eb53f1114072.mp3",
+      "audioSeconds": 1.44
+    },
+    {
+      "id": "reference-1434",
+      "sourceId": "1434",
+      "number": 23,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "빌려 주세요.",
+          "images": []
+        },
+        {
+          "text": "그려 주세요.",
+          "images": []
+        },
+        {
+          "text": "가르쳐 주세요.",
+          "images": []
+        },
+        {
+          "text": "기다려 주세요.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/007a850e6d39a144.mp3",
+      "audioSeconds": 1.992
+    },
+    {
+      "id": "reference-1424",
+      "sourceId": "1424",
+      "number": 24,
+      "section": "listening",
+      "group": "43",
+      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "소고기",
+          "images": []
+        },
+        {
+          "text": "어머니",
+          "images": []
+        },
+        {
+          "text": "바가지",
+          "images": []
+        },
+        {
+          "text": "주머니",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/704d98919f1dcc7c.mp3",
+      "audioSeconds": 1.128
+    },
+    {
+      "id": "reference-1251",
+      "sourceId": "1251",
+      "number": 25,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "사람들이 무엇을 하고 있습니까?",
+      "images": [
+        "media/eps-topik/6509608b94a88c37.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/b82a6482b663adf0.mp3",
+      "audioSeconds": 19.848
+    },
+    {
+      "id": "reference-1292",
+      "sourceId": "1292",
+      "number": 26,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/53202692e56abdfd.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/95bb820ff0f6910a.mp3",
+      "audioSeconds": 20.52
+    },
+    {
+      "id": "reference-1722",
+      "sourceId": "1722",
+      "number": 27,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "생일이 언제입니까?",
+      "images": [
+        "media/eps-topik/020486420de4499f.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/17665d2d0ba9dae0.mp3",
+      "audioSeconds": 36
+    },
+    {
+      "id": "reference-1691",
+      "sourceId": "1691",
+      "number": 28,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "여기에서 무엇을 할 수 있습니까?",
+      "images": [
+        "media/eps-topik/d892991a80541673.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/0082e07cf84fa2e7.mp3",
+      "audioSeconds": 25.56
+    },
+    {
+      "id": "reference-1323",
+      "sourceId": "1323",
+      "number": 29,
+      "section": "listening",
+      "group": "44",
+      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/83af7273fde2e1d1.jpg"
+      ],
+      "choices": [
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        },
+        {
+          "text": "",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/5475a52ce9e18566.mp3",
+      "audioSeconds": 20.808
+    },
+    {
+      "id": "reference-2019",
+      "sourceId": "2019",
+      "number": 30,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 안 먹었어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 맵지 않아요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 맛이 없어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 별로 좋아하지 않아요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/9427cadac59e70d7.mp3",
+      "audioSeconds": 28.008
+    },
+    {
+      "id": "reference-3133",
+      "sourceId": "3133",
+      "number": 31,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "아니요, 먹어 봤어요.",
+          "images": []
+        },
+        {
+          "text": "아니요, 처음이에요.",
+          "images": []
+        },
+        {
+          "text": "네, 좋아해요.",
+          "images": []
+        },
+        {
+          "text": "네, 또 먹을 거예요.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/d32dfadb8219d252.mp3",
+      "audioSeconds": 15.62122448979592
+    },
+    {
+      "id": "reference-2042",
+      "sourceId": "2042",
+      "number": 32,
+      "section": "listening",
+      "group": "45",
+      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "네, 하지 못해요.",
+          "images": []
+        },
+        {
+          "text": "네, 사고 싶어요.",
+          "images": []
+        },
+        {
+          "text": "네, 여기 없어요.",
+          "images": []
+        },
+        {
+          "text": "네, 할 수 있어요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/62519f8462613d1d.mp3",
+      "audioSeconds": 21.504
+    },
+    {
+      "id": "reference-1605",
+      "sourceId": "1605",
+      "number": 34,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "내일 갈 거예요.",
+          "images": []
+        },
+        {
+          "text": "오늘 가고 싶어요.",
+          "images": []
+        },
+        {
+          "text": "8시에 일이 끝나요.",
+          "images": []
+        },
+        {
+          "text": "집에 가서 쉬려고 해요.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/63facdffdbd3df43.mp3",
+      "audioSeconds": 23.544
+    },
+    {
+      "id": "reference-2180",
+      "sourceId": "2180",
+      "number": 35,
+      "section": "listening",
+      "group": "46",
+      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "배가 너무 고팠거든요.",
+          "images": []
+        },
+        {
+          "text": "아침을 늦게 먹었거든요.",
+          "images": []
+        },
+        {
+          "text": "음식이 많이 남았거든요.",
+          "images": []
+        },
+        {
+          "text": "아직 점심을 못 먹었거든요.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "audio": "media/eps-topik/c4a1959f731399fd.mp3",
+      "audioSeconds": 24.12
+    },
+    {
+      "id": "reference-1483",
+      "sourceId": "1483",
+      "number": 36,
+      "section": "listening",
+      "group": "47",
+      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/7e36014b11b02000.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/5cfc7d7104165a6c.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/c2a4696777c45a65.png"
+          ]
+        },
+        {
+          "text": "",
+          "images": [
+            "media/eps-topik/2218b46e2f0d86bd.png"
+          ]
+        }
+      ],
+      "answer": 0,
+      "audio": "media/eps-topik/21245da5b956b87b.mp3",
+      "audioSeconds": 6.24
+    },
+    {
+      "id": "reference-1343",
+      "sourceId": "1343",
+      "number": 38,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "",
+      "images": [],
+      "choices": [
+        {
+          "text": "어제",
+          "images": []
+        },
+        {
+          "text": "작년",
+          "images": []
+        },
+        {
+          "text": "지난주",
+          "images": []
+        },
+        {
+          "text": "지난달",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "audio": "media/eps-topik/08b8a9967b101dab.mp3",
+      "audioSeconds": 18.288
+    },
+    {
+      "id": "reference-2007",
+      "sourceId": "2007",
+      "number": 39,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "두 사람이 대화하고 있는 곳은 어디입니까?",
+      "images": [],
+      "choices": [
+        {
+          "text": "은행",
+          "images": []
+        },
+        {
+          "text": "우체국",
+          "images": []
+        },
+        {
+          "text": "부동산 중개소",
+          "images": []
+        },
+        {
+          "text": "빌라 건축 현장",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/58dcc98a6b7e5280.mp3",
+      "audioSeconds": 62.328
+    },
+    {
+      "id": "reference-1962",
+      "sourceId": "1962",
+      "number": 40,
+      "section": "listening",
+      "group": "48",
+      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "prompt": "들은 내용과 같은 것을 고르십시오.",
+      "images": [],
+      "choices": [
+        {
+          "text": "경주는 서울의 북쪽에 있습니다.",
+          "images": []
+        },
+        {
+          "text": "두 사람은 박물관에 가려고 합니다.",
+          "images": []
+        },
+        {
+          "text": "경주까지 기차로6시간 걸렸습니다.",
+          "images": []
+        },
+        {
+          "text": "여자는 경주에 가 본 적이 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "audio": "media/eps-topik/e8a181a405de1b4a.mp3",
+      "audioSeconds": 58.44
+    },
+    {
+      "id": "hrdk-2024-v2-u31-r3",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "어제 공장장님께서 항상 성실하게 일한다고 ________을/를 해 주셨습니다. 그 말을 들으니까 기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "사과",
+          "images": []
+        },
+        {
+          "text": "축하",
+          "images": []
+        },
+        {
+          "text": "칭찬",
+          "images": []
+        },
+        {
+          "text": "인사",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 31,
+        "page": 24,
+        "item": 3,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u31-r4",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로 ________ 일을 시작합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "만들고",
+          "images": []
+        },
+        {
+          "text": "부르고",
+          "images": []
+        },
+        {
+          "text": "갈아입고",
+          "images": []
+        },
+        {
+          "text": "건너가고",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 31,
+        "page": 24,
+        "item": 4,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u32-r4",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "여러 사람이 함께 생활하는 기숙사에서는 규칙을 잘 ________. 다른 사람들에게 피해를 주면 안 됩니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "보내야 합니다",
+          "images": []
+        },
+        {
+          "text": "치워야 합니다",
+          "images": []
+        },
+        {
+          "text": "지켜야 합니다",
+          "images": []
+        },
+        {
+          "text": "사용해야 합니다",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 32,
+        "page": 34,
+        "item": 4,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u33-r2",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "우리 회사는 티셔츠를 입고 출근해도 됩니다. 우리 회사는 분위기가 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "엄격합니다",
+          "images": []
+        },
+        {
+          "text": "딱딱합니다",
+          "images": []
+        },
+        {
+          "text": "자유롭습니다",
+          "images": []
+        },
+        {
+          "text": "까다롭습니다",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 33,
+        "page": 44,
+        "item": 2,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u33-r4",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "좋은 직장 분위기를 만들기 위해서는 모든 사람의 노력이 필요합니다. 서로 웃는 얼굴로 이야기하는 것이 좋습니다. 그리고 상대방을 배려하는 마음을 갖는다면 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "즐거울 일이 없어질 것입니다",
+          "images": []
+        },
+        {
+          "text": "가깝게 지내지 않을 것입니다",
+          "images": []
+        },
+        {
+          "text": "화내는 일이 없어질 것입니다",
+          "images": []
+        },
+        {
+          "text": "분위기가 좋지 않을 것입니다",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 33,
+        "page": 44,
+        "item": 4,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u35-r2",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "작업장이 엉망입니다. ________로 바닥을 쓸어야겠습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "걸레",
+          "images": []
+        },
+        {
+          "text": "빗자루",
+          "images": []
+        },
+        {
+          "text": "쓰레기",
+          "images": []
+        },
+        {
+          "text": "쓰레받기",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 35,
+        "page": 64,
+        "item": 2,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u35-r3",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "작업장에 냄새가 심합니다. 창문을 ________ 환기를 합시다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "열고",
+          "images": []
+        },
+        {
+          "text": "닦고",
+          "images": []
+        },
+        {
+          "text": "잠그고",
+          "images": []
+        },
+        {
+          "text": "두드리고",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 35,
+        "page": 64,
+        "item": 3,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v2-u35-r4",
+      "number": 5,
+      "section": "reading",
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "자재 창고에는 많은 물품이 들어오고 나갑니다. 그래서 매일 물품을 세어서 맞는지 확인해야 합니다. 자재 창고 관리에서 가장 중요한 일은 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "물품을 판매하는 것입니다",
+          "images": []
+        },
+        {
+          "text": "온도를 유지하는 것입니다",
+          "images": []
+        },
+        {
+          "text": "재고를 파악하는 것입니다",
+          "images": []
+        },
+        {
+          "text": "자재를 운반하는 것입니다",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "EPS-TOPIK NEW Standard Korean Textbook 2",
+        "edition": "2024-11-30",
+        "unit": 35,
+        "page": 64,
+        "item": 4,
+        "answerPage": 330,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    }
+  ],
+  "listeningOverheadSeconds": 642.9093877551022
+}

@@ -1,0 +1,9 @@
+{
+  "name": "jcan-klc-website",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "node tools/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

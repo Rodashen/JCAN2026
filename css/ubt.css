@@ -1,0 +1,40 @@
+/* Screenshot-inspired UBT interface. Exam content and rules are shared with CBT. */
+body{background:#fafafa;--accent:#167eb0;font-family:Arial,"Malgun Gothic",sans-serif}
+.site-header{background:#39a1d9;padding:8px 20px;color:white;border:0}
+.brand,.site-header a,.site-header nav span{color:white}.brand img{width:32px;height:32px}.brand strong{font-size:20px}.brand small{display:none}
+button,.button{min-height:48px;border-radius:3px}
+.exam-active main{max-width:1440px;margin:0 auto;padding:20px;background:white;border:1px solid #e4e4e4;box-shadow:0 2px 3px #0002}
+.exam-heading{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 12px}
+.exam-heading>div:first-child{flex:1}.exam-heading h1{font-size:20px;margin:0}.exam-heading p{font-size:12px;margin:3px 0}
+.exam-heading .timers{order:5;display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;margin:0;padding:14px 12px;background:#39a1d9;color:white;flex-wrap:wrap}
+.timers strong{font-size:18px;font-variant-numeric:tabular-nums}
+.exam-layout{display:block}.question-panel{padding:0;border:0;border-radius:0;min-height:0}
+.question-meta{margin:0;padding:8px 0 12px;border:0}.question-count{font-size:18px}
+.ubt-question-columns{display:grid;grid-template-columns:58% 1fr;gap:10px;min-height:480px}
+.ubt-stimulus,.ubt-question-columns>.choices,.ubt-question-columns>div:last-child{border:1px solid #999;padding:15px;min-width:0}
+.ubt-stimulus .instruction{font-size:23px;color:#111}.ubt-stimulus .prompt{font-size:21px}
+.question-images{justify-content:center}.question-images img{max-height:330px}
+.ubt-question-columns>.choices{margin:0;display:flex;flex-direction:column;gap:0}
+.choice{border:0;border-bottom:1px solid #ddd;border-radius:0;padding:12px 0;min-height:80px;gap:12px}
+.choice:has(input:checked){border:0;border-bottom:1px solid #ddd;padding:12px 0;background:#e8f5ff}
+.choice input{position:absolute;opacity:0;width:1px;height:1px}
+.choice:has(input:focus-visible){outline:3px solid #167eb0;outline-offset:2px}
+.choice-number{display:inline-flex;align-items:center;justify-content:center;border:1px solid #3989dd;border-radius:50%;min-width:52px;height:52px;font-size:23px;font-weight:400;color:#222}
+.choice:has(input:checked) .choice-number{background:#167eb0;color:white}.choice-text{font-size:23px;color:#111}
+.image-options .choice{flex-wrap:wrap}.image-options .choice-images{width:100%}.choice img{max-height:160px}
+.question-nav{margin:4px 0 0;padding:0;border:0;justify-content:space-between;align-items:center;gap:10px}
+.question-nav button{background:#167eb0;color:white;border-color:#167eb0;min-width:130px;text-transform:uppercase}
+.sidebar{position:static;width:100%}.sidebar .panel{padding:12px 0 0;border:0}
+.sidebar h2,.sidebar #answered-count{display:none}
+#answer-sheet{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ubt-section{border:1px solid #999;padding:20px}.grid-title{text-align:center;color:#167eb0;font-size:20px;margin:0 0 12px}
+.answer-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.answer-grid button{min-height:50px;border-radius:0;border-color:#3989dd;font-size:18px;color:#111}
+.sidebar .full-width{display:flex;width:auto;margin-left:auto}.legend{text-align:center}
+@media(max-width:750px){
+ .site-header{padding:10px}.site-header nav{gap:12px}.brand strong{font-size:17px}
+ .exam-active main{padding:12px}.exam-heading .timers{gap:10px;display:grid;grid-template-columns:1fr 1fr}.timers strong{font-size:14px}
+ .ubt-question-columns{grid-template-columns:1fr;min-height:0}.ubt-stimulus{min-height:200px}.ubt-stimulus .instruction{font-size:19px}
+ .choice-text{font-size:20px}.choice-number{min-width:44px;height:44px}.choice{min-height:65px}
+ #answer-sheet{grid-template-columns:1fr}.ubt-section{padding:14px}.question-nav button{min-width:0;font-size:12px;padding:10px;flex:1}
+ .question-images img{max-height:230px}.exam-heading h1{font-size:18px}
+}
