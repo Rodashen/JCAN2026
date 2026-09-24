@@ -21,3 +21,12 @@ a:focus-visible,button:focus-visible{outline:3px solid #a66c08;outline-offset:4p
 @media(max-width:991px){.navbar>.container{gap:8px}.navbar-collapse{padding:12px 0}.navbar-brand strong{font-size:21px}.navbar-brand small{font-size:12px}.navbar-brand img{width:50px;height:50px!important}.hero-section{padding:56px 0;min-height:0}.contact-grid{gap:28px}.exam-home{padding-top:40px}}
 @media(max-width:600px){.contact-grid,.exam-modes{grid-template-columns:1fr}.contact-section{padding:40px 0}.exam-modes section{padding:24px}.footer-inner{align-items:flex-start}.jcan-footer nav{gap:18px}.navbar-brand small{font-size:11px}.site-header{flex-wrap:wrap;gap:12px}.site-header nav{gap:16px}.reviews-group{gap:8px;flex-direction:column;align-items:flex-start}.hero-section h1{font-size:38px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Home page information and mobile text wrapping. */
+.jcan-detail-list{padding-left:1.3rem;margin:18px 0 28px;color:var(--p-color)}
+.jcan-detail-list li{font-size:18px;line-height:1.65;margin-bottom:12px;padding-left:4px}
+.scrollspy-example-item h6{color:#344680;font-size:20px;margin:30px 0 12px}
+.jcan-benefit-lead{padding:20px;border-left:4px solid #344680;background:#f2f5fa;font-weight:600}
+.jcan-source-note{font-size:15px;line-height:1.6}.jcan-source-note a{text-decoration:underline}
+.hero-section h1{max-width:17ch;overflow-wrap:normal}.featured-section strong{overflow-wrap:anywhere}
+@media(max-width:600px){.hero-section h1{font-size:36px}.jcan-detail-list li{font-size:17px}.scrollspy-example-item h5{font-size:25px}.scrollspy-example-item{padding-bottom:32px;margin-bottom:32px}}
