@@ -265,9 +265,36 @@ function renderResults(){
 }
 function downloadResults(){
   const score=scoreAttempt(state,bank);
-  const data={exam:bank.title,mode:state.mode,candidate:state.candidate,completedAt:new Date(state.completedAt||Date.now()).toISOString(),score:{correct:score.correct,total:score.total,points:score.points,maxPoints:score.maxPoints,unanswered:score.unanswered},answers:score.items.map(x=>({number:x.question.number,selected:x.answer===undefined?null:x.answer+1,correctAnswer:x.question.answer+1,correct:x.correct}))};
-  const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
-  const a=el('a',{href:url,download:'jcan-eps-topik-results.json'});a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const candidate=state.candidate.name||'Practice candidate';
+  const date=new Date(state.completedAt||Date.now());
+  const rows=score.items.map(item=>{
+    const q=item.question, selected=item.answer===undefined?'—':String.fromCharCode(65+item.answer);
+    const answer=item.answer===undefined?'No answer':q.choices[item.answer]?.text||('Option '+selected);
+    const correct=String.fromCharCode(65+q.answer), correctText=q.choices[q.answer]?.text||('Option '+correct);
+    const status=item.answer===undefined?'Unanswered':item.correct?'Correct':'Incorrect';
+    const cls=item.answer===undefined?'empty':item.correct?'good':'bad';
+    return '<tr><td>'+q.number+'</td><td>'+escapeHTML(q.section==='reading'?'Reading':'Listening')+'</td><td>'+escapeHTML(answer)+'</td><td>'+escapeHTML(correctText)+'</td><td class="'+cls+'">'+status+'</td></tr>';
+  }).join('');
+  const title=escapeHTML(bank.title||'EPS-TOPIK practice exam');
+  const html=[
+    '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JCAN EPS-TOPIK Practice Results</title><style>',
+    ':root{--ink:#1e2c45;--muted:#607087;--blue:#31599b;--line:#dce3ed;--wash:#f3f6fa}*{box-sizing:border-box}body{margin:0;background:#eef2f7;color:var(--ink);font:15px/1.5 "Segoe UI",Arial,sans-serif}.sheet{max-width:900px;margin:40px auto;padding:44px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 38px #20365a13}',
+    'header{display:flex;justify-content:space-between;gap:24px;border-bottom:2px solid var(--ink);padding-bottom:24px}.brand{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:800}.brand b{display:block;margin-top:5px;color:var(--ink);font-size:22px;letter-spacing:0;text-transform:none}.date{text-align:right;color:var(--muted);font-size:13px}h1{font-size:30px;line-height:1.15;margin:28px 0 5px}.sub{color:var(--muted);margin:0}',
+    '.score{margin:24px 0;padding:24px;border-radius:12px;background:linear-gradient(120deg,#203d70,#3e69ac);color:white;display:flex;justify-content:space-between;gap:18px}.score small{display:block;opacity:.84}.score strong{font-size:40px;line-height:1.2}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0 30px}.stats div{padding:14px;background:var(--wash);border:1px solid var(--line);border-radius:9px}.stats strong{display:block;font-size:23px}.stats span{font-size:12px;color:var(--muted)}',
+    'h2{font-size:19px;margin:30px 0 12px}table{width:100%;border-collapse:collapse;font-size:13px}th{text-align:left;background:#eef3f9;color:#344b6d;font-size:11px;letter-spacing:.05em;text-transform:uppercase}th,td{padding:10px 11px;border-bottom:1px solid var(--line);vertical-align:top}td:first-child{font-weight:700}.good{color:#226344;font-weight:700}.bad{color:#a3372b;font-weight:700}.empty{color:#7b5a19;font-weight:700}',
+    'footer{margin-top:25px;padding-top:15px;border-top:1px solid var(--line);color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:16px}.actions{position:fixed;right:22px;top:18px}.actions button{border:0;border-radius:8px;background:var(--blue);color:white;padding:11px 16px;font-weight:700;cursor:pointer}',
+    '@media(max-width:650px){.sheet{margin:0;padding:24px 16px;border:0;border-radius:0}.stats{grid-template-columns:repeat(2,1fr)}.score strong{font-size:32px}table{font-size:11px}th,td{padding:8px 5px}.scroll{overflow-x:auto}}@media print{body{background:#fff;font-size:11px}.sheet{max-width:none;margin:0;padding:10mm;border:0;border-radius:0;box-shadow:none}.actions{display:none}.score,th,.stats div{print-color-adjust:exact;-webkit-print-color-adjust:exact}tr{break-inside:avoid}h2{break-after:avoid}footer{position:fixed;bottom:5mm;left:10mm;right:10mm}}',
+    '</style></head><body><div class="actions"><button onclick="window.print()">Print / Save as PDF</button></div><main class="sheet">',
+    '<header><div class="brand">JCAN Korean Language Center<b>EPS-TOPIK Practice Results</b></div><div class="date">Completed<br><strong>'+escapeHTML(date.toLocaleString())+'</strong></div></header>',
+    '<h1>'+escapeHTML(candidate)+'</h1><p class="sub">'+title+' · '+escapeHTML(modeLabel(state.mode))+'</p>',
+    '<section class="score"><div><small>Practice score</small><strong>'+score.points+' <span style="font-size:22px;font-weight:500">/ '+score.maxPoints+'</span></strong></div><div style="text-align:right"><small>Accuracy</small><strong>'+score.percent+'%</strong></div></section>',
+    '<section class="stats"><div><strong>'+score.correct+'</strong><span>Correct</span></div><div><strong>'+score.incorrect+'</strong><span>Incorrect</span></div><div><strong>'+score.unanswered+'</strong><span>Unanswered</span></div><div><strong>'+score.total+'</strong><span>Total questions</span></div></section>',
+    '<h2>Answer review</h2><div class="scroll"><table><thead><tr><th>No.</th><th>Section</th><th>Your answer</th><th>Correct answer</th><th>Result</th></tr></thead><tbody>'+rows+'</tbody></table></div>',
+    '<footer><span>Practice material for preparation; not an official HRD Korea examination.</span><span>Each correct answer earns 2.5 practice points.</span></footer></main></body></html>'
+  ].join('');
+  const url=URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'}));
+  const a=el('a',{href:url,download:'jcan-eps-topik-results.html'});a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
 }
 window.addEventListener('pagehide',()=>{save();stopAudio();});
 window.addEventListener('pageshow',e=>{if(e.persisted&&state&&state.stage!=='complete')resume();});
