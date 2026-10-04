@@ -10,13 +10,13 @@
     "html_handling": "none"
   },
   "vars": {
-    "SITE_ORIGIN": "https://jcan-exam-access.YOUR-SUBDOMAIN.workers.dev",
-    "SENDER_EMAIL": "YOUR-VERIFIED-SENDER-EMAIL"
+    "SITE_ORIGIN": "https://jcan-exam-access.tararoneee.workers.dev",
+    "SENDER_EMAIL": "tararoneee@gmail.com"
   },
   "d1_databases": [{
     "binding": "DB",
     "database_name": "jcan-exam-access",
-    "database_id": "REPLACE-WITH-YOUR-D1-DATABASE-ID"
+    "database_id": "ae3b4636-3436-43fb-859d-60907a3dd662"
   }],
   "triggers": { "crons": ["0 0 * * *"] }
 }
