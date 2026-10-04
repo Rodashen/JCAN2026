@@ -1,0 +1,14 @@
+# Do not publish question banks or exam media on the public GitHub Pages site.
+exclude:
+  - data
+  - media
+  - access
+  - tests
+  - tools
+  - dist
+  - node_modules
+  - js/cbt.mjs
+  - js/cbt-core.mjs
+  - wrangler.jsonc
+  - package.json
+  - package-lock.json
