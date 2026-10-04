@@ -30,7 +30,11 @@ async function memberSession(request,env){
 }
 async function newSession(env,email){
  const token=randomToken();
- await env.DB.prepare('INSERT INTO sessions (token_hash,email,expires) VALUES (?,?,?)').bind(await hash(env,'session:'+token),email,Date.now()+30*DAY).run();
+ // D1 batch is transactional: concurrent sign-ins cannot leave multiple sessions.
+ await env.DB.batch([
+  env.DB.prepare('DELETE FROM sessions WHERE email=?').bind(email),
+  env.DB.prepare('INSERT INTO sessions (token_hash,email,expires) VALUES (?,?,?)').bind(await hash(env,'session:'+token),email,Date.now()+30*DAY)
+ ]);
  return json({ok:true,email},200,{'Set-Cookie':`${COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=2592000`});
 }
 async function sendCode(env,email,code,activation){

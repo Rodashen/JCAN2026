@@ -43,9 +43,15 @@ test('paid email activation is single-use, email-bound, and creates unlimited re
 test('returning users verify a fresh emailed code; logout and revocation invalidate sessions',async()=>{
  const f=fixture();try{
   await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:true},{admin:true});
-  await f.call('/api/verify',{email:'paid@example.com',code:f.latestCode()});
+  const first=await f.call('/api/verify',{email:'paid@example.com',code:f.latestCode()});const previousCookie=first.headers.get('Set-Cookie');
   await f.call('/api/sign-in-code',{email:'paid@example.com'});const code=f.latestCode();
   const signed=await f.call('/api/verify',{email:'paid@example.com',code});assert.equal(signed.status,200);const cookie=signed.headers.get('Set-Cookie');
+  assert.equal((await f.call('/cbt.html',undefined,{cookie:previousCookie})).status,303);
+  assert.equal((await f.call('/data/eps-topik.json',undefined,{cookie:previousCookie})).status,401);
+  assert.equal((await (await f.call('/api/session',undefined,{cookie:previousCookie})).json()).authenticated,false);
+  assert.equal((await f.call('/cbt.html',undefined,{cookie})).status,200);
+  assert.equal(f.db.prepare('SELECT COUNT(*) AS count FROM sessions WHERE email=?').get('paid@example.com').count,1);
+  await f.call('/api/logout',{}, {cookie:previousCookie});assert.equal((await f.call('/ubt.html',undefined,{cookie})).status,200);
   assert.equal((await f.call('/api/verify',{email:'paid@example.com',code})).status,400);
   await f.call('/api/logout',{}, {cookie});assert.equal((await f.call('/cbt.html',undefined,{cookie})).status,303);
   await f.call('/api/sign-in-code',{email:'paid@example.com'});

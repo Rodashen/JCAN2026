@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS sessions (
  expires INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires);
+CREATE UNIQUE INDEX IF NOT EXISTS sessions_email_unique ON sessions(email);
 CREATE TABLE IF NOT EXISTS rate_limits (
  key TEXT PRIMARY KEY,
  count INTEGER NOT NULL,
