@@ -15,10 +15,38 @@ export const questions=[
  ['Safety','왜 안전모를 써야 합니까?','Why should you wear a safety helmet?','Bakit kailangang magsuot ng safety helmet?','머리를 보호하기 위해서입니다.','To protect the head.','Upang maprotektahan ang ulo.'],
  ['Work habits','동료와 의견이 다르면 어떻게 하겠습니까?','What will you do if you disagree with a coworker?','Ano ang gagawin mo kung hindi kayo magkasundo ng katrabaho?','차분하게 이야기하고 필요하면 관리자에게 도움을 요청하겠습니다.','I will discuss it calmly and ask the supervisor for help if needed.','Kakausapin ko siya nang mahinahon at hihingi ng tulong sa supervisor kung kailangan.']
 ];
+questions.push(
+ ['Introduction','이름이 무엇입니까?','What is your name?','Ano ang pangalan mo?','제 이름은 [이름]입니다.','My name is [name].','Ang pangalan ko ay [pangalan].'],
+ ['Introduction','어느 나라에서 왔습니까?','Which country are you from?','Saang bansa ka galing?','필리핀에서 왔습니다.','I am from the Philippines.','Galing ako sa Pilipinas.'],
+ ['Introduction','한국어를 얼마나 공부했습니까?','How long have you studied Korean?','Gaano ka na katagal nag-aaral ng Korean?','[기간] 동안 한국어를 공부했습니다.','I have studied Korean for [duration].','Nag-aral ako ng Korean sa loob ng [tagal].'],
+ ['Experience','어떤 일을 할 수 있습니까?','What work can you do?','Anong trabaho ang kaya mong gawin?','[실제로 할 수 있는 업무]를 할 수 있습니다.','I can do [work you can actually perform].','Kaya kong gawin ang [trabahong talagang kaya mong gawin].'],
+ ['Tools','드릴은 언제 사용합니까?','When do you use a drill?','Kailan ginagamit ang barena?','구멍을 뚫을 때 사용합니다.','It is used to make holes.','Ginagamit ito sa pagbubutas.'],
+ ['Tools','육각 렌치는 언제 사용합니까?','When do you use an Allen key?','Kailan ginagamit ang Allen key?','육각 구멍이 있는 나사를 조이거나 풀 때 사용합니다.','To tighten or loosen screws with a hexagonal socket.','Sa paghigpit o pagluwag ng turnilyong may heksagonal na butas.'],
+ ['Tools','작업이 끝나면 공구를 어디에 놓습니까?','Where do you put tools after work?','Saan inilalagay ang mga kasangkapan matapos magtrabaho?','정해진 보관 장소에 놓습니다.','In their designated storage place.','Sa nakatalagang lagayan.'],
+ ['Instructions','두 손을 앞으로 뻗어 보세요.','Stretch both hands forward.','Iunat ang dalawang kamay sa harap.','[두 손을 앞으로 뻗습니다.]','Perform the action: stretch both hands forward.','Gawin ang utos: iunat ang dalawang kamay sa harap.'],
+ ['Instructions','앉았다가 일어나 보세요.','Sit down, then stand up.','Umupo, pagkatapos ay tumayo.','[앉은 다음 일어납니다.]','Perform the action: sit down, then stand up.','Gawin ang utos: umupo, pagkatapos ay tumayo.'],
+ ['Instructions','망치를 가리켜 보세요.','Point to the hammer.','Ituro ang martilyo.','[망치를 가리킵니다.]','Point to a hammer in your practice tool set.','Ituro ang martilyo sa iyong mga kasangkapang pangpraktis.'],
+ ['Safety','제품에 불량이 있으면 어떻게 하겠습니까?','What will you do if a product has a defect?','Ano ang gagawin mo kung may depekto ang produkto?','정해진 절차에 따라 분리하고 관리자에게 보고하겠습니다.','I will separate it according to procedure and report it to the supervisor.','Ihihiwalay ko ito ayon sa tamang proseso at iuulat sa supervisor.'],
+ ['Safety','바닥에 기름이 있으면 어떻게 하겠습니까?','What will you do if there is oil on the floor?','Ano ang gagawin mo kung may langis sa sahig?','사람들이 접근하지 않도록 알리고 관리자에게 보고하겠습니다.','I will warn people to stay clear and report it to the supervisor.','Babalaan ko ang mga tao na umiwas at iuulat ito sa supervisor.'],
+ ['Safety','무거운 물건을 혼자 들기 어려우면 어떻게 하겠습니까?','What will you do if an item is too heavy to lift alone?','Ano ang gagawin mo kung masyadong mabigat ang bagay para buhatin mag-isa?','도움을 요청하고 정해진 운반 장비를 사용하겠습니다.','I will ask for help and use the designated handling equipment.','Hihingi ako ng tulong at gagamit ng nakatalagang kagamitan sa pagbubuhat.'],
+ ['Work habits','작업에 실수가 있으면 어떻게 하겠습니까?','What will you do if you make a mistake at work?','Ano ang gagawin mo kung nagkamali ka sa trabaho?','숨기지 않고 바로 관리자에게 보고하겠습니다.','I will report it promptly to the supervisor rather than hide it.','Iuulat ko agad ito sa supervisor at hindi itatago.'],
+ ['Work habits','새로운 작업을 배우면 어떻게 하겠습니까?','How will you learn a new task?','Paano ka matututo ng bagong gawain?','설명을 잘 듣고 모르는 것은 질문하겠습니다.','I will listen carefully and ask about anything I do not understand.','Makikinig ako nang mabuti at magtatanong tungkol sa hindi ko naiintindihan.']
+);
 export function shuffledQuestions(){const list=[...questions];for(let i=list.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[list[i],list[j]]=[list[j],list[i]];}return list;}
 if(typeof document!=='undefined'){
  let list=shuffledQuestions(),index=0,language='en';const $=s=>document.querySelector(s);
  const drawings={hammer:'<path d="M90 52L142 80L122 115L70 88Z" fill="#8195a8"/><path d="M105 104L58 191" stroke="#c98953" stroke-width="22"/>',screwdriver:'<path d="M118 36L111 46L112 137" stroke="#8398ab" stroke-width="10"/><rect x="97" y="125" width="31" height="76" rx="12" fill="#d97f51"/>',wrench:'<path d="M109 90L71 189" stroke="#879caf" stroke-width="21"/><path d="M103 93Q65 58 107 27L99 58L123 68L146 44Q153 96 103 93Z" fill="#879caf"/>',pliers:'<path d="M80 31L90 91L129 171M137 31L126 91L83 171" stroke="#879caf" stroke-width="15" fill="none"/><circle cx="109" cy="93" r="14" fill="#61788d"/><path d="M83 148L69 187M130 148L147 187" stroke="#ce7957" stroke-width="18"/>'};
  function render(){const q=list[index];$('#interview-progress').textContent=`${index+1} / ${list.length} · ${q[0]}`;$('#korean-question').textContent=q[1];$('#translation').textContent=q[language==='en'?2:3];$('#model-korean').textContent=q[4];$('#model-translation').textContent=q[language==='en'?5:6];$('#model').hidden=true;$('#show-answer').textContent=language==='en'?'Show sample response':'Ipakita ang halimbawang sagot';$('#tool-picture').innerHTML=q[7]?`<svg viewBox="0 0 220 220" role="img" aria-label="Manufacturing tool to identify">${drawings[q[7]]}</svg>`:'';$('#next-question').textContent=index===list.length-1?'New practice set':'Next question';}
- $('#language').addEventListener('change',event=>{language=event.target.value;render();});$('#show-answer').addEventListener('click',()=>{$('#model').hidden=false;});$('#next-question').addEventListener('click',()=>{if(++index===list.length){list=shuffledQuestions();index=0;}render();$('#korean-question').focus();});render();
+ const supported='speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+ function stopAudio(){if(supported)window.speechSynthesis.cancel();$('#audio-status').textContent='';}
+ $('#listen-question').disabled=!supported;
+ if(!supported)$('#audio-status').textContent='Speech playback is not supported in this browser.';
+ $('#listen-question').addEventListener('click',()=>{
+  stopAudio();const voices=window.speechSynthesis.getVoices();const voice=voices.find(v=>/^ko(?:-|_)/i.test(v.lang)||v.lang==='ko');
+  if(!voice){$('#audio-status').textContent='No Korean voice is available yet. Enable a Korean text-to-speech voice on your device, then try again.';return;}
+  const utterance=new SpeechSynthesisUtterance(list[index][1]);utterance.lang='ko-KR';utterance.voice=voice;utterance.rate=.85;
+  utterance.onstart=()=>{$('#audio-status').textContent='Reading the Korean question…';};utterance.onend=()=>{$('#audio-status').textContent='';};utterance.onerror=event=>{if(!['canceled','interrupted'].includes(event.error))$('#audio-status').textContent='Unable to play this question. Please try again.';};window.speechSynthesis.speak(utterance);
+ });
+ $('#stop-audio').addEventListener('click',stopAudio);window.addEventListener('pagehide',stopAudio);
+ $('#language').addEventListener('change',event=>{stopAudio();language=event.target.value;render();});$('#show-answer').addEventListener('click',()=>{$('#model').hidden=false;});$('#next-question').addEventListener('click',()=>{stopAudio();if(++index===list.length){list=shuffledQuestions();index=0;}render();$('#korean-question').focus();});render();
 }
