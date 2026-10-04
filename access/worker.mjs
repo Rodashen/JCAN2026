@@ -48,7 +48,7 @@ async function admin(request,env){
  const supplied=request.headers.get('Authorization')?.replace(/^Bearer /,'')||'';
  if(!env.ADMIN_KEY||env.ADMIN_KEY.length<32||supplied.length>256||await hash(env,supplied)!==await hash(env,env.ADMIN_KEY))failure('Administrator access was not accepted.',401);
 }
-export function protectedPath(path){return /^\/(?:(?:cbt|ubt|exams|ishihara)(?:\.html)?\/?$|data(?:\/|$)|media\/eps-topik(?:\/|$)|js\/cbt[^/]*)/i.test(path);}
+export function protectedPath(path){return /^\/(?:(?:cbt|ubt|exams|ishihara|skills)(?:\.html)?\/?$|data(?:\/|$)|media\/eps-topik(?:\/|$)|js\/cbt[^/]*)/i.test(path);}
 async function api(request,env,path){
  checkConfig(env);
  if(path==='/api/session'&&request.method==='GET'){
@@ -121,7 +121,7 @@ export default {
    if(restricted){
     checkConfig(env);
     if(!await memberSession(request,env)){
-     const examPage=path.match(/^\/(cbt|ubt|exams|ishihara)(\.html)?\/?$/i);
+     const examPage=path.match(/^\/(cbt|ubt|exams|ishihara|skills)(\.html)?\/?$/i);
      if(examPage)return new Response(null,{status:303,headers:{Location:'/exam-access.html?next='+examPage[1].toLowerCase(),'Cache-Control':'no-store'}});
      return json({error:'Sign in to access exam materials.'},401);
     }

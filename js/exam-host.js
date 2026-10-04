@@ -6,7 +6,7 @@ if (location.hostname.endsWith('.github.io')) {
   location.replace(target.href);
 }
 // Recheck open exam pages so an older browser session also loses its workspace.
-if (!location.hostname.endsWith('.github.io') && /\/(cbt|ubt|exams|ishihara)\.html$/.test(location.pathname)) {
+if (!location.hostname.endsWith('.github.io') && /\/(cbt|ubt|exams|ishihara|skills)\.html$/.test(location.pathname)) {
   let checking = false;
   async function checkAccess() {
     if (checking) return;
