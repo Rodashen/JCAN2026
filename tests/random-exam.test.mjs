@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import {selectExam,assembleExam,validateBank,createAttempt,restoreAttempt,answerQuestion,leaveQuestion,questionStatus} from '../js/cbt-core.mjs';
+import {selectExam,assembleExam,validateBank,createAttempt,restoreAttempt,answerQuestion,leaveQuestion,questionStatus,isGraphQuestion} from '../js/cbt-core.mjs';
 const read=async name=>JSON.parse(await fs.readFile(new URL('../data/'+name,import.meta.url)));
 const bank=await read('eps-topik.json'),pool=await read('eps-topik-pool.json');
 let seed=1234567;
@@ -11,7 +11,8 @@ test('300 retries have fresh questions, matching recordings and bounded listenin
  for(let i=0;i<300;i++){
   const exam=selectExam(bank,pool,history,random),ids=exam.questions.map(q=>q.id);
   assert.equal(new Set(ids).size,40);assert.equal(validateBank(exam),exam);
-  assert.ok(ids.every(id=>!history.previous?.includes(id)),'No question from the immediately preceding exam');
+  const graphs=exam.questions.filter(isGraphQuestion);assert.ok(graphs.length>=2&&graphs.length<=3,'Every exam includes 2–3 graphs');
+  assert.ok(exam.questions.filter(q=>!isGraphQuestion(q)).every(q=>!history.previous?.includes(q.id)),'Other questions avoid the preceding exam');
   assert.ok(pool.listeningOverheadSeconds+2*exam.questions.slice(20).reduce((n,q)=>n+q.audioSeconds,0)<=1490);
   for(const q of exam.questions.slice(20)){
    const start=exam.sequence.findIndex(s=>s.question===q.number);
