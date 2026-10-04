@@ -23,6 +23,7 @@ function fixture(){
 }
 test('paid email activation is single-use, email-bound, and creates unlimited reusable access',async()=>{
  const f=fixture();try{
+  for(const path of ['/exams','/exams.html']){const response=await f.call(path);assert.equal(response.status,303);assert.equal(response.headers.get('Location'),'/exam-access.html?next=exams');}
   assert.equal((await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:true})).status,401);
   assert.equal((await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:false},{admin:true})).status,400);
   assert.equal((await f.call('/api/admin/issue',{email:'Paid@example.com',paymentConfirmed:true},{admin:true})).status,200);
@@ -33,6 +34,7 @@ test('paid email activation is single-use, email-bound, and creates unlimited re
   const cookie=attempts.find(r=>r.status===200).headers.get('Set-Cookie');assert.match(cookie,/HttpOnly; Secure; SameSite=Strict/);
   for(let i=0;i<3;i++)assert.equal((await f.call('/cbt.html',undefined,{cookie})).status,200);
   assert.equal((await f.call('/ubt.html',undefined,{cookie})).status,200);
+  assert.equal((await f.call('/exams.html',undefined,{cookie})).status,200);
   assert.equal((await f.call('/api/verify',{email:'paid@example.com',code})).status,400);
   const member=f.db.prepare('SELECT * FROM members').get();assert.ok(member.activated_at);assert.equal(member.code_hash,null);
   assert.ok(!JSON.stringify(member).includes(code));
