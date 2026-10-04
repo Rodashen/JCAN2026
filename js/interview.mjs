@@ -1,3 +1,4 @@
+import {recordings} from './interview-audio.mjs';
 export const questions=[
  ['Introduction','자기소개를 해 보세요.','Please introduce yourself.','Ipakilala ang iyong sarili.','안녕하세요. 저는 [이름]입니다. 필리핀에서 왔습니다. 제조업에서 성실하게 일하고 싶습니다. 감사합니다.','Hello. I am [name], from the Philippines. I would like to work diligently in manufacturing. Thank you.','Magandang araw. Ako si [pangalan], mula sa Pilipinas. Nais kong magtrabaho nang masipag sa manufacturing. Salamat.'],
  ['Introduction','왜 한국에서 일하고 싶습니까?','Why do you want to work in Korea?','Bakit mo gustong magtrabaho sa Korea?','한국에서 제조업 기술을 배우고 가족을 돕고 싶습니다.','I want to learn manufacturing skills in Korea and support my family.','Gusto kong matuto ng mga kasanayan sa manufacturing sa Korea at makatulong sa pamilya ko.'],
@@ -32,21 +33,30 @@ questions.push(
  ['Work habits','작업에 실수가 있으면 어떻게 하겠습니까?','What will you do if you make a mistake at work?','Ano ang gagawin mo kung nagkamali ka sa trabaho?','숨기지 않고 바로 관리자에게 보고하겠습니다.','I will report it promptly to the supervisor rather than hide it.','Iuulat ko agad ito sa supervisor at hindi itatago.'],
  ['Work habits','새로운 작업을 배우면 어떻게 하겠습니까?','How will you learn a new task?','Paano ka matututo ng bagong gawain?','설명을 잘 듣고 모르는 것은 질문하겠습니다.','I will listen carefully and ask about anything I do not understand.','Makikinig ako nang mabuti at magtatanong tungkol sa hindi ko naiintindihan.']
 );
+questions.push(
+ ['Basic conversation','오늘은 무슨 요일입니까?','What day of the week is it today?','Anong araw ngayon?','예: 오늘은 월요일입니다. 실제 요일에 맞게 대답하세요.','Example: Today is Monday. Answer with the actual day.','Halimbawa: Lunes ngayon. Isagot ang tamang araw.'],
+ ['Basic conversation','지금 몇 시입니까?','What time is it now?','Anong oras na ngayon?','예: 지금은 아홉 시 삼십 분입니다. 실제 시간에 맞게 대답하세요.','Example: It is 9:30 now. Answer with the actual time.','Halimbawa: Alas-nuwebe y medya na. Isagot ang tamang oras.'],
+ ['Basic conversation','오늘은 몇 월 며칠입니까?','What is today’s date?','Ano ang petsa ngayon?','예: 오늘은 십월 오일입니다. 실제 날짜에 맞게 대답하세요.','Example: Today is October 5. Answer with the actual date.','Halimbawa: Oktubre 5 ngayon. Isagot ang tamang petsa.'],
+ ['Basic conversation','내일은 무슨 요일입니까?','What day of the week is tomorrow?','Anong araw bukas?','예: 내일은 화요일입니다. 실제 요일에 맞게 대답하세요.','Example: Tomorrow is Tuesday. Use the actual day.','Halimbawa: Martes bukas. Gamitin ang tamang araw.'],
+ ['Basic conversation','어제는 무슨 요일이었습니까?','What day of the week was yesterday?','Anong araw kahapon?','예: 어제는 일요일이었습니다. 실제 요일에 맞게 대답하세요.','Example: Yesterday was Sunday. Use the actual day.','Halimbawa: Linggo kahapon. Gamitin ang tamang araw.'],
+ ['Basic conversation','몇 시에 일어납니까?','What time do you get up?','Anong oras ka bumabangon?','예: 오전 여섯 시에 일어납니다.','Example: I get up at six in the morning.','Halimbawa: Bumabangon ako nang alas-sais ng umaga.'],
+ ['Basic conversation','몇 시에 잡니까?','What time do you go to sleep?','Anong oras ka natutulog?','예: 밤 열 시에 잡니다.','Example: I go to sleep at ten at night.','Halimbawa: Natutulog ako nang alas-diyes ng gabi.'],
+ ['Basic conversation','오늘 날씨가 어떻습니까?','How is the weather today?','Kumusta ang panahon ngayon?','예: 오늘은 맑습니다. 실제 날씨에 맞게 대답하세요.','Example: It is clear today. Answer for the actual weather.','Halimbawa: Maaliwalas ngayon. Isagot ang aktuwal na panahon.'],
+ ['Basic conversation','생일이 언제입니까?','When is your birthday?','Kailan ang iyong kaarawan?','제 생일은 [월]월 [일]일입니다.','My birthday is [month] [day].','Ang kaarawan ko ay [buwan] [araw].'],
+ ['Basic conversation','지금 어디에 살고 있습니까?','Where do you live now?','Saan ka nakatira ngayon?','지금 [도시]에 살고 있습니다.','I currently live in [city].','Nakatira ako ngayon sa [lungsod].'],
+ ['Basic conversation','오늘 아침에 무엇을 먹었습니까?','What did you eat this morning?','Ano ang kinain mo ngayong umaga?','예: 오늘 아침에 밥과 달걀을 먹었습니다.','Example: I ate rice and eggs this morning.','Halimbawa: Kumain ako ng kanin at itlog ngayong umaga.'],
+ ['Basic conversation','학교에 어떻게 옵니까?','How do you get to school?','Paano ka pumupunta sa paaralan?','예: 버스를 타고 옵니다.','Example: I come by bus.','Halimbawa: Sumasakay ako ng bus.']
+);
 export function shuffledQuestions(){const list=[...questions];for(let i=list.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[list[i],list[j]]=[list[j],list[i]];}return list;}
 if(typeof document!=='undefined'){
  let list=shuffledQuestions(),index=0,language='en';const $=s=>document.querySelector(s);
  const drawings={hammer:'<path d="M90 52L142 80L122 115L70 88Z" fill="#8195a8"/><path d="M105 104L58 191" stroke="#c98953" stroke-width="22"/>',screwdriver:'<path d="M118 36L111 46L112 137" stroke="#8398ab" stroke-width="10"/><rect x="97" y="125" width="31" height="76" rx="12" fill="#d97f51"/>',wrench:'<path d="M109 90L71 189" stroke="#879caf" stroke-width="21"/><path d="M103 93Q65 58 107 27L99 58L123 68L146 44Q153 96 103 93Z" fill="#879caf"/>',pliers:'<path d="M80 31L90 91L129 171M137 31L126 91L83 171" stroke="#879caf" stroke-width="15" fill="none"/><circle cx="109" cy="93" r="14" fill="#61788d"/><path d="M83 148L69 187M130 148L147 187" stroke="#ce7957" stroke-width="18"/>'};
  function render(){const q=list[index];$('#interview-progress').textContent=`${index+1} / ${list.length} · ${q[0]}`;$('#korean-question').textContent=q[1];$('#translation').textContent=q[language==='en'?2:3];$('#model-korean').textContent=q[4];$('#model-translation').textContent=q[language==='en'?5:6];$('#model').hidden=true;$('#show-answer').textContent=language==='en'?'Show sample response':'Ipakita ang halimbawang sagot';$('#tool-picture').innerHTML=q[7]?`<svg viewBox="0 0 220 220" role="img" aria-label="Manufacturing tool to identify">${drawings[q[7]]}</svg>`:'';$('#next-question').textContent=index===list.length-1?'New practice set':'Next question';}
- const supported='speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
- function stopAudio(){if(supported)window.speechSynthesis.cancel();$('#audio-status').textContent='';}
- $('#listen-question').disabled=!supported;
- if(!supported)$('#audio-status').textContent='Speech playback is not supported in this browser.';
- $('#listen-question').addEventListener('click',()=>{
-  stopAudio();const voices=window.speechSynthesis.getVoices();const voice=voices.find(v=>/^ko(?:-|_)/i.test(v.lang)||v.lang==='ko');
-  if(!voice){$('#audio-status').textContent='No Korean voice is available yet. Enable a Korean text-to-speech voice on your device, then try again.';return;}
-  const utterance=new SpeechSynthesisUtterance(list[index][1]);utterance.lang='ko-KR';utterance.voice=voice;utterance.rate=.85;
-  utterance.onstart=()=>{$('#audio-status').textContent='Reading the Korean question…';};utterance.onend=()=>{$('#audio-status').textContent='';};utterance.onerror=event=>{if(!['canceled','interrupted'].includes(event.error))$('#audio-status').textContent='Unable to play this question. Please try again.';};window.speechSynthesis.speak(utterance);
- });
+ const audio=new Audio();audio.preload='none';let playback=0;
+ function stopAudio(){playback++;audio.pause();audio.removeAttribute('src');audio.load();$('#audio-status').textContent='';}
+ audio.addEventListener('ended',()=>{$('#audio-status').textContent='';});
+ audio.addEventListener('error',()=>{if(audio.getAttribute('src'))$('#audio-status').textContent='Could not load the recording. Check your connection and try again.';});
+ $('#listen-question').addEventListener('click',async()=>{stopAudio();const current=playback;audio.src=recordings[list[index][1]];$('#audio-status').textContent='Loading Korean recording…';try{await audio.play();if(current===playback)$('#audio-status').textContent='Playing Korean question…';}catch{if(current===playback)$('#audio-status').textContent='Unable to play audio. Please tap Listen again.';}});
  $('#stop-audio').addEventListener('click',stopAudio);window.addEventListener('pagehide',stopAudio);
  $('#language').addEventListener('change',event=>{stopAudio();language=event.target.value;render();});$('#show-answer').addEventListener('click',()=>{$('#model').hidden=false;});$('#next-question').addEventListener('click',()=>{stopAudio();if(++index===list.length){list=shuffledQuestions();index=0;}render();$('#korean-question').focus();});render();
 }
