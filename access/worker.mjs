@@ -130,7 +130,7 @@ export default {
    const response=await env.ASSETS.fetch(new Request(url,request));
    const headers=new Headers(response.headers);
    if(restricted)headers.set('Cache-Control','private, no-store');
-   headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','same-origin');headers.set('X-Frame-Options','DENY');
+   headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy',/^\/skills(?:\.html)?\/?$/.test(path)?'strict-origin-when-cross-origin':'same-origin');headers.set('X-Frame-Options','DENY');
    return new Response(response.body,{status:response.status,headers});
   }catch(error){return json({error:error.status?error.message:'The service is temporarily unavailable. Please try again.'},error.status||503);}
  },

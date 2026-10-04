@@ -35,6 +35,8 @@ test('paid email activation is single-use, email-bound, and creates unlimited re
   for(let i=0;i<3;i++)assert.equal((await f.call('/cbt.html',undefined,{cookie})).status,200);
   assert.equal((await f.call('/ubt.html',undefined,{cookie})).status,200);
   assert.equal((await f.call('/exams.html',undefined,{cookie})).status,200);
+  const skills=await f.call('/skills.html',undefined,{cookie});assert.equal(skills.status,200);assert.equal(skills.headers.get('Referrer-Policy'),'strict-origin-when-cross-origin');assert.equal(skills.headers.get('Cache-Control'),'private, no-store');
+  assert.equal((await f.call('/cbt.html',undefined,{cookie})).headers.get('Referrer-Policy'),'same-origin');
   assert.equal((await f.call('/api/verify',{email:'paid@example.com',code})).status,400);
   const member=f.db.prepare('SELECT * FROM members').get();assert.ok(member.activated_at);assert.equal(member.code_hash,null);
   assert.ok(!JSON.stringify(member).includes(code));
