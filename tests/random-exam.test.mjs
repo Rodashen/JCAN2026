@@ -36,8 +36,8 @@ test('skip status begins after leaving an unanswered question; answering clears 
  state.flags[q.id]=true;assert.deepEqual(questionStatus(state,q),{answered:false,skipped:true,flagged:true});
  answerQuestion(state,bank,1,q.answer);assert.deepEqual(questionStatus(state,q),{answered:true,skipped:false,flagged:true});
 });
-test('all 200 pool questions validate and all media is covered by the manifest',async()=>{
- assert.equal(pool.questions.length,200);assert.equal(new Set(pool.questions.map(q=>q.id)).size,200);
+test('all 240 pool questions validate and all media is covered by the manifest',async()=>{
+ assert.equal(pool.questions.length,240);assert.equal(new Set(pool.questions.map(q=>q.id)).size,240);
  const paths=new Set((await read('eps-topik-media.json')).map(m=>m.path));
  for(const q of pool.questions){
   const ids=bank.questions.map(x=>x.id),slot=bank.questions.findIndex(x=>x.group===q.group);
@@ -46,5 +46,16 @@ test('all 200 pool questions validate and all media is covered by the manifest',
   for(const p of [...q.images,...q.choices.flatMap(c=>c.images),...(q.audio?[q.audio]:[])])assert.ok(paths.has(p));
  }
  const book=pool.questions.filter(q=>q.provenance);
- assert.equal(book.length,8);assert.ok(book.every(q=>q.provenance.answerPage===330));
+ assert.equal(book.length,48);
+ assert.equal(book.filter(q=>q.provenance.book===1).length,40);
+ assert.equal(book.filter(q=>q.provenance.kind==='adapted').length,4);
+ assert.ok(book.every(q=>q.provenance.answerPage||q.explanation));
+});
+
+test('randomized questions retain their own accurate directions',()=>{
+ const chart=pool.questions.find(q=>q.id==='jcan-book1-chart-1');
+ const ids=bank.questions.map(q=>q.id);ids[8]=chart.id;
+ const exam=assembleExam(bank,pool,ids);
+ assert.equal(exam.questions[8].instruction,chart.instruction);
+ for(const q of pool.questions)assert.ok(!/다옴|믈음|알믖|대 담|답하십시오 \./.test(q.instruction));
 });

@@ -1,0 +1,22 @@
+{
+  "name": "jcan-exam-access",
+  "main": "access/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none"
+  },
+  "vars": {
+    "SITE_ORIGIN": "https://jcan-exam-access.YOUR-SUBDOMAIN.workers.dev",
+    "SENDER_EMAIL": "YOUR-VERIFIED-SENDER-EMAIL"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "jcan-exam-access",
+    "database_id": "REPLACE-WITH-YOUR-D1-DATABASE-ID"
+  }],
+  "triggers": { "crons": ["0 0 * * *"] }
+}

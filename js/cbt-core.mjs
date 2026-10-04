@@ -7,7 +7,7 @@ export function assembleExam(template, pool, selection) {
   const questions = template.questions.map((slot,i) => {
     const q = byId.get(selection[i]);
     if (!q || q.group !== slot.group || q.section !== slot.section) throw Error('Question type mismatch.');
-    return {...q,number:slot.number,instruction:slot.instruction};
+    return {...q,number:slot.number};
   });
   let number = 0;
   const sequence = template.sequence.map(step => {
@@ -70,15 +70,25 @@ export function validateBank(bank) {
 export function questionsFor(bank, mode) {
   return bank.questions.filter(q => mode === 'full' || q.section === mode);
 }
-export function createAttempt(bank, mode, candidate = {}, now = Date.now()) {
+export function sectionOrder(state) {
+  return state.mode === 'full' ? (state.firstSection === 'listening' ? ['listening','reading'] : ['reading','listening']) : [state.mode];
+}
+export function nextSection(state) {
+  const order = sectionOrder(state);
+  return order[order.indexOf(state.stage)+1] || null;
+}
+export function createAttempt(bank, mode, candidate = {}, now = Date.now(), firstSection = 'reading') {
   if (!MODES.includes(mode)) throw Error('Invalid mode');
-  return {version:1, bankId:bank.id, selection:bank.questions.map(q=>q.id), mode, candidate:{name:String(candidate.name || '').slice(0,80),seat:String(candidate.seat || '').slice(0,20)}, stage:mode === 'listening' ? 'listening' : 'reading', current:mode === 'listening' ? 21 : 1, answers:{}, flags:{}, visited:{}, skipped:{}, startedAt:now, deadline:now + bank.sectionSeconds * 1000, completedAt:null, sequenceIndex:0, audioOffset:0};
+  if (!['reading','listening'].includes(firstSection)) throw Error('Invalid starting section');
+  const stage = mode === 'full' ? firstSection : mode;
+  return {version:1, bankId:bank.id, selection:bank.questions.map(q=>q.id), mode, firstSection:stage, candidate:{name:String(candidate.name || '').slice(0,80),seat:String(candidate.seat || '').slice(0,20)}, stage, current:stage === 'listening' ? 21 : 1, answers:{}, flags:{}, visited:{}, skipped:{}, startedAt:now, deadline:now + bank.sectionSeconds * 1000, completedAt:null, sequenceIndex:0, audioOffset:0};
 }
 export function advanceTime(state, bank, now = Date.now()) {
   if (state.stage === 'complete' || now < state.deadline) return false;
   leaveQuestion(state,bank);
-  if (state.stage === 'reading' && state.mode === 'full') {
-    state.stage = 'listening'; state.current = 21;
+  const next = nextSection(state);
+  if (next) {
+    state.stage = next; state.current = next === 'listening' ? 21 : 1;
     state.deadline += bank.sectionSeconds * 1000;
     state.sequenceIndex = 0; state.audioOffset = 0;
     if (now >= state.deadline) { state.stage = 'complete'; state.completedAt = state.deadline; }
@@ -105,6 +115,7 @@ export function scoreAttempt(state, bank) {
 export function restoreAttempt(raw, bank) {
   try {
     const s = JSON.parse(raw);
+    if (s?.firstSection !== undefined && !['reading','listening'].includes(s.firstSection)) return null;
     if (!s || s.version !== 1 || s.bankId !== bank.id || !MODES.includes(s.mode) || !['reading','listening','complete'].includes(s.stage) || !Number.isFinite(s.deadline) || !Number.isFinite(s.startedAt) || s.deadline < s.startedAt || s.deadline > s.startedAt + 3000000 || !s.answers || typeof s.answers !== 'object' || !s.flags || typeof s.flags !== 'object' || !s.candidate || typeof s.candidate.name !== 'string' || typeof s.candidate.seat !== 'string') return null;
     if ((s.mode === 'reading' && s.stage === 'listening') || (s.mode === 'listening' && s.stage === 'reading')) return null;
     const valid = questionsFor(bank,s.mode);

@@ -1,4 +1,22 @@
-# JCAN EPS-TOPIK CBT
+# JCAN EPS-TOPIK CBT and UBT
+
+## October 2026 update
+
+The current pool contains **240 questions: 146 reading and 94 listening**. This update adds 36 Book 1 reading questions and 4 chart exercises to the previous 200-question pool described below.
+
+Book 1 was checked using the HRD Korea ZIP's 2024-edition PDF corrected in June 2025. All 36 selected answers match printed answer-key pages 363–366. The text and choices were also checked against their source pages. Four visual questions use a sale notice, train ticket, bankbook, and event schedule. Four additional JCAN-authored exercises use the two leisure charts on page 227; these are clearly labeled as chart-based practice, with explanations rather than an invented official answer-key reference. Copyright and source attribution appear in answer review.
+
+Full UBT practice now offers **Reading first** or **Listening first** before starting. Each section still lasts 25 minutes, submitted sections are locked, and correct answers appear only after the entire attempt is submitted. CBT retains reading-first order. Single-section practice is unchanged.
+
+Question-specific directions are preserved when randomizing. Korean spelling errors and mismatched topic/sign instructions were corrected. Deliberately incorrect answer choices remain unchanged.
+
+Email-bound paid access is prepared for Cloudflare Workers, D1, and Brevo. See [EXAM-ACCESS-SETUP.md](EXAM-ACCESS-SETUP.md). It is not active on GitHub Pages; deployment and live email testing require the owner's free accounts. The protected host checks exam pages, scripts, question data, and media on the server. One activation code grants unlimited attempts to one email; subsequent sign-ins use new one-time email codes.
+
+Run tests with **Node.js 24+** because access tests use the built-in SQLite module. Automated tests include 300 randomized retries, both section orders, saved-state compatibility, media integrity, single-use codes, concurrent redemption, email binding, expiry, rate limits, logout, revocation, and protected asset access. Email delivery is mocked; no real emails were sent in tests. Results download as styled HTML with Print / Save as PDF.
+
+## Earlier implementation notes (September 2026)
+
+The counts and upload lists below document the earlier 200-question release. The October update above supersedes them.
 
 Open cbt.html through the existing Exams page.
 

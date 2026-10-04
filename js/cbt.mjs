@@ -1,4 +1,4 @@
-import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime} from './cbt-core.mjs';
+import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs';
 const app=document.querySelector('#app');
 const notice=document.querySelector('#notice');
 const dialog=document.querySelector('#confirm-dialog');
@@ -6,6 +6,7 @@ const UBT=document.body.dataset.examInterface==='ubt';
 const KEY=UBT?'jcan-eps-ubt-v1':'jcan-eps-cbt-v1';
 const HISTORY_KEY='jcan-eps-cbt-history-v1';
 let template,pool,history={};
+let accessAccount=null;
 let bank,state=null,interval=null,media=null,audioToken=0,audioBlocked=false,audioMessage='',audioDelay=null,volume=0.8,lastSaved=0,pendingConfirm=null,storageAvailable=true;
 const $=s=>document.querySelector(s);
 function el(tag,attrs={},...children){
@@ -47,26 +48,31 @@ function renderSetup(){
   const name=el('input',{id:'candidate-name',name:'name',maxlength:80,autocomplete:'off',placeholder:'Optional'});
   const seat=el('input',{id:'seat',name:'seat',maxlength:20,autocomplete:'off',placeholder:'Optional'});
   form.append(el('div',{class:'form-grid'},el('label',{class:'field wide',for:'mode'},'Test mode',mode),el('label',{class:'field',for:'candidate-name'},'Name or nickname',name),el('label',{class:'field',for:'seat'},'Seat number',seat)));
+  const firstSection=el('select',{id:'first-section',name:'first-section'},el('option',{value:'reading'},'Reading first'),el('option',{value:'listening'},'Listening first'));
+  const orderField=el('label',{class:'field',for:'first-section'},'Start with',firstSection);
+  if(UBT)form.append(orderField,el('p',{class:'source-note'},'For a full UBT practice exam, choose which section to take first. Each section lasts 25 minutes. You cannot return to a submitted section.'));
   let played=false;
   const heard=el('input',{type:'checkbox',id:'heard'});
   const soundStatus=el('p',{id:'sound-status',role:'status'},'Check your headphones before starting.');
   const soundButton=el('button',{type:'button',class:'secondary',onclick:()=>{
     if(media&&!media.paused){stopAudio();soundButton.textContent='Play sound check';return;}
     stopAudio();media=new Audio(bank.sequence[0].src);media.volume=volume;
-    media.addEventListener('playing',()=>{played=true;soundStatus.textContent='Korean introduction is playing. Confirm below if you can hear it.';soundButton.textContent='Stop sound check';},{once:true});
+    media.addEventListener('playing',()=>{played=true;soundStatus.textContent='The Korean introduction is playing. Confirm below if you can hear it.';soundButton.textContent='Stop sound check';},{once:true});
     media.addEventListener('ended',()=>soundButton.textContent='Play sound check');
     media.play().catch(()=>{soundStatus.textContent='Audio could not play. Check your connection and try again.';soundStatus.classList.add('error');});
   }},'Play sound check');
   const soundCheck=el('section',{class:'soundcheck'},soundButton,soundStatus,el('label',{class:'check-label',for:'heard'},heard,'I can hear the Korean audio clearly.'));
-  mode.addEventListener('change',()=>{soundCheck.hidden=mode.value==='reading';stopAudio();soundButton.textContent='Play sound check';});
-  form.append(soundCheck,el('button',{type:'submit',class:'full-width'},'Start test'),el('p',{class:'source-note'},'Your nickname, answers and timer stay in this browser. No registration is required.'));
+  mode.addEventListener('change',()=>{soundCheck.hidden=mode.value==='reading';orderField.hidden=mode.value!=='full';stopAudio();soundButton.textContent='Play sound check';});
+  form.append(soundCheck,el('button',{type:'submit',class:'full-width'},'Start test'),el('p',{class:'source-note'},'Your nickname, answers, and timer are saved in this browser.'));
+  if(accessAccount)form.append(el('p',{class:'source-note'},'Signed in as '+accessAccount+'. ',el('a',{href:'exam-access.html'},'Manage access / sign out')));
   form.addEventListener('submit',e=>{
     e.preventDefault();
     if(mode.value!=='reading'&&(!played||!heard.checked)){soundStatus.textContent='Play the sound check and confirm you can hear it before starting.';heard.focus();return;}
-    const start=()=>{
+    const start=async()=>{
       try{
+        if(accessAccount){const r=await fetch('api/session',{cache:'no-store'});if(!r.ok||!(await r.json()).authenticated){location.href='exam-access.html?next='+(UBT?'ubt':'cbt');return;}}
         bank=selectExam(template,pool,history);
-        state=createAttempt(bank,mode.value,{name:name.value.trim(),seat:seat.value.trim()});
+        state=createAttempt(bank,mode.value,{name:name.value.trim(),seat:seat.value.trim()},Date.now(),UBT?firstSection.value:'reading');
         const used=questionsFor(bank,mode.value).map(q=>q.id);
         history={previous:used,counts:{...history.counts}};
         for(const id of used)history.counts[id]=(Number(history.counts[id])||0)+1;
@@ -76,8 +82,8 @@ function renderSetup(){
     };
     if(state&&state.stage!=='complete')confirmAction('Start a new test?','This replaces the unfinished test saved in this browser.','Start new test',start);else start();
   });
-  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},'In the full exam, recordings play in sequence, twice per question.'),el('li',{},'Review your answers and results after submitting.')));
-  intro.append(el('p',{class:'source-note'},'© HRD Korea, ',el('a',{href:'https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en',target:'_blank',rel:'noopener'},'2024 NEW Standard Korean Textbook 2'),'. EPS TOPIK Korea Standard Textbook. Source pages and answer keys are credited in answer review.'));
+  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},'During the full exam’s listening section, recordings play automatically in order. Each question recording plays twice.'),el('li',{},'Choose one answer per question. Correct answers and results appear only after you submit the entire test.')));
+  intro.append(el('p',{class:'source-note'},'© HRD Korea, ',el('a',{href:'https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en',target:'_blank',rel:'noopener'},'2024 NEW Standard Korean Textbooks 1 and 2'),'. EPS-TOPIK Korean Standard Textbooks. Source pages and answer keys are credited in the answer review.'));
   app.append(el('div',{class:'intro-grid'},intro,el('section',{class:'panel'},form)));
 }
 function resume(){
@@ -93,7 +99,7 @@ function tick(){
   if(advanceTime(state,bank)){
     save();stopAudio();if(dialog.open){dialog.close();pendingConfirm=null;}
     if(state.stage==='complete'){renderResults();return;}
-    say('Reading time has ended. The listening section has started.');renderExam();playSequence();
+    say('The previous section has ended. The '+state.stage+' section has started.');audioMessage='';renderExam();if(state.stage==='listening')playSequence();
   }
   renderTimers();
   if(Date.now()-lastSaved>5000)save();
@@ -101,10 +107,11 @@ function tick(){
 function finish(){
   if(!state||state.stage==='complete')return;
   const count=bank.questions.filter(q=>q.section===state.stage&&state.answers[q.id]===undefined).length;
-  const transitioning=state.stage==='reading'&&state.mode==='full';
-  confirmAction(transitioning?'Finish reading?':'Submit your test?',`${count} unanswered question${count===1?'':'s'} in this section. `+(transitioning?'Reading answers will be locked and the 25-minute listening section will begin.':'Your answers will be scored and the test will end.'),transitioning?'Start listening':'Submit test',()=>{
+  const next=nextSection(state);
+  const transitioning=Boolean(next);
+  confirmAction(transitioning?'Finish '+state.stage+'?':'Submit your test?',`${count} unanswered question${count===1?'':'s'} in this section. `+(transitioning?'Your '+state.stage+' answers will be locked, and the 25-minute '+next+' section will begin.':'Your answers will be scored and the test will end.'),transitioning?'Start '+next:'Submit test',()=>{
     stopAudio();finishSection(state,bank);save();
-    if(state.stage==='complete')renderResults();else{audioMessage='';renderExam();playSequence();}
+    if(state.stage==='complete')renderResults();else{audioMessage='';renderExam();if(state.stage==='listening')playSequence();}
   });
 }
 function renderExam(){
@@ -112,7 +119,7 @@ function renderExam(){
   const heading=el('div',{class:'exam-heading'},el('div',{},el('h1',{},modeLabel(state.mode)),el('p',{},(state.candidate.name||'Practice candidate')+(state.candidate.seat?' · Seat '+state.candidate.seat:'')+' · '+bank.title)),el('button',{class:'secondary',onclick:()=>{
     if(document.fullscreenElement)document.exitFullscreen?.().catch(()=>{});else document.documentElement.requestFullscreen?.().catch(()=>say('Full screen is unavailable in this browser. You can continue normally.'));
   }},'Full screen'));
-  app.replaceChildren(heading,el('div',{class:'exam-layout'},el('section',{class:'panel question-panel','aria-label':'Current question',id:'question-panel'}),el('aside',{class:'sidebar','aria-label':'Exam progress'},el('div',{class:'panel'},el('div',{class:'timers',id:'timers'}),el('h2',{style:'font-size:18px'},'Answer sheet'),el('p',{id:'answered-count',class:'empty-note'}),el('div',{id:'answer-sheet'}),el('p',{class:'legend'},'Blue = answered · Red border = skipped · Orange border / ! = review · Outer outline = current'),el('button',{class:'full-width',onclick:finish},state.stage==='reading'&&state.mode==='full'?'Finish reading':'Submit test')))));
+  app.replaceChildren(heading,el('div',{class:'exam-layout'},el('section',{class:'panel question-panel','aria-label':'Current question',id:'question-panel'}),el('aside',{class:'sidebar','aria-label':'Exam progress'},el('div',{class:'panel'},el('div',{class:'timers',id:'timers'}),el('h2',{style:'font-size:18px'},'Answer sheet'),el('p',{id:'answered-count',class:'empty-note'}),el('div',{id:'answer-sheet'}),el('p',{class:'legend'},'Blue = answered · Red border = skipped · Orange border / ! = review · Outer outline = current'),el('button',{class:'full-width',onclick:finish},nextSection(state)?'Finish '+state.stage:'Submit test')))));
   if(UBT){
     const sidebar=$('.sidebar');sidebar.id='ubt-answer-sheet';
     heading.append($('#timers'));
@@ -128,7 +135,7 @@ function showSheet(open){
   if(sidebar)sidebar.hidden=!open;
   if(panel)panel.hidden=open;
   if(!open&&panel?.querySelector('.choices'))(state.visited ||= {})[bank.questions[state.current-1].id]=true;
-  if(toggle){toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'Return to question':'Total Questions';}
+  if(toggle){toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'Return to question':'All questions';}
 }
 function renderTimers(){
   const node=$('#timers');if(!node)return;
@@ -199,7 +206,7 @@ function renderQuestion(){
     const options=host.querySelector('.choices');
     if(stimulus.children.length)host.insertBefore(el('div',{class:'ubt-question-columns'},stimulus,options||el('div',{})),host.children[1]||null);
     const nav=host.querySelector('.question-nav')||el('div',{class:'question-nav'});
-    const overview=el('button',{class:'ubt-overview',onclick:()=>showSheet(true)},'▦ Total Questions');
+    const overview=el('button',{class:'ubt-overview',onclick:()=>showSheet(true)},'▦ All questions');
     nav.insertBefore(overview,nav.children[1]||null);
     if(!nav.parentElement)host.append(nav);
   }
@@ -253,7 +260,8 @@ function renderResults(){
     items.forEach(({question:q,answer,correct})=>{
       const label=correct?'Correct':answer===undefined?'Unanswered':'Incorrect';
       const body=el('div',{class:'review-body'},...questionContent(q).filter(Boolean));
-      if(q.provenance)body.append(el('p',{class:'source-note'},el('a',{href:q.provenance.url,target:'_blank',rel:'noopener'},'HRD Korea · 2024 NEW Standard Korean Textbook 2'),` · Unit ${q.provenance.unit}, page ${q.provenance.page}, question ${q.provenance.item}. Answer key: page ${q.provenance.answerPage}.`));
+      if(q.provenance)body.append(el('p',{class:'source-note'},el('a',{href:q.provenance.url,target:'_blank',rel:'noopener'},'HRD Korea · '+q.provenance.title),q.provenance.kind==='adapted'?` · Unit ${q.provenance.unit}, page ${q.provenance.page}. ${q.provenance.note}`:` · Unit ${q.provenance.unit}, page ${q.provenance.page}, question ${q.provenance.item}. Answer key: page ${q.provenance.answerPage}.`));
+      if(q.explanation)body.append(el('p',{class:'korean',lang:'ko'},q.explanation));
       if(q.audio)body.append(el('audio',{controls:true,preload:'none',src:q.audio,'aria-label':'Question '+q.number+' recording'}));
       q.choices.forEach((c,i)=>body.append(el('div',{class:'review-choice'+(i===q.answer?' correct':i===answer?' wrong':'')},el('strong',{},['①','②','③','④'][i]+' '+c.text),c.images.map(src=>image(src,'Option '+(i+1)+' illustration')),i===q.answer?el('p',{class:'correct-label'},'Correct answer'+(i===answer?' · Your answer':'')):i===answer?el('p',{class:'wrong-label'},'Your answer'):null)));
       review.append(el('details',{class:'review-item'},el('summary',{},el('strong',{},'Question '+q.number),el('span',{class:correct?'correct-label':'wrong-label'},label)),body));
@@ -301,6 +309,14 @@ window.addEventListener('pageshow',e=>{if(e.persisted&&state&&state.stage!=='com
 document.addEventListener('visibilitychange',()=>{if(document.hidden)save();else tick();});
 async function init(){
   try{
+    // Static GitHub Pages remains available until the protected hosting is deployed.
+    const sessionResponse=await fetch('api/session',{cache:'no-store'}).catch(()=>null);
+    if(sessionResponse?.ok&&sessionResponse.headers.get('Content-Type')?.includes('application/json')){
+      const session=await sessionResponse.json();
+      if(!session.authenticated){location.replace('exam-access.html?next='+(UBT?'ubt':'cbt'));return;}
+      accessAccount=session.email;
+      try{if(localStorage.getItem('jcan-access-account')!==accessAccount){for(const key of Object.keys(localStorage))if(key.startsWith('jcan-eps-'))localStorage.removeItem(key);localStorage.setItem('jcan-access-account',accessAccount);}}catch{}
+    }
     const [res,poolRes]=await Promise.all([fetch('data/eps-topik.json'),fetch('data/eps-topik-pool.json')]);
     if(!res.ok||!poolRes.ok)throw Error('Question bank download failed.');
     template=validateBank(await res.json());pool=await poolRes.json();bank=template;

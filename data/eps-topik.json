@@ -13,7 +13,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/c6cbb8b8958ee252.jpg"
@@ -44,7 +44,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/9f29cb6b1557bf97.jpg"
@@ -75,7 +75,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/5af409e96179c4aa.jpg"
@@ -106,7 +106,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/b474190b418fc363.jpg"
@@ -137,7 +137,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "컨베이어를 검사하거나 수리할 때는 스위치에 “________” 이라는 표지판을 붙여서,다른 사람이 컨베이어를 작동시키지 않도록 해야 합니다.",
       "images": [],
       "choices": [
@@ -166,7 +166,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "택시를 타는 것보다 지하철이나 버스를 이용하는 것이 돈이 덜 ________. 택시는 편하지\n만 좀 비쌉니다. 그래서 저는 지하철이나 버스를 자주 이용합니다.",
       "images": [],
       "choices": [
@@ -195,7 +195,7 @@
       "number": 7,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "제 방에 침대하고 책상이 필요합니다. 그래서 내일 ________에 가서 침대하고 책상을 사려고 합니다.",
       "images": [],
       "choices": [
@@ -224,7 +224,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저는 지하철을 타고 회사에 다닙니다. 그런데 출퇴근 시간에는 지하철에 사람이 너무 많\n아서 지하철을 타기가 ______.",
       "images": [],
       "choices": [
@@ -253,8 +253,8 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
-      "prompt": "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다 이 표지가 나타내는 뜻은 무 . 엇입니까?",
+      "instruction": "다음 질문에 답하십시오.",
+      "prompt": "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다. 이 표지가 나타내는 뜻은 무엇입니까?",
       "images": [
         "media/eps-topik/2ce781cd67430aca.jpg"
       ],
@@ -284,7 +284,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 표의 내용과 맞지 않는 것을 고르십시오.",
       "images": [
         "media/eps-topik/f8224b871938a296.jpg"
@@ -315,7 +315,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 중 아래 글의 내용에서 나오지 않은 것은 무엇입니까?\n작업장에서는 안전을 위하여 보호구를 착용해야 합니다.보호구에는 머리를 보호하기 위한 안전모,발을 보호하기 위한 안전화,눈을 보호하기 위한 보안경 등이 있습\n니다.",
       "images": [],
       "choices": [
@@ -352,8 +352,8 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
-      "prompt": "소주를 두 병 마셨습니다 얼마를 내야 합니까 . ?",
+      "instruction": "다음 질문에 답하십시오.",
+      "prompt": "소주를 두 병 마셨습니다. 얼마를 내야 합니까?",
       "images": [
         "media/eps-topik/73ab3118ada9f2b1.jpg"
       ],
@@ -383,7 +383,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: 어서 오세요. 뭘 드릴까요?\n나: 오렌지 있어요?\n가: 네, 이건 천 원이고 저건 천오백 원이에요.\n나: 그럼, ________.",
       "images": [],
       "choices": [
@@ -412,7 +412,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：여보세요. 거기 한국은행이지요?\n나：아닙니다. ______________. 여기는 우체국입니다.",
       "images": [],
       "choices": [
@@ -441,7 +441,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 같은 것을 고르십시오.\n학교에 갈 때 집 앞에 하얀 강아지가 한 마리 있는 것을 보았습니다. 그런데 학교가\n끝나고 집에 왔을 때도 그 강아지가 우리 집 앞에 있었습니다. 아마 길을 잃어버린\n것 같았습니다. 나는 그 강아지를 집으로 데리고 들어와서 깨끗이 목욕을 시키고\n먹을 것을 주었습니다. 그리고 종이에“강아지를 잃어버린 분은 연락하십시오.”라고\n써서 우리 집 대문 앞에 붙였습니다. 그러나 한 달이 지나도 주인이 나타나지 않았\n습니다. 그래서우리가족은그강아지를 키우기로했습니다. 나는아주기뻤습니다.\n학교가 끝나고 집에 가면 강아지는 꼬리를 흔들며 나를 반갑게 맞이해 줍니다.",
       "images": [],
       "choices": [
@@ -470,7 +470,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 다른 것을 고르십시오.\n저는 인천에 있는 공장에서 일합니다. 우리 공장에서는 약병과 술병 그리고 음료수\n병 같은 여러 가지 유리병을 만듭니다. 제 친구도 저와 같은 공장에서 일하는데, 이\n번 달에 우리는근무 시간이 서로달라서 만날 수가없었습니다. 저는 아침7시부터\n오후 3시까지 일하고, 제 친구는 오후 3시부터 밤 10시까지 일했습니다. 일하는 시\n간이 다르니까, 만나서 같이 이야기를 하거나 놀 시간이 별로 없었습니다. 다음 달\n에는 근무 시간이 같았으면 좋겠습니다.",
       "images": [],
       "choices": [
@@ -499,8 +499,8 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "prompt": "자동차가 고장이 나서 고쳐야 합니다 어떤 표지를 찾아야 합니까?",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
+      "prompt": "자동차가 고장이 나서 고쳐야 합니다. 어떤 표지를 찾아야 합니까?",
       "images": [],
       "choices": [
         {
@@ -536,7 +536,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 내용에 맞는 표지를 고르십시오.\n여기에는 물이 닿으면 안 됩니다. 물기가 없게 하십시오.",
       "images": [],
       "choices": [
@@ -573,7 +573,7 @@
       "number": 19,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "공작기계의 구비조건으로 거리가 먼 것은?",
       "images": [],
       "choices": [
@@ -602,7 +602,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "기계 제도에 사용하는 선은 여러 종류가 있다. 이들 선은 사용처에 따른 명칭, 선의 모양에따른 명칭이 각기 다르다. 다음 선의 종류중 선의 종류에 따른 분류에 속하지 않는 것은?",
       "images": [],
       "choices": [
@@ -631,7 +631,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -661,7 +661,7 @@
       "number": 22,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -691,7 +691,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -721,7 +721,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -751,7 +751,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "여기는 어디입니까?",
       "images": [
         "media/eps-topik/7347b4acac9e76a4.jpg"
@@ -783,7 +783,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/faaaf9a7ca93950d.jpg"
@@ -815,7 +815,7 @@
       "number": 27,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "이것의 맛은 어떻습니까?",
       "images": [
         "media/eps-topik/ea6daa8f67f4aae7.jpg"
@@ -847,7 +847,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a89b0e9dede6632a.jpg"
@@ -879,7 +879,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a3b38f23db7a13a9.jpg"
@@ -911,7 +911,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -941,7 +941,7 @@
       "number": 31,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -971,7 +971,7 @@
       "number": 32,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1001,7 +1001,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1031,7 +1031,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1061,7 +1061,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1091,7 +1091,7 @@
       "number": 36,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1129,7 +1129,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1167,7 +1167,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "두 사람이 대화하고 있는 곳은 어디입니까?",
       "images": [],
       "choices": [
@@ -1197,7 +1197,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "다음 중 남자가 꼭 지켜야 할 일이 아닌 것은 무엇입니까?",
       "images": [],
       "choices": [
@@ -1227,7 +1227,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 얼마를 내야 합니까?",
       "images": [],
       "choices": [

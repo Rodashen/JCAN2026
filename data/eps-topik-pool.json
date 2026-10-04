@@ -7,7 +7,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/c6cbb8b8958ee252.jpg"
@@ -38,7 +38,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/9f29cb6b1557bf97.jpg"
@@ -69,7 +69,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/5af409e96179c4aa.jpg"
@@ -100,7 +100,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/b474190b418fc363.jpg"
@@ -131,7 +131,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "컨베이어를 검사하거나 수리할 때는 스위치에 “________” 이라는 표지판을 붙여서,다른 사람이 컨베이어를 작동시키지 않도록 해야 합니다.",
       "images": [],
       "choices": [
@@ -160,7 +160,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "택시를 타는 것보다 지하철이나 버스를 이용하는 것이 돈이 덜 ________. 택시는 편하지\n만 좀 비쌉니다. 그래서 저는 지하철이나 버스를 자주 이용합니다.",
       "images": [],
       "choices": [
@@ -189,7 +189,7 @@
       "number": 7,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "제 방에 침대하고 책상이 필요합니다. 그래서 내일 ________에 가서 침대하고 책상을 사려고 합니다.",
       "images": [],
       "choices": [
@@ -218,7 +218,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저는 지하철을 타고 회사에 다닙니다. 그런데 출퇴근 시간에는 지하철에 사람이 너무 많\n아서 지하철을 타기가 ______.",
       "images": [],
       "choices": [
@@ -247,8 +247,8 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
-      "prompt": "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다 이 표지가 나타내는 뜻은 무 . 엇입니까?",
+      "instruction": "다음 질문에 답하십시오.",
+      "prompt": "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다. 이 표지가 나타내는 뜻은 무엇입니까?",
       "images": [
         "media/eps-topik/2ce781cd67430aca.jpg"
       ],
@@ -278,7 +278,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 표의 내용과 맞지 않는 것을 고르십시오.",
       "images": [
         "media/eps-topik/f8224b871938a296.jpg"
@@ -309,7 +309,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 중 아래 글의 내용에서 나오지 않은 것은 무엇입니까?\n작업장에서는 안전을 위하여 보호구를 착용해야 합니다.보호구에는 머리를 보호하기 위한 안전모,발을 보호하기 위한 안전화,눈을 보호하기 위한 보안경 등이 있습\n니다.",
       "images": [],
       "choices": [
@@ -346,8 +346,8 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
-      "prompt": "소주를 두 병 마셨습니다 얼마를 내야 합니까 . ?",
+      "instruction": "다음 질문에 답하십시오.",
+      "prompt": "소주를 두 병 마셨습니다. 얼마를 내야 합니까?",
       "images": [
         "media/eps-topik/73ab3118ada9f2b1.jpg"
       ],
@@ -377,7 +377,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: 어서 오세요. 뭘 드릴까요?\n나: 오렌지 있어요?\n가: 네, 이건 천 원이고 저건 천오백 원이에요.\n나: 그럼, ________.",
       "images": [],
       "choices": [
@@ -406,7 +406,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：여보세요. 거기 한국은행이지요?\n나：아닙니다. ______________. 여기는 우체국입니다.",
       "images": [],
       "choices": [
@@ -435,7 +435,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 같은 것을 고르십시오.\n학교에 갈 때 집 앞에 하얀 강아지가 한 마리 있는 것을 보았습니다. 그런데 학교가\n끝나고 집에 왔을 때도 그 강아지가 우리 집 앞에 있었습니다. 아마 길을 잃어버린\n것 같았습니다. 나는 그 강아지를 집으로 데리고 들어와서 깨끗이 목욕을 시키고\n먹을 것을 주었습니다. 그리고 종이에“강아지를 잃어버린 분은 연락하십시오.”라고\n써서 우리 집 대문 앞에 붙였습니다. 그러나 한 달이 지나도 주인이 나타나지 않았\n습니다. 그래서우리가족은그강아지를 키우기로했습니다. 나는아주기뻤습니다.\n학교가 끝나고 집에 가면 강아지는 꼬리를 흔들며 나를 반갑게 맞이해 줍니다.",
       "images": [],
       "choices": [
@@ -464,7 +464,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 다른 것을 고르십시오.\n저는 인천에 있는 공장에서 일합니다. 우리 공장에서는 약병과 술병 그리고 음료수\n병 같은 여러 가지 유리병을 만듭니다. 제 친구도 저와 같은 공장에서 일하는데, 이\n번 달에 우리는근무 시간이 서로달라서 만날 수가없었습니다. 저는 아침7시부터\n오후 3시까지 일하고, 제 친구는 오후 3시부터 밤 10시까지 일했습니다. 일하는 시\n간이 다르니까, 만나서 같이 이야기를 하거나 놀 시간이 별로 없었습니다. 다음 달\n에는 근무 시간이 같았으면 좋겠습니다.",
       "images": [],
       "choices": [
@@ -493,8 +493,8 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "prompt": "자동차가 고장이 나서 고쳐야 합니다 어떤 표지를 찾아야 합니까?",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
+      "prompt": "자동차가 고장이 나서 고쳐야 합니다. 어떤 표지를 찾아야 합니까?",
       "images": [],
       "choices": [
         {
@@ -530,7 +530,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 내용에 맞는 표지를 고르십시오.\n여기에는 물이 닿으면 안 됩니다. 물기가 없게 하십시오.",
       "images": [],
       "choices": [
@@ -567,7 +567,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "공작기계의 구비조건으로 거리가 먼 것은?",
       "images": [],
       "choices": [
@@ -596,7 +596,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "기계 제도에 사용하는 선은 여러 종류가 있다. 이들 선은 사용처에 따른 명칭, 선의 모양에따른 명칭이 각기 다르다. 다음 선의 종류중 선의 종류에 따른 분류에 속하지 않는 것은?",
       "images": [],
       "choices": [
@@ -625,7 +625,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -656,7 +656,7 @@
       "number": 22,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -687,7 +687,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -718,7 +718,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -749,7 +749,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "여기는 어디입니까?",
       "images": [
         "media/eps-topik/7347b4acac9e76a4.jpg"
@@ -782,7 +782,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/faaaf9a7ca93950d.jpg"
@@ -815,7 +815,7 @@
       "number": 27,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "이것의 맛은 어떻습니까?",
       "images": [
         "media/eps-topik/ea6daa8f67f4aae7.jpg"
@@ -848,7 +848,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a89b0e9dede6632a.jpg"
@@ -881,7 +881,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a3b38f23db7a13a9.jpg"
@@ -914,7 +914,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -945,7 +945,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -976,7 +976,7 @@
       "number": 32,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1007,7 +1007,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1038,7 +1038,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1069,7 +1069,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1100,7 +1100,7 @@
       "number": 36,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1139,7 +1139,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1178,7 +1178,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "두 사람이 대화하고 있는 곳은 어디입니까?",
       "images": [],
       "choices": [
@@ -1209,7 +1209,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "다음 중 남자가 꼭 지켜야 할 일이 아닌 것은 무엇입니까?",
       "images": [],
       "choices": [
@@ -1240,7 +1240,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 얼마를 내야 합니까?",
       "images": [],
       "choices": [
@@ -1271,7 +1271,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/572246b077377ae4.jpg"
@@ -1302,7 +1302,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/ac116fd1e31c9cf7.jpg"
@@ -1333,7 +1333,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/808d038be2046576.jpg"
@@ -1364,7 +1364,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/0adb454e8b4c961a.jpg"
@@ -1395,7 +1395,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저는 인터넷 검색하고 인터넷 채팅을 자주 해요. 그리고 인터넷 쇼핑도 많이 해요. 인터넷 쇼핑은 ________. 그래서 저는 주로 인터넷에서 옷을 많이 사요.",
       "images": [],
       "choices": [
@@ -1424,7 +1424,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "돼지를 키우는 곳을 ________ (이)라고 합니다.",
       "images": [],
       "choices": [
@@ -1453,7 +1453,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "이번 휴가에는 ________을/를 하려고 합니다. 제주도에 가서 구경도 하고 맛있는 음식도 먹 을 것입니다",
       "images": [],
       "choices": [
@@ -1482,7 +1482,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "지하철이나 극장, 은행, 우체국 등에서는 조용히 해야 합니다. 공공장소에서는 ________ 안 됩니다.",
       "images": [],
       "choices": [
@@ -1511,7 +1511,7 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음은 불이 났을 때 소화기를 사용하는 방법입니다 다음 중 . ㉯의 설명과 관계있는 그 림은 무엇입니까?\n㉮ 화재 시 소화기를 들고 불이 난 곳으로 간다.\n㉯ 안전핀을 힘껏 뽑는다.\n㉰ 손잡이를 세게 잡는다.\n㉱ 불이 난 곳을 향해 골고루 뿌린다.",
       "images": [],
       "choices": [
@@ -1548,7 +1548,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 광고는 무엇을 나타내고 있습니까?",
       "images": [
         "media/eps-topik/efc16abc2623da76.jpg"
@@ -1579,7 +1579,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 안내문의 내용과 다른 것은 무엇입니까?",
       "images": [
         "media/eps-topik/cd9f75633e2c3004.jpg"
@@ -1610,7 +1610,7 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음은 서울의 한 주간 날씨입니다. 잘못 설명한 것은 무엇입니까?",
       "images": [
         "media/eps-topik/39ae1525acabc3f8.jpg"
@@ -1641,7 +1641,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：내일 시간 있어요? 내일 좀 만나고 싶은데요.\n나：죄송해요. 내일은 제가 _________이/가있어요. 고향친구들을 만나기로 했어요.",
       "images": [],
       "choices": [
@@ -1670,7 +1670,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: 수루 씨는 여기까지 어떻게 왔어요?\n나: 저는 회사가 가까워서 ________.",
       "images": [],
       "choices": [
@@ -1699,7 +1699,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "다음 중 베트남 음식이 아닌 것은 무엇입니까?\n베트남에는 쌀이 많이 납니다. 그래서 쌀을 이용한음식이 많습니다. 그중에서볶음\n밥이나 쌀로 만든 쌀국수가 유명하지요. 쌀국수는 베트남 말로 ‘포’라고 부르는데,\n베트남 사람들뿐 아니라 한국 사람들도 좋아하는 음식입니다. 그리고 얇은 종이처\n럼 생긴 것에 여러 가지 야채와 고기를 넣어 한국의 김밥처럼 말아 먹는 음식이 있\n는데, 이 얇은 종이처럼 생긴 것도 쌀로 만듭니다. 한국에서는 이 음식을‘월남쌈’이\n라고 부릅니다. 베트남 음식은 한국 사람들의 입맛에도 맞아서 베트남 음식을 좋아\n하는 한국 사람들이 점점 많아지고 있습니다.",
       "images": [],
       "choices": [
@@ -1728,7 +1728,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 사람은 한국 음식 중에서 무엇을 제일 좋아합니까?\n저는 한국 음식을 좋아합니다. 그래서 한국 식당에 자주 갑니다. 한국 식당에서 불\n고기, 김치찌개, 된장찌개, 순두부찌개, 비빔밥을 팝니다. 저는 그 중에서 불고기를\n제일 좋아하지만 비싸기 때문에 자주 먹을 수 없습니다.",
       "images": [],
       "choices": [
@@ -1757,7 +1757,7 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음과 같은 표지판은 어떤 곳에서 볼 수 있습니까?",
       "images": [
         "media/eps-topik/48bd20c39cd71231.jpg"
@@ -1788,7 +1788,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 중 \"정지하십시오. (멈추십시오.)\" 를 뜻하는 표지판은 어느 것입니까?",
       "images": [],
       "choices": [
@@ -1825,7 +1825,7 @@
       "number": 19,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음의 기계가공 방법 중 선반 작업시 안전사항으로 틀린 것은?",
       "images": [],
       "choices": [
@@ -1854,7 +1854,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1885,7 +1885,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1916,7 +1916,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1947,7 +1947,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -1978,7 +1978,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "몇 월 며칠입니까?",
       "images": [
         "media/eps-topik/c5cf9635618954e4.jpg"
@@ -2011,7 +2011,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "이것들의 맛은 어떻습니까?",
       "images": [
         "media/eps-topik/595c53373c23db14.jpg"
@@ -2044,7 +2044,7 @@
       "number": 27,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a53be5d312387374.jpg"
@@ -2077,7 +2077,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/b245ebce2435e016.jpg"
@@ -2110,7 +2110,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "여기는 어디입니까?",
       "images": [
         "media/eps-topik/e72140c2924c7b7d.jpg"
@@ -2143,7 +2143,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2174,7 +2174,7 @@
       "number": 31,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2205,7 +2205,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2236,7 +2236,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2267,7 +2267,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2298,7 +2298,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2329,7 +2329,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2368,7 +2368,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -2407,7 +2407,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 어떻게 하겠습니까?",
       "images": [],
       "choices": [
@@ -2438,7 +2438,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 지금 어떻게 하겠습니까?",
       "images": [],
       "choices": [
@@ -2469,7 +2469,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "경기도 안산시 원곡동에 대한 설명으로 맞지 않는 것은 무엇입니까?",
       "images": [],
       "choices": [
@@ -2500,7 +2500,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/eef34702c351e054.jpg"
@@ -2531,7 +2531,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/d0b7cc3f0e0a8570.jpg"
@@ -2562,7 +2562,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/05f1fe6c550ca0a0.jpg"
@@ -2593,7 +2593,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/e65bb1000958001f.jpg"
@@ -2624,7 +2624,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "하루 종일 일한 후에는 몸에서 땀 냄새가 많이 납니다. 그러니까 퇴근하고 집에 돌아오면 꼭 샤워를 하고 옷을 깨끗하게 ________.",
       "images": [],
       "choices": [
@@ -2653,7 +2653,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저와 친구는 생활 습관이 ________. 저는 아침 일찍 일어나고 일찍 잡니다. 친구\n는 밤늦게까지 공부하고 아침에 늦게 일어납니다.",
       "images": [],
       "choices": [
@@ -2682,7 +2682,7 @@
       "number": 7,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "꼭 알고 싶은 전화번호가 있으면 114로 전화하십시오. 상담원에게 그곳의 위\n치와 가게 이름을 이야기하면 전화번호를 친절하게 ________.",
       "images": [],
       "choices": [
@@ -2711,7 +2711,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "회사 사람들은 월요일부터 금요일까지 일하고, ________에는 쉽니다",
       "images": [],
       "choices": [
@@ -2740,7 +2740,7 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이 식당에서 가장 비싼 음식은 무엇입니까?\n<차림표>\n라면        3,000원\n칼국수    4,000원\n비빔밥    5,000원\n순두부    4,500원",
       "images": [],
       "choices": [
@@ -2769,7 +2769,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "직장인들이 어떻게 스트레스를 푸는지 조사했습니다 책을 읽으면서 스트레스를 푸는 . 사람은 얼마나 됩니까?",
       "images": [
         "media/eps-topik/b54cda7aa9a40c01.jpg"
@@ -2800,7 +2800,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이번 달에 안전 교육을 받을 직원은 어디로 가야 합니까?",
       "images": [
         "media/eps-topik/42be1fe866696ed6.jpg"
@@ -2831,7 +2831,7 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 안내판의 설명으로 맞지 않는 것을 고르십시오.",
       "images": [
         "media/eps-topik/3655288f9ac16f2b.jpg"
@@ -2862,7 +2862,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: 우리 같이 작업장을 청소할까요?\n나: 좋아요. 제가 ________.",
       "images": [],
       "choices": [
@@ -2891,7 +2891,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: 가족이 어디에 살아요?\n나: 아버지 _________ 어머니는 필리핀에 살아요.",
       "images": [],
       "choices": [
@@ -2920,7 +2920,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 다른 것을 고르십시오.\n지난 주말에 친구와 함께 기차를 타고 춘천에 갔습니다. 아침 10시에 출발해서 낮\n12시에도착했습니다. 춘천에서 유명한‘닭갈비’와 ‘막국수’를점심으로먹고 호수를\n구경했습니다. 맑고 넓은 호수를 보니까 내 마음도 시원해지는 것 같았습니다. 그\n후에 우리는 드라마 때문에 유명해진 남이섬을 구경하러 갔습니다. 넓은 잔디밭이\n있고, 나무가 많아 섬은 아주 아름다웠습니다. 우리는 산책도 하고 자전거도 탔습니다.\n즐거운 하루였습니다.",
       "images": [],
       "choices": [
@@ -2949,7 +2949,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 사람이 말하려고 하는 것은 무엇입니까?\n사람의 몸은자동차와 같습니다. 기름이없으면 자동차가 갈 수없는 것처럼 사람도\n음식을 먹지 않으면 움직일 수 없습니다. 특히 아침 식사는 하루 중에서 가장 중요\n한 식사입니다. 아침 식사를 하지않는 것은기름도 넣지않고 자동차를운전하려고\n하는 것과 같습니다. 아침을 잘 먹어야 그날 하루를 활기차게 보낼 수 있습니다. 그\n리고 아침을 먹지 않으면 점심을 너무 많이 먹게 되어 건강에도 좋지 않습니다.",
       "images": [],
       "choices": [
@@ -2978,7 +2978,7 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 중 \"천천히 가십시오\" 를 뜻하는 표지판은 어느 것입니까?",
       "images": [],
       "choices": [
@@ -3015,7 +3015,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "여자 화장실은 어디에 있습니까?",
       "images": [
         "media/eps-topik/a6f2ce631f9f6f6b.jpg"
@@ -3046,7 +3046,7 @@
       "number": 19,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 중 절삭가공에 해당되지 않는 것은?",
       "images": [],
       "choices": [
@@ -3075,7 +3075,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "가공 시 칩을 발생시키지 않는 공작기계는?",
       "images": [],
       "choices": [
@@ -3104,7 +3104,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3135,7 +3135,7 @@
       "number": 22,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3166,7 +3166,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3197,7 +3197,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/83c669110a44a99b.jpg"
@@ -3230,7 +3230,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/f3d0e680299cf0c0.jpg"
@@ -3263,7 +3263,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/7615fd38a7e92628.jpg"
@@ -3296,7 +3296,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/708d92f0e15045d9.jpg"
@@ -3329,7 +3329,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "날씨가 어떻습니까?",
       "images": [
         "media/eps-topik/8c66af369e4a166d.jpg"
@@ -3362,7 +3362,7 @@
       "number": 32,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3393,7 +3393,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3424,7 +3424,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3455,7 +3455,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3486,7 +3486,7 @@
       "number": 36,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3525,7 +3525,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -3564,7 +3564,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 무엇을 타겠습니까?",
       "images": [],
       "choices": [
@@ -3595,7 +3595,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 언제 약을 먹어야 합니까?",
       "images": [],
       "choices": [
@@ -3626,7 +3626,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 오늘 오후에 어디에 가겠습니까?",
       "images": [],
       "choices": [
@@ -3657,7 +3657,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/538667e7a08b9b2d.jpg"
@@ -3688,7 +3688,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/725cab47ae406298.jpg"
@@ -3719,7 +3719,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/7679bcdca7353c49.jpg"
@@ -3750,7 +3750,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/a9168518ec3fcaa9.jpg"
@@ -3781,7 +3781,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가축이나 농작물에 병이 생기기 전에 ________ 것이 중요합니다. 병이 생긴 후에치료하는 것보다 미리미리 막는 것이 훨씬 더 경제적이기 때문입니다.",
       "images": [],
       "choices": [
@@ -3810,7 +3810,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "근로자들은 1년에 한 번씩 정기적으로 몸의 건강 상태를 검사하는 ________을/를 받아야 합니다.",
       "images": [],
       "choices": [
@@ -3839,7 +3839,7 @@
       "number": 7,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "일을 다 끝낸 후에는 반드시 불을 ________ 나가세요.",
       "images": [],
       "choices": [
@@ -3868,7 +3868,7 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이 건물에 없는 것은 무엇입니까?",
       "images": [
         "media/eps-topik/ffc074e971fce7ce.jpg"
@@ -3899,7 +3899,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "소포를 보내러 우체국에 가려고 합니다 어떻게 가야 합니까 . ?",
       "images": [
         "media/eps-topik/7bc138fe22ed29bd.jpg"
@@ -3930,7 +3930,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 글과 관계가 있는 그림은 무엇입니까?\n안전사고에는 여러 가지가 있습니다. 지게차와 같은 운반 기계를 많이 사용하는 우\n리 작업장에서는 운반 기계와 고정물 사이에 끼어 다치는 일이 생길 수 있습니다.\n그러므로 항상 주의해야 합니다.",
       "images": [],
       "choices": [
@@ -3967,7 +3967,7 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 글과 관계가 있는 표지판은 무엇입니까?\n이곳은 고압 전기가 흐르는 곳입니다. 전기에 감전될 위험이 있으니 조심하십시오.",
       "images": [],
       "choices": [
@@ -4004,7 +4004,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가: ________?\n나: 기숙사예요.",
       "images": [],
       "choices": [
@@ -4033,7 +4033,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：민수 씨는 한 달에 가스비가 얼마나 ________?\n나：저는 보통 만 원쯤 내요. 집에서 거의 요리를 안 하거든요.",
       "images": [],
       "choices": [
@@ -4062,7 +4062,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 다른 것은 무엇입니까?\n무지개를 본 적이있습니까? 비가 그치\n고 나면 태양의 반대편에 보입니다. 반\n원 모양의 예쁜 띠가 나타나지요. 그 색\n은보통 빨강, 주황, 노랑, 초록, 파랑,\n남색, 보라의 7가지 색으로 부릅니다.\n그래서 일곱 색깔 무지개라고 하지요.\n사람들은 무지개를 아주 좋아합니다.",
       "images": [
         "media/eps-topik/7f74b00e428da9a4.jpg"
@@ -4093,7 +4093,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "한국에서 반찬으로 사용하고 있는 것이 아닌 것은 무엇입니까？\n한국 사람들은 식사로 밥과 반찬을 먹습니다. 밥은 쌀로 만듭니다. 반찬은 여러 가\n지가 있습니다. 고기나 생선으로 만든 반찬도 있고, 채소로 만든 반찬도 있습니다.\n방글라데시 사람들도 밥을 먹습니다. 방글라데시에서는 밥을 ‘밧’이라고 하고, 반찬\n을 ‘똘까리’라고 합니다. 한국 사람들이 잘 알고 있는‘카레’도 ‘똘까리’ 중의 하나입니다.",
       "images": [],
       "choices": [
@@ -4122,7 +4122,7 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 내용에 맞는 표지를 고르십시오.\n비상시 이 전화기를 사용하십시오.",
       "images": [],
       "choices": [
@@ -4159,7 +4159,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "이 표지는 무슨 뜻입니까?",
       "images": [
         "media/eps-topik/94b171fb5114e857.jpg"
@@ -4190,7 +4190,7 @@
       "number": 19,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "절삭온도에 관한 설명 중 틀린 것은?",
       "images": [],
       "choices": [
@@ -4219,7 +4219,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음 중 절삭온도 측정방법에 대해 잘못 설명한 것은?",
       "images": [],
       "choices": [
@@ -4248,7 +4248,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4279,7 +4279,7 @@
       "number": 22,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4310,7 +4310,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4341,7 +4341,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4372,7 +4372,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/9efdf0b8513e8f8b.jpg"
@@ -4405,7 +4405,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "몇 월 며칠입니까?",
       "images": [
         "media/eps-topik/50bbb638a5f415de.jpg"
@@ -4438,7 +4438,7 @@
       "number": 27,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/d5007e9d57768982.jpg"
@@ -4471,7 +4471,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/efa5740fcd6d2f3f.jpg"
@@ -4504,7 +4504,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4535,7 +4535,7 @@
       "number": 31,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4566,7 +4566,7 @@
       "number": 32,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4597,7 +4597,7 @@
       "number": 33,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4628,7 +4628,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4659,7 +4659,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4690,7 +4690,7 @@
       "number": 36,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4729,7 +4729,7 @@
       "number": 37,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -4768,7 +4768,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자가 여자에게 선물한 것은 무엇입니까?",
       "images": [],
       "choices": [
@@ -4807,7 +4807,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "남자는 왜 은행에 갑니까?",
       "images": [],
       "choices": [
@@ -4838,7 +4838,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "두 사람은 주말에 어디에 가겠습니까?",
       "images": [],
       "choices": [
@@ -4869,7 +4869,7 @@
       "number": 1,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/0b08f783015e912c.jpg"
@@ -4900,7 +4900,7 @@
       "number": 2,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/924fdabb07549edb.jpg"
@@ -4931,7 +4931,7 @@
       "number": 3,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/03daaa0e6fb06569.jpg"
@@ -4962,7 +4962,7 @@
       "number": 4,
       "section": "reading",
       "group": "41",
-      "instruction": "[1-4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "instruction": "다음 그림을 보고 알맞은 단어나 문장을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/3a951a38fcd708db.jpg"
@@ -4993,7 +4993,7 @@
       "number": 5,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "스트레스를 받거나 잠을 잘 못 자면 두통이 생길 수 있습니다. 그래서 쌓인 스트레스는 꼭 ________ 합니다.",
       "images": [],
       "choices": [
@@ -5022,7 +5022,7 @@
       "number": 6,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저는 이번 휴가 때 제주도에 갈 거예요. 그래서 어제 비행기 표를 ________. 오늘 숙소도\n예약했어요.",
       "images": [],
       "choices": [
@@ -5051,7 +5051,7 @@
       "number": 7,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "저는 음악 듣는 것을 좋아합니다. 운동을 할 때는 신나고 ________ 음악을 듣고 자기 전 에는 조용한 음악을 즐겨 듣습니다.",
       "images": [],
       "choices": [
@@ -5080,7 +5080,7 @@
       "number": 8,
       "section": "reading",
       "group": "42",
-      "instruction": "[5-8] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "농작물에 해로운 벌레, 병균 등을 없애기 위해서 주는 약품을________(이)라고 합니다.",
       "images": [],
       "choices": [
@@ -5109,7 +5109,7 @@
       "number": 9,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "다음은 구인 광고입니다 광고의 내용과 맞지 . 않는 것을 고르십시오",
       "images": [
         "media/eps-topik/8a34757c033233e4.jpg"
@@ -5140,7 +5140,7 @@
       "number": 10,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이 메모를 쓴 사람은 누구입니까?",
       "images": [
         "media/eps-topik/0a6aba56e3a89f35.jpg"
@@ -5171,7 +5171,7 @@
       "number": 11,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이 광고의 내용으로 알 수 없는 것을 고르십시오.",
       "images": [
         "media/eps-topik/27f7b994c89e84f0.jpg"
@@ -5202,7 +5202,7 @@
       "number": 12,
       "section": "reading",
       "group": "51",
-      "instruction": "[9-12] 다음 질문에 답하십시오 .",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "이 작업장에서 필요한 보호구는 무엇입니까?\n제가 일하는 작업장은 기계 소리 때문에 아주 시끄럽습니다. 소음이 심한 곳에서\n오래 일하면 귀가 나빠집니다. 그래서 여기에서 일할 때는 반드시 귀덮개를 착용하\n여 귀를 보호해야 합니다.",
       "images": [],
       "choices": [
@@ -5239,7 +5239,7 @@
       "number": 13,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：_______________________\n나：인도네시아에서 왔어요.",
       "images": [],
       "choices": [
@@ -5268,7 +5268,7 @@
       "number": 14,
       "section": "reading",
       "group": "52",
-      "instruction": "[13-14] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "prompt": "가：이 집은 보증금 300만 원에 __________이/가 40만원입니다.\n나：한 달에 40만원이요? 너무 비싸요. 다른 방은 없어요?",
       "images": [],
       "choices": [
@@ -5297,7 +5297,7 @@
       "number": 15,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "이 글의 내용과 다른 것은 무엇입니까?\n한국 사람들은 국물이 있는 음식을 좋아하는 것 같습니다. 밥을먹을때 항상‘국’이\n나 ‘찌개’를 같이 먹습니다. ‘국’은 물을 많이 넣고 끓인 음식입니다. ‘찌개’는 물을\n조금 넣고 된장이나 고추장, 소금, 간장 등을 넣어 끓인 음식입니다. 그래서 보통\n‘찌개’는 ‘국’보다 더㉠________. 한국 사람들이 많이 먹는‘찌개’로는‘된장찌개, 김\n치찌개’ 등이 있고, 국으로는 ‘미역국, 콩나물국’ 등이 있습니다. 추운 겨울에 이런\n뜨거운 국물이 있는 음식을 먹으면 몸이 따뜻해집니다. 한국 사람들은 보통 식사\n때 이러한 찌개나 국과 함께, 밥, 그리고 여러 가지 반찬을 먹습니다.",
       "images": [],
       "choices": [
@@ -5326,7 +5326,7 @@
       "number": 16,
       "section": "reading",
       "group": "53",
-      "instruction": "[15-16] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "instruction": "다음 글을 읽고 질문에 답하십시오.",
       "prompt": "한국에서 가장 더운 때는 언제입니까?\n캄보디아에서는 5월부터 10월까지 비가 많이 옵니다. 한국에도 비가 많이 오는 장\n마철이 있습니다. 그러나 한국의장마철은6월중순부터7월중순까지한 달정도입니다.\n한국에서는 장마가 끝난 후 한 달 동안이 가장 덥습니다. 캄보디아에서는 일\n년 중 4월이 가장 덥습니다.",
       "images": [],
       "choices": [
@@ -5355,7 +5355,7 @@
       "number": 17,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "다음 내용에 맞는 표지를 고르십시오.\n일을 하는 동안 담배를 피우면 안 됩니다.",
       "images": [],
       "choices": [
@@ -5392,7 +5392,7 @@
       "number": 18,
       "section": "reading",
       "group": "54",
-      "instruction": "[17-18] 다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "instruction": "다음 내용을 보고 알맞은 것을 고르십시오.",
       "prompt": "이 표지는 무슨 뜻입니까?",
       "images": [
         "media/eps-topik/8fc622424d1f0477.jpg"
@@ -5423,7 +5423,7 @@
       "number": 19,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "물과 원액을 혼합하여 사용하며 점성이 낮고 냉각효과가 우수하여 고속절삭 및 연삭가공액으로 많이 사용되는 절삭유는?",
       "images": [],
       "choices": [
@@ -5452,7 +5452,7 @@
       "number": 20,
       "section": "reading",
       "group": "55",
-      "instruction": "[19-20] 다음 질문에 답하십시오.",
+      "instruction": "다음 질문에 답하십시오.",
       "prompt": "선반에서 테이퍼를 가공하는 방법이 아닌 것은?",
       "images": [],
       "choices": [
@@ -5481,7 +5481,7 @@
       "number": 21,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5512,7 +5512,7 @@
       "number": 22,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5543,7 +5543,7 @@
       "number": 23,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5574,7 +5574,7 @@
       "number": 24,
       "section": "listening",
       "group": "43",
-      "instruction": "[21-24] 들은 것을 고르십시오.",
+      "instruction": "들은 것을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5605,7 +5605,7 @@
       "number": 25,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "사람들이 무엇을 하고 있습니까?",
       "images": [
         "media/eps-topik/6509608b94a88c37.jpg"
@@ -5638,7 +5638,7 @@
       "number": 26,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/53202692e56abdfd.jpg"
@@ -5671,7 +5671,7 @@
       "number": 27,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "생일이 언제입니까?",
       "images": [
         "media/eps-topik/020486420de4499f.jpg"
@@ -5704,7 +5704,7 @@
       "number": 28,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "여기에서 무엇을 할 수 있습니까?",
       "images": [
         "media/eps-topik/d892991a80541673.jpg"
@@ -5737,7 +5737,7 @@
       "number": 29,
       "section": "listening",
       "group": "44",
-      "instruction": "[25-29] 다옴을 듣고 그림이 알맞은 답을 고르십시오.",
+      "instruction": "다음을 듣고 알맞은 답을 고르십시오.",
       "prompt": "",
       "images": [
         "media/eps-topik/83af7273fde2e1d1.jpg"
@@ -5770,7 +5770,7 @@
       "number": 30,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5801,7 +5801,7 @@
       "number": 31,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5832,7 +5832,7 @@
       "number": 32,
       "section": "listening",
       "group": "45",
-      "instruction": "[30-33] 다음을 듣고 믈음에 알믖은 대 담을 고르십시오.",
+      "instruction": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5863,7 +5863,7 @@
       "number": 34,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5894,7 +5894,7 @@
       "number": 35,
       "section": "listening",
       "group": "46",
-      "instruction": "[34-35] 다음을 듣고 이어지는 말을 고르십시오.",
+      "instruction": "다음을 듣고 이어지는 말을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5925,7 +5925,7 @@
       "number": 36,
       "section": "listening",
       "group": "47",
-      "instruction": "[36-37] 다음을 듣고 그림 내용과 관계 있는 그림을 고르십시오.",
+      "instruction": "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5964,7 +5964,7 @@
       "number": 38,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "",
       "images": [],
       "choices": [
@@ -5995,7 +5995,7 @@
       "number": 39,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "두 사람이 대화하고 있는 곳은 어디입니까?",
       "images": [],
       "choices": [
@@ -6026,7 +6026,7 @@
       "number": 40,
       "section": "listening",
       "group": "48",
-      "instruction": "[38-40] 다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "instruction": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "prompt": "들은 내용과 같은 것을 고르십시오.",
       "images": [],
       "choices": [
@@ -6361,6 +6361,1590 @@
         "answerPage": 330,
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "checkedCopy": "https://www.koreanexamhelp.com/wp-content/uploads/2025/01/EPS-TOPIK-New-Syllabus-Book-02-2.pdf"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u3-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "머리가 너무 길어요. 내일 머리를 자르러 ________에 갈 거예요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "커피숍",
+          "images": []
+        },
+        {
+          "text": "편의점",
+          "images": []
+        },
+        {
+          "text": "우체국",
+          "images": []
+        },
+        {
+          "text": "미용실",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 3,
+        "page": 78,
+        "item": 4,
+        "answerPage": 363,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u7-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "김치찌개가 너무 ________. 조심해서 천천히 드세요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "적습니다",
+          "images": []
+        },
+        {
+          "text": "비쌉니다",
+          "images": []
+        },
+        {
+          "text": "맛있습니다",
+          "images": []
+        },
+        {
+          "text": "뜨겁습니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 7,
+        "page": 118,
+        "item": 3,
+        "answerPage": 363,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u7-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "제 고향은 ________. 저는 한국에 와서 처음 겨울을 경험했습니다. 너무 추워서 깜짝 놀랐습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "바람이 많이 붑니다",
+          "images": []
+        },
+        {
+          "text": "비가 자주 옵니다",
+          "images": []
+        },
+        {
+          "text": "날씨가 항상 따뜻합니다",
+          "images": []
+        },
+        {
+          "text": "날씨가 너무 춥습니다",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 7,
+        "page": 118,
+        "item": 4,
+        "answerPage": 363,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u9-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "커피숍에 갔어요. 커피를 한 ________ 마셨어요.",
+      "images": [],
+      "choices": [
+        {
+          "text": "명",
+          "images": []
+        },
+        {
+          "text": "권",
+          "images": []
+        },
+        {
+          "text": "잔",
+          "images": []
+        },
+        {
+          "text": "개",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 9,
+        "page": 138,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u11-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "요즘 회사 일이 바빠서 청소를 하지 못했습니다. 오늘은 청소도 하고 쓰레기도 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "만들 겁니다",
+          "images": []
+        },
+        {
+          "text": "버릴 겁니다",
+          "images": []
+        },
+        {
+          "text": "보낼 겁니다",
+          "images": []
+        },
+        {
+          "text": "바꿀 겁니다",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 11,
+        "page": 158,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u12-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "회사가 집에서 아주 ________. 그래서 저는 매일 걸어서 출근합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "바쁩니다",
+          "images": []
+        },
+        {
+          "text": "가깝습니다",
+          "images": []
+        },
+        {
+          "text": "멋있습니다",
+          "images": []
+        },
+        {
+          "text": "괜찮습니다",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 12,
+        "page": 168,
+        "item": 3,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u13-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "요즘 일이 많아서 너무 ________. 쉴 시간이 별로 없어서 너무 피곤합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "바쁩니다",
+          "images": []
+        },
+        {
+          "text": "편합니다",
+          "images": []
+        },
+        {
+          "text": "심심합니다",
+          "images": []
+        },
+        {
+          "text": "한가합니다",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 13,
+        "page": 178,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u15-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "어제 날씨가 아주 더웠어요. 그래서 짧은 바지를 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "입었어요",
+          "images": []
+        },
+        {
+          "text": "버렸어요",
+          "images": []
+        },
+        {
+          "text": "정리했어요",
+          "images": []
+        },
+        {
+          "text": "교환했어요",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 15,
+        "page": 198,
+        "item": 3,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u15-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "제 가족사진이에요. 동생은 키가 작고 모자를 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "입고 있어요",
+          "images": []
+        },
+        {
+          "text": "타고 있어요",
+          "images": []
+        },
+        {
+          "text": "신고 있어요",
+          "images": []
+        },
+        {
+          "text": "쓰고 있어요",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 15,
+        "page": 198,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u16-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "다음 달에 원룸 계약이 끝납니다. 그래서 부동산에 가서 집을 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "소개해야 합니다",
+          "images": []
+        },
+        {
+          "text": "청소해야 합니다",
+          "images": []
+        },
+        {
+          "text": "정리해야 합니다",
+          "images": []
+        },
+        {
+          "text": "알아봐야 합니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 16,
+        "page": 208,
+        "item": 3,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u16-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "집에서 지하철역이 가깝습니다. 그리고 편의 시설도 많아서 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "바쁩니다",
+          "images": []
+        },
+        {
+          "text": "편리합니다",
+          "images": []
+        },
+        {
+          "text": "시원합니다",
+          "images": []
+        },
+        {
+          "text": "재미있습니다",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 16,
+        "page": 208,
+        "item": 4,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u17-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "휴가 때 친구하고 부산에 여행을 갈 겁니다. 싸고 좋은 호텔이 있어서 오늘 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "양보했습니다",
+          "images": []
+        },
+        {
+          "text": "정리했습니다",
+          "images": []
+        },
+        {
+          "text": "처방했습니다",
+          "images": []
+        },
+        {
+          "text": "예약했습니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 17,
+        "page": 218,
+        "item": 4,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u18-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "제 취미는 ________입니다. 그래서 저는 시간이 있을 때마다 바다에 가서 물고기를 잡습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "여행",
+          "images": []
+        },
+        {
+          "text": "등산",
+          "images": []
+        },
+        {
+          "text": "낚시",
+          "images": []
+        },
+        {
+          "text": "독서",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 228,
+        "item": 3,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u18-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 ________을/를 좋아합니다. 주말마다 회사 동료들과 축구를 하거나 배드민턴을 칩니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "운동",
+          "images": []
+        },
+        {
+          "text": "음식",
+          "images": []
+        },
+        {
+          "text": "날씨",
+          "images": []
+        },
+        {
+          "text": "쇼핑",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 228,
+        "item": 4,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u20-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 글 쓰는 것을 좋아합니다. 요즘은 ________에 한국 생활이나 문화를 소개하는 글을 쓰고 있습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "메뉴판",
+          "images": []
+        },
+        {
+          "text": "요리법",
+          "images": []
+        },
+        {
+          "text": "블로그",
+          "images": []
+        },
+        {
+          "text": "동호회",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 20,
+        "page": 248,
+        "item": 3,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u21-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "한국에서 처음 병원에 가면 신분증을 ________. 신분증이 없으면 접수를 할 수 없습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "알아봐야 합니다",
+          "images": []
+        },
+        {
+          "text": "기다려야 합니다",
+          "images": []
+        },
+        {
+          "text": "신청해야 합니다",
+          "images": []
+        },
+        {
+          "text": "보여 줘야 합니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 21,
+        "page": 258,
+        "item": 4,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u22-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "아침부터 열이 났습니다. 그래서 약국에 가서 ________를 샀습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "지사제",
+          "images": []
+        },
+        {
+          "text": "소화제",
+          "images": []
+        },
+        {
+          "text": "해열제",
+          "images": []
+        },
+        {
+          "text": "진통제",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 22,
+        "page": 268,
+        "item": 2,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u22-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "차가운 음료수를 많이 마셔서 ________. 그래서 집에 있는 약을 먹었습니다. 약을 먹은 후에도 계속 배가 아프면 병원에 가려고 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "배탈이 났습니다",
+          "images": []
+        },
+        {
+          "text": "기침을 했습니다",
+          "images": []
+        },
+        {
+          "text": "눈병이 났습니다",
+          "images": []
+        },
+        {
+          "text": "다리를 다쳤습니다",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 22,
+        "page": 268,
+        "item": 3,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u23-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 고향에 물건을 보낼 때 ________ 우편을 이용합니다. 비행기로 보내기 때문에 배보다 비싸지만 빨리 도착하니까 좋습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "항공",
+          "images": []
+        },
+        {
+          "text": "선박",
+          "images": []
+        },
+        {
+          "text": "일반",
+          "images": []
+        },
+        {
+          "text": "등기",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 23,
+        "page": 278,
+        "item": 2,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u23-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "택배를 보낼 때에는 먼저 상자를 잘 ________. 그렇지 않으면 배송 중에 상자 안에 들어 있는 물건이 깨질 수도 있습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "포장해야 합니다",
+          "images": []
+        },
+        {
+          "text": "배송해야 합니다",
+          "images": []
+        },
+        {
+          "text": "가지고 와야 합니다",
+          "images": []
+        },
+        {
+          "text": "저울에 올려야 합니다",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 23,
+        "page": 278,
+        "item": 4,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u24-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 돈을 찾거나 보낼 때 ________를 이용합니다. 카드를 넣고 버튼만 누르면 되니까 편리합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "계산기",
+          "images": []
+        },
+        {
+          "text": "세탁기",
+          "images": []
+        },
+        {
+          "text": "휴대 전화",
+          "images": []
+        },
+        {
+          "text": "현금 인출기",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 24,
+        "page": 288,
+        "item": 2,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u24-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "고향에서 바꿔 온 한국 돈을 다 썼습니다. 월급날까지 10일이나 남아서 우리 나라 돈을 한국 돈으로 ________을 하려고 합니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "송금",
+          "images": []
+        },
+        {
+          "text": "입금",
+          "images": []
+        },
+        {
+          "text": "환전",
+          "images": []
+        },
+        {
+          "text": "예금",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 24,
+        "page": 288,
+        "item": 3,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u25-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 다음 달부터 무료 직업 훈련을 받으려고 합니다. 직업 훈련은 인터넷으로만 신청할 수 있습니다. 모집 기간에 센터 홈페이지에서 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "수업을 받을 수 있습니다",
+          "images": []
+        },
+        {
+          "text": "수업료를 알 수 있습니다",
+          "images": []
+        },
+        {
+          "text": "접수 장소를 확인하면 됩니다",
+          "images": []
+        },
+        {
+          "text": "원하는 수업을 신청하면 됩니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 25,
+        "page": 298,
+        "item": 3,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u26-r1",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "밥을 먹을 때에는 숟가락을 쓰고 반찬을 먹을 때는 젓가락을 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "비교합니다",
+          "images": []
+        },
+        {
+          "text": "정리합니다",
+          "images": []
+        },
+        {
+          "text": "포장합니다",
+          "images": []
+        },
+        {
+          "text": "사용합니다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 26,
+        "page": 308,
+        "item": 1,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u26-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "한국은 제 고향보다 춥습니다. 날씨가 쌀쌀해지면 ________을/를 해야 됩니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "난방",
+          "images": []
+        },
+        {
+          "text": "냉방",
+          "images": []
+        },
+        {
+          "text": "수리",
+          "images": []
+        },
+        {
+          "text": "교환",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 26,
+        "page": 308,
+        "item": 2,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u27-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "저는 얼마 전에 이사를 했습니다. 이제 집 정리가 끝나서 주말에 ________. 동료들을 집으로 초대해서 즐거운 시간을 보내고 싶습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "집에서 쉴 수 없습니다",
+          "images": []
+        },
+        {
+          "text": "집들이를 하려고 합니다",
+          "images": []
+        },
+        {
+          "text": "청소해야 할 곳이 많습니다",
+          "images": []
+        },
+        {
+          "text": "이사할 집을 보러 갔습니다",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 27,
+        "page": 318,
+        "item": 3,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u28-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "설날에 대리님이 회사 사람들을 대리님 집에 초대했습니다. 대리님이 직접 떡국을 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "팔았습니다",
+          "images": []
+        },
+        {
+          "text": "끓였습니다",
+          "images": []
+        },
+        {
+          "text": "끝냈습니다",
+          "images": []
+        },
+        {
+          "text": "읽었습니다",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 28,
+        "page": 328,
+        "item": 3,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u28-r4",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "이번 추석 연휴에는 고향 친구들하고 같이 집에서 고향 음식을 만들어 먹었습니다. 그리고 저녁에는 보름달을 보고 소원을 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "빌었습니다",
+          "images": []
+        },
+        {
+          "text": "차렸습니다",
+          "images": []
+        },
+        {
+          "text": "장만했습니다",
+          "images": []
+        },
+        {
+          "text": "만들었습니다",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 28,
+        "page": 328,
+        "item": 4,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u29-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "동료와 쉬는 시간에 담배를 피웠습니다. 담배를 피운 후에 담배꽁초를 쓰레기통에 ________.",
+      "images": [],
+      "choices": [
+        {
+          "text": "버렸습니다",
+          "images": []
+        },
+        {
+          "text": "내렸습니다",
+          "images": []
+        },
+        {
+          "text": "걸렸습니다",
+          "images": []
+        },
+        {
+          "text": "빌렸습니다",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 29,
+        "page": 338,
+        "item": 2,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u30-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "42",
+      "instruction": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "prompt": "요즘 ________이/가 인기를 끌고 있습니다. 그래서 한국에 여행 와서 화장품을 사는 사람들이 많습니다.",
+      "images": [],
+      "choices": [
+        {
+          "text": "K-뷰티",
+          "images": []
+        },
+        {
+          "text": "K-푸드",
+          "images": []
+        },
+        {
+          "text": "K-웹툰",
+          "images": []
+        },
+        {
+          "text": "K-예능",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 30,
+        "page": 348,
+        "item": 2,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u8-r2",
+      "section": "reading",
+      "number": 5,
+      "group": "55",
+      "instruction": "다음 단어와 의미가 비슷한 말은 무엇입니까?",
+      "prompt": "연세",
+      "images": [],
+      "choices": [
+        {
+          "text": "이름",
+          "images": []
+        },
+        {
+          "text": "나이",
+          "images": []
+        },
+        {
+          "text": "고향",
+          "images": []
+        },
+        {
+          "text": "국적",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 8,
+        "page": 128,
+        "item": 2,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u19-r3",
+      "section": "reading",
+      "number": 5,
+      "group": "55",
+      "instruction": "다음 단어의 반대말은 무엇입니까?",
+      "prompt": "짜다",
+      "images": [],
+      "choices": [
+        {
+          "text": "덥다",
+          "images": []
+        },
+        {
+          "text": "쉽다",
+          "images": []
+        },
+        {
+          "text": "차갑다",
+          "images": []
+        },
+        {
+          "text": "싱겁다",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 19,
+        "page": 238,
+        "item": 3,
+        "answerPage": 365,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u10-r4",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/book1-sale.png"
+      ],
+      "choices": [
+        {
+          "text": "휴지는 할인을 안 합니다.",
+          "images": []
+        },
+        {
+          "text": "9월 12일까지 싸게 팝니다.",
+          "images": []
+        },
+        {
+          "text": "포도는 한 상자에 17,900원입니다.",
+          "images": []
+        },
+        {
+          "text": "콜라는 한 병을 사면 한 병을 더 줍니다.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 10,
+        "page": 148,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u12-r4",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/book1-ticket.png"
+      ],
+      "choices": [
+        {
+          "text": "기차 타는 곳은 5번입니다.",
+          "images": []
+        },
+        {
+          "text": "화요일에 부산으로 가는 기차입니다.",
+          "images": []
+        },
+        {
+          "text": "기차는 오후 2시 30분에 출발합니다.",
+          "images": []
+        },
+        {
+          "text": "기차표의 가격은 육만 원이 넘습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 12,
+        "page": 168,
+        "item": 4,
+        "answerPage": 364,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u24-r4",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/book1-bankbook.png"
+      ],
+      "choices": [
+        {
+          "text": "예금주는 민민아웅입니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람은 통장에 서명을 했습니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람은 돈을 한 번도 찾지 않았습니다.",
+          "images": []
+        },
+        {
+          "text": "이 사람의 연락처는 067-1236-4185입니다.",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 24,
+        "page": 288,
+        "item": 4,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "hrdk-2024-v1-u25-r4",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "prompt": "",
+      "images": [
+        "media/eps-topik/book1-festival.png"
+      ],
+      "choices": [
+        {
+          "text": "축제는 이틀 동안 열립니다.",
+          "images": []
+        },
+        {
+          "text": "오전에는 축구 경기를 합니다.",
+          "images": []
+        },
+        {
+          "text": "노래 대회는 두 시에 끝납니다.",
+          "images": []
+        },
+        {
+          "text": "시상식 후 축하 공연이 있습니다.",
+          "images": []
+        }
+      ],
+      "answer": 1,
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 25,
+        "page": 298,
+        "item": 4,
+        "answerPage": 366,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en"
+      }
+    },
+    {
+      "id": "jcan-book1-chart-1",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 그래프를 보고 질문에 답하십시오.",
+      "prompt": "여가 생활 만족도가 가장 높은 해는 언제입니까?",
+      "images": [
+        "media/eps-topik/book1-trend.png"
+      ],
+      "choices": [
+        {
+          "text": "2020년",
+          "images": []
+        },
+        {
+          "text": "2021년",
+          "images": []
+        },
+        {
+          "text": "2022년",
+          "images": []
+        },
+        {
+          "text": "2023년",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "explanation": "2023년의 만족도는 60.7%로 가장 높습니다.",
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 227,
+        "item": 1,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "kind": "adapted",
+        "note": "JCAN practice question based on the Book 1 chart; the answer is checked against the chart, not an official textbook answer key."
+      }
+    },
+    {
+      "id": "jcan-book1-chart-2",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 그래프를 보고 질문에 답하십시오.",
+      "prompt": "다음 그래프의 내용과 같은 것을 고르십시오.",
+      "images": [
+        "media/eps-topik/book1-trend.png"
+      ],
+      "choices": [
+        {
+          "text": "2021년의 만족도는 50%를 넘었습니다.",
+          "images": []
+        },
+        {
+          "text": "2020년부터 2023년까지 매년 만족도가 높아졌습니다.",
+          "images": []
+        },
+        {
+          "text": "2022년의 만족도는 2020년보다 높았습니다.",
+          "images": []
+        },
+        {
+          "text": "2023년의 만족도는 2022년보다 낮았습니다.",
+          "images": []
+        }
+      ],
+      "answer": 2,
+      "explanation": "2022년 56.6%는 2020년 52.5%보다 높습니다. 2021년에는 49.7%로 낮아졌습니다.",
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 227,
+        "item": 2,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "kind": "adapted",
+        "note": "JCAN practice question based on the Book 1 chart; the answer is checked against the chart, not an official textbook answer key."
+      }
+    },
+    {
+      "id": "jcan-book1-chart-3",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 그래프를 보고 질문에 답하십시오.",
+      "prompt": "한국인이 가장 많이 참여한 여가 활동은 무엇입니까?",
+      "images": [
+        "media/eps-topik/book1-activities.png"
+      ],
+      "choices": [
+        {
+          "text": "TV 시청",
+          "images": []
+        },
+        {
+          "text": "산책 및 걷기",
+          "images": []
+        },
+        {
+          "text": "쇼핑/외식",
+          "images": []
+        },
+        {
+          "text": "친구 만남",
+          "images": []
+        }
+      ],
+      "answer": 0,
+      "explanation": "TV 시청은 60.8%로 가장 높습니다.",
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 227,
+        "item": 3,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "kind": "adapted",
+        "note": "JCAN practice question based on the Book 1 chart; the answer is checked against the chart, not an official textbook answer key."
+      }
+    },
+    {
+      "id": "jcan-book1-chart-4",
+      "section": "reading",
+      "number": 9,
+      "group": "51",
+      "instruction": "다음 그래프를 보고 질문에 답하십시오.",
+      "prompt": "다음 그래프의 내용과 같은 것을 고르십시오.",
+      "images": [
+        "media/eps-topik/book1-activities.png"
+      ],
+      "choices": [
+        {
+          "text": "친구를 만난 비율은 25.3%입니다.",
+          "images": []
+        },
+        {
+          "text": "쇼핑/외식의 비율은 잡담/통화하기보다 높습니다.",
+          "images": []
+        },
+        {
+          "text": "모바일 콘텐츠/OTT 시청의 비율은 43.5%입니다.",
+          "images": []
+        },
+        {
+          "text": "산책 및 걷기의 비율은 모바일 콘텐츠/OTT 시청보다 높습니다.",
+          "images": []
+        }
+      ],
+      "answer": 3,
+      "explanation": "산책 및 걷기 43.5%는 모바일 콘텐츠/OTT 시청 43.3%보다 높습니다.",
+      "provenance": {
+        "publisher": "HRD Korea",
+        "title": "2024 NEW Standard Korean Textbook 1",
+        "edition": "2024 (June 2025 corrected copy)",
+        "book": 1,
+        "unit": 18,
+        "page": 227,
+        "item": 4,
+        "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
+        "kind": "adapted",
+        "note": "JCAN practice question based on the Book 1 chart; the answer is checked against the chart, not an official textbook answer key."
       }
     }
   ],

@@ -54,3 +54,24 @@ test('invalid bank URLs and answer keys are rejected',()=>{
 test('remaining time is rounded up and never goes negative',()=>{
   assert.equal(formatTime(1500000),'25:00');assert.equal(formatTime(1001),'00:02');assert.equal(formatTime(-30),'00:00');
 });
+
+test('listening-first full exams transition to reading, lock listening, and score both sections',()=>{
+ const a=createAttempt(bank,'full',{},1000,'listening');
+ assert.equal(a.stage,'listening');assert.equal(a.current,21);
+ answerQuestion(a,bank,21,bank.questions[20].answer);
+ assert.deepEqual(restoreAttempt(JSON.stringify(a),bank),a);
+ finishSection(a,bank,10000);assert.equal(a.stage,'reading');assert.equal(a.current,1);assert.equal(a.deadline,1510000);
+ assert.equal(answerQuestion(a,bank,21,1),false);
+ answerQuestion(a,bank,1,bank.questions[0].answer);
+ assert.deepEqual(restoreAttempt(JSON.stringify(a),bank),a);
+ finishSection(a,bank,20000);assert.equal(a.stage,'complete');
+ const result=scoreAttempt(a,bank);assert.equal(result.total,40);assert.equal(result.correct,2);
+ const b=createAttempt(bank,'full',{},1000,'listening');advanceTime(b,bank,1501000);assert.equal(b.stage,'reading');
+ const c=createAttempt(bank,'full',{},1000,'listening');advanceTime(c,bank,4000000);assert.equal(c.stage,'complete');assert.equal(c.completedAt,3001000);
+});
+
+test('older reading-first saved attempts remain compatible',()=>{
+ const a=createAttempt(bank,'full',{},1000);delete a.firstSection;
+ const restored=restoreAttempt(JSON.stringify(a),bank);assert.ok(restored);
+ finishSection(restored,bank,2000);assert.equal(restored.stage,'listening');
+});
