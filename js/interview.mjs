@@ -1,3 +1,4 @@
+import {memoQuestions,newTools} from './manufacturing-2026.mjs';
 import {recordings} from './interview-audio.mjs';
 export const questions=[
  ['Introduction','자기소개를 해 보세요.','Please introduce yourself.','Ipakilala ang iyong sarili.','안녕하세요. 저는 [이름]입니다. 필리핀에서 왔습니다. 제조업에서 성실하게 일하고 싶습니다. 감사합니다.','Hello. I am [name], from the Philippines. I would like to work diligently in manufacturing. Thank you.','Magandang araw. Ako si [pangalan], mula sa Pilipinas. Nais kong magtrabaho nang masipag sa manufacturing. Salamat.'],
@@ -47,16 +48,18 @@ questions.push(
  ['Basic conversation','오늘 아침에 무엇을 먹었습니까?','What did you eat this morning?','Ano ang kinain mo ngayong umaga?','예: 오늘 아침에 밥과 달걀을 먹었습니다.','Example: I ate rice and eggs this morning.','Halimbawa: Kumain ako ng kanin at itlog ngayong umaga.'],
  ['Basic conversation','학교에 어떻게 옵니까?','How do you get to school?','Paano ka pumupunta sa paaralan?','예: 버스를 타고 옵니다.','Example: I come by bus.','Halimbawa: Sumasakay ako ng bus.']
 );
-export function shuffledQuestions(){const list=[...questions];for(let i=list.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[list[i],list[j]]=[list[j],list[i]];}return list;}
+questions.push(...memoQuestions);
+export function shuffledQuestions(filter='all'){const list=questions.filter(q=>filter==='all'||(filter==='new-tools'?q[0].startsWith('2026 tools'):filter==='general'?!q[0].startsWith('2026 tools')&&!q[0].startsWith('Safety —'):q[0]==='Safety — '+filter));for(let i=list.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[list[i],list[j]]=[list[j],list[i]];}return list;}
 if(typeof document!=='undefined'){
- let list=shuffledQuestions(),index=0,language='en';const $=s=>document.querySelector(s);
- const toolImages=Object.fromEntries(['hammer','screwdriver','wrench','pliers','drill','allen-key'].map(key=>[key,`media/eps-topik/interview-tools/${key}.png`]));
- function render(){const q=list[index];$('#interview-progress').textContent=`${index+1} / ${list.length} · ${q[0]}`;$('#korean-question').textContent=q[1];$('#translation').textContent=q[language==='en'?2:3];$('#model-korean').textContent=q[4];$('#model-translation').textContent=q[language==='en'?5:6];$('#model').hidden=true;$('#show-answer').textContent=language==='en'?'Show sample response':'Ipakita ang halimbawang sagot';$('#tool-picture').innerHTML=q[7]?`<img src="${toolImages[q[7]]}" alt="EPS textbook manufacturing tool for this question">`:'';$('#next-question').textContent=index===list.length-1?'New practice set':'Next question';}
+ let list=shuffledQuestions(),index=0,language='en',topic='all';const $=s=>document.querySelector(s);
+ const toolImages=Object.fromEntries(['hammer','screwdriver','wrench','pliers','drill','allen-key',...newTools.map(t=>t[0])].map(key=>[key,`media/eps-topik/interview-tools/${key}.png`]));
+ function render(){const q=list[index];$('#interview-progress').textContent=`${index+1} / ${list.length} · ${q[0]}`;$('#korean-question').textContent=q[1];$('#translation').textContent=q[language==='en'?2:3];$('#model-korean').textContent=q[4];$('#model-translation').textContent=q[language==='en'?5:6];$('#question-source').textContent=q[8]||'JCAN general practice';$('#model').hidden=true;$('#show-answer').textContent=language==='en'?'Show sample response':'Ipakita ang halimbawang sagot';$('#tool-picture').innerHTML=q[7]?`<img src="${toolImages[q[7]]}" alt="EPS textbook manufacturing tool for this question">`:'';$('#next-question').textContent=index===list.length-1?'New practice set':'Next question';}
  const audio=new Audio();audio.preload='none';let playback=0;
  function stopAudio(){playback++;audio.pause();audio.removeAttribute('src');audio.load();$('#audio-status').textContent='';}
  audio.addEventListener('ended',()=>{$('#audio-status').textContent='';});
  audio.addEventListener('error',()=>{if(audio.getAttribute('src'))$('#audio-status').textContent='Could not load the recording. Check your connection and try again.';});
  $('#listen-question').addEventListener('click',async()=>{stopAudio();const current=playback;audio.src=recordings[list[index][1]];$('#audio-status').textContent='Loading Korean recording…';try{await audio.play();if(current===playback)$('#audio-status').textContent='Playing Korean question…';}catch{if(current===playback)$('#audio-status').textContent='Unable to play audio. Please tap Listen again.';}});
  $('#stop-audio').addEventListener('click',stopAudio);window.addEventListener('pagehide',stopAudio);
- $('#language').addEventListener('change',event=>{stopAudio();language=event.target.value;render();});$('#show-answer').addEventListener('click',()=>{$('#model').hidden=false;});$('#next-question').addEventListener('click',()=>{stopAudio();if(++index===list.length){list=shuffledQuestions();index=0;}render();$('#korean-question').focus();});render();
+ $('#practice-topic').addEventListener('change',event=>{stopAudio();topic=event.target.value;list=shuffledQuestions(topic);index=0;render();});
+ $('#language').addEventListener('change',event=>{stopAudio();language=event.target.value;render();});$('#show-answer').addEventListener('click',()=>{$('#model').hidden=false;});$('#next-question').addEventListener('click',()=>{stopAudio();if(++index===list.length){list=shuffledQuestions(topic);index=0;}render();$('#korean-question').focus();});render();
 }
