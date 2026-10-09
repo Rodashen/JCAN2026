@@ -84,3 +84,33 @@ test('failed email delivery invalidates the undelivered activation code',async()
   assert.equal(f.db.prepare('SELECT code_hash FROM members').get().code_hash,null);
  }finally{f.close();}
 });
+
+test('student recovery resends expired activation and admin can resend to activated students',async()=>{
+ const f=fixture();try{
+  await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:true},{admin:true});const old=f.latestCode();
+  f.db.prepare('UPDATE members SET code_expires=0').run();
+  assert.equal((await f.call('/api/sign-in-code',{email:'paid@example.com'})).status,200);
+  assert.equal(f.emails.length,2);assert.equal(f.emails.at(-1).subject,'Your JCAN exam access code');
+  assert.equal((await f.call('/api/verify',{email:'paid@example.com',code:old})).status,400);
+  assert.equal((await f.call('/api/verify',{email:'paid@example.com',code:f.latestCode()})).status,200);
+  const activatedAt=f.db.prepare('SELECT activated_at FROM members').get().activated_at;
+  assert.equal((await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:true},{admin:true})).status,200);
+  assert.equal(f.emails.at(-1).subject,'Your JCAN sign-in code');
+  assert.equal(f.db.prepare('SELECT activated_at FROM members').get().activated_at,activatedAt);
+  assert.equal((await f.call('/api/verify',{email:'paid@example.com',code:f.latestCode()})).status,200);
+ }finally{f.close();}
+});
+
+test('failed activation and login resends preserve the previous usable code',async()=>{
+ const f=fixture();try{
+  await f.call('/api/admin/issue',{email:'paid@example.com',paymentConfirmed:true},{admin:true});const activation=f.latestCode();
+  const delivery=globalThis.fetch;globalThis.fetch=async()=>new Response('{}',{status:500});
+  assert.equal((await f.call('/api/sign-in-code',{email:'paid@example.com'})).status,502);
+  assert.equal((await f.call('/api/verify',{email:'paid@example.com',code:activation})).status,200);
+  globalThis.fetch=delivery;
+  await f.call('/api/sign-in-code',{email:'paid@example.com'});const login=f.latestCode();
+  globalThis.fetch=async()=>new Response('{}',{status:500});
+  assert.equal((await f.call('/api/sign-in-code',{email:'paid@example.com'})).status,502);
+  assert.equal((await f.call('/api/verify',{email:'paid@example.com',code:login})).status,200);
+ }finally{f.close();}
+});

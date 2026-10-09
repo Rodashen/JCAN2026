@@ -48,6 +48,25 @@ async function admin(request,env){
  const supplied=request.headers.get('Authorization')?.replace(/^Bearer /,'')||'';
  if(!env.ADMIN_KEY||env.ADMIN_KEY.length<32||supplied.length>256||await hash(env,supplied)!==await hash(env,env.ADMIN_KEY))failure('Administrator access was not accepted.',401);
 }
+async function deliverAccessCode(env,email,member){
+ const activation=!member.activated_at,code=randomCode(),now=Date.now();
+ const codeHash=await hash(env,(activation?'activate:':'login:')+email+':'+code);
+ if(activation){
+  // Keep the previous valid code if delivery fails; a failed resend must not lock out a student.
+  const previous=await env.DB.prepare('SELECT code_hash,code_expires FROM members WHERE email=?').bind(email).first();
+  await env.DB.prepare('UPDATE members SET code_hash=?,code_expires=? WHERE email=? AND activated_at IS NULL AND revoked=0').bind(codeHash,now+7*DAY,email).run();
+  try{await sendCode(env,email,code,true);}catch(error){await env.DB.prepare('UPDATE members SET code_hash=?,code_expires=? WHERE email=? AND code_hash=? AND activated_at IS NULL').bind(previous?.code_hash||null,previous?.code_expires||null,email,codeHash).run();throw error;}
+ }else{
+  const previous=await env.DB.prepare('SELECT code_hash,expires FROM login_codes WHERE email=?').bind(email).first();
+  await env.DB.prepare('INSERT INTO login_codes (email,code_hash,expires) VALUES (?,?,?) ON CONFLICT(email) DO UPDATE SET code_hash=excluded.code_hash,expires=excluded.expires').bind(email,codeHash,now+900000).run();
+  try{await sendCode(env,email,code,false);}catch(error){
+   if(previous)await env.DB.prepare('UPDATE login_codes SET code_hash=?,expires=? WHERE email=? AND code_hash=?').bind(previous.code_hash,previous.expires,email,codeHash).run();
+   else await env.DB.prepare('DELETE FROM login_codes WHERE email=? AND code_hash=?').bind(email,codeHash).run();
+   throw error;
+  }
+ }
+ return activation;
+}
 export function protectedPath(path){return /^\/(?:(?:cbt|ubt|exams|ishihara|skills)(?:\.html)?\/?$|data(?:\/|$)|media\/eps-topik(?:\/|$)|js\/cbt[^/]*)/i.test(path);}
 async function api(request,env,path){
  checkConfig(env);
@@ -75,22 +94,18 @@ async function api(request,env,path){
   if(data.paymentConfirmed!==true)failure('Confirm the payment before sending an access code.');
   await limit(env,'issue:'+email,3);
   const member=await env.DB.prepare('SELECT activated_at,revoked FROM members WHERE email=?').bind(email).first();
-  if(member?.activated_at&&!member.revoked)failure('This email already has access. The student can request a new sign-in code.');
-  const code=randomCode(),codeHash=await hash(env,'activate:'+email+':'+code),now=Date.now();
-  await env.DB.prepare('INSERT INTO members (email,code_hash,code_expires,created_at) VALUES (?,?,?,?) ON CONFLICT(email) DO UPDATE SET code_hash=excluded.code_hash,code_expires=excluded.code_expires,activated_at=NULL,revoked=0').bind(email,codeHash,now+7*DAY,now).run();
-  try{await sendCode(env,email,code,true);}catch(error){await env.DB.prepare('UPDATE members SET code_hash=NULL WHERE email=? AND code_hash=?').bind(email,codeHash).run();throw error;}
-  return json({ok:true,message:'Activation code sent. It can only be used by this email address.'});
+  if(!member||member.revoked)await env.DB.prepare('INSERT INTO members (email,created_at) VALUES (?,?) ON CONFLICT(email) DO UPDATE SET code_hash=NULL,code_expires=NULL,activated_at=NULL,revoked=0').bind(email,Date.now()).run();
+  const activation=await deliverAccessCode(env,email,member&&!member.revoked?member:{});
+  return json({ok:true,message:activation?'Activation code sent. Use it once within 7 days with this email address.':'This student already has access. A fresh sign-in code was sent; use it once within 15 minutes. Their paid access is unchanged.'});
  }
  const email=normalizeEmail(data.email);
  if(path==='/api/sign-in-code'){
   await limit(env,'send:'+ip,10);await limit(env,'send-email:'+email,3);
-  const member=await env.DB.prepare('SELECT email FROM members WHERE email=? AND activated_at IS NOT NULL AND revoked=0').bind(email).first();
+  const member=await env.DB.prepare('SELECT email,activated_at FROM members WHERE email=? AND revoked=0').bind(email).first();
   if(member){
-   const code=randomCode(),codeHash=await hash(env,'login:'+email+':'+code);
-   await env.DB.prepare('INSERT INTO login_codes (email,code_hash,expires) VALUES (?,?,?) ON CONFLICT(email) DO UPDATE SET code_hash=excluded.code_hash,expires=excluded.expires').bind(email,codeHash,Date.now()+900000).run();
-   try{await sendCode(env,email,code,false);}catch(error){await env.DB.prepare('DELETE FROM login_codes WHERE email=? AND code_hash=?').bind(email,codeHash).run();throw error;}
+   await deliverAccessCode(env,email,member);
   }
-  return json({ok:true,message:'If this email has activated access, a sign-in code has been sent. Check your inbox and spam folder.'});
+  return json({ok:true,message:'If JCAN has approved this email, a fresh code has been sent. Check your inbox and spam folder and use the newest email only. Sign-in codes expire in 15 minutes; first-time activation codes expire in 7 days. If nothing arrives, contact JCAN to check the email address and delivery.'});
  }
  if(path==='/api/verify'){
   await limit(env,'verify:'+email,10,900000);
@@ -101,7 +116,7 @@ async function api(request,env,path){
   if(activated)return newSession(env,email);
   const signedIn=await env.DB.prepare('DELETE FROM login_codes WHERE email=? AND code_hash=? AND expires>? AND EXISTS (SELECT 1 FROM members WHERE members.email=login_codes.email AND activated_at IS NOT NULL AND revoked=0) RETURNING email').bind(email,await hash(env,'login:'+email+':'+code),now).first();
   if(signedIn)return newSession(env,email);
-  failure('This code is invalid, expired, already used, or belongs to another email.');
+  failure('This code is invalid, expired, or already used. Old codes cannot sign you in again. Click “Email me a new code”, then enter the newest code with the exact email address it was sent to.');
  }
  return json({error:'Not found.'},404);
 }
