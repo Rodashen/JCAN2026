@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /access/
+Disallow: /data/
+Disallow: /tests/
+Disallow: /tools/
+
+Sitemap: https://jcanklc.com/sitemap.xml
