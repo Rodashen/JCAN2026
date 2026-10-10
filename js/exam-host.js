@@ -1,12 +1,13 @@
 // GitHub Pages provides the public information site; Cloudflare protects exams.
-if (location.hostname.endsWith('.github.io')) {
+const publicInformationHost = location.hostname.endsWith('.github.io') || ['jcanklc.com', 'www.jcanklc.com'].includes(location.hostname);
+if (publicInformationHost) {
   const page = location.pathname.split('/').pop() || 'exams.html';
   const target = new URL(page, 'https://jcan-exam-access.tararoneee.workers.dev/');
   target.search = location.search;
   location.replace(target.href);
 }
 // Recheck open exam pages so an older browser session also loses its workspace.
-if (!location.hostname.endsWith('.github.io') && /\/(cbt|ubt|exams|ishihara|skills)\.html$/.test(location.pathname)) {
+if (!publicInformationHost && /\/(cbt|ubt|exams|ishihara|skills)\.html$/.test(location.pathname)) {
   let checking = false;
   async function checkAccess() {
     if (checking) return;
