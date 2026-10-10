@@ -11,7 +11,7 @@
   },
   "vars": {
     "SITE_ORIGIN": "https://jcan-exam-access.tararoneee.workers.dev",
-    "SENDER_EMAIL": "tararoneee@gmail.com"
+    "SENDER_EMAIL": "exams@jcanklc.com"
   },
   "d1_databases": [{
     "binding": "DB",
