@@ -42,6 +42,9 @@ async function sendCode(env,email,code,activation){
  await limit(env,'email-total',240,DAY);
  const formatted=code.match(/.{1,4}/g).join('-');
  const response=await fetch('https://api.brevo.com/v3/smtp/email',{method:'POST',headers:{'api-key':env.BREVO_API_KEY,'Content-Type':'application/json'},body:JSON.stringify({sender:{name:'JCAN Korean Language Center',email:env.SENDER_EMAIL},to:[{email}],subject:activation?'Your JCAN exam access code':'Your JCAN sign-in code',textContent:`JCAN Korean Language Center\n\n${activation?'Your payment has been confirmed. Activate unlimited practice exam access using this email address and the one-time code below.':'Use this one-time code to sign in to your existing exam access.'}\n\n${formatted}\n\n${activation?'The activation code expires in 7 days. Once activated, your access does not expire unless JCAN revokes it. This code only works with the email it was sent to.':'This sign-in code expires in 15 minutes.'}\n\nSign in: ${env.SITE_ORIGIN}/exam-access.html\n\nDo not share your code. If you did not request this message, contact JCAN.`})});
+ const receipt=await response.json().catch(()=>({}));
+ // Log delivery receipts only: never log recipients, access codes, or API credentials.
+ console.log(JSON.stringify({event:'brevo-email-response',status:response.status,sender:env.SENDER_EMAIL,messageId:receipt.messageId||null,errorCode:receipt.code||null}));
  if(!response.ok)failure('Email could not be sent. Check the email service settings or daily sending limit, then try again.',502);
 }
 async function admin(request,env){
