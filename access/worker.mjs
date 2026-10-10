@@ -101,6 +101,12 @@ async function api(request,env,path){
   const activation=await deliverAccessCode(env,email,member&&!member.revoked?member:{});
   return json({ok:true,message:activation?'Activation code sent. Use it once within 7 days with this email address.':'This student already has access. A fresh sign-in code was sent; use it once within 15 minutes. Their paid access is unchanged.'});
  }
+ if(path==='/api/verify'&&String(data.email||'').trim().toLowerCase()==='adminjoy'){
+  await limit(env,'owner-login:'+ip,5,900000);
+  if(!env.OWNER_ACCESS_CODE||await hash(env,String(data.code||''))!==await hash(env,env.OWNER_ACCESS_CODE))failure('Invalid login details.',401);
+  await env.DB.prepare('INSERT INTO members (email,created_at,activated_at) VALUES (?,?,?) ON CONFLICT(email) DO UPDATE SET activated_at=excluded.activated_at,revoked=0').bind('adminjoy',Date.now(),Date.now()).run();
+  return newSession(env,'adminjoy');
+ }
  const email=normalizeEmail(data.email);
  if(path==='/api/sign-in-code'){
   await limit(env,'send:'+ip,10);await limit(env,'send-email:'+email,3);

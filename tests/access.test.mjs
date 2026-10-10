@@ -21,6 +21,19 @@ function fixture(){
  const latestCode=()=>emails.at(-1).text.match(/[A-HJ-NP-Z2-9]{4}(?:-[A-HJ-NP-Z2-9]{4}){3}/)[0];
  return {db,env,emails,call,latestCode,close(){globalThis.fetch=original;db.close();}};
 }
+test('owner login requires the server secret and remains reusable without emailing codes',async()=>{
+ const f=fixture();try{
+  assert.equal((await f.call('/api/verify',{email:'adminjoy',code:'adminjoy'})).status,401);
+  f.env.OWNER_ACCESS_CODE='adminjoy';
+  assert.equal((await f.call('/api/verify',{email:'adminjoy',code:'wrong'})).status,401);
+  const first=await f.call('/api/verify',{email:'adminjoy',code:'adminjoy'});assert.equal(first.status,200);
+  const cookie=first.headers.get('Set-Cookie');assert.equal((await f.call('/skills.html',undefined,{cookie})).status,200);
+  assert.equal((await f.call('/api/logout',{}, {cookie})).status,200);
+  assert.equal((await f.call('/api/verify',{email:'adminjoy',code:'adminjoy'})).status,200);
+  assert.equal(f.emails.length,0);
+ }finally{f.close();}
+});
+
 test('paid email activation is single-use, email-bound, and creates unlimited reusable access',async()=>{
  const f=fixture();try{
   for(const path of ['/exams','/exams.html']){const response=await f.call(path);assert.equal(response.status,303);assert.equal(response.headers.get('Location'),'/exam-access.html?next=exams');}
