@@ -15,10 +15,10 @@ The administrator key and email API key must never go into website JavaScript, G
 ## Accounts and free limits
 
 - Create a **Cloudflare Free** account. Workers and D1 have daily free allowances. Keep the free plan selected; do not enable a paid plan.
-- Create a **Brevo Free** account and enable transactional email. Its documented free allowance is 300 emails/day. This app caps sending requests at 240/day to leave headroom. Brevo account approval and sender verification are required.
-- Verify a sender address in Brevo. If you use a free email address such as Gmail, Brevo may replace the displayed sender with its compliant address. Test delivery to real inboxes before accepting paid users. A custom domain improves sender identity, but this implementation does not require you to buy one. Service policies and allowances can change; verify the current free plan when signing up.
+- Create a **Resend Free** account. Its allowance is 3,000 emails/month and 100/day. The app caps requests at 100 per UTC day; Resend also enforces its monthly allowance.
+- Verify your own sending domain in Resend using its generated DNS records. Create a sending-only API key restricted to that domain. Test actual delivery before accepting paid users. Existing paid memberships and sessions do not change when switching email providers.
 
-Official references: [Cloudflare pricing](https://developers.cloudflare.com/workers/platform/pricing/), [D1 pricing](https://developers.cloudflare.com/d1/platform/pricing/), [Brevo free plan](https://help.brevo.com/hc/en-us/articles/208580669-FAQs-What-are-the-limits-of-the-Free-plan), [Brevo sender requirements](https://help.brevo.com/hc/en-us/articles/14925263522578-Comply-with-Gmail-Yahoo-and-Microsoft-s-requirements-for-email-senders).
+Official references: [Cloudflare pricing](https://developers.cloudflare.com/workers/platform/pricing/), [D1 pricing](https://developers.cloudflare.com/d1/platform/pricing/), [Resend pricing](https://resend.com/pricing), [Resend sending API](https://resend.com/docs/api-reference/emails/send-email).
 
 ## Deployment
 
@@ -29,11 +29,11 @@ npx wrangler@4 login
 npx wrangler@4 d1 create jcan-exam-access
 ```
 
-Copy the returned database ID into `wrangler.jsonc` under `database_id`. Update `SITE_ORIGIN` to your exact HTTPS Workers origin, without a trailing slash or a path. Set `SENDER_EMAIL` to the verified Brevo sender address. The Workers name is `jcan-exam-access`; your account determines the subdomain.
+Copy the returned database ID into `wrangler.jsonc` under `database_id`. Update `SITE_ORIGIN` to your exact HTTPS Workers origin, without a trailing slash or a path. Set `SENDER_EMAIL` to an address on the verified Resend domain, such as `exams@jcanklc.com`. The Workers name is `jcan-exam-access`; your account determines the subdomain.
 
 ```text
 npx wrangler@4 d1 execute jcan-exam-access --remote --file access/schema.sql
-npx wrangler@4 secret put BREVO_API_KEY
+npx wrangler@4 secret put RESEND_API_KEY
 npx wrangler@4 secret put ADMIN_KEY
 npx wrangler@4 secret put CODE_PEPPER
 ```

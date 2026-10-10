@@ -7,10 +7,10 @@ import worker from '../access/worker.mjs';
 function fixture(){
  const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync(new URL('../access/schema.sql',import.meta.url),'utf8'));
  function prepare(sql){return {bind(...args){return {async first(){return db.prepare(sql).get(...args)||null;},async run(){return db.prepare(sql).run(...args);}};}};}
- const env={DB:{prepare,async batch(statements){db.exec('BEGIN');try{const r=[];for(const statement of statements)r.push(await statement.run());db.exec('COMMIT');return r;}catch(error){db.exec('ROLLBACK');throw error;}}},CODE_PEPPER:'test-pepper-'.repeat(5),ADMIN_KEY:'test-admin-'.repeat(5),BREVO_API_KEY:'fake-not-live',SENDER_EMAIL:'owner@example.com',SITE_ORIGIN:'https://jcan.example',ASSETS:{async fetch(){return new Response('protected asset');}}};
+ const env={DB:{prepare,async batch(statements){db.exec('BEGIN');try{const r=[];for(const statement of statements)r.push(await statement.run());db.exec('COMMIT');return r;}catch(error){db.exec('ROLLBACK');throw error;}}},CODE_PEPPER:'test-pepper-'.repeat(5),ADMIN_KEY:'test-admin-'.repeat(5),RESEND_API_KEY:'fake-not-live',SENDER_EMAIL:'owner@example.com',SITE_ORIGIN:'https://jcan.example',ASSETS:{async fetch(){return new Response('protected asset');}}};
  const emails=[];
  const original=globalThis.fetch;
- globalThis.fetch=async (url,options)=>{assert.equal(url,'https://api.brevo.com/v3/smtp/email');emails.push(JSON.parse(options.body));return new Response('{}',{status:201});};
+ globalThis.fetch=async (url,options)=>{assert.equal(url,'https://api.resend.com/emails');assert.equal(options.headers.Authorization,'Bearer fake-not-live');const message=JSON.parse(options.body);assert.equal(message.from,'JCAN Korean Language Center <owner@example.com>');assert.ok(Array.isArray(message.to));emails.push(message);return new Response(JSON.stringify({id:'test-message-id'}),{status:200});};
  async function call(path,data,opts={}){
   const method=data===undefined?'GET':'POST';
   const headers={'Content-Type':'application/json',Origin:opts.origin||env.SITE_ORIGIN,'CF-Connecting-IP':opts.ip||'127.0.0.1'};
@@ -18,7 +18,7 @@ function fixture(){
   if(opts.cookie)headers.Cookie=opts.cookie;
   return worker.fetch(new Request(env.SITE_ORIGIN+path,{method,headers,...(data===undefined?{}:{body:JSON.stringify(data)})}),env);
  }
- const latestCode=()=>emails.at(-1).textContent.match(/[A-HJ-NP-Z2-9]{4}(?:-[A-HJ-NP-Z2-9]{4}){3}/)[0];
+ const latestCode=()=>emails.at(-1).text.match(/[A-HJ-NP-Z2-9]{4}(?:-[A-HJ-NP-Z2-9]{4}){3}/)[0];
  return {db,env,emails,call,latestCode,close(){globalThis.fetch=original;db.close();}};
 }
 test('paid email activation is single-use, email-bound, and creates unlimited reusable access',async()=>{

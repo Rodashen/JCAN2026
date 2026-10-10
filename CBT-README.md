@@ -10,7 +10,7 @@ Full UBT practice now offers **Reading first** or **Listening first** before sta
 
 Question-specific directions are preserved when randomizing. Korean spelling errors and mismatched topic/sign instructions were corrected. Deliberately incorrect answer choices remain unchanged.
 
-Email-bound paid access is prepared for Cloudflare Workers, D1, and Brevo. See [EXAM-ACCESS-SETUP.md](EXAM-ACCESS-SETUP.md). It is not active on GitHub Pages; deployment and live email testing require the owner's free accounts. The protected host checks exam pages, scripts, question data, and media on the server. One activation code grants unlimited attempts to one email; subsequent sign-ins use new one-time email codes.
+Email-bound paid access uses Cloudflare Workers, D1, and Resend. See [EXAM-ACCESS-SETUP.md](EXAM-ACCESS-SETUP.md). It is not active on GitHub Pages; deployment and live email testing require the owner's accounts and a verified sending domain. The protected host checks exam pages, scripts, question data, and media on the server. One activation code grants unlimited attempts to one email; subsequent sign-ins use new one-time email codes.
 
 Run tests with **Node.js 24+** because access tests use the built-in SQLite module. Automated tests include 300 randomized retries, both section orders, saved-state compatibility, media integrity, single-use codes, concurrent redemption, email binding, expiry, rate limits, logout, revocation, and protected asset access. Email delivery is mocked; no real emails were sent in tests. Results download as styled HTML with Print / Save as PDF.
 

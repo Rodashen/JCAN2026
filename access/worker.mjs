@@ -38,14 +38,14 @@ async function newSession(env,email){
  return json({ok:true,email},200,{'Set-Cookie':`${COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=2592000`});
 }
 async function sendCode(env,email,code,activation){
- if(!env.BREVO_API_KEY||!env.SENDER_EMAIL)failure('Email delivery is not configured yet.',503);
- await limit(env,'email-total',240,DAY);
+ if(!env.RESEND_API_KEY||!env.SENDER_EMAIL)failure('Email delivery is not configured yet.',503);
+ await limit(env,'email-total',100,DAY);
  const formatted=code.match(/.{1,4}/g).join('-');
- const response=await fetch('https://api.brevo.com/v3/smtp/email',{method:'POST',headers:{'api-key':env.BREVO_API_KEY,'Content-Type':'application/json'},body:JSON.stringify({sender:{name:'JCAN Korean Language Center',email:env.SENDER_EMAIL},to:[{email}],subject:activation?'Your JCAN exam access code':'Your JCAN sign-in code',textContent:`JCAN Korean Language Center\n\n${activation?'Your payment has been confirmed. Activate unlimited practice exam access using this email address and the one-time code below.':'Use this one-time code to sign in to your existing exam access.'}\n\n${formatted}\n\n${activation?'The activation code expires in 7 days. Once activated, your access does not expire unless JCAN revokes it. This code only works with the email it was sent to.':'This sign-in code expires in 15 minutes.'}\n\nSign in: ${env.SITE_ORIGIN}/exam-access.html\n\nDo not share your code. If you did not request this message, contact JCAN.`})});
+ const response=await fetch('https://api.resend.com/emails',{method:'POST',headers:{'Authorization':'Bearer '+env.RESEND_API_KEY,'Content-Type':'application/json'},body:JSON.stringify({from:'JCAN Korean Language Center <'+env.SENDER_EMAIL+'>',to:[email],subject:activation?'Your JCAN exam access code':'Your JCAN sign-in code',text:`JCAN Korean Language Center\n\n${activation?'Your payment has been confirmed. Activate unlimited practice exam access using this email address and the one-time code below.':'Use this one-time code to sign in to your existing exam access.'}\n\n${formatted}\n\n${activation?'The activation code expires in 7 days. Once activated, your access does not expire unless JCAN revokes it. This code only works with the email it was sent to.':'This sign-in code expires in 15 minutes.'}\n\nSign in: ${env.SITE_ORIGIN}/exam-access.html\n\nDo not share your code. If you did not request this message, contact JCAN.`})});
  const receipt=await response.json().catch(()=>({}));
  // Log delivery receipts only: never log recipients, access codes, or API credentials.
- console.log(JSON.stringify({event:'brevo-email-response',status:response.status,sender:env.SENDER_EMAIL,messageId:receipt.messageId||null,errorCode:receipt.code||null}));
- if(!response.ok)failure('Email could not be sent. Check the email service settings or daily sending limit, then try again.',502);
+ console.log(JSON.stringify({event:'resend-email-response',status:response.status,sender:env.SENDER_EMAIL,messageId:receipt.id||null,errorCode:receipt.name||null}));
+ if(!response.ok||!receipt.id)failure('Email could not be sent. Check the email service settings or daily sending limit, then try again.',502);
 }
 async function admin(request,env){
  const supplied=request.headers.get('Authorization')?.replace(/^Bearer /,'')||'';
