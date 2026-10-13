@@ -12,7 +12,11 @@ test('300 retries have fresh questions, matching recordings and bounded listenin
   const exam=selectExam(bank,pool,history,random),ids=exam.questions.map(q=>q.id);
   assert.equal(new Set(ids).size,40);assert.equal(validateBank(exam),exam);
   const graphs=exam.questions.filter(isGraphQuestion);assert.ok(graphs.length>=2&&graphs.length<=3,'Every exam includes 2–3 graphs');
-  assert.ok(exam.questions.filter(q=>!isGraphQuestion(q)).every(q=>!history.previous?.includes(q.id)),'Other questions avoid the preceding exam');
+  assert.ok(exam.questions.every(q=>!history.previous?.includes(q.id)),'All questions, including graphs, avoid the preceding exam');
+  const contextual=exam.questions.filter(q=>q.group==='42');
+  assert.equal(contextual.filter(q=>q.provenance?.book===1).length,2);
+  assert.equal(contextual.filter(q=>q.provenance?.book===2).length,2);
+  assert.ok(contextual.every(q=>q.difficulty==='hard'));
   assert.ok(pool.listeningOverheadSeconds+2*exam.questions.slice(20).reduce((n,q)=>n+q.audioSeconds,0)<=1490);
   for(const q of exam.questions.slice(20)){
    const start=exam.sequence.findIndex(s=>s.question===q.number);
@@ -37,8 +41,8 @@ test('skip status begins after leaving an unanswered question; answering clears 
  state.flags[q.id]=true;assert.deepEqual(questionStatus(state,q),{answered:false,skipped:true,flagged:true});
  answerQuestion(state,bank,1,q.answer);assert.deepEqual(questionStatus(state,q),{answered:true,skipped:false,flagged:true});
 });
-test('all 240 pool questions validate and all media is covered by the manifest',async()=>{
- assert.equal(pool.questions.length,240);assert.equal(new Set(pool.questions.map(q=>q.id)).size,240);
+test('all 258 pool questions validate and all media is covered by the manifest',async()=>{
+ assert.equal(pool.questions.length,258);assert.equal(new Set(pool.questions.map(q=>q.id)).size,258);
  const paths=new Set((await read('eps-topik-media.json')).map(m=>m.path));
  for(const q of pool.questions){
   const ids=bank.questions.map(x=>x.id),slot=bank.questions.findIndex(x=>x.group===q.group);
@@ -47,9 +51,9 @@ test('all 240 pool questions validate and all media is covered by the manifest',
   for(const p of [...q.images,...q.choices.flatMap(c=>c.images),...(q.audio?[q.audio]:[])])assert.ok(paths.has(p));
  }
  const book=pool.questions.filter(q=>q.provenance);
- assert.equal(book.length,48);
- assert.equal(book.filter(q=>q.provenance.book===1).length,40);
- assert.equal(book.filter(q=>q.provenance.kind==='adapted').length,4);
+ assert.equal(book.length,66);
+ assert.equal(book.filter(q=>q.provenance.book===1).length,50);
+ assert.equal(book.filter(q=>q.provenance.kind==='adapted').length,6);
  assert.ok(book.every(q=>q.provenance.answerPage||q.explanation));
 });
 

@@ -68,3 +68,17 @@ Tests cover 300 consecutive retries, no adjacent question repeats, media integri
 Open ubt.html or choose Open UBT Mock Test on the Exams page. UBT uses the same unmodified 200-question bank, randomization, audio, scoring, review marks and 25-minute section timers as CBT. Its screenshot-inspired interface provides a blue solved/unsolved/time bar, separate question and answer panels, and a Total Questions overview with reading/listening grids. Small screens stack the panels. The overview does not pause the timer or unlock the inactive section. CBT and UBT save separate attempts and share question-selection history.
 
 For this UBT update add ubt.html and css/ubt.css, and replace cbt.html, exams.html and js/cbt.mjs. Keep all existing question data and media unchanged. No deletions needed.
+# October 2026 question selection update
+
+Each new attempt excludes every question ID from the immediately preceding
+attempt saved in this browser, including graph questions. CBT and UBT share
+this history. Clearing browser storage or changing devices resets it; this
+is not account-wide history and questions may return after intervening attempts.
+
+The bank contains 258 questions, including six graph questions. Each full
+exam includes 2–3 graphs and four challenging contextual reading items:
+two on Book 1 topics and two on Book 2 topics. Sixteen new contextual items
+are original JCAN practice, explicitly identified in their provenance;
+they are not official HRDK questions. Two additional graph items are adapted
+from the existing Book 1 chart. Listening recordings and the 25-minute
+section limits remain unchanged.

@@ -21,18 +21,22 @@ export function isGraphQuestion(q){return q.section==='reading' && (q.category==
 export function selectExam(template, pool, history = {}, random = Math.random) {
   const previous = new Set(Array.isArray(history.previous) ? history.previous : []);
   const counts = history.counts || {};
-  const graphs=pool.questions.filter(isGraphQuestion);
+  const graphs=pool.questions.filter(q=>isGraphQuestion(q)&&!previous.has(q.id));
   const graphSlots=template.questions.map((slot,i)=>({slot,i,tie:random()})).filter(({slot})=>graphs.some(q=>q.group===slot.group&&q.section===slot.section)).sort((a,b)=>a.tie-b.tie);
-  const graphCount=2+Math.floor(random()*2);
+  const graphCount=Math.min(2+Math.floor(random()*2),graphs.length);
   if(graphs.length<graphCount||graphSlots.length<graphCount)throw Error('Not enough graph questions for this exam.');
   const requiredGraphSlots=new Set(graphSlots.slice(0,graphCount).map(s=>s.i));
   for(let attempt=0;attempt<200;attempt++) {
     const used = new Set();
     const selection = template.questions.map((slot,i) => {
-      const candidates = pool.questions.filter(q => q.group === slot.group && q.section === slot.section && !used.has(q.id) && isGraphQuestion(q)===requiredGraphSlots.has(i));
+      // The four contextual vocabulary slots alternate books and prioritize
+      // challenging questions. Exclude the preceding attempt for every type.
+      const bookSlot=template.questions.slice(0,i).filter(q=>q.group==='42').length;
+      const requiredBook=slot.group==='42' ? 1+bookSlot%2 : null;
+      const candidates = pool.questions.filter(q => q.group === slot.group && q.section === slot.section && !used.has(q.id) && !previous.has(q.id) && isGraphQuestion(q)===requiredGraphSlots.has(i) && (!requiredBook || q.provenance?.book===requiredBook));
       // Prefer questions absent from the last test, then the least-used ones.
       const ranked = candidates.map(q=>({q,repeat:previous.has(q.id)?1:0,count:Number(counts[q.id])||0,tie:random()}))
-        .sort((a,b)=>a.repeat-b.repeat || (attempt===199 ? (a.q.audioSeconds||0)-(b.q.audioSeconds||0) : attempt<20 ? a.count-b.count : 0) || a.tie-b.tie);
+        .sort((a,b)=>a.repeat-b.repeat || (attempt===199 ? (a.q.audioSeconds||0)-(b.q.audioSeconds||0) : 0) || (b.q.difficulty==='hard'?1:0)-(a.q.difficulty==='hard'?1:0) || (attempt<20 ? a.count-b.count : 0) || a.tie-b.tie);
       if(!ranked.length) throw Error('Not enough questions for this question type.');
       used.add(ranked[0].q.id);return ranked[0].q.id;
     });
