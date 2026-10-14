@@ -17,6 +17,9 @@ test('300 retries have fresh questions, matching recordings and bounded listenin
   assert.equal(contextual.filter(q=>q.provenance?.book===1).length,2);
   assert.equal(contextual.filter(q=>q.provenance?.book===2).length,2);
   assert.ok(contextual.every(q=>q.difficulty==='hard'));
+  const advanced=exam.questions.filter(q=>['52','53','55'].includes(q.group));
+  assert.equal(advanced.length,6);
+  assert.ok(advanced.every(q=>q.difficulty==='hard'),'Dialogue, inference and application slots use advanced questions');
   assert.ok(pool.listeningOverheadSeconds+2*exam.questions.slice(20).reduce((n,q)=>n+q.audioSeconds,0)<=1490);
   for(const q of exam.questions.slice(20)){
    const start=exam.sequence.findIndex(s=>s.question===q.number);
@@ -41,8 +44,8 @@ test('skip status begins after leaving an unanswered question; answering clears 
  state.flags[q.id]=true;assert.deepEqual(questionStatus(state,q),{answered:false,skipped:true,flagged:true});
  answerQuestion(state,bank,1,q.answer);assert.deepEqual(questionStatus(state,q),{answered:true,skipped:false,flagged:true});
 });
-test('all 258 pool questions validate and all media is covered by the manifest',async()=>{
- assert.equal(pool.questions.length,258);assert.equal(new Set(pool.questions.map(q=>q.id)).size,258);
+test('all 282 pool questions validate and all media is covered by the manifest',async()=>{
+ assert.equal(pool.questions.length,282);assert.equal(new Set(pool.questions.map(q=>q.id)).size,282);
  const paths=new Set((await read('eps-topik-media.json')).map(m=>m.path));
  for(const q of pool.questions){
   const ids=bank.questions.map(x=>x.id),slot=bank.questions.findIndex(x=>x.group===q.group);
@@ -51,8 +54,8 @@ test('all 258 pool questions validate and all media is covered by the manifest',
   for(const p of [...q.images,...q.choices.flatMap(c=>c.images),...(q.audio?[q.audio]:[])])assert.ok(paths.has(p));
  }
  const book=pool.questions.filter(q=>q.provenance);
- assert.equal(book.length,66);
- assert.equal(book.filter(q=>q.provenance.book===1).length,50);
+ assert.equal(book.length,90);
+ assert.equal(book.filter(q=>q.provenance.book===1).length,62);
  assert.equal(book.filter(q=>q.provenance.kind==='adapted').length,6);
  assert.ok(book.every(q=>q.provenance.answerPage||q.explanation));
 });

@@ -75,10 +75,16 @@ attempt saved in this browser, including graph questions. CBT and UBT share
 this history. Clearing browser storage or changing devices resets it; this
 is not account-wide history and questions may return after intervening attempts.
 
-The bank contains 258 questions, including six graph questions. Each full
+The bank contains 282 questions, including six graph questions. Each full
 exam includes 2–3 graphs and four challenging contextual reading items:
 two on Book 1 topics and two on Book 2 topics. Sixteen new contextual items
 are original JCAN practice, explicitly identified in their provenance;
 they are not official HRDK questions. Two additional graph items are adapted
 from the existing Book 1 chart. Listening recordings and the 25-minute
-section limits remain unchanged.
+section limits remain unchanged. A further 24 original advanced items add
+multi-condition dialogues, passage inference, exception questions, schedules,
+discounts, production quantities and measurement tolerances. The six dialogue,
+passage and application slots now prioritize these advanced items, bringing
+the guaranteed challenging reading items to ten per full exam, in addition
+to its graph questions. No artificial audio acceleration or shorter timer
+is used to increase difficulty.
