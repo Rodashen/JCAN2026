@@ -1,4 +1,4 @@
-import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs';
+import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=single-question-audio-6';
 const app=document.querySelector('#app');
 const notice=document.querySelector('#notice');
 const dialog=document.querySelector('#confirm-dialog');
@@ -193,7 +193,7 @@ function renderQuestion(){
     });host.append(choices);
   }
   if(state.stage==='listening'){
-    if(q.audioScope==='unit')host.append(el('p',{class:'source-note'},'Book '+q.provenance.book+' · Unit '+q.provenance.unit+' · Listening item '+q.provenance.item+' · Track '+q.provenance.track+'. This official unit recording includes items 1–5. Listen for item '+q.provenance.item+'; use the player to seek and replay.'));
+    if(q.audioScope==='question')host.append(el('p',{class:'source-note'},'Book '+q.provenance.book+' · Unit '+q.provenance.unit+' · Listening item '+q.provenance.item+'. This clip contains only this textbook item.'));
     const player=el('audio',{controls:true,preload:'none',src:q.audio,'aria-label':'Question '+q.number+' recording and spoken choices'});
     player.volume=volume;
     player.addEventListener('play',()=>{if(media&&media!==player)stopAudio();media=player;});

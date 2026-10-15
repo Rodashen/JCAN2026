@@ -98,10 +98,15 @@ triggered by entering the section or ending a recording. Timers remain at
 25 minutes per section.
 
 Official source: https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en
-Audio is copied unchanged from the official textbook1_listen/textbook2_listen
-archives. Each file includes a unit's five numbered listening items, rather
-than a single isolated question. The UI identifies the unit, track and item
-and lets the student seek within the recording. Printed choices and answers
+Original unit audio is retained unchanged from the official
+textbook1_listen/textbook2_listen archives for provenance. The exam now plays
+74 individual item clips, cut at the consistent long pauses between the five
+numbered questions. Clips retain the spoken instructions and question audio
+but exclude other items and the long trailing pause. They are 15–49 seconds
+long; Book 2 Unit 36 item 5 is approximately 31 seconds. Each clip's source
+path, item number, start/end times, duration and hash are recorded. The UI
+identifies the unit and item, with no instruction to seek through a full unit.
+Printed choices and answers
 were checked against textbook pages and answer-key pages; provenance records
 the archive entry and printed location. Audio hashes in the media manifest
 verify that the hosted files match the official archive bytes. Students can

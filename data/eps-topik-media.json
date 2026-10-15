@@ -4522,5 +4522,745 @@
     "source": "JCAN choice narration of printed textbook options",
     "voice": "ko-KR-SunHiNeural",
     "text": "보험금 납입 방법을 알고 싶어서"
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u12-l3.mp3",
+    "bytes": 624892,
+    "sha256": "35792c84cd31e9cb9482c2de331495be3b089f096ec96fbbde60c420b1578ca7",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track87.mp3",
+    "startSeconds": 75.252245,
+    "endSeconds": 114.250862,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u13-l5.mp3",
+    "bytes": 629907,
+    "sha256": "46fbca65aaec6d3cdcefbb067c5a7f00b500f3bcbed6cb9a0ea5218c08019222",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track92.mp3",
+    "startSeconds": 136.117075,
+    "endSeconds": 175.421814,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u15-l4.mp3",
+    "bytes": 259177,
+    "sha256": "906e2e1e749f2e4aaa616d9b13f7f75ec6cae9954059f2ab637322bd8f68a882",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
+    "startSeconds": 121.866395,
+    "endSeconds": 137.991021,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u15-l5.mp3",
+    "bytes": 641192,
+    "sha256": "48852b1935c6ef7de6a2d76943cc2840ea353550de8ca9ca86735304256c9b55",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
+    "startSeconds": 148.023107,
+    "endSeconds": 188.028209,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u16-l4.mp3",
+    "bytes": 278403,
+    "sha256": "c03be0f1f9baf8d39455314815696b2da5b43f3b31f2a2c171069dc844852cff",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
+    "startSeconds": 125.564989,
+    "endSeconds": 142.887437,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u16-l5.mp3",
+    "bytes": 779536,
+    "sha256": "985f3097dc55571b967bd67ba71d57b2f36ddf392f14ca073e7d2a9704835e6f",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
+    "startSeconds": 152.906122,
+    "endSeconds": 201.555397,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u17-l3.mp3",
+    "bytes": 320199,
+    "sha256": "b72ab7d24fe4c05ec4034c9c378e80e38980d5ab81cbd2d78c9f2cadc8c4abee",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+    "startSeconds": 53.634535,
+    "endSeconds": 73.577574,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u17-l4.mp3",
+    "bytes": 553421,
+    "sha256": "0d2129f168091c113bc296ba2677ddf34ae12df9c250fdd863e149554863992f",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+    "startSeconds": 83.596508,
+    "endSeconds": 118.105941,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u17-l5.mp3",
+    "bytes": 708483,
+    "sha256": "ad13827b93732722f61f71bd9b9ba37b9ea7e18d8cc182a352d5122d8f0bc279",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+    "startSeconds": 128.133991,
+    "endSeconds": 172.345102,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u18-l4.mp3",
+    "bytes": 371190,
+    "sha256": "c4b63050c9888bc9a2beeb76463194b570ca99ceefed9ce8b334eb3020ae7f66",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
+    "startSeconds": 118.378027,
+    "endSeconds": 141.517483,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u18-l5.mp3",
+    "bytes": 514132,
+    "sha256": "d241b2f15c2c25852c2b1394b5348e77d51446d334116fca5bb85e4385da6cde",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
+    "startSeconds": 151.544739,
+    "endSeconds": 183.599093,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u19-l3.mp3",
+    "bytes": 641192,
+    "sha256": "2dd6c57b00471827301e5c8c597d5faf0a809725081e42ba5ca194c5bade0754",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track122.mp3",
+    "startSeconds": 99.03458,
+    "endSeconds": 139.046576,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u21-l5.mp3",
+    "bytes": 364503,
+    "sha256": "3f3b2b27a9bb02942c01071020b7f05a5753f3f3ae5048f97a1c83c156f484c7",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track132.mp3",
+    "startSeconds": 154.601406,
+    "endSeconds": 177.321927,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u22-l5.mp3",
+    "bytes": 377460,
+    "sha256": "4f74d30c51a45d94bd7a02d5322b4e0adc5ac5d5ecdb9de3a32ff4929dacf8d2",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track137.mp3",
+    "startSeconds": 145.474127,
+    "endSeconds": 169.000182,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u23-l5.mp3",
+    "bytes": 418002,
+    "sha256": "ad1a3570838a9b3d5023955f3855644a58d24026cd05e03a3945b7a45d0e09bd",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track142.mp3",
+    "startSeconds": 143.739819,
+    "endSeconds": 169.801043,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u24-l3.mp3",
+    "bytes": 272552,
+    "sha256": "c685ad889bb6a94b3841994e82645ff42bc937fb28f1aee9e432477377837e07",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track147.mp3",
+    "startSeconds": 61.260181,
+    "endSeconds": 78.235533,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u25-l3.mp3",
+    "bytes": 243295,
+    "sha256": "08627e3f2f2a92ae0160836f3ce823fd5efe0b961217418cdd83338a45168d00",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track152.mp3",
+    "startSeconds": 55.22229,
+    "endSeconds": 70.357597,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u26-l3.mp3",
+    "bytes": 680062,
+    "sha256": "b69522e44d0d07d7bd28720d3d49284937d61339c300d28d175c249e6c40f90a",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track157.mp3",
+    "startSeconds": 76.745805,
+    "endSeconds": 119.192857,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u28-l3.mp3",
+    "bytes": 584767,
+    "sha256": "a3fe353122043e5cd370eb717937c20fbf993ad2530d91d08dd7343567d4237e",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+    "startSeconds": 54.350794,
+    "endSeconds": 90.835442,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u28-l4.mp3",
+    "bytes": 595216,
+    "sha256": "97b4c3d72dce0bcf873cebe686eeab707430e259b32830e2ab820543db454b9e",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+    "startSeconds": 100.851043,
+    "endSeconds": 137.977823,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v1-u28-l5.mp3",
+    "bytes": 481532,
+    "sha256": "9c1640e450f226616d1cdda124fe0a20a926cdf8ba64818f566d673828b77a68",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+    "startSeconds": 148.000952,
+    "endSeconds": 178.027256,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u31-l3.mp3",
+    "bytes": 326051,
+    "sha256": "4c8ea2a9b3ff4f0733f94e4ac1a92ded63edfc4e7179142439ffb90a7d9d8865",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+    "startSeconds": 76.677483,
+    "endSeconds": 96.991655,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u31-l4.mp3",
+    "bytes": 668359,
+    "sha256": "7d0460fe2dbebf496eb5c0cb85620654ae15381f668e1d661e2f817968ea9a33",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+    "startSeconds": 107.010181,
+    "endSeconds": 148.715737,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u31-l5.mp3",
+    "bytes": 532941,
+    "sha256": "eec82a7a9073b069af10ebc2c8124420e5bd207787db291925abd8eb1804b32a",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+    "startSeconds": 158.88805,
+    "endSeconds": 192.116508,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u32-l3.mp3",
+    "bytes": 420927,
+    "sha256": "a333fcd484fb767cd3a2a2e69aedd4db6f32b8b6787a1634512688b7f1ab91c9",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+    "startSeconds": 69.832245,
+    "endSeconds": 96.061972,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u32-l4.mp3",
+    "bytes": 675465,
+    "sha256": "7c940e612e7e718bdafa55a467a0637591bc5bf1943931ce9ca207ea30eca451",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+    "startSeconds": 106.068367,
+    "endSeconds": 148.223583,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u32-l5.mp3",
+    "bytes": 742338,
+    "sha256": "687f9692024de3dd6fa528a0f85df9b4fb0a4096c211fa1077a18f92828277d9",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+    "startSeconds": 158.241179,
+    "endSeconds": 204.561519,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u33-l3.mp3",
+    "bytes": 338172,
+    "sha256": "e08b576ab325b39051ac77a4d61bed83f567962af8c559511b3aa2cc5b7906a9",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+    "startSeconds": 92.488118,
+    "endSeconds": 113.545238,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u33-l4.mp3",
+    "bytes": 712663,
+    "sha256": "fa124094093b7609ed7d452bc0ef1cc9c98db4cba9e9bb9a1a4f8631312e870d",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+    "startSeconds": 123.585896,
+    "endSeconds": 168.065578,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u33-l5.mp3",
+    "bytes": 630325,
+    "sha256": "230b4c82c7c2522b6b4978817eeab7416471b1f9750e72b8fe092a59cacb2385",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+    "startSeconds": 178.084807,
+    "endSeconds": 217.399229,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u35-l3.mp3",
+    "bytes": 390834,
+    "sha256": "5af6278382adf5de9e20c8ebe535aff67a0c25e5c44ef27ef74f410dad84853a",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+    "startSeconds": 73.245147,
+    "endSeconds": 97.6039,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u35-l4.mp3",
+    "bytes": 689675,
+    "sha256": "2c6d1cde8334f07d660ef28f37544de4eb91cd76152ef15c64730d47152a08ad",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+    "startSeconds": 107.627324,
+    "endSeconds": 150.671633,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u35-l5.mp3",
+    "bytes": 551331,
+    "sha256": "f60628a02d1e89555120ac2c779e4ca4dc84dc4b4a95583b9b173b1641e83dc1",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+    "startSeconds": 160.693084,
+    "endSeconds": 195.084309,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u36-l3.mp3",
+    "bytes": 323961,
+    "sha256": "56c65e1357fc710885bef7dca96e8e48674ce59f93b67871688c020b17e3cd91",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+    "startSeconds": 72.492426,
+    "endSeconds": 92.674286,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u36-l4.mp3",
+    "bytes": 659164,
+    "sha256": "a104e71d28bc80fd0d0490657a30e17d82ff372d74045dc3d3f5f26ab87707f7",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+    "startSeconds": 102.6961,
+    "endSeconds": 143.824558,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u36-l5.mp3",
+    "bytes": 493234,
+    "sha256": "32ac2c87033ef7c3a1d3a06e1c996e38c81cf6dc4af29c780dc6a0a66adf8863",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+    "startSeconds": 153.839683,
+    "endSeconds": 184.590386,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u37-l4.mp3",
+    "bytes": 376624,
+    "sha256": "9981ab14b5f8f554c71aa13ef471bc1ce8fd9a397e74bab4a90dfec16331536c",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
+    "startSeconds": 116.358957,
+    "endSeconds": 139.83288,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u37-l5.mp3",
+    "bytes": 533358,
+    "sha256": "b18880da9e1e7a1160b6e981da06da9428ac6b04f2dd7cd276ca2ac3ff491f6a",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
+    "startSeconds": 149.845601,
+    "endSeconds": 183.120113,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u38-l3.mp3",
+    "bytes": 315602,
+    "sha256": "e61c828de0a5c93857eccdc8e8825b7dec7975e7779d4d131473401ea6278fc7",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+    "startSeconds": 66.484807,
+    "endSeconds": 86.144989,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u38-l4.mp3",
+    "bytes": 664180,
+    "sha256": "ee09b675a427c50e1ebcb6171cf3536851135dbd683e6f2d4616214c286cfe4c",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+    "startSeconds": 96.232245,
+    "endSeconds": 137.669274,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u38-l5.mp3",
+    "bytes": 593963,
+    "sha256": "b1a52afd08dc93a10b53b69e3d7ed2f1c23f6ec060668d4de7a5274c05e480ac",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+    "startSeconds": 147.687029,
+    "endSeconds": 184.75093,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u39-l3.mp3",
+    "bytes": 387909,
+    "sha256": "f8778ebb3b0d13af622f6a2bac9574ab90ceac351a02badfb938f01842911791",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+    "startSeconds": 74.030567,
+    "endSeconds": 98.200431,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u39-l4.mp3",
+    "bytes": 712663,
+    "sha256": "0c48f24f1002b5ecbee2e47b0c7da462b641592948fe5419b588e33dc3ffea0d",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+    "startSeconds": 108.273968,
+    "endSeconds": 152.749342,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u39-l5.mp3",
+    "bytes": 443079,
+    "sha256": "81d93645ef733db2acbe9882423b45dcd34da17844f2fb3e7605a09d7eedfba1",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+    "startSeconds": 162.76678,
+    "endSeconds": 190.379796,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u40-l4.mp3",
+    "bytes": 590201,
+    "sha256": "df7957c5230fb76b6083d532c27ee101ea1bf942acab25b48e070b0f8c3513c1",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
+    "startSeconds": 114.946871,
+    "endSeconds": 151.768322,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u40-l5.mp3",
+    "bytes": 551749,
+    "sha256": "f72fbc9a984714dec7817345bac65df0b08f96c91b79bc27ba8876b204f2e956",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
+    "startSeconds": 161.780612,
+    "endSeconds": 196.190748,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u41-l4.mp3",
+    "bytes": 674629,
+    "sha256": "55d4d2158916bfe4c55a6171770aa47f997ab6869a1fc9c7e2031abace1b7b49",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
+    "startSeconds": 123.011905,
+    "endSeconds": 165.112427,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u41-l5.mp3",
+    "bytes": 439318,
+    "sha256": "57c89444d474c857882ae0a85d360221c2d2cb3b5618f5830b52672f35a417d0",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
+    "startSeconds": 175.128277,
+    "endSeconds": 202.527098,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u42-l4.mp3",
+    "bytes": 684242,
+    "sha256": "f1b281a267727935e13b1fb84ea6155a704d28d4ddca07029bd954260ecb92a7",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
+    "startSeconds": 115.40102,
+    "endSeconds": 158.106349,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u42-l5.mp3",
+    "bytes": 672957,
+    "sha256": "f0baf10c533f20232d89ee9e4dc5c6e7b03467007bc8fa331787c8deaeb5ece2",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
+    "startSeconds": 168.221338,
+    "endSeconds": 210.226236,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u53-l3.mp3",
+    "bytes": 421345,
+    "sha256": "f41b04d297fb4422bd02e0c0cdd9d258789d860f02794b2f9e3f73f6e3e4d31b",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+    "startSeconds": 85.237732,
+    "endSeconds": 111.504013,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u53-l4.mp3",
+    "bytes": 670449,
+    "sha256": "79572683f77b202d76436022f31e06890a9f8e4f5768b5b540fb8cbf6f04c18f",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+    "startSeconds": 121.529705,
+    "endSeconds": 163.363447,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u53-l5.mp3",
+    "bytes": 677972,
+    "sha256": "e45632f9eb7aafe22cb22777cc95597d4fa49f140cd97f70afc4549488077122",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+    "startSeconds": 173.410771,
+    "endSeconds": 215.704308,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u54-l3.mp3",
+    "bytes": 345277,
+    "sha256": "2f4ed2b72afe5e0286541d647536057871c1c34fcbb451c35af6484b2f1ca274",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+    "startSeconds": 90.292971,
+    "endSeconds": 111.808005,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u54-l4.mp3",
+    "bytes": 673375,
+    "sha256": "90879aa6b91ceb034edb20660f9c47bb5eece22901ad084c6826e4d58e98cdfc",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+    "startSeconds": 121.823039,
+    "endSeconds": 163.830272,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u54-l5.mp3",
+    "bytes": 586857,
+    "sha256": "8cfd96deb447c3aca63c3b7728cc4edefed6fc96e2c59f3af3a5a3e5e4841ecf",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+    "startSeconds": 173.849546,
+    "endSeconds": 210.449183,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u55-l3.mp3",
+    "bytes": 434302,
+    "sha256": "8ff511d598e96a5a7ac496bbc9bb825fa0ecfb74a70d0252e4b6bc1a9db47a82",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+    "startSeconds": 85.833288,
+    "endSeconds": 112.92034,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u55-l4.mp3",
+    "bytes": 672957,
+    "sha256": "fff97ebb0100eceef4c5e127f2f50f4ff0ce2e8eb03d90b6a893405a6c044f74",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+    "startSeconds": 123.008571,
+    "endSeconds": 165.007325,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u55-l5.mp3",
+    "bytes": 682570,
+    "sha256": "906a70dcb4cff7edac3d02125492802a86029481858b3d2a40c24d69ef4bdd80",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+    "startSeconds": 173.946871,
+    "endSeconds": 216.533424,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u56-l3.mp3",
+    "bytes": 303481,
+    "sha256": "4660606d041ad449a79af9b3fdf493fb8ccf5018d8fd7768ce02faf47ede5149",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+    "startSeconds": 85.03229,
+    "endSeconds": 103.91975,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u56-l4.mp3",
+    "bytes": 609845,
+    "sha256": "07ff5d03d84e3aff300122d243103e6d039262c328ce689175063336bafdcfb0",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+    "startSeconds": 113.955147,
+    "endSeconds": 151.99093,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u56-l5.mp3",
+    "bytes": 550495,
+    "sha256": "ee62acd9217d1faa2da15e36e8147eb210e4163bd051078ae5c397f1016c6ac9",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+    "startSeconds": 162.00415,
+    "endSeconds": 196.354648,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u57-l3.mp3",
+    "bytes": 318110,
+    "sha256": "dcf1f096500cf11d2a54027bcd0af3ef9ebd2e9dcd52d708025b67f753e692fa",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+    "startSeconds": 92.747007,
+    "endSeconds": 112.551293,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u57-l4.mp3",
+    "bytes": 540464,
+    "sha256": "463944af076cdfea201374be20bbd4acee682a7e19e1df0ec20c2ae42019f974",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+    "startSeconds": 122.644785,
+    "endSeconds": 156.343651,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u57-l5.mp3",
+    "bytes": 568885,
+    "sha256": "18a83f45fd58f470e231d4c40d3b02789f23ed1557246df3ba92ed47f626ddb0",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+    "startSeconds": 166.361905,
+    "endSeconds": 201.847619,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u58-l3.mp3",
+    "bytes": 303063,
+    "sha256": "f734f68aa3b1d368a859f79c4f6148bac9091a50393200e13410ef116bd5eac3",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+    "startSeconds": 89.104422,
+    "endSeconds": 107.984762,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u58-l4.mp3",
+    "bytes": 532523,
+    "sha256": "ab99d055e4605de6ab62a441ed69785259aed7eda1c300f6ebfd0c3978d2c4f8",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+    "startSeconds": 118.057528,
+    "endSeconds": 151.277256,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u58-l5.mp3",
+    "bytes": 516640,
+    "sha256": "dd4912d4a7eb0080ab5ef3dd8f9bd45bddf5ee2a71dd5c91d1ca76f10cf4a3d3",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+    "startSeconds": 161.289342,
+    "endSeconds": 193.509615,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u59-l3.mp3",
+    "bytes": 318527,
+    "sha256": "8f2a5c99c20141e7c8270a9f21139870d43e3983cbfe8dae2ae0ad7d173eb191",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+    "startSeconds": 96.645669,
+    "endSeconds": 116.489615,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u59-l4.mp3",
+    "bytes": 544643,
+    "sha256": "c968b5db6d06b999af820ac44c8976eee87c50bd53814b3fd65aabd9dbd137d3",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+    "startSeconds": 126.510839,
+    "endSeconds": 160.489002,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u59-l5.mp3",
+    "bytes": 520820,
+    "sha256": "4d8f8b756adfd0aeaed9e84b2a491e50e550aa4605e4b0825dabedb6e50f4f3c",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+    "startSeconds": 170.537211,
+    "endSeconds": 203.033288,
+    "item": 5
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u60-l3.mp3",
+    "bytes": 328558,
+    "sha256": "7cb42ee7ea6b8d145caf7a858c3fc4090f15f258c0f0b77e9d109388560fa601",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+    "startSeconds": 88.535442,
+    "endSeconds": 109.004694,
+    "item": 3
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u60-l4.mp3",
+    "bytes": 574318,
+    "sha256": "da9301c1ebd51221f9cd4dc7556c57cbbd74f58397da9e3424b70f9518d16930",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+    "startSeconds": 119.02585,
+    "endSeconds": 154.858254,
+    "item": 4
+  },
+  {
+    "path": "media/eps-topik/hrdk-2024-v2-u60-l5.mp3",
+    "bytes": 619040,
+    "sha256": "13d5d57302c11fbd0729a266e74b3be4e3e7b6989d45e0581269adeff893bb0b",
+    "source": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
+    "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+    "startSeconds": 164.898798,
+    "endSeconds": 203.519524,
+    "item": 5
   }
 ]

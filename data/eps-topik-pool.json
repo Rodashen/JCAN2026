@@ -9555,9 +9555,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track87.mp3",
-      "audioSeconds": 224.94040816326532,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u12-l3.mp3",
+      "audioSeconds": 38.998617,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9570,7 +9570,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 087 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track87.mp3",
+          "startSeconds": 75.252245,
+          "endSeconds": 114.250862,
+          "item": 3
+        }
       }
     },
     {
@@ -9605,9 +9611,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book1-track92.mp3",
-      "audioSeconds": 185.2604081632653,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u13-l5.mp3",
+      "audioSeconds": 39.304739,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9620,7 +9626,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 092 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track92.mp3",
+          "startSeconds": 136.117075,
+          "endSeconds": 175.421814,
+          "item": 5
+        }
       }
     },
     {
@@ -9655,9 +9667,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book1-track102.mp3",
-      "audioSeconds": 197.85142857142858,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u15-l4.mp3",
+      "audioSeconds": 16.124626,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9670,7 +9682,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 102 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
+          "startSeconds": 121.866395,
+          "endSeconds": 137.991021,
+          "item": 4
+        }
       }
     },
     {
@@ -9705,9 +9723,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book1-track102.mp3",
-      "audioSeconds": 197.85142857142858,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u15-l5.mp3",
+      "audioSeconds": 40.005102,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9720,7 +9738,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 102 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
+          "startSeconds": 148.023107,
+          "endSeconds": 188.028209,
+          "item": 5
+        }
       }
     },
     {
@@ -9755,9 +9779,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track107.mp3",
-      "audioSeconds": 211.38285714285715,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u16-l4.mp3",
+      "audioSeconds": 17.322449,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9770,7 +9794,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 107 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
+          "startSeconds": 125.564989,
+          "endSeconds": 142.887437,
+          "item": 4
+        }
       }
     },
     {
@@ -9805,9 +9835,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track107.mp3",
-      "audioSeconds": 211.38285714285715,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u16-l5.mp3",
+      "audioSeconds": 48.649274,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9820,7 +9850,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 107 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
+          "startSeconds": 152.906122,
+          "endSeconds": 201.555397,
+          "item": 5
+        }
       }
     },
     {
@@ -9855,9 +9891,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book1-track112.mp3",
-      "audioSeconds": 182.17795918367347,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u17-l3.mp3",
+      "audioSeconds": 19.943039,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9870,7 +9906,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 112 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+          "startSeconds": 53.634535,
+          "endSeconds": 73.577574,
+          "item": 3
+        }
       }
     },
     {
@@ -9905,9 +9947,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track112.mp3",
-      "audioSeconds": 182.17795918367347,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u17-l4.mp3",
+      "audioSeconds": 34.509433,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9920,7 +9962,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 112 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+          "startSeconds": 83.596508,
+          "endSeconds": 118.105941,
+          "item": 4
+        }
       }
     },
     {
@@ -9955,9 +10003,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track112.mp3",
-      "audioSeconds": 182.17795918367347,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u17-l5.mp3",
+      "audioSeconds": 44.211111,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -9970,7 +10018,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 112 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
+          "startSeconds": 128.133991,
+          "endSeconds": 172.345102,
+          "item": 5
+        }
       }
     },
     {
@@ -10005,9 +10059,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track117.mp3",
-      "audioSeconds": 193.5673469387755,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u18-l4.mp3",
+      "audioSeconds": 23.139456,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10020,7 +10074,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 117 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
+          "startSeconds": 118.378027,
+          "endSeconds": 141.517483,
+          "item": 4
+        }
       }
     },
     {
@@ -10055,9 +10115,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track117.mp3",
-      "audioSeconds": 193.5673469387755,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u18-l5.mp3",
+      "audioSeconds": 32.054354,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10070,7 +10130,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 117 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
+          "startSeconds": 151.544739,
+          "endSeconds": 183.599093,
+          "item": 5
+        }
       }
     },
     {
@@ -10105,9 +10171,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track122.mp3",
-      "audioSeconds": 202.50122448979593,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u19-l3.mp3",
+      "audioSeconds": 40.011995,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10120,7 +10186,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 122 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track122.mp3",
+          "startSeconds": 99.03458,
+          "endSeconds": 139.046576,
+          "item": 3
+        }
       }
     },
     {
@@ -10155,9 +10227,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book1-track132.mp3",
-      "audioSeconds": 187.14122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u21-l5.mp3",
+      "audioSeconds": 22.720522,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10170,7 +10242,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 132 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track132.mp3",
+          "startSeconds": 154.601406,
+          "endSeconds": 177.321927,
+          "item": 5
+        }
       }
     },
     {
@@ -10205,9 +10283,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book1-track137.mp3",
-      "audioSeconds": 178.83428571428573,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u22-l5.mp3",
+      "audioSeconds": 23.526054,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10220,7 +10298,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 137 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track137.mp3",
+          "startSeconds": 145.474127,
+          "endSeconds": 169.000182,
+          "item": 5
+        }
       }
     },
     {
@@ -10255,9 +10339,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book1-track142.mp3",
-      "audioSeconds": 179.64408163265307,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u23-l5.mp3",
+      "audioSeconds": 26.061224,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10270,7 +10354,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 142 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track142.mp3",
+          "startSeconds": 143.739819,
+          "endSeconds": 169.801043,
+          "item": 5
+        }
       }
     },
     {
@@ -10305,9 +10395,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book1-track147.mp3",
-      "audioSeconds": 185.67836734693878,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u24-l3.mp3",
+      "audioSeconds": 16.975351,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10320,7 +10410,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 147 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track147.mp3",
+          "startSeconds": 61.260181,
+          "endSeconds": 78.235533,
+          "item": 3
+        }
       }
     },
     {
@@ -10355,9 +10451,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track152.mp3",
-      "audioSeconds": 174.3412244897959,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u25-l3.mp3",
+      "audioSeconds": 15.135306,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10370,7 +10466,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 152 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track152.mp3",
+          "startSeconds": 55.22229,
+          "endSeconds": 70.357597,
+          "item": 3
+        }
       }
     },
     {
@@ -10405,9 +10507,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book1-track157.mp3",
-      "audioSeconds": 230.21714285714285,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u26-l3.mp3",
+      "audioSeconds": 42.447052,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10420,7 +10522,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 157 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track157.mp3",
+          "startSeconds": 76.745805,
+          "endSeconds": 119.192857,
+          "item": 3
+        }
       }
     },
     {
@@ -10455,9 +10563,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track167.mp3",
-      "audioSeconds": 187.8726530612245,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u28-l3.mp3",
+      "audioSeconds": 36.484649,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10470,7 +10578,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 167 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+          "startSeconds": 54.350794,
+          "endSeconds": 90.835442,
+          "item": 3
+        }
       }
     },
     {
@@ -10505,9 +10619,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book1-track167.mp3",
-      "audioSeconds": 187.8726530612245,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u28-l4.mp3",
+      "audioSeconds": 37.12678,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10520,7 +10634,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 167 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+          "startSeconds": 100.851043,
+          "endSeconds": 137.977823,
+          "item": 4
+        }
       }
     },
     {
@@ -10555,9 +10675,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book1-track167.mp3",
-      "audioSeconds": 187.8726530612245,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v1-u28-l5.mp3",
+      "audioSeconds": 30.026304,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 1",
@@ -10570,7 +10690,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook1_listen.zip",
         "audioEntry": "EPS-TOPIK ╟╤▒╣╛ε ╟Ñ┴╪▒│└τ 1 ╡Φ▒Γ╞─└╧/Track 167 EPS-TOPIK ╡Φ▒Γ ╣«┴ª.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
+          "startSeconds": 148.000952,
+          "endSeconds": 178.027256,
+          "item": 5
+        }
       }
     },
     {
@@ -10605,9 +10731,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track182.mp3",
-      "audioSeconds": 201.95265306122448,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u31-l3.mp3",
+      "audioSeconds": 20.314172,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10620,7 +10746,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 182 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+          "startSeconds": 76.677483,
+          "endSeconds": 96.991655,
+          "item": 3
+        }
       }
     },
     {
@@ -10655,9 +10787,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track182.mp3",
-      "audioSeconds": 201.95265306122448,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u31-l4.mp3",
+      "audioSeconds": 41.705556,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10670,7 +10802,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 182 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+          "startSeconds": 107.010181,
+          "endSeconds": 148.715737,
+          "item": 4
+        }
       }
     },
     {
@@ -10705,9 +10843,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track182.mp3",
-      "audioSeconds": 201.95265306122448,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u31-l5.mp3",
+      "audioSeconds": 33.228821,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10720,7 +10858,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 182 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
+          "startSeconds": 158.88805,
+          "endSeconds": 192.116508,
+          "item": 5
+        }
       }
     },
     {
@@ -10755,9 +10899,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track187.mp3",
-      "audioSeconds": 214.4130612244898,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u32-l3.mp3",
+      "audioSeconds": 26.229728,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10770,7 +10914,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 187 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+          "startSeconds": 69.832245,
+          "endSeconds": 96.061972,
+          "item": 3
+        }
       }
     },
     {
@@ -10805,9 +10955,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track187.mp3",
-      "audioSeconds": 214.4130612244898,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u32-l4.mp3",
+      "audioSeconds": 42.155215,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10820,7 +10970,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 187 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+          "startSeconds": 106.068367,
+          "endSeconds": 148.223583,
+          "item": 4
+        }
       }
     },
     {
@@ -10855,9 +11011,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track187.mp3",
-      "audioSeconds": 214.4130612244898,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u32-l5.mp3",
+      "audioSeconds": 46.32034,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10870,7 +11026,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 187 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
+          "startSeconds": 158.241179,
+          "endSeconds": 204.561519,
+          "item": 5
+        }
       }
     },
     {
@@ -10905,9 +11067,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track192.mp3",
-      "audioSeconds": 227.2391836734694,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u33-l3.mp3",
+      "audioSeconds": 21.05712,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10920,7 +11082,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 192 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+          "startSeconds": 92.488118,
+          "endSeconds": 113.545238,
+          "item": 3
+        }
       }
     },
     {
@@ -10955,9 +11123,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track192.mp3",
-      "audioSeconds": 227.2391836734694,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u33-l4.mp3",
+      "audioSeconds": 44.479683,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -10970,7 +11138,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 192 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+          "startSeconds": 123.585896,
+          "endSeconds": 168.065578,
+          "item": 4
+        }
       }
     },
     {
@@ -11005,9 +11179,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track192.mp3",
-      "audioSeconds": 227.2391836734694,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u33-l5.mp3",
+      "audioSeconds": 39.315351,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11020,7 +11194,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 192 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
+          "startSeconds": 178.084807,
+          "endSeconds": 217.399229,
+          "item": 5
+        }
       }
     },
     {
@@ -11055,9 +11235,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track202.mp3",
-      "audioSeconds": 204.90448979591838,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u35-l3.mp3",
+      "audioSeconds": 24.358753,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11070,7 +11250,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 202 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+          "startSeconds": 73.245147,
+          "endSeconds": 97.6039,
+          "item": 3
+        }
       }
     },
     {
@@ -11105,9 +11291,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track202.mp3",
-      "audioSeconds": 204.90448979591838,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u35-l4.mp3",
+      "audioSeconds": 43.044308,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11120,7 +11306,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 202 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+          "startSeconds": 107.627324,
+          "endSeconds": 150.671633,
+          "item": 4
+        }
       }
     },
     {
@@ -11155,9 +11347,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track202.mp3",
-      "audioSeconds": 204.90448979591838,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u35-l5.mp3",
+      "audioSeconds": 34.391224,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11170,7 +11362,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 202 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
+          "startSeconds": 160.693084,
+          "endSeconds": 195.084309,
+          "item": 5
+        }
       }
     },
     {
@@ -11205,9 +11403,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track207.mp3",
-      "audioSeconds": 194.42938775510203,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u36-l3.mp3",
+      "audioSeconds": 20.181859,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11220,7 +11418,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 207 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+          "startSeconds": 72.492426,
+          "endSeconds": 92.674286,
+          "item": 3
+        }
       }
     },
     {
@@ -11255,9 +11459,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track207.mp3",
-      "audioSeconds": 194.42938775510203,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u36-l4.mp3",
+      "audioSeconds": 41.128458,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11270,7 +11474,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 207 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+          "startSeconds": 102.6961,
+          "endSeconds": 143.824558,
+          "item": 4
+        }
       }
     },
     {
@@ -11305,9 +11515,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track207.mp3",
-      "audioSeconds": 194.42938775510203,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u36-l5.mp3",
+      "audioSeconds": 30.750703,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11320,7 +11530,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 207 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
+          "startSeconds": 153.839683,
+          "endSeconds": 184.590386,
+          "item": 5
+        }
       }
     },
     {
@@ -11355,9 +11571,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track212.mp3",
-      "audioSeconds": 192.94040816326532,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u37-l4.mp3",
+      "audioSeconds": 23.473923,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11370,7 +11586,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 212 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
+          "startSeconds": 116.358957,
+          "endSeconds": 139.83288,
+          "item": 4
+        }
       }
     },
     {
@@ -11405,9 +11627,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track212.mp3",
-      "audioSeconds": 192.94040816326532,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u37-l5.mp3",
+      "audioSeconds": 33.274512,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11420,7 +11642,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 212 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
+          "startSeconds": 149.845601,
+          "endSeconds": 183.120113,
+          "item": 5
+        }
       }
     },
     {
@@ -11455,9 +11683,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track217.mp3",
-      "audioSeconds": 194.6122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u38-l3.mp3",
+      "audioSeconds": 19.660181,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11470,7 +11698,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 217 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+          "startSeconds": 66.484807,
+          "endSeconds": 86.144989,
+          "item": 3
+        }
       }
     },
     {
@@ -11505,9 +11739,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track217.mp3",
-      "audioSeconds": 194.6122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u38-l4.mp3",
+      "audioSeconds": 41.437029,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11520,7 +11754,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 217 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+          "startSeconds": 96.232245,
+          "endSeconds": 137.669274,
+          "item": 4
+        }
       }
     },
     {
@@ -11555,9 +11795,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track217.mp3",
-      "audioSeconds": 194.6122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u38-l5.mp3",
+      "audioSeconds": 37.0639,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11570,7 +11810,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 217 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
+          "startSeconds": 147.687029,
+          "endSeconds": 184.75093,
+          "item": 5
+        }
       }
     },
     {
@@ -11605,9 +11851,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track222.mp3",
-      "audioSeconds": 200.20244897959185,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u39-l3.mp3",
+      "audioSeconds": 24.169864,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11620,7 +11866,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 222 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+          "startSeconds": 74.030567,
+          "endSeconds": 98.200431,
+          "item": 3
+        }
       }
     },
     {
@@ -11655,9 +11907,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track222.mp3",
-      "audioSeconds": 200.20244897959185,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u39-l4.mp3",
+      "audioSeconds": 44.475374,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11670,7 +11922,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 222 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+          "startSeconds": 108.273968,
+          "endSeconds": 152.749342,
+          "item": 4
+        }
       }
     },
     {
@@ -11705,9 +11963,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track222.mp3",
-      "audioSeconds": 200.20244897959185,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u39-l5.mp3",
+      "audioSeconds": 27.613016,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11720,7 +11978,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 222 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
+          "startSeconds": 162.76678,
+          "endSeconds": 190.379796,
+          "item": 5
+        }
       }
     },
     {
@@ -11755,9 +12019,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track227.mp3",
-      "audioSeconds": 206.02775510204083,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u40-l4.mp3",
+      "audioSeconds": 36.821451,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11770,7 +12034,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 227 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
+          "startSeconds": 114.946871,
+          "endSeconds": 151.768322,
+          "item": 4
+        }
       }
     },
     {
@@ -11805,9 +12075,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track227.mp3",
-      "audioSeconds": 206.02775510204083,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u40-l5.mp3",
+      "audioSeconds": 34.410136,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11820,7 +12090,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 227 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
+          "startSeconds": 161.780612,
+          "endSeconds": 196.190748,
+          "item": 5
+        }
       }
     },
     {
@@ -11855,9 +12131,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track232.mp3",
-      "audioSeconds": 212.34938775510204,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u41-l4.mp3",
+      "audioSeconds": 42.100522,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11870,7 +12146,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 232 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
+          "startSeconds": 123.011905,
+          "endSeconds": 165.112427,
+          "item": 4
+        }
       }
     },
     {
@@ -11905,9 +12187,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track232.mp3",
-      "audioSeconds": 212.34938775510204,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u41-l5.mp3",
+      "audioSeconds": 27.398821,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11920,7 +12202,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 232 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
+          "startSeconds": 175.128277,
+          "endSeconds": 202.527098,
+          "item": 5
+        }
       }
     },
     {
@@ -11955,9 +12243,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track237.mp3",
-      "audioSeconds": 220.13387755102042,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u42-l4.mp3",
+      "audioSeconds": 42.705329,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -11970,7 +12258,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 237 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
+          "startSeconds": 115.40102,
+          "endSeconds": 158.106349,
+          "item": 4
+        }
       }
     },
     {
@@ -12005,9 +12299,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track237.mp3",
-      "audioSeconds": 220.13387755102042,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u42-l5.mp3",
+      "audioSeconds": 42.004898,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12020,7 +12314,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 237 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
+          "startSeconds": 168.221338,
+          "endSeconds": 210.226236,
+          "item": 5
+        }
       }
     },
     {
@@ -12055,9 +12355,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track292.mp3",
-      "audioSeconds": 225.54122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u53-l3.mp3",
+      "audioSeconds": 26.266281,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12070,7 +12370,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 292 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+          "startSeconds": 85.237732,
+          "endSeconds": 111.504013,
+          "item": 3
+        }
       }
     },
     {
@@ -12105,9 +12411,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track292.mp3",
-      "audioSeconds": 225.54122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u53-l4.mp3",
+      "audioSeconds": 41.833741,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12120,7 +12426,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 292 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+          "startSeconds": 121.529705,
+          "endSeconds": 163.363447,
+          "item": 4
+        }
       }
     },
     {
@@ -12155,9 +12467,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track292.mp3",
-      "audioSeconds": 225.54122448979592,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u53-l5.mp3",
+      "audioSeconds": 42.293537,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12170,7 +12482,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 292 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
+          "startSeconds": 173.410771,
+          "endSeconds": 215.704308,
+          "item": 5
+        }
       }
     },
     {
@@ -12205,9 +12523,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track297.mp3",
-      "audioSeconds": 220.29061224489797,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u54-l3.mp3",
+      "audioSeconds": 21.515034,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12220,7 +12538,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 297 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+          "startSeconds": 90.292971,
+          "endSeconds": 111.808005,
+          "item": 3
+        }
       }
     },
     {
@@ -12255,9 +12579,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track297.mp3",
-      "audioSeconds": 220.29061224489797,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u54-l4.mp3",
+      "audioSeconds": 42.007234,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12270,7 +12594,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 297 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+          "startSeconds": 121.823039,
+          "endSeconds": 163.830272,
+          "item": 4
+        }
       }
     },
     {
@@ -12305,9 +12635,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track297.mp3",
-      "audioSeconds": 220.29061224489797,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u54-l5.mp3",
+      "audioSeconds": 36.599637,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12320,7 +12650,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 297 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
+          "startSeconds": 173.849546,
+          "endSeconds": 210.449183,
+          "item": 5
+        }
       }
     },
     {
@@ -12355,9 +12691,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track302.mp3",
-      "audioSeconds": 226.35102040816327,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u55-l3.mp3",
+      "audioSeconds": 27.087052,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12370,7 +12706,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 302 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+          "startSeconds": 85.833288,
+          "endSeconds": 112.92034,
+          "item": 3
+        }
       }
     },
     {
@@ -12405,9 +12747,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track302.mp3",
-      "audioSeconds": 226.35102040816327,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u55-l4.mp3",
+      "audioSeconds": 41.998753,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12420,7 +12762,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 302 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+          "startSeconds": 123.008571,
+          "endSeconds": 165.007325,
+          "item": 4
+        }
       }
     },
     {
@@ -12455,9 +12803,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track302.mp3",
-      "audioSeconds": 226.35102040816327,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u55-l5.mp3",
+      "audioSeconds": 42.586553,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12470,7 +12818,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 302 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
+          "startSeconds": 173.946871,
+          "endSeconds": 216.533424,
+          "item": 5
+        }
       }
     },
     {
@@ -12505,9 +12859,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track307.mp3",
-      "audioSeconds": 206.21061224489796,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u56-l3.mp3",
+      "audioSeconds": 18.887596,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12520,7 +12874,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 307 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+          "startSeconds": 85.03229,
+          "endSeconds": 103.91975,
+          "item": 3
+        }
       }
     },
     {
@@ -12555,9 +12915,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track307.mp3",
-      "audioSeconds": 206.21061224489796,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u56-l4.mp3",
+      "audioSeconds": 38.035782,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12570,7 +12930,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 307 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+          "startSeconds": 113.955147,
+          "endSeconds": 151.99093,
+          "item": 4
+        }
       }
     },
     {
@@ -12605,9 +12971,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track307.mp3",
-      "audioSeconds": 206.21061224489796,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u56-l5.mp3",
+      "audioSeconds": 34.350499,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12620,7 +12986,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 307 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
+          "startSeconds": 162.00415,
+          "endSeconds": 196.354648,
+          "item": 5
+        }
       }
     },
     {
@@ -12655,9 +13027,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track312.mp3",
-      "audioSeconds": 211.72244897959183,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u57-l3.mp3",
+      "audioSeconds": 19.804286,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12670,7 +13042,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 312 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+          "startSeconds": 92.747007,
+          "endSeconds": 112.551293,
+          "item": 3
+        }
       }
     },
     {
@@ -12705,9 +13083,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track312.mp3",
-      "audioSeconds": 211.72244897959183,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u57-l4.mp3",
+      "audioSeconds": 33.699025,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12720,7 +13098,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 312 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+          "startSeconds": 122.644785,
+          "endSeconds": 156.343651,
+          "item": 4
+        }
       }
     },
     {
@@ -12755,9 +13139,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track312.mp3",
-      "audioSeconds": 211.72244897959183,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u57-l5.mp3",
+      "audioSeconds": 35.485714,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12770,7 +13154,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 312 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
+          "startSeconds": 166.361905,
+          "endSeconds": 201.847619,
+          "item": 5
+        }
       }
     },
     {
@@ -12805,9 +13195,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track317.mp3",
-      "audioSeconds": 203.33714285714285,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u58-l3.mp3",
+      "audioSeconds": 18.88034,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12820,7 +13210,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 317 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+          "startSeconds": 89.104422,
+          "endSeconds": 107.984762,
+          "item": 3
+        }
       }
     },
     {
@@ -12855,9 +13251,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track317.mp3",
-      "audioSeconds": 203.33714285714285,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u58-l4.mp3",
+      "audioSeconds": 33.219728,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12870,7 +13266,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 317 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+          "startSeconds": 118.057528,
+          "endSeconds": 151.277256,
+          "item": 4
+        }
       }
     },
     {
@@ -12905,9 +13307,9 @@
         }
       ],
       "answer": 1,
-      "audio": "media/eps-topik/hrdk-book2-track317.mp3",
-      "audioSeconds": 203.33714285714285,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u58-l5.mp3",
+      "audioSeconds": 32.220272,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12920,7 +13322,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 317 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
+          "startSeconds": 161.289342,
+          "endSeconds": 193.509615,
+          "item": 5
+        }
       }
     },
     {
@@ -12955,9 +13363,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track322.mp3",
-      "audioSeconds": 212.89795918367346,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u59-l3.mp3",
+      "audioSeconds": 19.843946,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -12970,7 +13378,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 322 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+          "startSeconds": 96.645669,
+          "endSeconds": 116.489615,
+          "item": 3
+        }
       }
     },
     {
@@ -13005,9 +13419,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track322.mp3",
-      "audioSeconds": 212.89795918367346,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u59-l4.mp3",
+      "audioSeconds": 33.978163,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -13020,7 +13434,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 322 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+          "startSeconds": 126.510839,
+          "endSeconds": 160.489002,
+          "item": 4
+        }
       }
     },
     {
@@ -13055,9 +13475,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track322.mp3",
-      "audioSeconds": 212.89795918367346,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u59-l5.mp3",
+      "audioSeconds": 32.496077,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -13070,7 +13490,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 322 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
+          "startSeconds": 170.537211,
+          "endSeconds": 203.033288,
+          "item": 5
+        }
       }
     },
     {
@@ -13105,9 +13531,9 @@
         }
       ],
       "answer": 3,
-      "audio": "media/eps-topik/hrdk-book2-track327.mp3",
-      "audioSeconds": 213.34204081632652,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u60-l3.mp3",
+      "audioSeconds": 20.469252,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -13120,7 +13546,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 327 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+          "startSeconds": 88.535442,
+          "endSeconds": 109.004694,
+          "item": 3
+        }
       }
     },
     {
@@ -13155,9 +13587,9 @@
         }
       ],
       "answer": 0,
-      "audio": "media/eps-topik/hrdk-book2-track327.mp3",
-      "audioSeconds": 213.34204081632652,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u60-l4.mp3",
+      "audioSeconds": 35.832404,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -13170,7 +13602,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 327 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+          "startSeconds": 119.02585,
+          "endSeconds": 154.858254,
+          "item": 4
+        }
       }
     },
     {
@@ -13205,9 +13643,9 @@
         }
       ],
       "answer": 2,
-      "audio": "media/eps-topik/hrdk-book2-track327.mp3",
-      "audioSeconds": 213.34204081632652,
-      "audioScope": "unit",
+      "audio": "media/eps-topik/hrdk-2024-v2-u60-l5.mp3",
+      "audioSeconds": 38.620726,
+      "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
         "title": "2024 NEW Standard Korean Textbook 2",
@@ -13220,7 +13658,13 @@
         "url": "https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en",
         "audioUrl": "https://epstopik.hrdkorea.or.kr/epstopik/eps_klt/EPS-TOPIK_textbook2_listen.zip",
         "audioEntry": "EPS-TOPIK 한국어 표준교재 2 듣기파일(2606수정)/Track 327 EPS-TOPIK 듣기 문제.mp3",
-        "kind": "textbook"
+        "kind": "textbook",
+        "audioClip": {
+          "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
+          "startSeconds": 164.898798,
+          "endSeconds": 203.519524,
+          "item": 5
+        }
       }
     }
   ],

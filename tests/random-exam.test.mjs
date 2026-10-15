@@ -18,7 +18,7 @@ test('300 retries have fresh questions, verified recordings and a 30/70 split in
    assert.equal(qs.filter(q=>q.provenance?.book===1).length,6);
    assert.equal(qs.filter(q=>q.provenance?.book===2).length,14);
   }
-  assert.ok(exam.questions.slice(20).every(q=>q.audioScope==='unit'&&q.provenance.audioUrl&&q.audioSeconds>0));
+  assert.ok(exam.questions.slice(20).every(q=>q.audioScope==='question'&&q.provenance.audioUrl&&q.audioSeconds>0&&q.audioSeconds<80));
   for(const q of exam.questions.slice(20)){
    const start=exam.sequence.findIndex(s=>s.question===q.number);
    const end=exam.sequence.findIndex((s,j)=>j>start&&s.question);
@@ -69,5 +69,12 @@ test('randomized questions retain their own accurate directions',()=>{
 test('verified listening preserves textbook choices, answer keys and official track references',()=>{
  const cases=[['hrdk-2024-v1-u17-l5',2,'친구들하고 부산에 가려고 해요.'],['hrdk-2024-v2-u31-l3',0,'새로 온 직원의 태도'],['hrdk-2024-v2-u32-l5',1,'남자는 휴게실에서 요리를 했습니다.']];
  for(const [id,answer,text] of cases){const q=pool.questions.find(q=>q.id===id);assert.equal(q.answer,answer);assert.equal(q.choices[answer].text,text);assert.match(q.provenance.audioUrl,/^https:\/\/epstopik\.hrdkorea\.or\.kr\//);assert.ok(q.provenance.audioEntry.includes('Track '+q.provenance.track+' '));}
- for(const q of pool.questions.filter(q=>q.audioScope==='unit'))assert.ok(q.choices.every(c=>c.audio&&!/[①②③④]|\[\d~\d\]|듣기지문|WORKPLACE/.test(c.text)));
+ for(const q of pool.questions.filter(q=>q.audioScope==='question'))assert.ok(q.choices.every(c=>c.audio&&!/[①②③④]|\[\d~\d\]|듣기지문|WORKPLACE/.test(c.text)));
+});
+
+test('every textbook item plays its own bounded clip, not the entire unit track',()=>{
+ const qs=pool.questions.filter(q=>q.audioScope==='question');assert.equal(qs.length,74);
+ assert.equal(new Set(qs.map(q=>q.audio)).size,74);
+ for(const q of qs){const clip=q.provenance.audioClip;assert.equal(clip.item,q.provenance.item);assert.notEqual(q.audio,clip.sourcePath);assert.ok(clip.startSeconds>=0&&clip.endSeconds>clip.startSeconds);assert.ok(Math.abs(q.audioSeconds-(clip.endSeconds-clip.startSeconds))<0.2);}
+ const reported=qs.find(q=>q.id==='hrdk-2024-v2-u36-l5');assert.ok(reported.audioSeconds>25&&reported.audioSeconds<35,'Unit 36 item 5 is about 31 seconds, not 3:13');
 });
