@@ -6,7 +6,7 @@ export function assembleExam(template, pool, selection) {
   const byId = new Map(pool.questions.map(q => [q.id,q]));
   const questions = template.questions.map((slot,i) => {
     const q = byId.get(selection[i]);
-    if (!q || q.group !== slot.group || q.section !== slot.section) throw Error('Question type mismatch.');
+    if (!q || q.section !== slot.section || (pool.selectionVersion!==2 && q.group !== slot.group)) throw Error('Question type mismatch.');
     return {...q,number:slot.number};
   });
   let number = 0;
@@ -19,6 +19,7 @@ export function assembleExam(template, pool, selection) {
 }
 export function isGraphQuestion(q){return q.section==='reading' && (q.category==='graph' || /chart|graph/i.test(q.id) || /그래프/.test(q.instruction));}
 export function selectExam(template, pool, history = {}, random = Math.random) {
+  if(pool.selectionVersion===2)return selectTextbookExam(template,pool,history,random);
   const previous = new Set(Array.isArray(history.previous) ? history.previous : []);
   const counts = history.counts || {};
   const graphs=pool.questions.filter(q=>isGraphQuestion(q)&&!previous.has(q.id));
@@ -48,6 +49,21 @@ export function selectExam(template, pool, history = {}, random = Math.random) {
   }
   throw Error('Could not prepare a fresh exam within the listening time limit. Please try again.');
 }
+function selectTextbookExam(template,pool,history,random){
+  const previous=new Set(Array.isArray(history.previous)?history.previous:[]);
+  const counts=history.counts||{};
+  const available=pool.questions.filter(q=>!previous.has(q.id));
+  const rank=items=>items.map(q=>({q,tie:random()})).sort((a,b)=>(b.q.difficulty==='hard'?1:0)-(a.q.difficulty==='hard'?1:0)||(Number(counts[a.q.id])||0)-(Number(counts[b.q.id])||0)||a.tie-b.tie).map(x=>x.q);
+  const take=(items,n)=>{if(items.length<n)throw Error('Not enough fresh textbook questions. Please contact JCAN.');return rank(items).slice(0,n);};
+  const graphs=available.filter(q=>isGraphQuestion(q)&&q.provenance?.book===1);
+  const graphCount=Math.min(2+Math.floor(random()*2),graphs.length);
+  if(graphCount<2)throw Error('Not enough fresh graph questions. Please contact JCAN.');
+  const reading=[...take(graphs,graphCount),...take(available.filter(q=>q.section==='reading'&&q.provenance?.book===1&&!isGraphQuestion(q)),6-graphCount),...take(available.filter(q=>q.section==='reading'&&q.provenance?.book===2),14)];
+  const listening=[...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===1&&q.audioScope==='unit'),6),...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===2&&q.audioScope==='unit'),14)];
+  // Fisher–Yates keeps each section mixed without moving listening into reading.
+  const shuffle=items=>{for(let i=items.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;};
+  return assembleExam(template,pool,[...shuffle(reading),...shuffle(listening)].map(q=>q.id));
+}
 export function leaveQuestion(state, bank) {
   const q = bank.questions[state.current-1];
   if(q && state.visited?.[q.id] && state.answers[q.id] === undefined) (state.skipped ||= {})[q.id] = true;
@@ -67,7 +83,7 @@ export function validateBank(bank) {
     ids.add(q.id);
     if (typeof q.prompt !== 'string' || typeof q.instruction !== 'string' || !Array.isArray(q.images) || !Array.isArray(q.choices) || q.choices.length !== 4 || !Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) throw Error('Invalid question ' + q.number);
     for (const c of q.choices) if (typeof c.text !== 'string' || !Array.isArray(c.images)) throw Error('Invalid answer choice.');
-    const paths = [...q.images, ...q.choices.flatMap(c => c.images)];
+    const paths = [...q.images, ...q.choices.flatMap(c => [...c.images,...(c.audio?[c.audio]:[])])];
     if (q.section === 'listening') paths.push(q.audio);
     if (!paths.every(mediaPath)) throw Error('Invalid media path.');
   });

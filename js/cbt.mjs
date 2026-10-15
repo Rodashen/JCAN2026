@@ -7,7 +7,7 @@ const KEY=UBT?'jcan-eps-ubt-v1':'jcan-eps-cbt-v1';
 const HISTORY_KEY='jcan-eps-cbt-history-v1';
 let template,pool,history={};
 let accessAccount=null;
-let bank,state=null,interval=null,media=null,audioToken=0,audioBlocked=false,audioMessage='',audioDelay=null,volume=0.8,lastSaved=0,pendingConfirm=null,storageAvailable=true;
+let bank,state=null,interval=null,media=null,volume=0.8,lastSaved=0,pendingConfirm=null,storageAvailable=true;
 const $=s=>document.querySelector(s);
 function el(tag,attrs={},...children){
   const n=document.createElement(tag);
@@ -27,8 +27,7 @@ function save(){
   catch{storageAvailable=false;say('Progress cannot be saved in this browser. Keep this tab open until you finish.');}
 }
 function stopAudio(){
-  audioToken++;clearTimeout(audioDelay);audioDelay=null;
-  if(media){media.pause();media.removeAttribute('src');media.load();media=null;}
+  if(media){media.pause();media=null;}
 }
 function stopWork(){clearInterval(interval);interval=null;stopAudio();}
 function confirmAction(title,message,label,fn){
@@ -82,16 +81,17 @@ function renderSetup(){
     };
     if(state&&state.stage!=='complete')confirmAction('Start a new test?','This replaces the unfinished test saved in this browser.','Start new test',start);else start();
   });
-  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},'During the full exam’s listening section, recordings play automatically in order. Each question recording plays twice.'),el('li',{},'Choose one answer per question. Correct answers and results appear only after you submit the entire test.')));
+  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},'Play each listening recording manually. Pause, seek, and replay it as needed, including any spoken answer choices. The section timer keeps running.'),el('li',{},'Choose one answer per question. Correct answers and results appear only after you submit the entire test.')));
   intro.append(el('p',{class:'source-note'},'© HRD Korea, ',el('a',{href:'https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en',target:'_blank',rel:'noopener'},'2024 NEW Standard Korean Textbooks 1 and 2'),'. EPS-TOPIK Korean Standard Textbooks. Source pages and answer keys are credited in the answer review.'));
+  intro.append(el('p',{class:'source-note'},'Each section mixes 6 Book 1 questions and 14 Book 2 questions. Reading includes credited JCAN practice on textbook topics. Listening uses official textbook recordings with manual playback.'));
   app.append(el('div',{class:'intro-grid'},intro,el('section',{class:'panel'},form)));
 }
 function resume(){
   stopWork();advanceTime(state,bank);save();
   if(state.stage==='complete'){renderResults();return;}
-  audioMessage='';audioBlocked=false;renderExam();
+  renderExam();
   interval=setInterval(tick,250);
-  if(state.stage==='listening'&&state.mode==='full')playSequence();
+
   $('#main').focus();
 }
 function tick(){
@@ -99,7 +99,7 @@ function tick(){
   if(advanceTime(state,bank)){
     save();stopAudio();if(dialog.open){dialog.close();pendingConfirm=null;}
     if(state.stage==='complete'){renderResults();return;}
-    say('The previous section has ended. The '+state.stage+' section has started.');audioMessage='';renderExam();if(state.stage==='listening')playSequence();
+    say('The previous section has ended. The '+state.stage+' section has started.');renderExam();
   }
   renderTimers();
   if(Date.now()-lastSaved>5000)save();
@@ -111,7 +111,7 @@ function finish(){
   const transitioning=Boolean(next);
   confirmAction(transitioning?'Finish '+state.stage+'?':'Submit your test?',`${count} unanswered question${count===1?'':'s'} in this section. `+(transitioning?'Your '+state.stage+' answers will be locked, and the 25-minute '+next+' section will begin.':'Your answers will be scored and the test will end.'),transitioning?'Start '+next:'Submit test',()=>{
     stopAudio();finishSection(state,bank);save();
-    if(state.stage==='complete')renderResults();else{audioMessage='';renderExam();if(state.stage==='listening')playSequence();}
+    if(state.stage==='complete')renderResults();else{renderExam();}
   });
 }
 function renderExam(){
@@ -155,7 +155,7 @@ function renderGrid(){
     const qs=all.filter(q=>q.section===section);if(!qs.length)continue;
     host.append(el('p',{class:'grid-title'},section==='reading'?'Reading 1–20':'Listening 21–40'),el('div',{class:'answer-grid'},qs.map(q=>{
       const {answered,skipped,flagged}=questionStatus(state,q);
-      return el('button',{type:'button',class:(answered?'answered ':'')+(state.current===q.number?'current ':'')+(skipped?'skipped ':'')+(flagged?'flagged':''),'aria-label':'Question '+q.number+(answered?', answered':', unanswered')+(skipped?', skipped':'')+(flagged?', marked for review':''),'aria-current':state.current===q.number?'true':null,disabled:q.section!==state.stage||(state.stage==='listening'&&state.mode==='full'),onclick:()=>go(q.number)},q.number);
+      return el('button',{type:'button',class:(answered?'answered ':'')+(state.current===q.number?'current ':'')+(skipped?'skipped ':'')+(flagged?'flagged':''),'aria-label':'Question '+q.number+(answered?', answered':', unanswered')+(skipped?', skipped':'')+(flagged?', marked for review':''),'aria-current':state.current===q.number?'true':null,disabled:q.section!==state.stage,onclick:()=>go(q.number)},q.number);
     })));
   }
   if(UBT){const nodes=[...host.children];for(let i=0;i<nodes.length;i+=2)host.append(el('section',{class:'ubt-section'},nodes[i],nodes[i+1]));renderTimers();}
@@ -166,37 +166,43 @@ function questionContent(q){
 }
 function go(number){
   const q=bank.questions.find(q=>q.number===number);if(!q||q.section!==state.stage)return;
-  if(state.mode!=='full'||state.stage!=='listening')stopAudio();
+  stopAudio();
   leaveQuestion(state,bank);state.current=number;showSheet(false);save();renderQuestion();renderGrid();
   $('#question-title')?.focus();
 }
 function renderQuestion(){
   const host=$('#question-panel');if(!host)return;
+  stopAudio();
   const q=bank.questions[state.current-1];
-  const auto=state.mode==='full'&&state.stage==='listening';
-  const step=auto?bank.sequence[state.sequenceIndex]:null;
   const flag=el('button',{class:'secondary flag-button','aria-pressed':Boolean(state.flags[q.id]),onclick:()=>{state.flags[q.id]=!state.flags[q.id];save();renderQuestion();renderGrid();}},state.flags[q.id]?'Marked for review':'Mark for review');
   host.replaceChildren(el('div',{class:'question-meta'},el('span',{class:'question-count',id:'question-title',tabindex:-1},'Question '+q.number+' / 40'),flag));
-  if(auto&&step?.exampleImage){host.append(el('h2',{class:'instruction'},'Listening example'),el('p',{class:'empty-note'},'Listen to the example. Your next question will appear automatically.'),el('div',{class:'question-images'},image(step.exampleImage,'Listening example')));}
-  else{
+  {
     if(!UBT||!host.hidden)(state.visited ||= {})[q.id]=true;
     host.append(...questionContent(q).filter(Boolean));
     const choices=el('fieldset',{class:'choices'+(q.choices.some(c=>c.images.length)?' image-options':''),lang:'ko'},el('legend',{class:'visually-hidden'},'Choose one answer for question '+q.number));
     q.choices.forEach((c,i)=>{
       const input=el('input',{type:'radio',name:'answer',value:i,'aria-label':'Option '+(i+1)+(c.text?': '+c.text:''),checked:state.answers[q.id]===i,onchange:()=>{tick();if(answerQuestion(state,bank,q.number,i)){save();renderGrid();}}});
-      choices.append(el('label',{class:'choice'},input,el('span',{class:'choice-number','aria-hidden':'true'},['①','②','③','④'][i]),c.text?el('span',{class:'choice-text korean'},c.text):null,c.images.length?el('span',{class:'choice-images'},c.images.map(src=>image(src,'Option '+(i+1)+' illustration'))):null));
+      const label=el('label',{class:'choice'},input,el('span',{class:'choice-number','aria-hidden':'true'},['①','②','③','④'][i]),c.text?el('span',{class:'choice-text korean'},c.text):null,c.images.length?el('span',{class:'choice-images'},c.images.map(src=>image(src,'Option '+(i+1)+' illustration'))):null);
+      if(c.audio){
+        const listen=el('button',{type:'button',class:'secondary choice-listen','aria-label':'Listen to choice '+(i+1),onclick:()=>{
+          stopAudio();media=new Audio(c.audio);media.volume=volume;
+          media.play().catch(()=>say('Choice audio could not play. Check your connection and try again.'));
+        }},'Listen');
+        choices.append(el('div',{class:'choice-row'},label,listen));
+      }else choices.append(label);
     });host.append(choices);
   }
   if(state.stage==='listening'){
-    const status=el('p',{class:'audio-status',id:'audio-status',role:'status'},auto?(audioMessage||'Listening will start automatically.'):'Play the question recording. You can replay it during practice.');
-    const play=el('button',{class:'secondary',id:'audio-action',onclick:()=>{
-      if(auto)playSequence();else playPractice(q);
-    }},auto?'Continue audio':'Play recording');
-    play.hidden=auto&&!audioBlocked;
-    const slider=el('input',{type:'range',min:0,max:1,step:.05,value:volume,'aria-label':'Audio volume',oninput:e=>{volume=Number(e.target.value);if(media)media.volume=volume;}});
-    host.append(el('div',{class:'audio-panel'},el('div',{class:'audio-row'},play,el('label',{},'Volume',slider)),status,auto?el('p',{},'Recordings play in sequence. Each question is played twice. The section timer keeps running.'):null));
+    if(q.audioScope==='unit')host.append(el('p',{class:'source-note'},'Book '+q.provenance.book+' · Unit '+q.provenance.unit+' · Listening item '+q.provenance.item+' · Track '+q.provenance.track+'. This official unit recording includes items 1–5. Listen for item '+q.provenance.item+'; use the player to seek and replay.'));
+    const player=el('audio',{controls:true,preload:'none',src:q.audio,'aria-label':'Question '+q.number+' recording and spoken choices'});
+    player.volume=volume;
+    player.addEventListener('play',()=>{if(media&&media!==player)stopAudio();media=player;});
+    player.addEventListener('volumechange',()=>{volume=player.volume;});
+    player.addEventListener('error',()=>say('Recording could not load. Check your connection and try again.'));
+    host.append(el('div',{class:'audio-panel'},player,el('p',{},'Press Play when ready. You can pause, seek, and replay the recording and any spoken choices. Audio never starts automatically. The timer keeps running.')));
+    if(q.choices.some(c=>c.audio))host.append(el('p',{class:'source-note'},'Question audio: official HRDK recording. Choice Listen buttons: separate Korean voice readings of the printed options.'));
   }
-  if(!auto){
+  {
     const first=state.stage==='reading'?1:21,last=state.stage==='reading'?20:40;
     host.append(el('div',{class:'question-nav'},el('button',{class:'secondary',disabled:q.number===first,onclick:()=>go(q.number-1)},'Previous'),el('button',{onclick:()=>q.number===last?finish():go(q.number+1)},q.number===last?'Finish section':'Next question')));
   }
@@ -210,40 +216,6 @@ function renderQuestion(){
     nav.insertBefore(overview,nav.children[1]||null);
     if(!nav.parentElement)host.append(nav);
   }
-}
-function updateAudioStatus(message,blocked=false){
-  audioMessage=message;audioBlocked=blocked;
-  if($('#audio-status'))$('#audio-status').textContent=message;
-  if($('#audio-action')&&state?.mode==='full')$('#audio-action').hidden=!blocked;
-}
-function playPractice(q){
-  stopAudio();const token=audioToken;media=new Audio(q.audio);media.volume=volume;
-  updateAudioStatus('Loading recording…');
-  media.addEventListener('playing',()=>{if(token===audioToken)updateAudioStatus('Playing question '+q.number+'.');});
-  media.addEventListener('ended',()=>{if(token===audioToken)updateAudioStatus('Recording finished. Play again if you need to.');});
-  media.addEventListener('error',()=>{if(token===audioToken)updateAudioStatus('Recording could not load. Check your connection and try again.',true);});
-  media.play().catch(()=>{if(token===audioToken)updateAudioStatus('Playback was blocked. Select Play recording to try again.',true);});
-}
-function playSequence(){
-  if(!state||state.stage!=='listening'||state.mode!=='full')return;
-  stopAudio();const token=audioToken;
-  while(bank.sequence[state.sequenceIndex]?.question){
-    leaveQuestion(state,bank);state.current=bank.sequence[state.sequenceIndex].question;state.sequenceIndex++;state.audioOffset=0;
-  }
-  const step=bank.sequence[state.sequenceIndex];
-  if(!step){updateAudioStatus('All recordings have finished. Submit your test when you are ready.');save();renderQuestion();return;}
-  renderQuestion();renderGrid();updateAudioStatus('Loading: '+step.label);
-  media=new Audio(step.src);media.volume=volume;
-  media.addEventListener('loadedmetadata',()=>{if(token===audioToken&&state.audioOffset>0)media.currentTime=Math.min(state.audioOffset,Math.max(0,media.duration-.1));});
-  media.addEventListener('playing',()=>{if(token===audioToken)updateAudioStatus(step.label+' · playing');});
-  media.addEventListener('timeupdate',()=>{if(token===audioToken&&media)state.audioOffset=media.currentTime;});
-  media.addEventListener('ended',()=>{
-    if(token!==audioToken||state.stage!=='listening')return;
-    state.sequenceIndex++;state.audioOffset=0;save();updateAudioStatus('Next recording in 2 seconds…');
-    audioDelay=setTimeout(playSequence,2000);
-  });
-  media.addEventListener('error',()=>{if(token===audioToken)updateAudioStatus('Recording could not load. Check your connection, then continue audio.',true);});
-  media.play().catch(()=>{if(token===audioToken)updateAudioStatus('Select Continue audio to start listening. The section timer is running.',true);});
 }
 function renderResults(){
   document.body.classList.remove('exam-active','sheet-open');

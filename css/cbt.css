@@ -14,3 +14,4 @@
 .answer-grid button:disabled{opacity:1;cursor:not-allowed}
 .answer-grid button.answered.flagged{background:#dceaff}
 .flag-button[aria-pressed=true]{border:2px solid #e07800;color:#9b4700;background:#fff0d9;font-weight:800}
+.choice-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center}.choice-row .choice{margin:0;min-width:0}.choice-listen{font-size:13px;padding:10px;min-width:62px}.audio-panel audio{width:100%;max-width:480px}@media(max-width:480px){.choice-row{grid-template-columns:minmax(0,1fr)}.choice-listen{justify-self:end}}

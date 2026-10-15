@@ -1,3 +1,7 @@
+# Current release — October 15, 2026
+
+See the October 2026 question selection update at the end of this file for the current 356-question bank, manual listening and 30/70 mix. Earlier release notes below are historical.
+
 # JCAN EPS-TOPIK CBT and UBT
 
 ## October 2026 update
@@ -75,16 +79,34 @@ attempt saved in this browser, including graph questions. CBT and UBT share
 this history. Clearing browser storage or changing devices resets it; this
 is not account-wide history and questions may return after intervening attempts.
 
-The bank contains 282 questions, including six graph questions. Each full
-exam includes 2–3 graphs and four challenging contextual reading items:
-two on Book 1 topics and two on Book 2 topics. Sixteen new contextual items
-are original JCAN practice, explicitly identified in their provenance;
-they are not official HRDK questions. Two additional graph items are adapted
-from the existing Book 1 chart. Listening recordings and the 25-minute
-section limits remain unchanged. A further 24 original advanced items add
-multi-condition dialogues, passage inference, exception questions, schedules,
-discounts, production quantities and measurement tolerances. The six dialogue,
-passage and application slots now prioritize these advanced items, bringing
-the guaranteed challenging reading items to ten per full exam, in addition
-to its graph questions. No artificial audio acceleration or shorter timer
-is used to increase difficulty.
+The bank contains 356 questions, including six graph questions and 74 newly
+verified textbook listening questions (21 Book 1 and 53 Book 2). Every new
+20-question section contains exactly 6 Book 1 and 14 Book 2 questions, giving
+12/28 in a full exam. Reading uses identified textbook questions and clearly
+credited original JCAN questions on each book's topics. Graphs count toward
+the Book 1 quota. Legacy questions without book provenance remain available
+only for reconstructing older saved attempts, not new selection.
+
+Question types may occupy different reading/listening slots to meet these
+quotas. Harder questions are prioritized; 2–3 graphs are retained. Original
+JCAN contextual and inference practice is not presented as official HRDK text.
+
+Listening is manual in full exams and practice, in both CBT and UBT. Native
+audio controls provide play, pause, seek, volume and replay. All questions in
+the active section can be navigated manually. No playback or advancement is
+triggered by entering the section or ending a recording. Timers remain at
+25 minutes per section.
+
+Official source: https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en
+Audio is copied unchanged from the official textbook1_listen/textbook2_listen
+archives. Each file includes a unit's five numbered listening items, rather
+than a single isolated question. The UI identifies the unit, track and item
+and lets the student seek within the recording. Printed choices and answers
+were checked against textbook pages and answer-key pages; provenance records
+the archive entry and printed location. Audio hashes in the media manifest
+verify that the hosted files match the official archive bytes. Students can
+replay spoken choices if present in a recording. Each printed choice also has
+a manual Listen button using a separate local SunHi Korean neural voice
+reading. These choice narrations are clearly distinguished from official
+HRDK question audio; they are not presented as official recordings. Only one
+recording plays at a time, and playing a choice does not select its answer.
