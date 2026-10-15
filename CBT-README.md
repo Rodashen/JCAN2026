@@ -106,6 +106,13 @@ but exclude other items and the long trailing pause. They are 15–49 seconds
 long; Book 2 Unit 36 item 5 is approximately 31 seconds. Each clip's source
 path, item number, start/end times, duration and hash are recorded. The UI
 identifies the unit and item, with no instruction to seek through a full unit.
+The original spoken textbook item number is removed from all 74 clips at
+the pause before the question instruction. After a manual Play action, the
+existing EPS number announcement for the assigned exam slot (21–40) plays,
+followed by the question. These number clips are re-encoded for compatibility
+without replacing their speech. Pausing/resuming within the question does
+not repeat the number. Stopping, navigating or playing a choice cancels a
+pending transition. No section-wide autoplay is restored.
 Printed choices and answers
 were checked against textbook pages and answer-key pages; provenance records
 the archive entry and printed location. Audio hashes in the media manifest

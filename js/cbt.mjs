@@ -1,4 +1,5 @@
-import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=single-question-audio-6';
+import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=exam-numbers-7';
+import {attachNumberAnnouncement} from './numbered-audio.mjs?v=exam-numbers-7';
 const app=document.querySelector('#app');
 const notice=document.querySelector('#notice');
 const dialog=document.querySelector('#confirm-dialog');
@@ -7,6 +8,7 @@ const KEY=UBT?'jcan-eps-ubt-v1':'jcan-eps-cbt-v1';
 const HISTORY_KEY='jcan-eps-cbt-history-v1';
 let template,pool,history={};
 let accessAccount=null;
+let releaseQuestionAudio=()=>{};
 let bank,state=null,interval=null,media=null,volume=0.8,lastSaved=0,pendingConfirm=null,storageAvailable=true;
 const $=s=>document.querySelector(s);
 function el(tag,attrs={},...children){
@@ -29,7 +31,7 @@ function save(){
 function stopAudio(){
   if(media){media.pause();media=null;}
 }
-function stopWork(){clearInterval(interval);interval=null;stopAudio();}
+function stopWork(){clearInterval(interval);interval=null;stopAudio();releaseQuestionAudio();}
 function confirmAction(title,message,label,fn){
   $('#confirm-title').textContent=title;$('#confirm-message').textContent=message;$('#accept-confirm').textContent=label;pendingConfirm=fn;dialog.showModal();
 }
@@ -164,6 +166,7 @@ function image(src,alt){return el('img',{src,alt,loading:'eager',onerror:e=>{e.t
 function questionContent(q){
   return [el('h2',{class:'instruction korean',lang:'ko'},q.instruction),q.prompt?el('p',{class:'prompt korean',lang:'ko'},q.prompt):null,q.images.length?el('div',{class:'question-images'},q.images.map((src,i)=>image(src,'Question '+q.number+' illustration '+(i+1)))):null];
 }
+function recordingPath(q){return q.audio+(q.textbookNumberRemoved?'?v=exam-numbers-7':'');}
 function go(number){
   const q=bank.questions.find(q=>q.number===number);if(!q||q.section!==state.stage)return;
   stopAudio();
@@ -173,6 +176,7 @@ function go(number){
 function renderQuestion(){
   const host=$('#question-panel');if(!host)return;
   stopAudio();
+  releaseQuestionAudio();
   const q=bank.questions[state.current-1];
   const flag=el('button',{class:'secondary flag-button','aria-pressed':Boolean(state.flags[q.id]),onclick:()=>{state.flags[q.id]=!state.flags[q.id];save();renderQuestion();renderGrid();}},state.flags[q.id]?'Marked for review':'Mark for review');
   host.replaceChildren(el('div',{class:'question-meta'},el('span',{class:'question-count',id:'question-title',tabindex:-1},'Question '+q.number+' / 40'),flag));
@@ -194,12 +198,19 @@ function renderQuestion(){
   }
   if(state.stage==='listening'){
     if(q.audioScope==='question')host.append(el('p',{class:'source-note'},'Book '+q.provenance.book+' · Unit '+q.provenance.unit+' · Listening item '+q.provenance.item+'. This clip contains only this textbook item.'));
-    const player=el('audio',{controls:true,preload:'none',src:q.audio,'aria-label':'Question '+q.number+' recording and spoken choices'});
+    const player=el('audio',{controls:true,preload:'none',src:recordingPath(q),'aria-label':'Question '+q.number+' recording and spoken choices'});
     player.volume=volume;
-    player.addEventListener('play',()=>{if(media&&media!==player)stopAudio();media=player;});
-    player.addEventListener('volumechange',()=>{volume=player.volume;});
+    const onActive=audio=>{if(media&&media!==audio)stopAudio();media=audio;};
+    if(!q.numberAudio)player.addEventListener('play',()=>onActive(player));
+    player.addEventListener('volumechange',()=>{volume=player.volume;if(media&&media!==player)media.volume=volume;});
     player.addEventListener('error',()=>say('Recording could not load. Check your connection and try again.'));
-    host.append(el('div',{class:'audio-panel'},player,el('p',{},'Press Play when ready. You can pause, seek, and replay the recording and any spoken choices. Audio never starts automatically. The timer keeps running.')));
+    const status=el('p',{role:'status'},'Press Play when ready. The announcement matches question '+q.number+'. You can pause, seek, and replay the question. The timer keeps running.');
+    player.addEventListener('ended',()=>{status.textContent='Recording finished. Press Play to replay this question.';});
+    const stop=el('button',{type:'button',class:'secondary',onclick:()=>{stopAudio();status.textContent='Audio stopped. Press Play when ready.';}},'Stop audio');
+    host.append(el('div',{class:'audio-panel'},player,stop,status));
+    if(q.numberAudio){
+      releaseQuestionAudio=attachNumberAnnouncement(player,q.numberAudio,{onActive,isActive:audio=>media===audio,onStatus:message=>{status.textContent=message;}});
+    }
     if(q.choices.some(c=>c.audio))host.append(el('p',{class:'source-note'},'Question audio: official HRDK recording. Choice Listen buttons: separate Korean voice readings of the printed options.'));
   }
   {
@@ -234,7 +245,7 @@ function renderResults(){
       const body=el('div',{class:'review-body'},...questionContent(q).filter(Boolean));
       if(q.provenance)body.append(el('p',{class:'source-note'},el('a',{href:q.provenance.url,target:'_blank',rel:'noopener'},'HRD Korea · '+q.provenance.title),q.provenance.kind==='adapted'?` · Unit ${q.provenance.unit}, page ${q.provenance.page}. ${q.provenance.note}`:` · Unit ${q.provenance.unit}, page ${q.provenance.page}, question ${q.provenance.item}. Answer key: page ${q.provenance.answerPage}.`));
       if(q.explanation)body.append(el('p',{class:'korean',lang:'ko'},q.explanation));
-      if(q.audio)body.append(el('audio',{controls:true,preload:'none',src:q.audio,'aria-label':'Question '+q.number+' recording'}));
+      if(q.audio)body.append(el('audio',{controls:true,preload:'none',src:recordingPath(q),'aria-label':'Question '+q.number+' recording'}));
       q.choices.forEach((c,i)=>body.append(el('div',{class:'review-choice'+(i===q.answer?' correct':i===answer?' wrong':'')},el('strong',{},['①','②','③','④'][i]+' '+c.text),c.images.map(src=>image(src,'Option '+(i+1)+' illustration')),i===q.answer?el('p',{class:'correct-label'},'Correct answer'+(i===answer?' · Your answer':'')):i===answer?el('p',{class:'wrong-label'},'Your answer'):null)));
       review.append(el('details',{class:'review-item'},el('summary',{},el('strong',{},'Question '+q.number),el('span',{class:correct?'correct-label':'wrong-label'},label)),body));
     });
@@ -289,7 +300,7 @@ async function init(){
       accessAccount=session.email;
       try{if(localStorage.getItem('jcan-access-account')!==accessAccount){for(const key of Object.keys(localStorage))if(key.startsWith('jcan-eps-'))localStorage.removeItem(key);localStorage.setItem('jcan-access-account',accessAccount);}}catch{}
     }
-    const [res,poolRes]=await Promise.all([fetch('data/eps-topik.json'),fetch('data/eps-topik-pool.json')]);
+    const [res,poolRes]=await Promise.all([fetch('data/eps-topik.json',{cache:'no-store'}),fetch('data/eps-topik-pool.json',{cache:'no-store'})]);
     if(!res.ok||!poolRes.ok)throw Error('Question bank download failed.');
     template=validateBank(await res.json());pool=await poolRes.json();bank=template;
     try{

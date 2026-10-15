@@ -7,7 +7,10 @@ export function assembleExam(template, pool, selection) {
   const questions = template.questions.map((slot,i) => {
     const q = byId.get(selection[i]);
     if (!q || q.section !== slot.section || (pool.selectionVersion!==2 && q.group !== slot.group)) throw Error('Question type mismatch.');
-    return {...q,number:slot.number};
+    const numberAudioSource=q.textbookNumberRemoved ? template.sequence.find(s=>s.label==='Question '+slot.number)?.src : undefined;
+    const numberAudio=numberAudioSource ? 'media/eps-topik/exam-number-'+slot.number+'.mp3' : undefined;
+    if(q.textbookNumberRemoved&&!numberAudio)throw Error('Missing exam number announcement.');
+    return {...q,number:slot.number,...(numberAudio?{numberAudio,numberAudioSource}:{})};
   });
   let number = 0;
   const sequence = template.sequence.map(step => {
@@ -85,6 +88,7 @@ export function validateBank(bank) {
     for (const c of q.choices) if (typeof c.text !== 'string' || !Array.isArray(c.images)) throw Error('Invalid answer choice.');
     const paths = [...q.images, ...q.choices.flatMap(c => [...c.images,...(c.audio?[c.audio]:[])])];
     if (q.section === 'listening') paths.push(q.audio);
+    if(q.numberAudio)paths.push(q.numberAudio);
     if (!paths.every(mediaPath)) throw Error('Invalid media path.');
   });
   if (!Array.isArray(bank.sequence) || !bank.sequence.length) throw Error('Missing listening sequence.');

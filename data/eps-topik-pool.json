@@ -9556,7 +9556,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u12-l3.mp3",
-      "audioSeconds": 38.998617,
+      "audioSeconds": 36.925351,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9573,11 +9573,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track87.mp3",
-          "startSeconds": 75.252245,
+          "startSeconds": 77.32551,
           "endSeconds": 114.250862,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.073265
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u13-l5",
@@ -9612,7 +9614,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v1-u13-l5.mp3",
-      "audioSeconds": 39.304739,
+      "audioSeconds": 37.344422,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9629,11 +9631,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track92.mp3",
-          "startSeconds": 136.117075,
+          "startSeconds": 138.077392,
           "endSeconds": 175.421814,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.960317
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u15-l4",
@@ -9668,7 +9672,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v1-u15-l4.mp3",
-      "audioSeconds": 16.124626,
+      "audioSeconds": 14.076712,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9685,11 +9689,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
-          "startSeconds": 121.866395,
+          "startSeconds": 123.914309,
           "endSeconds": 137.991021,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.047914
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u15-l5",
@@ -9724,7 +9730,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v1-u15-l5.mp3",
-      "audioSeconds": 40.005102,
+      "audioSeconds": 38.028912,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9741,11 +9747,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track102.mp3",
-          "startSeconds": 148.023107,
+          "startSeconds": 149.999297,
           "endSeconds": 188.028209,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.97619
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u16-l4",
@@ -9780,7 +9788,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u16-l4.mp3",
-      "audioSeconds": 17.322449,
+      "audioSeconds": 15.288957,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9797,11 +9805,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
-          "startSeconds": 125.564989,
+          "startSeconds": 127.598481,
           "endSeconds": 142.887437,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.033492
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u16-l5",
@@ -9836,7 +9846,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u16-l5.mp3",
-      "audioSeconds": 48.649274,
+      "audioSeconds": 46.745374,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9853,11 +9863,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track107.mp3",
-          "startSeconds": 152.906122,
+          "startSeconds": 154.810022,
           "endSeconds": 201.555397,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.9039
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u17-l3",
@@ -9892,7 +9904,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v1-u17-l3.mp3",
-      "audioSeconds": 19.943039,
+      "audioSeconds": 17.885215,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9909,11 +9921,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
-          "startSeconds": 53.634535,
+          "startSeconds": 55.692358,
           "endSeconds": 73.577574,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.057823
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u17-l4",
@@ -9948,7 +9962,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u17-l4.mp3",
-      "audioSeconds": 34.509433,
+      "audioSeconds": 32.518889,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -9965,11 +9979,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
-          "startSeconds": 83.596508,
+          "startSeconds": 85.587052,
           "endSeconds": 118.105941,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 1.990544
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u17-l5",
@@ -10004,7 +10020,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u17-l5.mp3",
-      "audioSeconds": 44.211111,
+      "audioSeconds": 42.285215,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10021,11 +10037,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track112.mp3",
-          "startSeconds": 128.133991,
+          "startSeconds": 130.059887,
           "endSeconds": 172.345102,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.925896
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u18-l4",
@@ -10060,7 +10078,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u18-l4.mp3",
-      "audioSeconds": 23.139456,
+      "audioSeconds": 21.067574,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10077,11 +10095,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
-          "startSeconds": 118.378027,
+          "startSeconds": 120.449909,
           "endSeconds": 141.517483,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.071882
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u18-l5",
@@ -10116,7 +10136,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u18-l5.mp3",
-      "audioSeconds": 32.054354,
+      "audioSeconds": 30.101519,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10133,11 +10153,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track117.mp3",
-          "startSeconds": 151.544739,
+          "startSeconds": 153.497573,
           "endSeconds": 183.599093,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.952834
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u19-l3",
@@ -10172,7 +10194,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u19-l3.mp3",
-      "audioSeconds": 40.011995,
+      "audioSeconds": 37.846395,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10189,11 +10211,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track122.mp3",
-          "startSeconds": 99.03458,
+          "startSeconds": 101.200181,
           "endSeconds": 139.046576,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.165601
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u21-l5",
@@ -10228,7 +10252,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v1-u21-l5.mp3",
-      "audioSeconds": 22.720522,
+      "audioSeconds": 20.813878,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10245,11 +10269,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track132.mp3",
-          "startSeconds": 154.601406,
+          "startSeconds": 156.50805,
           "endSeconds": 177.321927,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.906644
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u22-l5",
@@ -10284,7 +10310,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v1-u22-l5.mp3",
-      "audioSeconds": 23.526054,
+      "audioSeconds": 21.588141,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10301,11 +10327,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track137.mp3",
-          "startSeconds": 145.474127,
+          "startSeconds": 147.412041,
           "endSeconds": 169.000182,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.937914
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u23-l5",
@@ -10340,7 +10368,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v1-u23-l5.mp3",
-      "audioSeconds": 26.061224,
+      "audioSeconds": 24.09068,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10357,11 +10385,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track142.mp3",
-          "startSeconds": 143.739819,
+          "startSeconds": 145.710363,
           "endSeconds": 169.801043,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.970544
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u24-l3",
@@ -10396,7 +10426,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v1-u24-l3.mp3",
-      "audioSeconds": 16.975351,
+      "audioSeconds": 14.936689,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10413,11 +10443,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track147.mp3",
-          "startSeconds": 61.260181,
+          "startSeconds": 63.298843,
           "endSeconds": 78.235533,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.038662
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u25-l3",
@@ -10452,7 +10484,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u25-l3.mp3",
-      "audioSeconds": 15.135306,
+      "audioSeconds": 13.107483,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10469,11 +10501,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track152.mp3",
-          "startSeconds": 55.22229,
+          "startSeconds": 57.250113,
           "endSeconds": 70.357597,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.027823
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u26-l3",
@@ -10508,7 +10542,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v1-u26-l3.mp3",
-      "audioSeconds": 42.447052,
+      "audioSeconds": 40.383855,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10525,11 +10559,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track157.mp3",
-          "startSeconds": 76.745805,
+          "startSeconds": 78.809002,
           "endSeconds": 119.192857,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.063197
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u28-l3",
@@ -10564,7 +10600,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u28-l3.mp3",
-      "audioSeconds": 36.484649,
+      "audioSeconds": 34.469002,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10581,11 +10617,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
-          "startSeconds": 54.350794,
+          "startSeconds": 56.36644,
           "endSeconds": 90.835442,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.015646
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u28-l4",
@@ -10620,7 +10658,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v1-u28-l4.mp3",
-      "audioSeconds": 37.12678,
+      "audioSeconds": 35.15712,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10637,11 +10675,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
-          "startSeconds": 100.851043,
+          "startSeconds": 102.820703,
           "endSeconds": 137.977823,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 1.96966
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v1-u28-l5",
@@ -10676,7 +10716,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v1-u28-l5.mp3",
-      "audioSeconds": 30.026304,
+      "audioSeconds": 28.093764,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10693,11 +10733,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book1-track167.mp3",
-          "startSeconds": 148.000952,
+          "startSeconds": 149.933492,
           "endSeconds": 178.027256,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.93254
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u31-l3",
@@ -10732,7 +10774,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u31-l3.mp3",
-      "audioSeconds": 20.314172,
+      "audioSeconds": 18.134059,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10749,11 +10791,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
-          "startSeconds": 76.677483,
+          "startSeconds": 78.857596,
           "endSeconds": 96.991655,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.180113
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u31-l4",
@@ -10788,7 +10832,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u31-l4.mp3",
-      "audioSeconds": 41.705556,
+      "audioSeconds": 39.70381,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10805,11 +10849,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
-          "startSeconds": 107.010181,
+          "startSeconds": 109.011927,
           "endSeconds": 148.715737,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.001746
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u31-l5",
@@ -10844,7 +10890,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u31-l5.mp3",
-      "audioSeconds": 33.228821,
+      "audioSeconds": 31.163492,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10861,11 +10907,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track182.mp3",
-          "startSeconds": 158.88805,
+          "startSeconds": 160.953016,
           "endSeconds": 192.116508,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 2.064966
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u32-l3",
@@ -10900,7 +10948,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u32-l3.mp3",
-      "audioSeconds": 26.229728,
+      "audioSeconds": 24.200408,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10917,11 +10965,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
-          "startSeconds": 69.832245,
+          "startSeconds": 71.861565,
           "endSeconds": 96.061972,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.02932
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u32-l4",
@@ -10956,7 +11006,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u32-l4.mp3",
-      "audioSeconds": 42.155215,
+      "audioSeconds": 40.05907,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -10973,11 +11023,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
-          "startSeconds": 106.068367,
+          "startSeconds": 108.164512,
           "endSeconds": 148.223583,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.096145
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u32-l5",
@@ -11012,7 +11064,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u32-l5.mp3",
-      "audioSeconds": 46.32034,
+      "audioSeconds": 44.354807,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11029,11 +11081,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track187.mp3",
-          "startSeconds": 158.241179,
+          "startSeconds": 160.206712,
           "endSeconds": 204.561519,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.965533
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u33-l3",
@@ -11068,7 +11122,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u33-l3.mp3",
-      "audioSeconds": 21.05712,
+      "audioSeconds": 18.987755,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11085,11 +11139,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
-          "startSeconds": 92.488118,
+          "startSeconds": 94.557483,
           "endSeconds": 113.545238,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.069365
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u33-l4",
@@ -11124,7 +11180,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u33-l4.mp3",
-      "audioSeconds": 44.479683,
+      "audioSeconds": 42.492381,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11141,11 +11197,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
-          "startSeconds": 123.585896,
+          "startSeconds": 125.573198,
           "endSeconds": 168.065578,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 1.987302
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u33-l5",
@@ -11180,7 +11238,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u33-l5.mp3",
-      "audioSeconds": 39.315351,
+      "audioSeconds": 37.40415,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11197,11 +11255,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track192.mp3",
-          "startSeconds": 178.084807,
+          "startSeconds": 179.995079,
           "endSeconds": 217.399229,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.910272
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u35-l3",
@@ -11236,7 +11296,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u35-l3.mp3",
-      "audioSeconds": 24.358753,
+      "audioSeconds": 22.333946,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11253,11 +11313,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
-          "startSeconds": 73.245147,
+          "startSeconds": 75.269954,
           "endSeconds": 97.6039,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.024807
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u35-l4",
@@ -11292,7 +11354,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u35-l4.mp3",
-      "audioSeconds": 43.044308,
+      "audioSeconds": 41.018503,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11309,11 +11371,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
-          "startSeconds": 107.627324,
+          "startSeconds": 109.653129,
           "endSeconds": 150.671633,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.025805
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u35-l5",
@@ -11348,7 +11412,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u35-l5.mp3",
-      "audioSeconds": 34.391224,
+      "audioSeconds": 32.446145,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11365,11 +11429,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track202.mp3",
-          "startSeconds": 160.693084,
+          "startSeconds": 162.638163,
           "endSeconds": 195.084309,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.945079
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u36-l3",
@@ -11404,7 +11470,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u36-l3.mp3",
-      "audioSeconds": 20.181859,
+      "audioSeconds": 18.152358,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11421,11 +11487,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
-          "startSeconds": 72.492426,
+          "startSeconds": 74.521927,
           "endSeconds": 92.674286,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.029501
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u36-l4",
@@ -11460,7 +11528,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u36-l4.mp3",
-      "audioSeconds": 41.128458,
+      "audioSeconds": 39.041859,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11477,11 +11545,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
-          "startSeconds": 102.6961,
+          "startSeconds": 104.782699,
           "endSeconds": 143.824558,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.086599
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u36-l5",
@@ -11516,7 +11586,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u36-l5.mp3",
-      "audioSeconds": 30.750703,
+      "audioSeconds": 28.81517,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11533,11 +11603,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track207.mp3",
-          "startSeconds": 153.839683,
+          "startSeconds": 155.775216,
           "endSeconds": 184.590386,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.935533
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u37-l4",
@@ -11572,7 +11644,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u37-l4.mp3",
-      "audioSeconds": 23.473923,
+      "audioSeconds": 21.461293,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11589,11 +11661,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
-          "startSeconds": 116.358957,
+          "startSeconds": 118.371587,
           "endSeconds": 139.83288,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.01263
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u37-l5",
@@ -11628,7 +11702,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u37-l5.mp3",
-      "audioSeconds": 33.274512,
+      "audioSeconds": 31.353855,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11645,11 +11719,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track212.mp3",
-          "startSeconds": 149.845601,
+          "startSeconds": 151.766259,
           "endSeconds": 183.120113,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.920658
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u38-l3",
@@ -11684,7 +11760,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u38-l3.mp3",
-      "audioSeconds": 19.660181,
+      "audioSeconds": 17.577347,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11701,11 +11777,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
-          "startSeconds": 66.484807,
+          "startSeconds": 68.567641,
           "endSeconds": 86.144989,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.082834
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u38-l4",
@@ -11740,7 +11818,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u38-l4.mp3",
-      "audioSeconds": 41.437029,
+      "audioSeconds": 39.411315,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11757,11 +11835,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
-          "startSeconds": 96.232245,
+          "startSeconds": 98.257959,
           "endSeconds": 137.669274,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.025714
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u38-l5",
@@ -11796,7 +11876,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u38-l5.mp3",
-      "audioSeconds": 37.0639,
+      "audioSeconds": 35.125714,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11813,11 +11893,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track217.mp3",
-          "startSeconds": 147.687029,
+          "startSeconds": 149.625215,
           "endSeconds": 184.75093,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.938186
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u39-l3",
@@ -11852,7 +11934,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u39-l3.mp3",
-      "audioSeconds": 24.169864,
+      "audioSeconds": 22.146213,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11869,11 +11951,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
-          "startSeconds": 74.030567,
+          "startSeconds": 76.054218,
           "endSeconds": 98.200431,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.023651
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u39-l4",
@@ -11908,7 +11992,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u39-l4.mp3",
-      "audioSeconds": 44.475374,
+      "audioSeconds": 42.424354,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11925,11 +12009,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
-          "startSeconds": 108.273968,
+          "startSeconds": 110.324988,
           "endSeconds": 152.749342,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.05102
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u39-l5",
@@ -11964,7 +12050,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u39-l5.mp3",
-      "audioSeconds": 27.613016,
+      "audioSeconds": 25.6361,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -11981,11 +12067,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track222.mp3",
-          "startSeconds": 162.76678,
+          "startSeconds": 164.743696,
           "endSeconds": 190.379796,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.976916
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u40-l4",
@@ -12020,7 +12108,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u40-l4.mp3",
-      "audioSeconds": 36.821451,
+      "audioSeconds": 34.836122,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12037,11 +12125,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
-          "startSeconds": 114.946871,
+          "startSeconds": 116.9322,
           "endSeconds": 151.768322,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 1.985329
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u40-l5",
@@ -12076,7 +12166,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u40-l5.mp3",
-      "audioSeconds": 34.410136,
+      "audioSeconds": 32.510454,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12093,11 +12183,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track227.mp3",
-          "startSeconds": 161.780612,
+          "startSeconds": 163.680295,
           "endSeconds": 196.190748,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.899683
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u41-l4",
@@ -12132,7 +12224,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u41-l4.mp3",
-      "audioSeconds": 42.100522,
+      "audioSeconds": 40.092381,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12149,11 +12241,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
-          "startSeconds": 123.011905,
+          "startSeconds": 125.020046,
           "endSeconds": 165.112427,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.008141
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u41-l5",
@@ -12188,7 +12282,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u41-l5.mp3",
-      "audioSeconds": 27.398821,
+      "audioSeconds": 25.455941,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12205,11 +12299,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track232.mp3",
-          "startSeconds": 175.128277,
+          "startSeconds": 177.071157,
           "endSeconds": 202.527098,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.94288
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u42-l4",
@@ -12244,7 +12340,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u42-l4.mp3",
-      "audioSeconds": 42.705329,
+      "audioSeconds": 40.639025,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12261,11 +12357,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
-          "startSeconds": 115.40102,
+          "startSeconds": 117.467324,
           "endSeconds": 158.106349,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.066304
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u42-l5",
@@ -12300,7 +12398,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u42-l5.mp3",
-      "audioSeconds": 42.004898,
+      "audioSeconds": 40.067052,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12317,11 +12415,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track237.mp3",
-          "startSeconds": 168.221338,
+          "startSeconds": 170.159184,
           "endSeconds": 210.226236,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.937846
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u53-l3",
@@ -12356,7 +12456,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u53-l3.mp3",
-      "audioSeconds": 26.266281,
+      "audioSeconds": 24.201156,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12373,11 +12473,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
-          "startSeconds": 85.237732,
+          "startSeconds": 87.302857,
           "endSeconds": 111.504013,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.065125
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u53-l4",
@@ -12412,7 +12514,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u53-l4.mp3",
-      "audioSeconds": 41.833741,
+      "audioSeconds": 39.801451,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12429,11 +12531,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
-          "startSeconds": 121.529705,
+          "startSeconds": 123.561995,
           "endSeconds": 163.363447,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.03229
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u53-l5",
@@ -12468,7 +12572,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u53-l5.mp3",
-      "audioSeconds": 42.293537,
+      "audioSeconds": 40.373946,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12485,11 +12589,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track292.mp3",
-          "startSeconds": 173.410771,
+          "startSeconds": 175.330363,
           "endSeconds": 215.704308,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.919592
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u54-l3",
@@ -12524,7 +12630,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u54-l3.mp3",
-      "audioSeconds": 21.515034,
+      "audioSeconds": 19.446032,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12541,11 +12647,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
-          "startSeconds": 90.292971,
+          "startSeconds": 92.361973,
           "endSeconds": 111.808005,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.069002
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u54-l4",
@@ -12580,7 +12688,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u54-l4.mp3",
-      "audioSeconds": 42.007234,
+      "audioSeconds": 39.994535,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12597,11 +12705,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
-          "startSeconds": 121.823039,
+          "startSeconds": 123.836372,
           "endSeconds": 163.830272,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.013333
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u54-l5",
@@ -12636,7 +12746,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u54-l5.mp3",
-      "audioSeconds": 36.599637,
+      "audioSeconds": 34.67059,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12653,11 +12763,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track297.mp3",
-          "startSeconds": 173.849546,
+          "startSeconds": 175.778594,
           "endSeconds": 210.449183,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.929048
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u55-l3",
@@ -12692,7 +12804,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u55-l3.mp3",
-      "audioSeconds": 27.087052,
+      "audioSeconds": 25.006644,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12709,11 +12821,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
-          "startSeconds": 85.833288,
+          "startSeconds": 87.913696,
           "endSeconds": 112.92034,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.080408
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u55-l4",
@@ -12748,7 +12862,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u55-l4.mp3",
-      "audioSeconds": 41.998753,
+      "audioSeconds": 39.962653,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12765,11 +12879,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
-          "startSeconds": 123.008571,
+          "startSeconds": 125.044671,
           "endSeconds": 165.007325,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.0361
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u55-l5",
@@ -12804,7 +12920,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u55-l5.mp3",
-      "audioSeconds": 42.586553,
+      "audioSeconds": 40.644558,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12821,11 +12937,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track302.mp3",
-          "startSeconds": 173.946871,
+          "startSeconds": 175.888866,
           "endSeconds": 216.533424,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.941995
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u56-l3",
@@ -12860,7 +12978,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u56-l3.mp3",
-      "audioSeconds": 18.887596,
+      "audioSeconds": 16.926553,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12877,11 +12995,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
-          "startSeconds": 85.03229,
+          "startSeconds": 86.993197,
           "endSeconds": 103.91975,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 1.960907
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u56-l4",
@@ -12916,7 +13036,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u56-l4.mp3",
-      "audioSeconds": 38.035782,
+      "audioSeconds": 36.001837,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12933,11 +13053,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
-          "startSeconds": 113.955147,
+          "startSeconds": 115.989093,
           "endSeconds": 151.99093,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.033946
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u56-l5",
@@ -12972,7 +13094,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u56-l5.mp3",
-      "audioSeconds": 34.350499,
+      "audioSeconds": 32.395374,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -12989,11 +13111,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track307.mp3",
-          "startSeconds": 162.00415,
+          "startSeconds": 163.959275,
           "endSeconds": 196.354648,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.955125
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u57-l3",
@@ -13028,7 +13152,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u57-l3.mp3",
-      "audioSeconds": 19.804286,
+      "audioSeconds": 17.748435,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13045,11 +13169,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
-          "startSeconds": 92.747007,
+          "startSeconds": 94.802857,
           "endSeconds": 112.551293,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.05585
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u57-l4",
@@ -13084,7 +13210,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u57-l4.mp3",
-      "audioSeconds": 33.699025,
+      "audioSeconds": 31.648753,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13101,11 +13227,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
-          "startSeconds": 122.644785,
+          "startSeconds": 124.694898,
           "endSeconds": 156.343651,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.050113
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u57-l5",
@@ -13140,7 +13268,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u57-l5.mp3",
-      "audioSeconds": 35.485714,
+      "audioSeconds": 33.533061,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13157,11 +13285,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track312.mp3",
-          "startSeconds": 166.361905,
+          "startSeconds": 168.314558,
           "endSeconds": 201.847619,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.952653
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u58-l3",
@@ -13196,7 +13326,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u58-l3.mp3",
-      "audioSeconds": 18.88034,
+      "audioSeconds": 16.791542,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13213,11 +13343,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
-          "startSeconds": 89.104422,
+          "startSeconds": 91.19322,
           "endSeconds": 107.984762,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.088798
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u58-l4",
@@ -13252,7 +13384,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u58-l4.mp3",
-      "audioSeconds": 33.219728,
+      "audioSeconds": 31.200431,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13269,11 +13401,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
-          "startSeconds": 118.057528,
+          "startSeconds": 120.076825,
           "endSeconds": 151.277256,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.019297
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u58-l5",
@@ -13308,7 +13442,7 @@
       ],
       "answer": 1,
       "audio": "media/eps-topik/hrdk-2024-v2-u58-l5.mp3",
-      "audioSeconds": 32.220272,
+      "audioSeconds": 30.259297,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13325,11 +13459,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track317.mp3",
-          "startSeconds": 161.289342,
+          "startSeconds": 163.250317,
           "endSeconds": 193.509615,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.960975
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u59-l3",
@@ -13364,7 +13500,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u59-l3.mp3",
-      "audioSeconds": 19.843946,
+      "audioSeconds": 17.81127,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13381,11 +13517,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
-          "startSeconds": 96.645669,
+          "startSeconds": 98.678345,
           "endSeconds": 116.489615,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.032676
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u59-l4",
@@ -13420,7 +13558,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u59-l4.mp3",
-      "audioSeconds": 33.978163,
+      "audioSeconds": 31.973197,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13437,11 +13575,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
-          "startSeconds": 126.510839,
+          "startSeconds": 128.515805,
           "endSeconds": 160.489002,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.004966
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u59-l5",
@@ -13476,7 +13616,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u59-l5.mp3",
-      "audioSeconds": 32.496077,
+      "audioSeconds": 30.544263,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13493,11 +13633,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track322.mp3",
-          "startSeconds": 170.537211,
+          "startSeconds": 172.489025,
           "endSeconds": 203.033288,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.951814
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u60-l3",
@@ -13532,7 +13674,7 @@
       ],
       "answer": 3,
       "audio": "media/eps-topik/hrdk-2024-v2-u60-l3.mp3",
-      "audioSeconds": 20.469252,
+      "audioSeconds": 18.441995,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13549,11 +13691,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
-          "startSeconds": 88.535442,
+          "startSeconds": 90.562698,
           "endSeconds": 109.004694,
-          "item": 3
+          "item": 3,
+          "numberRemovedSeconds": 2.027256
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u60-l4",
@@ -13588,7 +13732,7 @@
       ],
       "answer": 0,
       "audio": "media/eps-topik/hrdk-2024-v2-u60-l4.mp3",
-      "audioSeconds": 35.832404,
+      "audioSeconds": 33.777392,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13605,11 +13749,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
-          "startSeconds": 119.02585,
+          "startSeconds": 121.081451,
           "endSeconds": 154.858254,
-          "item": 4
+          "item": 4,
+          "numberRemovedSeconds": 2.055601
         }
-      }
+      },
+      "textbookNumberRemoved": true
     },
     {
       "id": "hrdk-2024-v2-u60-l5",
@@ -13644,7 +13790,7 @@
       ],
       "answer": 2,
       "audio": "media/eps-topik/hrdk-2024-v2-u60-l5.mp3",
-      "audioSeconds": 38.620726,
+      "audioSeconds": 36.70771,
       "audioScope": "question",
       "provenance": {
         "publisher": "HRD Korea",
@@ -13661,11 +13807,13 @@
         "kind": "textbook",
         "audioClip": {
           "sourcePath": "media/eps-topik/hrdk-book2-track327.mp3",
-          "startSeconds": 164.898798,
+          "startSeconds": 166.811814,
           "endSeconds": 203.519524,
-          "item": 5
+          "item": 5,
+          "numberRemovedSeconds": 1.913016
         }
-      }
+      },
+      "textbookNumberRemoved": true
     }
   ],
   "listeningOverheadSeconds": 642.9093877551022,
