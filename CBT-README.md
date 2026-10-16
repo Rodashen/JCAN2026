@@ -1,4 +1,4 @@
-# Current release — October 15, 2026
+# Current release — October 16, 2026
 
 See the October 2026 question selection update at the end of this file for the current 356-question bank, manual listening and 30/70 mix. Earlier release notes below are historical.
 
@@ -91,11 +91,22 @@ Question types may occupy different reading/listening slots to meet these
 quotas. Harder questions are prioritized; 2–3 graphs are retained. Original
 JCAN contextual and inference practice is not presented as official HRDK text.
 
-Listening is manual in full exams and practice, in both CBT and UBT. Native
-audio controls provide play, pause, seek, volume and replay. All questions in
-the active section can be navigated manually. No playback or advancement is
-triggered by entering the section or ending a recording. Timers remain at
-25 minutes per section.
+Listening starts manually in both interfaces. CBT keeps native play, pause,
+seek, volume and replay controls. UBT now matches the supplied tablet video:
+a compact status bar, question/audio panel on the left, and four numbered
+audio-only choice rows on the right. One click on a question or choice plays
+that recording twice; the button then stays grey and disabled for the attempt.
+The question's assigned EPS number is announced before its two passes.
+Navigation and other play controls are disabled during the two-pass sequence;
+answer selection remains independent. The next question never starts itself.
+
+UBT budgets are stored per question and per choice in the saved attempt's
+ubtPlayback map, and survive revisiting, marking for review and refreshing.
+A started pass counts even if interrupted; a restored attempt can play only
+its remaining pass. A failed start that never played does not spend a pass.
+New attempts start with fresh budgets. These are browser practice rules,
+not server-side proctoring. Post-submission review remains available.
+Timers remain at 25 minutes per section.
 
 Official source: https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en
 Original unit audio is retained unchanged from the official

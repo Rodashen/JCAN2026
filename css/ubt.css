@@ -1,4 +1,4 @@
-/* Screenshot-inspired UBT interface. Exam content and rules are shared with CBT. */
+/* UBT tablet layout with per-item, two-pass listening limits. */
 body{background:#fafafa;--accent:#167eb0;font-family:Arial,"Malgun Gothic",sans-serif}
 .site-header{background:#39a1d9;padding:8px 20px;color:white;border:0}
 .brand,.site-header a,.site-header nav span{color:white}.brand img{width:32px;height:32px}.brand strong{font-size:20px}.brand small{display:none}
@@ -37,4 +37,58 @@ button,.button{min-height:48px;border-radius:3px}
  .choice-text{font-size:20px}.choice-number{min-width:44px;height:44px}.choice{min-height:65px}
  #answer-sheet{grid-template-columns:1fr}.ubt-section{padding:14px}.question-nav button{min-width:0;font-size:12px;padding:10px;flex:1}
  .question-images img{max-height:230px}.exam-heading h1{font-size:18px}
+}
+
+/* Match the supplied UBT reference: compact status, two panels, round play controls. */
+.exam-active .site-header,.exam-active .site-footer{display:none}
+.exam-active main{max-width:1440px;padding:12px;min-height:100dvh;border:0;box-shadow:none}
+.exam-heading{margin:0 0 6px}
+.exam-heading>div:first-child,.exam-heading>.secondary{display:none}
+.exam-heading .timers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:0;gap:0;background:#fff;color:#333;border:1px solid #c3c9cc;border-radius:8px 8px 0 0;overflow:hidden}
+.exam-heading .timers strong{padding:10px 8px;text-align:center;font-size:14px;font-weight:400;border-right:1px solid #c3c9cc}
+.exam-heading .timers strong:last-child{border:0;font-variant-numeric:tabular-nums}
+.ubt-question-columns{grid-template-columns:minmax(0,62fr) minmax(0,38fr);gap:6px;min-height:clamp(330px,72dvh,640px)}
+.ubt-stimulus,.ubt-question-columns>.choices{border:1px solid #9ba7ae;border-radius:12px;padding:16px}
+.ubt-listening .ubt-stimulus{display:flex;flex-direction:column;position:relative}
+.ubt-listening .instruction{font-size:20px;padding-right:24px;margin:0 0 6px}
+.ubt-listening .question-meta{order:0;padding:0;margin:0;min-height:24px}
+.ubt-listening .question-count{font-size:15px;font-weight:400;color:#333;padding:0}
+.ubt-listening .flag-button{position:absolute;right:12px;top:15px;width:24px;height:24px;min-height:24px;padding:0;border:0;border-radius:50%;background:#e06363;color:white;font-size:0}
+.ubt-listening .flag-button::before{content:'!';font-size:15px}
+.ubt-listening .flag-button[aria-pressed=true]{background:#a84242;box-shadow:0 0 0 3px #f8dddd}
+.ubt-question-playback{flex:1;min-height:190px;display:flex;align-items:center;justify-content:center}
+.ubt-play{width:48px;height:48px;min-height:48px;border:0;border-radius:50%;background:#20a6d2;color:#fff;padding:0;font-size:23px;font-weight:400;box-shadow:none}
+.ubt-play:hover{background:#1485ac}
+.ubt-play:disabled,.ubt-play.played{background:#a6b8bd;color:#f6f8f8;opacity:1;cursor:default}
+.ubt-play.playing{background:#7f9fa9}
+.ubt-listening .ubt-question-columns>.choices{padding:0;overflow:hidden;gap:0}
+.ubt-audio-choice{display:grid;grid-template-columns:76px minmax(0,1fr);gap:8px;align-items:center;flex:1;min-height:78px;border-bottom:1px solid #b9c4c9;padding:10px 14px}
+.ubt-audio-choice:last-child{border:0}
+.ubt-audio-choice .choice{padding:0;min-height:54px;border:0;justify-content:center;width:58px}
+.ubt-audio-choice .choice:has(input:checked){padding:0;border:0;background:transparent}
+.ubt-audio-choice .choice-number{width:42px;min-width:42px;height:42px;font-size:18px;border-color:#96a9b2}
+.ubt-audio-choice .choice:has(input:checked) .choice-number{background:#20a6d2;color:#fff;border-color:#20a6d2}
+.ubt-audio-choice .choice-text{display:none}
+.ubt-audio-choice>.ubt-play{justify-self:center}
+.ubt-play-status{font-size:12px;line-height:1.4;color:#607581;margin:6px 4px}
+.question-nav{padding:4px 0;margin:0;gap:8px}
+.question-nav button{border-radius:999px;min-height:38px;padding:8px 18px;font-size:13px;background:#20a6d2;border-color:#20a6d2;text-transform:none}
+.question-nav button:disabled{background:#a6b8bd;border-color:#a6b8bd;opacity:1}
+.ubt-audio-busy .flag-button{opacity:.5}
+@media(max-width:750px){
+ .exam-active main{padding:7px}
+ .exam-heading .timers{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .exam-heading .timers strong{font-size:11px;padding:9px 4px}
+ .ubt-question-columns{grid-template-columns:minmax(0,62fr) minmax(0,38fr);min-height:68dvh}
+ .ubt-stimulus{padding:12px;min-height:0}
+ .ubt-listening .instruction{font-size:16px}
+ .ubt-audio-choice{grid-template-columns:48px minmax(0,1fr);padding:8px;gap:4px}
+ .ubt-audio-choice .choice{width:44px}
+ .ubt-audio-choice .choice-number{width:34px;min-width:34px;height:34px;font-size:16px}
+ .ubt-play{width:42px;height:42px;min-height:42px;font-size:20px}
+}
+@media(max-width:520px) and (orientation:portrait){
+ .ubt-question-columns{grid-template-columns:1fr;min-height:0}
+ .ubt-question-playback{min-height:160px}
+ .ubt-audio-choice{min-height:64px;grid-template-columns:58px minmax(0,1fr)}
 }

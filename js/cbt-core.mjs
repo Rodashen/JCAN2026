@@ -152,6 +152,11 @@ export function restoreAttempt(raw, bank) {
     if (!valid.some(q => q.number === s.current) || (s.stage !== 'complete' && bank.questions[s.current-1].section !== s.stage)) return null;
     if (!Number.isInteger(s.sequenceIndex) || s.sequenceIndex < 0 || s.sequenceIndex > bank.sequence.length || !Number.isFinite(s.audioOffset) || s.audioOffset < 0 || s.audioOffset > 3600) return null;
     for (const [id,a] of Object.entries(s.answers)) if (!valid.some(q => q.id === id) || !Number.isInteger(a) || a < 0 || a > 3) return null;
+    if(s.ubtPlayback!==undefined){
+      if(!s.ubtPlayback||typeof s.ubtPlayback!=='object'||Array.isArray(s.ubtPlayback))return null;
+      const keys=new Set(valid.flatMap(q=>[q.id+':question',...q.choices.map((_,i)=>q.id+':choice:'+i)]));
+      for(const [key,count] of Object.entries(s.ubtPlayback))if(!keys.has(key)||!Number.isInteger(count)||count<0||count>2)return null;
+    }
     s.candidate.name = s.candidate.name.slice(0,80); s.candidate.seat = s.candidate.seat.slice(0,20);
     return s;
   } catch { return null; }

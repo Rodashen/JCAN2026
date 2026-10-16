@@ -1,5 +1,6 @@
-import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=exam-numbers-7';
-import {attachNumberAnnouncement} from './numbered-audio.mjs?v=exam-numbers-7';
+import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=ubt-double-play-8';
+import {attachNumberAnnouncement} from './numbered-audio.mjs?v=ubt-double-play-8';
+import {createUbtPlayback,ubtAudioKey,ubtPlayCount} from './ubt-playback.mjs?v=ubt-double-play-8';
 const app=document.querySelector('#app');
 const notice=document.querySelector('#notice');
 const dialog=document.querySelector('#confirm-dialog');
@@ -9,6 +10,7 @@ const HISTORY_KEY='jcan-eps-cbt-history-v1';
 let template,pool,history={};
 let accessAccount=null;
 let releaseQuestionAudio=()=>{};
+let ubtAudioBusy=false;
 let bank,state=null,interval=null,media=null,volume=0.8,lastSaved=0,pendingConfirm=null,storageAvailable=true;
 const $=s=>document.querySelector(s);
 function el(tag,attrs={},...children){
@@ -32,6 +34,28 @@ function stopAudio(){
   if(media){media.pause();media=null;}
 }
 function stopWork(){clearInterval(interval);interval=null;stopAudio();releaseQuestionAudio();}
+function setUbtAudioBusy(busy){
+  ubtAudioBusy=busy;document.body.classList.toggle('ubt-audio-busy',busy);
+  document.querySelectorAll('#question-panel .question-nav button,#question-panel .flag-button,.sheet-toggle,#answer-sheet button,.sidebar .full-width').forEach(button=>{
+    if(button.dataset.ubtIdleDisabled===undefined)button.dataset.ubtIdleDisabled=String(button.disabled);
+    button.disabled=busy||button.dataset.ubtIdleDisabled==='true';
+  });
+}
+function limitedUbtAudio(q){
+  const attempt=state,buttons=[];
+  const status=el('p',{class:'ubt-play-status',role:'status'},'One click plays twice. Played recordings cannot be replayed.');
+  const controller=createUbtPlayback({state:attempt,save,onActive:clip=>{stopAudio();media=clip;clip.volume=volume;},onChange:({busy,key,message})=>{
+    setUbtAudioBusy(busy);if(message)status.textContent=message;
+    for(const item of buttons){const used=ubtPlayCount(attempt,item.key)>=2;item.button.disabled=busy||used;item.button.classList.toggle('played',used);item.button.classList.toggle('playing',busy&&key===item.key);item.button.textContent=busy&&key===item.key?'Ⅱ':'▶';item.button.title=used?'Played twice — replay unavailable':busy?'Audio is playing':'Play twice';}
+  }});
+  const button=(choice=null)=>{
+    const key=ubtAudioKey(q.id,choice),src=choice===null?recordingPath(q):q.choices[choice].audio;
+    const used=ubtPlayCount(attempt,key)>=2;
+    const b=el('button',{type:'button',class:'ubt-play'+(used?' played':''),disabled:used,'aria-label':choice===null?'Play question '+q.number+' audio':'Listen to choice '+(choice+1),title:used?'Played twice — replay unavailable':'Play twice',onclick:()=>controller.play(key,src,choice===null?q.numberAudio:null)},'▶');
+    buttons.push({button:b,key});return b;
+  };
+  return {button,status,stop:controller.stop};
+}
 function confirmAction(title,message,label,fn){
   $('#confirm-title').textContent=title;$('#confirm-message').textContent=message;$('#accept-confirm').textContent=label;pendingConfirm=fn;dialog.showModal();
 }
@@ -39,7 +63,7 @@ $('#cancel-confirm').addEventListener('click',()=>{pendingConfirm=null;dialog.cl
 $('#accept-confirm').addEventListener('click',()=>{dialog.close();const fn=pendingConfirm;pendingConfirm=null;fn?.();});
 function modeLabel(mode){return mode==='full'?'Full mock exam':mode==='reading'?'Reading practice':'Listening practice';}
 function renderSetup(){
-  document.body.classList.remove('exam-active','sheet-open');
+  document.body.classList.remove('exam-active','sheet-open','ubt-listening','ubt-audio-busy');
   stopWork();app.replaceChildren();
   if(state&&state.stage!=='complete'){
     app.append(el('section',{class:'panel resume'},el('p',{},el('strong',{},'You have an unfinished test. '),modeLabel(state.mode)+'. The timer continues while you are away.'),el('button',{onclick:resume},'Resume test')));
@@ -83,7 +107,7 @@ function renderSetup(){
     };
     if(state&&state.stage!=='complete')confirmAction('Start a new test?','This replaces the unfinished test saved in this browser.','Start new test',start);else start();
   });
-  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},'Play each listening recording manually. Pause, seek, and replay it as needed, including any spoken answer choices. The section timer keeps running.'),el('li',{},'Choose one answer per question. Correct answers and results appear only after you submit the entire test.')));
+  const intro=el('section',{},el('p',{class:'eyebrow'},UBT?'EPS-TOPIK · UBT tablet practice':'EPS-TOPIK · Computer-based practice'),el('h1',{},'Get ready for your Korean language test.'),el('p',{class:'lead'},'Practice with Korean questions, picture choices and recorded listening in a focused exam workspace.'),el('div',{class:'facts'},el('div',{},el('strong',{},'40'),el('span',{},'Questions')),el('div',{},el('strong',{},'50'),el('span',{},'Minutes')),el('div',{},el('strong',{},'2'),el('span',{},'Sections'))),el('ol',{class:'steps'},el('li',{},'Reading: 20 questions in 25 minutes.'),el('li',{},'Listening: 20 questions in 25 minutes.'),el('li',{},UBT?'In UBT listening, one click plays each question or choice twice. Its button then locks for the attempt. Navigation is disabled while audio plays.':"Play each listening recording manually. Pause, seek, and replay it as needed, including any spoken answer choices. The section timer keeps running."),el('li',{},'Choose one answer per question. Correct answers and results appear only after you submit the entire test.')));
   intro.append(el('p',{class:'source-note'},'© HRD Korea, ',el('a',{href:'https://epstopik.hrdkorea.or.kr/epstopik/book/std/standardBookList.do?lang=en',target:'_blank',rel:'noopener'},'2024 NEW Standard Korean Textbooks 1 and 2'),'. EPS-TOPIK Korean Standard Textbooks. Source pages and answer keys are credited in the answer review.'));
   intro.append(el('p',{class:'source-note'},'Each section mixes 6 Book 1 questions and 14 Book 2 questions. Reading includes credited JCAN practice on textbook topics. Listening uses official textbook recordings with manual playback.'));
   app.append(el('div',{class:'intro-grid'},intro,el('section',{class:'panel'},form)));
@@ -141,7 +165,7 @@ function showSheet(open){
 }
 function renderTimers(){
   const node=$('#timers');if(!node)return;
-  if(UBT){const all=questionsFor(bank,state.mode),solved=all.filter(q=>state.answers[q.id]!==undefined).length;node.replaceChildren(el('strong',{},'Total Questions: '+all.length),el('strong',{},'Solved: '+solved),el('strong',{},'Unsolved: '+(all.length-solved)),el('strong',{'aria-label':state.stage+' time remaining'},(state.stage==='reading'?'Reading':'Listening')+' Time: '+formatTime(state.deadline-Date.now())));return;}
+  if(UBT){const all=questionsFor(bank,state.mode),solved=all.filter(q=>state.answers[q.id]!==undefined).length;node.replaceChildren(el('strong',{},'JCAN UBT'),el('strong',{},'Total Questions: '+all.length),el('strong',{},'Remaining: '+(all.length-solved)),el('strong',{'aria-label':state.stage+' time remaining'},formatTime(state.deadline-Date.now())));return;}
   node.replaceChildren(...['reading','listening'].filter(s=>state.mode==='full'||s===state.mode).map(s=>{
     const active=state.stage===s;
     const remaining=active?state.deadline-Date.now():s==='reading'?0:1500000;
@@ -157,7 +181,7 @@ function renderGrid(){
     const qs=all.filter(q=>q.section===section);if(!qs.length)continue;
     host.append(el('p',{class:'grid-title'},section==='reading'?'Reading 1–20':'Listening 21–40'),el('div',{class:'answer-grid'},qs.map(q=>{
       const {answered,skipped,flagged}=questionStatus(state,q);
-      return el('button',{type:'button',class:(answered?'answered ':'')+(state.current===q.number?'current ':'')+(skipped?'skipped ':'')+(flagged?'flagged':''),'aria-label':'Question '+q.number+(answered?', answered':', unanswered')+(skipped?', skipped':'')+(flagged?', marked for review':''),'aria-current':state.current===q.number?'true':null,disabled:q.section!==state.stage,onclick:()=>go(q.number)},q.number);
+      return el('button',{type:'button',class:(answered?'answered ':'')+(state.current===q.number?'current ':'')+(skipped?'skipped ':'')+(flagged?'flagged':''),'aria-label':'Question '+q.number+(answered?', answered':', unanswered')+(skipped?', skipped':'')+(flagged?', marked for review':''),'aria-current':state.current===q.number?'true':null,'data-ubt-idle-disabled':String(q.section!==state.stage),disabled:q.section!==state.stage||(UBT&&ubtAudioBusy),onclick:()=>go(q.number)},q.number);
     })));
   }
   if(UBT){const nodes=[...host.children];for(let i=0;i<nodes.length;i+=2)host.append(el('section',{class:'ubt-section'},nodes[i],nodes[i+1]));renderTimers();}
@@ -166,7 +190,7 @@ function image(src,alt){return el('img',{src,alt,loading:'eager',onerror:e=>{e.t
 function questionContent(q){
   return [el('h2',{class:'instruction korean',lang:'ko'},q.instruction),q.prompt?el('p',{class:'prompt korean',lang:'ko'},q.prompt):null,q.images.length?el('div',{class:'question-images'},q.images.map((src,i)=>image(src,'Question '+q.number+' illustration '+(i+1)))):null];
 }
-function recordingPath(q){return q.audio+(q.textbookNumberRemoved?'?v=exam-numbers-7':'');}
+function recordingPath(q){return q.audio+(q.textbookNumberRemoved?'?v=ubt-double-play-8':'');}
 function go(number){
   const q=bank.questions.find(q=>q.number===number);if(!q||q.section!==state.stage)return;
   stopAudio();
@@ -178,6 +202,9 @@ function renderQuestion(){
   stopAudio();
   releaseQuestionAudio();
   const q=bank.questions[state.current-1];
+  const limited=UBT&&state.stage==='listening'?limitedUbtAudio(q):null;
+  document.body.classList.toggle('ubt-listening',Boolean(limited));
+  if(limited)releaseQuestionAudio=limited.stop;
   const flag=el('button',{class:'secondary flag-button','aria-pressed':Boolean(state.flags[q.id]),onclick:()=>{state.flags[q.id]=!state.flags[q.id];save();renderQuestion();renderGrid();}},state.flags[q.id]?'Marked for review':'Mark for review');
   host.replaceChildren(el('div',{class:'question-meta'},el('span',{class:'question-count',id:'question-title',tabindex:-1},'Question '+q.number+' / 40'),flag));
   {
@@ -185,9 +212,11 @@ function renderQuestion(){
     host.append(...questionContent(q).filter(Boolean));
     const choices=el('fieldset',{class:'choices'+(q.choices.some(c=>c.images.length)?' image-options':''),lang:'ko'},el('legend',{class:'visually-hidden'},'Choose one answer for question '+q.number));
     q.choices.forEach((c,i)=>{
-      const input=el('input',{type:'radio',name:'answer',value:i,'aria-label':'Option '+(i+1)+(c.text?': '+c.text:''),checked:state.answers[q.id]===i,onchange:()=>{tick();if(answerQuestion(state,bank,q.number,i)){save();renderGrid();}}});
-      const label=el('label',{class:'choice'},input,el('span',{class:'choice-number','aria-hidden':'true'},['①','②','③','④'][i]),c.text?el('span',{class:'choice-text korean'},c.text):null,c.images.length?el('span',{class:'choice-images'},c.images.map(src=>image(src,'Option '+(i+1)+' illustration'))):null);
-      if(c.audio){
+      const input=el('input',{type:'radio',name:'answer',value:i,'aria-label':limited&&c.audio?'Select choice '+(i+1):'Option '+(i+1)+(c.text?': '+c.text:''),checked:state.answers[q.id]===i,onchange:()=>{tick();if(answerQuestion(state,bank,q.number,i)){save();renderGrid();}}});
+      const label=el('label',{class:'choice'},input,el('span',{class:'choice-number','aria-hidden':'true'},UBT?String(i+1):['①','②','③','④'][i]),c.text?el('span',{class:'choice-text korean'},c.text):null,c.images.length?el('span',{class:'choice-images'},c.images.map(src=>image(src,'Option '+(i+1)+' illustration'))):null);
+      if(c.audio&&limited){
+        choices.append(el('div',{class:'choice-row ubt-audio-choice'},label,limited.button(i)));
+      }else if(c.audio){
         const listen=el('button',{type:'button',class:'secondary choice-listen','aria-label':'Listen to choice '+(i+1),onclick:()=>{
           stopAudio();media=new Audio(c.audio);media.volume=volume;
           media.play().catch(()=>say('Choice audio could not play. Check your connection and try again.'));
@@ -196,7 +225,7 @@ function renderQuestion(){
       }else choices.append(label);
     });host.append(choices);
   }
-  if(state.stage==='listening'){
+  if(state.stage==='listening'&&!limited){
     if(q.audioScope==='question')host.append(el('p',{class:'source-note'},'Book '+q.provenance.book+' · Unit '+q.provenance.unit+' · Listening item '+q.provenance.item+'. This clip contains only this textbook item.'));
     const player=el('audio',{controls:true,preload:'none',src:recordingPath(q),'aria-label':'Question '+q.number+' recording and spoken choices'});
     player.volume=volume;
@@ -222,14 +251,21 @@ function renderQuestion(){
     for(const node of [...host.children])if(node.matches('.instruction,.prompt,.question-images'))stimulus.append(node);
     const options=host.querySelector('.choices');
     if(stimulus.children.length)host.insertBefore(el('div',{class:'ubt-question-columns'},stimulus,options||el('div',{})),host.children[1]||null);
+    if(limited){
+      host.querySelector('#question-title').textContent=q.number+'.';
+      host.querySelector('#question-title').setAttribute('aria-label','Question '+q.number+' of 40');
+      stimulus.append(host.querySelector('.question-meta'),el('div',{class:'ubt-question-playback'},limited.button()));
+      host.append(limited.status);
+      setUbtAudioBusy(false);
+    }
     const nav=host.querySelector('.question-nav')||el('div',{class:'question-nav'});
-    const overview=el('button',{class:'ubt-overview',onclick:()=>showSheet(true)},'▦ All questions');
+    const overview=el('button',{class:'ubt-overview',onclick:()=>showSheet(true)},'▦ Whole questions');
     nav.insertBefore(overview,nav.children[1]||null);
     if(!nav.parentElement)host.append(nav);
   }
 }
 function renderResults(){
-  document.body.classList.remove('exam-active','sheet-open');
+  document.body.classList.remove('exam-active','sheet-open','ubt-listening','ubt-audio-busy');
   stopWork();save();
   const result=scoreAttempt(state,bank);
   const top=el('section',{class:'panel'},el('p',{class:'eyebrow'},'Test complete'),el('h1',{},'Your practice results'),el('p',{class:'lead'},modeLabel(state.mode)+' · '+(state.candidate.name||'Practice candidate')),el('div',{class:'summary-stats'},el('div',{},el('strong',{},result.points+' / '+result.maxPoints),el('span',{},'Practice score')),el('div',{},el('strong',{},result.correct),el('span',{},'Correct')),el('div',{},el('strong',{},result.incorrect),el('span',{},'Incorrect')),el('div',{},el('strong',{},result.unanswered),el('span',{},'Unanswered'))),el('p',{},result.percent+'% accuracy. Each correct answer earns 2.5 points. This practice score is not an official qualification result.'),el('div',{class:'actions'},el('button',{onclick:()=>{state=null;try{localStorage.removeItem(KEY);}catch{}say('');renderSetup();$('#main').focus();}},'Take another test'),el('button',{class:'secondary',onclick:downloadResults},'Download results'),el('a',{class:'button secondary',href:'exams.html'},'Back to exams')));
@@ -287,7 +323,7 @@ function downloadResults(){
   const url=URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'}));
   const a=el('a',{href:url,download:'jcan-eps-topik-results.html'});a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
 }
-window.addEventListener('pagehide',()=>{save();stopAudio();});
+window.addEventListener('pagehide',()=>{save();stopAudio();if(UBT)releaseQuestionAudio();});
 window.addEventListener('pageshow',e=>{if(e.persisted&&state&&state.stage!=='complete')resume();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)save();else tick();});
 async function init(){
