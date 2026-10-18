@@ -19,6 +19,12 @@ test('300 retries have fresh questions, verified recordings and a 30/70 split in
    assert.equal(qs.filter(q=>q.provenance?.book===2).length,14);
   }
   assert.ok(exam.questions.slice(20).every(q=>q.audioScope==='question'&&q.provenance.audioUrl&&q.audioSeconds>0&&q.audioSeconds<80));
+  const listening=exam.questions.slice(20);
+  assert.equal(listening.filter(q=>q.listeningType==='basic-response').length,16);
+  assert.equal(listening.filter(q=>q.listeningType==='continuation').length,2);
+  assert.equal(listening.filter(q=>q.listeningType==='short-dialogue').length,2);
+  assert.ok(listening.every(q=>q.audioSeparated&&q.choices.every(c=>c.audio)));
+  assert.ok(listening.every(q=>!/같은/.test(q.instruction)));
   for(const q of exam.questions.slice(20)){
    const start=exam.sequence.findIndex(s=>s.question===q.number);
    const end=exam.sequence.findIndex((s,j)=>j>start&&s.question);
@@ -42,8 +48,8 @@ test('skip status begins after leaving an unanswered question; answering clears 
  state.flags[q.id]=true;assert.deepEqual(questionStatus(state,q),{answered:false,skipped:true,flagged:true});
  answerQuestion(state,bank,1,q.answer);assert.deepEqual(questionStatus(state,q),{answered:true,skipped:false,flagged:true});
 });
-test('all 356 pool questions validate and all media is covered by the manifest',async()=>{
- assert.equal(pool.questions.length,356);assert.equal(new Set(pool.questions.map(q=>q.id)).size,356);
+test('all 401 pool questions validate and all media is covered by the manifest',async()=>{
+ assert.equal(pool.questions.length,401);assert.equal(new Set(pool.questions.map(q=>q.id)).size,401);
  const paths=new Set((await read('eps-topik-media.json')).map(m=>m.path));
  for(const q of pool.questions){
   const ids=bank.questions.map(x=>x.id),slot=bank.questions.findIndex(x=>x.section===q.section);
@@ -52,8 +58,8 @@ test('all 356 pool questions validate and all media is covered by the manifest',
   for(const p of [...q.images,...q.choices.flatMap(c=>[...c.images,...(c.audio?[c.audio]:[])]),...(q.audio?[q.audio]:[])])assert.ok(paths.has(p));
  }
  const book=pool.questions.filter(q=>q.provenance);
- assert.equal(book.length,164);
- assert.equal(book.filter(q=>q.provenance.book===1).length,83);
+ assert.equal(book.length,209);
+ assert.equal(book.filter(q=>q.provenance.book===1).length,107);
  assert.equal(book.filter(q=>q.provenance.kind==='adapted').length,6);
  assert.ok(book.every(q=>q.provenance.answerPage||q.explanation));
 });
@@ -73,8 +79,18 @@ test('verified listening preserves textbook choices, answer keys and official tr
 });
 
 test('every textbook item plays its own bounded clip, not the entire unit track',()=>{
- const qs=pool.questions.filter(q=>q.audioScope==='question');assert.equal(qs.length,74);
- assert.equal(new Set(qs.map(q=>q.audio)).size,74);
+ const qs=pool.questions.filter(q=>q.audioScope==='question');assert.equal(qs.length,119);
+ assert.equal(new Set(qs.map(q=>q.audio)).size,119);
  for(const q of qs){const clip=q.provenance.audioClip;assert.equal(clip.item,q.provenance.item);assert.notEqual(q.audio,clip.sourcePath);assert.ok(clip.startSeconds>=0&&clip.endSeconds>clip.startSeconds);assert.ok(Math.abs(q.audioSeconds-(clip.endSeconds-clip.startSeconds))<0.2);}
- const reported=qs.find(q=>q.id==='hrdk-2024-v2-u36-l5');assert.ok(reported.audioSeconds>25&&reported.audioSeconds<35,'Unit 36 item 5 is about 31 seconds, not 3:13');
+ const reported=qs.find(q=>q.id==='hrdk-2024-v2-u36-l5');assert.ok(reported.audioSeconds>10&&reported.audioSeconds<35,'Unit 36 item 5 contains only its dialogue, not the full unit');
+});
+
+test('question clips exclude the recorded answer choices and preserve original choice speakers',()=>{
+ const qs=pool.questions.filter(q=>q.audioSeparated&&q.choiceAudioSource==='HRD Korea');assert.ok(qs.length>=60);
+ for(const q of qs){
+  const main=q.provenance.audioClip;
+  for(const c of q.choices){assert.equal(c.audioSource,'HRD Korea');assert.equal(c.audioClip.sourcePath,main.sourcePath);assert.ok(c.audioClip.startSeconds>main.endSeconds);assert.notEqual(c.audio,q.audio);}
+ }
+ const short=pool.questions.find(q=>q.id==='hrdk-2024-v2-u31-l2');assert.equal(short.answer,2);assert.equal(short.choices[2].text,'아니요, 유니폼이 커요.');assert.ok(short.audioSeconds<8);
+ const continuation=pool.questions.find(q=>q.id==='hrdk-2024-v2-u36-l4');assert.ok(continuation.audioSeconds<10);
 });

@@ -62,7 +62,16 @@ function selectTextbookExam(template,pool,history,random){
   const graphCount=Math.min(2+Math.floor(random()*2),graphs.length);
   if(graphCount<2)throw Error('Not enough fresh graph questions. Please contact JCAN.');
   const reading=[...take(graphs,graphCount),...take(available.filter(q=>q.section==='reading'&&q.provenance?.book===1&&!isGraphQuestion(q)),6-graphCount),...take(available.filter(q=>q.section==='reading'&&q.provenance?.book===2),14)];
-  const listening=[...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===1&&q.audioScope==='question'),6),...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===2&&q.audioScope==='question'),14)];
+  let listening;
+  if(pool.listeningProfile==='short-separated-v1'){
+    const eligible=available.filter(q=>q.section==='listening'&&q.audioSeparated&&q.textbookNumberRemoved&&q.choices.every(c=>c.audio));
+    const takeListening=(book,type,n)=>{
+      const candidates=eligible.filter(q=>q.provenance.book===book&&q.listeningType===type);
+      if(candidates.length<n)throw Error('Not enough fresh short listening questions. Please contact JCAN.');
+      return candidates.map(q=>({q,tie:random()})).sort((a,b)=>(Number(counts[a.q.id])||0)-(Number(counts[b.q.id])||0)||a.tie-b.tie).slice(0,n).map(x=>x.q);
+    };
+    listening=[...takeListening(1,'basic-response',6),...takeListening(2,'basic-response',10),...takeListening(2,'continuation',2),...takeListening(2,'short-dialogue',2)];
+  }else listening=[...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===1&&q.audioScope==='question'),6),...take(available.filter(q=>q.section==='listening'&&q.provenance?.book===2&&q.audioScope==='question'),14)];
   // Fisher–Yates keeps each section mixed without moving listening into reading.
   const shuffle=items=>{for(let i=items.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;};
   return assembleExam(template,pool,[...shuffle(reading),...shuffle(listening)].map(q=>q.id));

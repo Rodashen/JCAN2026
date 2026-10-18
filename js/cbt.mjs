@@ -1,6 +1,6 @@
-import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=ubt-double-play-8';
-import {attachNumberAnnouncement} from './numbered-audio.mjs?v=ubt-double-play-8';
-import {createUbtPlayback,ubtAudioKey,ubtPlayCount} from './ubt-playback.mjs?v=ubt-double-play-8';
+import {assembleExam,selectExam,leaveQuestion,questionStatus,validateBank,createAttempt,restoreAttempt,questionsFor,advanceTime,finishSection,answerQuestion,scoreAttempt,formatTime,nextSection} from './cbt-core.mjs?v=ubt-easier-separated-9';
+import {attachNumberAnnouncement} from './numbered-audio.mjs?v=ubt-easier-separated-9';
+import {createUbtPlayback,ubtAudioKey,ubtPlayCount} from './ubt-playback.mjs?v=ubt-easier-separated-9';
 const app=document.querySelector('#app');
 const notice=document.querySelector('#notice');
 const dialog=document.querySelector('#confirm-dialog');
@@ -190,7 +190,7 @@ function image(src,alt){return el('img',{src,alt,loading:'eager',onerror:e=>{e.t
 function questionContent(q){
   return [el('h2',{class:'instruction korean',lang:'ko'},q.instruction),q.prompt?el('p',{class:'prompt korean',lang:'ko'},q.prompt):null,q.images.length?el('div',{class:'question-images'},q.images.map((src,i)=>image(src,'Question '+q.number+' illustration '+(i+1)))):null];
 }
-function recordingPath(q){return q.audio+(q.textbookNumberRemoved?'?v=ubt-double-play-8':'');}
+function recordingPath(q){return q.audio+(q.textbookNumberRemoved?'?v=ubt-easier-separated-9':'');}
 function go(number){
   const q=bank.questions.find(q=>q.number===number);if(!q||q.section!==state.stage)return;
   stopAudio();
@@ -240,7 +240,7 @@ function renderQuestion(){
     if(q.numberAudio){
       releaseQuestionAudio=attachNumberAnnouncement(player,q.numberAudio,{onActive,isActive:audio=>media===audio,onStatus:message=>{status.textContent=message;}});
     }
-    if(q.choices.some(c=>c.audio))host.append(el('p',{class:'source-note'},'Question audio: official HRDK recording. Choice Listen buttons: separate Korean voice readings of the printed options.'));
+    if(q.choices.some(c=>c.audio))host.append(el('p',{class:'source-note'},q.choiceAudioSource==='HRD Korea'?'Question and choice audio: separate clips from the original HRDK recording.':'Question audio: official HRDK recording. Choice Listen buttons: separate Korean voice readings of the printed options.'));
   }
   {
     const first=state.stage==='reading'?1:21,last=state.stage==='reading'?20:40;
@@ -347,6 +347,10 @@ async function init(){
       history=JSON.parse(localStorage.getItem(HISTORY_KEY)||'{}')||{};
       if(!history.previous&&state)history.previous=questionsFor(bank,state.mode).map(q=>q.id);
     }catch{state=null;bank=template;history={};}
+    if(UBT&&state&&state.mode!=='reading'&&state.stage!=='complete'&&bank.questions.some(q=>q.section==='listening'&&(!q.audioSeparated||!q.choices.every(c=>c.audio)))){
+      state=null;bank=template;try{localStorage.removeItem(KEY);}catch{}
+      say('UBT listening has been updated. This saved test uses the older audio format; please start a new test.');
+    }
     if(!storageAvailable)say('Browser storage is unavailable. Keep this tab open while taking the test.');
     if(state?.stage==='complete')renderResults();else renderSetup();
   }catch(error){app.replaceChildren(el('section',{class:'panel'},el('h1',{},'Exam materials could not load'),el('p',{},'Check your connection and reload. If this page is opened from a file, serve the website over HTTP.'),el('p',{class:'error'},error.message),el('button',{onclick:()=>location.reload()},'Reload')));}

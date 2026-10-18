@@ -74,6 +74,33 @@ Open ubt.html or choose Open UBT Mock Test on the Exams page. UBT uses the same 
 For this UBT update add ubt.html and css/ubt.css, and replace cbt.html, exams.html and js/cbt.mjs. Keep all existing question data and media unchanged. No deletions needed.
 # October 2026 question selection update
 
+## October 18 listening correction (supersedes the listening details below)
+
+The pool now contains 401 questions, including 119 verified textbook listening
+items. New listening sections use 16 short direct-response items, 2 short
+continuation prompts, and 2 short dialogues. They retain exactly 6 Book 1 and
+14 Book 2 items. Long conversations and matching-content prompts are excluded
+from new listening selection. Reading difficulty and its 2–3 graph questions
+are unchanged. The preceding attempt's question IDs remain excluded.
+
+Official recordings that included both the question and four spoken answers
+are now split into five separate clips. The question button never reads those
+answers. Their choice buttons use the original recorded speaker, rather than
+duplicating the answers in a different voice. For topic questions without
+recorded spoken answers, the existing separate choice narration is retained.
+Generic spoken directions and textbook numbering are removed; the correct
+exam-slot number is announced separately. Source boundaries and hashes are
+recorded in the question pool and media manifest.
+
+UBT remains manual: one click plays a question or choice twice, then locks its
+button for that attempt. CBT retains its native manual replay controls. An
+unfinished UBT attempt using the older unseparated audio format is reset with
+a notice to start a new test. The revised scripts and audio use a new cache
+version so browsers fetch the corrected recordings.
+
+Validation: 41 automated tests, including 300 randomized retries; browser
+checks for both CBT and UBT; sample transcription checks of extracted prompts.
+
 Each new attempt excludes every question ID from the immediately preceding
 attempt saved in this browser, including graph questions. CBT and UBT share
 this history. Clearing browser storage or changing devices resets it; this

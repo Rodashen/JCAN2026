@@ -29,7 +29,8 @@ test('assigned exam slots use the matching existing EPS number announcement, wit
  const exam=selectExam(template,pool);
  for(const q of exam.questions.slice(20)){
   assert.equal(q.textbookNumberRemoved,true);
-  assert.ok(q.provenance.audioClip.numberRemovedSeconds>1&&q.provenance.audioClip.numberRemovedSeconds<3);
+  assert.ok(q.provenance.audioClip.numberRemovedSeconds>0&&q.provenance.audioClip.numberRemovedSeconds<20);
+  assert.equal(q.provenance.audioClip.directionsRemoved,true);
   assert.equal(q.numberAudioSource,template.sequence.find(s=>s.label==='Question '+q.number).src);
   assert.equal(q.numberAudio,'media/eps-topik/exam-number-'+q.number+'.mp3');
   assert.match(manifest.find(m=>m.path===q.numberAudio).source,new RegExp('/'+q.number+'\\.mp3$'));
