@@ -25,9 +25,14 @@ function generatedPlate(number,paletteIndex){
 if(typeof document!=='undefined'){
  const $=s=>document.querySelector(s);let index=0,answers=[],loaded=false,attempt=createAttempt();
  const image=$('#plate'),input=$('#answer');
+ const keypad=[...document.querySelectorAll('.number-keypad button')];
+ function setAnswer(value){input.value=value;$('#validation').textContent='';}
+ function enterDigit(digit){if(loaded&&input.value.length<2)setAnswer(input.value+digit);}
+ keypad.forEach(button=>button.addEventListener('click',()=>{if(!loaded)return;if(button.dataset.digit!==undefined)enterDigit(button.dataset.digit);else setAnswer(button.id==='clear-answer'?'':input.value.slice(0,-1));}));
+ document.addEventListener('keydown',event=>{if($('#practice').hidden||!loaded||event.ctrlKey||event.altKey||event.metaKey||event.target.closest('a,input,textarea,select,summary'))return;if(/^\d$/.test(event.key)){event.preventDefault();enterDigit(event.key);}else if(event.key==='Backspace'||event.key==='Delete'){event.preventDefault();setAnswer(event.key==='Delete'?'':input.value.slice(0,-1));}});
  function render(){loaded=false;$('#next').disabled=true;$('#unseen').disabled=true;$('#load-error').hidden=true;$('#validation').textContent='';$('#progress').textContent=`Plate ${index+1} of ${attempt.length}`;input.value='';image.src=generatedPlate(attempt[index].answer,attempt[index].palette);$('#next').textContent=index===attempt.length-1?'Submit results':'Next plate';}
- image.onload=()=>{loaded=true;$('#next').disabled=false;$('#unseen').disabled=false;};image.onerror=()=>{$('#load-error').hidden=false;};
+ image.onload=()=>{loaded=true;$('#next').disabled=false;$('#unseen').disabled=false;keypad.forEach(button=>button.disabled=false);};image.onerror=()=>{keypad.forEach(button=>button.disabled=true);$('#load-error').hidden=false;};
  function record(answer){if(!loaded)return;answers.push(answer);if(++index<attempt.length){render();$('#progress').focus();}else{const rows=compareAnswers(answers,attempt);$('#practice').hidden=true;$('#results').hidden=false;$('#score').textContent=`You matched ${rows.filter(r=>r.matched).length} of ${attempt.length} expected numbers.`;$('#review').replaceChildren(...rows.map((r,i)=>{const tr=document.createElement('tr');for(const text of [String(i+1),r.answer??'No number seen',r.expected,r.matched?'Matched':'Did not match']){const td=document.createElement('td');td.textContent=text;tr.append(td);}return tr;}));$('#results h2').focus();}}
- $('#plate-form').addEventListener('submit',event=>{event.preventDefault();const answer=input.value.trim();if(!/^\d{1,3}$/.test(answer)){$('#validation').textContent='Enter a number, or choose “I cannot see a number.”';return;}record(String(Number(answer)));});
+ $('#plate-form').addEventListener('submit',event=>{event.preventDefault();const answer=input.value.trim();if(!/^\d{1,2}$/.test(answer)){$('#validation').textContent='Tap a number on the keypad, or choose “I cannot see a number.”';return;}record(String(Number(answer)));});
  $('#unseen').addEventListener('click',()=>record(null));$('#retry').addEventListener('click',()=>{attempt=createAttempt(attempt);index=0;answers=[];$('#results').hidden=true;$('#practice').hidden=false;render();$('#progress').focus();});render();
 }
