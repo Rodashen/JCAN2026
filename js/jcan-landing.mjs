@@ -1,16 +1,4 @@
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-// Collapse dense reference sections while keeping their headings and deep links available.
-for(const id of ['inclusions','advantages','benefits','item-4']){
- const section=document.getElementById(id);if(!section)continue;
- const heading=section.querySelector('h5');if(!heading)continue;
- const details=document.createElement('details');details.className='journey-details';
- const summary=document.createElement('summary');summary.append(heading);details.append(summary);
- const content=document.createElement('div');content.className='journey-details-content';
- while(section.firstChild)content.append(section.firstChild);details.append(content);section.append(details);
-}
-function openTarget(hash){const target=document.getElementById(hash.replace(/^#/,''));if(!target)return;target.querySelector('details.journey-details')?.setAttribute('open','');}
-document.addEventListener('click',event=>{const link=event.target.closest('a[href^="#"]');if(link)openTarget(link.hash);});
-addEventListener('hashchange',()=>openTarget(location.hash));openTarget(location.hash);
 // A small number of entrance effects mark section changes; content is visible without JS.
 const reveals=[...document.querySelectorAll('.book-section,.korea-gallery-heading,.jcan-registration .registration-layout')];
 if('IntersectionObserver'in window&&!reduced.matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.08});reveals.forEach(el=>{if(el.getBoundingClientRect().top>innerHeight){el.classList.add('jcan-reveal');observer.observe(el)}});reduced.addEventListener('change',()=>{if(reduced.matches){reveals.forEach(el=>el.classList.add('is-visible'));observer.disconnect()}});}
