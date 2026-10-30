@@ -140,6 +140,10 @@ export default {
    for(const part of path.split('/')){if(!part||part==='.')continue;if(part==='..')segments.pop();else segments.push(part);}
    const normalized='/'+segments.join('/');
    if(normalized!==path&&path!=='/')return json({error:'Invalid path.'},400);
+   // The public homepage lives on the main domain; do not serve a stale exam-host copy.
+   if(url.hostname.endsWith('.workers.dev') && (path==='/'||path==='/index.html'||path==='/index')){
+    return new Response(null,{status:302,headers:{Location:'https://jcanklc.com/'+url.search,'Cache-Control':'no-store'}});
+   }
    if(path.startsWith('/api/'))return await api(request,env,path);
    const restricted=protectedPath(path);
    if(restricted){
